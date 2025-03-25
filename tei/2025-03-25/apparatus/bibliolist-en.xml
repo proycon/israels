@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="bibliolist"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-bibliolist.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-bibliolist.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mondriaan. Bibliography</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="TODO">TODO</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Bibliography </head>
+         <p>
+            <hi rend="italics">Note to the reader</hi>
+         </p>
+         <p rend="indent">The prefixes in surnames (de, van, van de, ter, etc.) are ignored in the alphabetization.</p>
+         <list type="gloss">
+            <head>Works by others</head>
+            <bibl xml:id="bg001">
+               <label>DBNL</label>
+               <title type="short">DBNL</title>
+               <title>Digitale Bibliotheek voor de Nederlandse Letteren (www.dbnl.org)</title>
+            </bibl>
+            <bibl xml:id="bg002">
+               <label>F</label>
+               <title type="short">F</title>
+               <title>‘Faille’: the numbers of the Van Gogh works in De la Faille 1970</title>
+            </bibl>
+            <bibl xml:id="bg003">
+               <label>JH</label>
+               <title type="short">JH</title>
+               <title>‘Jan Hulsker’: the numbers of the Van Gogh works in Hulsker 1996</title>
+            </bibl>
+            <bibl xml:id="bg004">
+               <label>LMDH</label>
+               <title type="short">LMDH</title>
+               <title>Literature Museum, The Hague</title>
+            </bibl>
+            <bibl xml:id="bg005">
+               <label>NRC</label>
+               <title type="short">NRC</title>
+               <title>Nieuwe Rotterdamsche Courant</title>
+            </bibl>
+            <bibl xml:id="bg006">
+               <label>RKD</label>
+               <title type="short">RKD</title>
+               <title>RKD, Netherlands Institute for Art History, The Hague</title>
+            </bibl>
+            <bibl xml:id="bg007">
+               <label>RPK</label>
+               <title type="short">RPK</title>
+               <title>Print Room, Rijksmuseum, Amsterdam</title>
+            </bibl>
+            <bibl xml:id="bg008">
+               <label>VGM</label>
+               <title type="short">VGM</title>
+               <title>Van Gogh Museum, Amsterdam</title>
+            </bibl>
+            <bibl xml:id="bg009">
+               <label>VGMB</label>
+               <title type="short">VGMB</title>
+               <title>Van Gogh Museum, Amsterdam. Library</title>
+            </bibl>
+            <bibl xml:id="bg010">
+               <label>VGMD</label>
+               <title type="short">VGMD</title>
+               <title>Van Gogh Museum, Amsterdam. Documentation</title>
+            </bibl>
+            <bibl xml:id="bg011">
+               <label>WB</label>
+               <title type="short">WB</title>
+               <title>Wereldbibliotheek: publishing house in Amsterdam</title>
+            </bibl>
+            <bibl xml:id="bg012">
+               <label>Account Book 2002</label>
+               <title type="short">Account Book 2002</title>
+               <title>Chris Stolwijk and Han Veenenbos, </title>
+               <title level="m">The Account Book of Theo van Gogh and Jo van Gogh-Bonger</title>
+               <title>. Leiden 2002.</title>
+            </bibl>
+            <bibl xml:id="bg013">
+               <label>Bonger, Dagboeken – Diaries 2019</label>
+               <title type="short">Bonger, Dagboeken – Diaries 2019</title>
+               <title>Jo Bonger, </title>
+               <title level="m">Dagboeken – Diaries</title>
+               <title>. Ed. Hans Luijten. Amsterdam 2019. Access at www.bongerdiaries.org.</title>
+            </bibl>
+            <bibl xml:id="bg014">
+               <label>De la Faille 1970</label>
+               <title type="short">De la Faille 1970</title>
+               <title>J.-B. de la Faille, </title>
+               <title level="m">The Works of Vincent van Gogh: His Paintings and Drawings</title>
+               <title>. Amsterdam 1970.</title>
+            </bibl>
+            <bibl xml:id="bg015">
+               <label>Van Gogh, Brieven 1914</label>
+               <title type="short">Van Gogh, Brieven 1914</title>
+               <title>Vincent van Gogh, </title>
+               <title level="m">Brieven aan zijn broeder</title>
+               <title>. Ed. J. van Gogh-Bonger. 3 vols. Amsterdam 1914 (access at DBNL).</title>
+            </bibl>
+            <bibl xml:id="bg016">
+               <label>Van Gogh, Brieven 2009</label>
+               <title type="short">Van Gogh, Brieven 2009</title>
+               <title>Vincent van Gogh, </title>
+               <title level="m">De brieven. De volledige, geïllustreerde uitgave</title>
+               <title>. Eds. Leo Jansen, Hans Luijten and Nienke Bakker. 6 vols. Amsterdam 2009 (the digital version of the correspondence at www.vangoghletters.org).</title>
+            </bibl>
+            <bibl xml:id="bg017">
+               <label>Van Gogh, Letters 2009</label>
+               <title type="short">Van Gogh, Letters 2009</title>
+               <title>Vincent van Gogh, The Letters: The Complete Illustrated and Annotated Edition. Eds. Leo Jansen, Hans Luijten and Nienke Bakker. 6 vols. London 2009 (the digital version of the correspondence at www.vangoghletters.org).</title>
+            </bibl>
+            <bibl xml:id="bg018">
+               <label>Heijbroek 1991</label>
+               <title type="short">Heijbroek 1991</title>
+               <title>J.F. Heijbroek, ‘Het Rijksmuseum voor Moderne Kunst van Willem Steenhoff: werkelijkheid of utopie?’, </title>
+               <title level="m">Bulletin van het Rijksmuseum</title>
+               <title> 39, no. 2 (1991), pp. 163-231.</title>
+            </bibl>
+            <bibl xml:id="bg019">
+               <label>Van Heugten en Pabst 1995</label>
+               <title type="short">Van Heugten and Pabst 1995</title>
+               <title>Sjraar van Heugten and Fieke Pabst, </title>
+               <title level="m">The Graphic Work of Vincent van Gogh</title>
+               <title>. Zwolle 1995 (Cahier Vincent 6).</title>
+            </bibl>
+            <bibl xml:id="bg020">
+               <label>Hulsker 1996</label>
+               <title type="short">Hulsker 1996</title>
+               <title>Jan Hulsker, </title>
+               <title level="m">The New Complete Van Gogh. Paintings, Drawings, Sketches. Revised and Enlarged Edition of the Catalogue Raisonné of the Works of Vincent van Gogh</title>
+               <title>. Amsterdam and Philadelphia 1996.</title>
+            </bibl>
+            <bibl xml:id="bg021">
+               <label>Kleykamp 2008</label>
+               <title type="short">Kleykamp 2008</title>
+               <title level="m">Kleykamp. De geschiedenis van een kunsthandel</title>
+               <title>, circa 1900-1968. Eds. J.F. Heijbroek et al. Zwolle and The Hague 2008.</title>
+            </bibl>
+            <bibl xml:id="bg022">
+               <label>Kort geluk 1999</label>
+               <title type="short">Brief Happiness</title>
+               <title level="m">Brief Happiness. The Correspondence of Theo van Gogh and Jo Bonger</title>
+               <title>. Introduction and commentary Han van Crimpen. Eds. Leo Jansen and Jan Robert. Amsterdam and Zwolle 1999 (Cahier Vincent 7).</title>
+            </bibl>
+            <bibl xml:id="bg023">
+               <label>Luijten 2019</label>
+               <title type="short">Luijten 2019</title>
+               <title>Hans Luijten, Alles voor Vincent. Het leven van Jo van Gogh-Bonger. Amsterdam 2019.</title>
+            </bibl>
+            <bibl xml:id="bg024">
+               <label>Luijten 2022</label>
+               <title type="short">Luijten 2022</title>
+               <title>Hans Luijten, </title>
+               <title level="m">Jo van Gogh-Bonger: The Woman Who Made Vincent Famous</title>
+               <title>. London 2022.</title>
+            </bibl>
+            <bibl xml:id="bg025">
+               <label>Reisel 1967</label>
+               <title type="short">Reisel 1967</title>
+               <title>Jacob H. Reisel, </title>
+               <title level="m">Isaac Israëls. Portret van een Hollandse impressionist. Oeuvre en persoonlijkheidsstructuur</title>
+               <title>. Amsterdam 1967.</title>
+            </bibl>
+            <bibl xml:id="bg026">
+               <label>Royaards-Sandberg 1981</label>
+               <title type="short">Royaards-Sandberg 1981</title>
+               <title>Jacqueline Royaards-Sandberg, </title>
+               <title level="m">Ik heb je zoveel te vertellen. Brieven van en aan Lodewijk van Deyssel, Emile en Frans Erens en Isaac Israëls</title>
+               <title>. Ed. Harry G.M. Prick. Baarn 1981.</title>
+            </bibl>
+            <bibl xml:id="bg027">
+               <label>Supinen 1990</label>
+               <title type="short">Supinen 1990</title>
+               <title>Marja Supinen, ‘Julien Leclercq. A champion of the unknown Vincent van Gogh’, Jong Holland 6, no. 6 (1990), pp. 5-14.</title>
+            </bibl>
+            <bibl xml:id="bg028">
+               <label>Tent.cat. Amsterdam 1991</label>
+               <title type="short">Exh. cat. Amsterdam 1991</title>
+               <title level="m">De schilders van Tachtig: Nederlandse schilderkunst, 1880-1895</title>
+               <title>. Eds. C.B. Blotkamp and R. Bionda. Exh. cat. Amsterdam (Rijksmuseum Vincent van Gogh), 1991. Zwolle 1991.</title>
+            </bibl>
+            <bibl xml:id="bg029">
+               <label>Tent.cat. Amsterdam 1999</label>
+               <title type="short">Exh. cat. Amsterdam 1999</title>
+               <title>Theo van Gogh, 1857-1891. Art Dealer, Collector and Brother of Vincent. Chris Stolwijk and Richard Thomson. With a contribution by Sjraar van Heugten. Exhib. cat. Amsterdam (Van Gogh Museum), Paris (Musée d’Orsay), 1999-2000. Amsterdam and Zwolle 1999.</title>
+            </bibl>
+            <bibl xml:id="bg030">
+               <label>Tent.cat. Amsterdam 2012</label>
+               <title type="short">Exh. cat. Amsterdam 2012</title>
+               <title level="m">Isaac Israëls in Amsterdam</title>
+               <title>. J.F. Heijbroek and Jessica Voeten. Exh. cat. Amsterdam (ACA), 2012. Bussum 2012.</title>
+            </bibl>
+            <bibl xml:id="bg031">
+               <label>Tent.cat. Den Haag 2005</label>
+               <title type="short">Exh. cat. The Hague 2005</title>
+               <title level="m">De Indische Israëls</title>
+               <title>. J.P. Glerum. Exh. cat. The Hague (Museum Mesdag), 2005. Zwolle 2005.</title>
+            </bibl>
+            <bibl xml:id="bg032">
+               <label>Tent.cat. Den Haag 2008</label>
+               <title type="short">Exh. cat. The Hague 2008</title>
+               <title level="m">Jozef en Isaac Israëls. Vader en zoon</title>
+               <title>. John Sillevis et al. exh. cat. The Hague (Gemeentemuseum), 2008-2009. Zwolle 2008.</title>
+            </bibl>
+            <bibl xml:id="bg033">
+               <label>Tent.cat. Den Haag 2020</label>
+               <title type="short">Exh. cat. The Hague 2020</title>
+               <title level="m">Breitner vs Israëls: vrienden en rivalen</title>
+               <title>. Eds. Frouke van Dijke and Saskia Brekke-Proost. Exh. cat. The Hague (Kunstmuseum 2020). Zwolle 2020.</title>
+            </bibl>
+            <bibl xml:id="bg034">
+               <label>Tent.cat. Rotterdam 1999</label>
+               <title type="short">Exh. cat. Rotterdam 1999</title>
+               <title level="m">Isaac Israëls. Hollands impressionist</title>
+               <title>. Saskia de Bodt et al. exh. cat. Rotterdam (Kunsthal), 1999-2000. Schiedam 1999.</title>
+            </bibl>
+            <bibl xml:id="bg035">
+               <label>Wagner 1961</label>
+               <title type="short">Wagner 1961</title>
+               <title>Anna Wagner, ‘Enkele Van Gogh schilderijen in het werk van Isaac Israëls’, </title>
+               <title level="m">Museumjournaal</title>
+               <title>, series 7, nos. 5-6 (1961), pp. 131-35.</title>
+            </bibl>
+            <bibl xml:id="bg036">
+               <label>Wagner 1967</label>
+               <title type="short">Wagner 1967</title>
+               <title>Anna Wagner, </title>
+               <title level="m">Isaac Israëls</title>
+               <title>. Rotterdam 1967.</title>
+            </bibl>
+            <bibl xml:id="bg037">
+               <label>Wagner 1985</label>
+               <title type="short">Wagner 1985</title>
+               <title>Anna Wagner, </title>
+               <title level="m">Isaac Israëls</title>
+               <title>. Venlo 1985.</title>
+            </bibl>
+            <bibl xml:id="bg038">
+               <label>WNT</label>
+               <title type="short">WNT</title>
+               <title level="m">Woordenboek der Nederlandsche Taal</title>
+               <title> (http:</title>
+               <title level="m"/>
+               <title>gtb.inl.nl)</title>
+            </bibl>
+         </list>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 12 oktober 1896.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 12 October 1896.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8594V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>032</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1896-10-12"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="todo"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">Maandag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Je laat weinig van je hooren tegenwoordig. Kom je niet eens een avond van de week? Als je ’t liever hebt wil ik wel in Bussum komen.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Tot ziens,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">T.t.</p>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.2" f="2r" facs="#s2r" n="2"/>
+            <p xml:id="p.orig.nl.8" n="8">Mevr. J. v. Gogh</p>
+            <p xml:id="p.orig.nl.9" n="9">villa Helma</p>
+            <p xml:id="p.orig.nl.10" n="10">Bussum</p>
+            <pb xml:id="pb.orig.nl.3" f="2v" facs="#s2v" n="3"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Monday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I don’t hear much from you these days. Why don’t you come one evening this week? If you’d rather, I’ll happily come to Bussum.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Until then</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">All yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.2"
+                corresp="#pb.orig.nl.2"
+                f="2r"
+                facs="#s2r"
+                n="2"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Mevr. J. v. Gogh</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">villa Helma</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Bussum</p>
+            <pb xml:id="pb.tr.en.3"
+                corresp="#pb.orig.nl.3"
+                f="2v"
+                facs="#s2v"
+                n="3"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e4368" type="dating">
+            <p>Enveloppe. Poststempel: 14 oktober 1896. De brief werd op maandag 12 oktober geschreven, en op woensdag de 14<hi rend="super">e</hi> afgestempeld.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e4417" type="dating">
+            <p>Envelope. Postmark: 14 October 1896. The letter was written on Monday 12 October and postmarked Wednesday the 14th.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

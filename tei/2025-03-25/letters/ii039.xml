@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 2 juli 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 2 July 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8591V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>039</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1897-07-02"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">2 Juli</p>
+            <p xml:id="p.orig.nl.2" n="2">Amsterdam</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Waarlijk het spijt me dat je zulke vriendelijke dingen zegt want ik verdien ze niet.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Dit is geen frase want ik zou wel willen dat ’t anders was.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Je hebt volkomen gelijk dat je dat niet de moeite waard vindt, zoo’n oogenblikje eens in de zes maanden! Daar ben je toch veel te goed voor. </p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Ik hou wel veel van je zooals ik van anderen hou. Dat is heel veel of volstrekt niet. Hou ik eigenlijk wel van iemand, vraag ik me zelf soms.</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">“Mais le maudit répond toujours: je ne veux pas”. Deze fraaie regel van <rs type="person" ref="bio.xml#pers022">Baudelaire</rs> is wel eenigzins op mij toepasselijk, maar je ne peux pas was misschien nog juister geweest.<ptr type="note" target="#note.orig.nl.1"/> Enfin, als je dan eenmaal maudit bent dan moet je ’t maar blijven.</p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">
+               <pb f="1v" facs="#s1v" n="2"/> Het beste wat ik je dus kan aanraden is dit: laat mij stikken. </p>
+            <p xml:id="p.orig.nl.10" n="10" rend="indent">Dat je dat niet al lang hebt gedaan daarvoor blijf ik je intusschen zeer erkentelijk. ’t Is meer als ik verdien.</p>
+            <p xml:id="p.orig.nl.11" n="11" rend="indent">Maar nu wordt ’t tijd misschien.</p>
+            <p xml:id="p.orig.nl.12" n="12" rend="indent">Alles heeft immers toch een einde.</p>
+            <p xml:id="p.orig.nl.13" n="13" rend="indent">Laten we de eer aan ons houden.</p>
+            <p xml:id="p.orig.nl.14" n="14" rend="indent">Ik zie je nog wel eens.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.15" n="15">Adio</p>
+            <p xml:id="p.orig.nl.16" n="16">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.17" n="17">Excuseer dit halve velletje s.v.p.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">2 July</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Amsterdam</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I’m truly sorry that you say such friendly things, because I don’t deserve them.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">This is not a hollow phrase for I would want it to be different.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">You’re absolutely right to think that it’s not worth the trouble. Only a moment or two in six months! You’re much too good for that.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">I love you a lot as I love other people. That is very much or not at all. Do I actually love anyone, I sometimes wonder. </p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">“Mais le maudit répond toujours: je ne veux pas”. This fine line by <rs type="person" ref="bio.xml#pers022">Baudelaire</rs> applies to me somewhat, but <hi rend="italics">je ne peux pas</hi> would perhaps have been more accurate.<ptr type="note" target="#note.tr.en.1"/> After all, once you’re cursed you just have to stay cursed.</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">
+               <pb f="1v" facs="#s1v" n="2"/> So the best advice I can give to you is to let me go hang.  </p>
+            <p xml:id="p.tr.en.10"
+               corresp="#p.orig.nl.10"
+               n="10"
+               rend="indent">Meanwhile I remain very grateful that you haven’t done that long ago. It is more than I deserve.</p>
+            <p xml:id="p.tr.en.11"
+               corresp="#p.orig.nl.11"
+               n="11"
+               rend="indent">But perhaps it’s time now.</p>
+            <p xml:id="p.tr.en.12"
+               corresp="#p.orig.nl.12"
+               n="12"
+               rend="indent">After all, everything has an end.</p>
+            <p xml:id="p.tr.en.13"
+               corresp="#p.orig.nl.13"
+               n="13"
+               rend="indent">Let us retain our honour.</p>
+            <p xml:id="p.tr.en.14"
+               corresp="#p.orig.nl.14"
+               n="14"
+               rend="indent">I’ll see you some time.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.15" corresp="#p.orig.nl.15" n="15">Adio</p>
+            <p xml:id="p.tr.en.16" corresp="#p.orig.nl.16" n="16">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.17" corresp="#p.orig.nl.17" n="17">Please excuse this half sheet.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e5256" type="dating">
+            <p>Briefhoofd: ‘2 Juli’. Gelet op de toon moet deze brief uit 1897 dateren.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e5369" type="dating">
+            <p>Letter headed 2 July. Given the tone, this letter must date from 1897.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>‘Maar de vervloekte antwoordt slechts: “Ik wil het niet”.’ Toespeling op de slotregel van het sonnet ‘Le Rebelle’ van <rs type="person" ref="bio.xml#pers022">Charles Baudelaire</rs>, afkomstig uit de dichtbundel <hi rend="italics">Les fleurs du mal</hi> (1868). Het is het antwoord van een zondaar op de vraag van een engel om, zonder verzuurd gezicht dus onvoorwaardelijk, zijn liefde te geven. <rs type="person" ref="bio.xml#pers022">Baudelaire</rs> heeft ‘le damné’ (de verdoemde), Israëls ‘le maudit’ (de vervloekte):</p>
+            <quote>
+               <p>Le Rebelle</p>
+               <lg>
+                  <l>Un Ange furieux fond du ciel comme un aigle,</l>
+                  <l>Du mécréant saisit à plein poing les cheveux,</l>
+                  <l>Et dit, le secouant: “Tu connaîtras la règle!</l>
+                  <l>(Car je suis ton bon Ange, entends-tu?) Je le veux!</l>
+               </lg>
+               <lg>
+                  <l>Sache qu’il faut aimer, sans faire la grimace,</l>
+                  <l>Le pauvre, le méchant, le tortu, l’hébété,</l>
+                  <l>Pour que tu puisses faire à Jésus, quand il passe,</l>
+                  <l>Un tapis triomphal avec ta charité.</l>
+               </lg>
+               <lg>
+                  <l>Tel est l’Amour! Avant que ton cœur ne se blase,</l>
+                  <l>À la gloire de Dieu rallume ton extase;</l>
+                  <l>C’est la Volupté vraie aux durables appas!”</l>
+               </lg>
+               <lg>
+                  <l>Et l’Ange, châtiant autant, ma foi! qu’il aime,</l>
+                  <l>De ses poings de géant torture l’anathème;</l>
+                  <l>Mais le damné répond toujours: “Je ne veux pas!”</l>
+               </lg>
+            </quote>
+            <p>Israëls vervolgt dat ‘Je ne peux pas’ (Ik kan het niet) meer op hem van toepassing zou zijn.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>‘But the cursed always reply: “I will not”.’ Allusion to the last line of the sonnet ‘Le Rebelle’ by <rs type="person" ref="bio.xml#pers022">Charles Baudelaire</rs>, from the anthology <hi rend="italics">Les fleurs du mal</hi> (1868). It is a sinner’s reply to an angel’s demand to give his love without ugly grimacing, that is unconditional. <rs type="person" ref="bio.xml#pers022">Baudelaire</rs> has ‘le damné’ (the damned), Israëls ‘le maudit’ (the cursed):</p>
+            <quote>
+               <p>Le Rebelle</p>
+               <lg>
+                  <l>Un Ange furieux fond du ciel comme un aigle,</l>
+                  <l>Du mécréant saisit à plein poing les cheveux,</l>
+                  <l>Et dit, le secouant: “Tu connaîtras la règle!</l>
+                  <l> (Car je suis ton bon Ange, entends-tu?) Je le veux!</l>
+               </lg>
+               <lg>
+                  <l>Sache qu’il faut aimer, sans faire la grimace,</l>
+                  <l>Le pauvre, le méchant, le tortu, l’hébété,</l>
+                  <l>Pour que tu puisses faire à Jésus, quand il passe,</l>
+                  <l>Un tapis triomphal avec ta charité.</l>
+               </lg>
+               <lg>
+                  <l>Tel est l’Amour! Avant que ton cœur ne se blase,</l>
+                  <l>À la gloire de Dieu rallume ton extase;</l>
+                  <l>C’est la Volupté vraie aux durables appas!”</l>
+               </lg>
+               <lg>
+                  <l>Et l’Ange, châtiant autant, ma foi! qu’il aime,</l>
+                  <l>De ses poings de géant torture l’anathème;</l>
+                  <l>Mais le damné répond toujours: “Je ne veux pas!”</l>
+               </lg>
+            </quote>
+            <quote>
+               <p>The Rebel</p>
+               <lg>
+                  <l>An angel from the sky swoops like an eagle, </l>
+                  <l>Seizes the culprit’s hair in his strong fist, </l>
+                  <l>And shakes him, saying “You must know what’s legal </l>
+                  <l>For I am your Good Angel. I insist.</l>
+               </lg>
+               <lg>
+                  <l>Know you must cherish, without wry grimaces, </l>
+                  <l>The poor, deformed, blockheaded, sick, and vile: </l>
+                  <l>And thus unroll for Christ’s triumphal paces </l>
+                  <l>The carpet of your charity in style.</l>
+               </lg>
+               <lg>
+                  <l>For such is Love! Before your heart grows dim, </l>
+                  <l>Light up your heart from God and burn for him. </l>
+                  <l>That is the true delight that lasts for ever.”</l>
+               </lg>
+               <lg>
+                  <l>The Angel, by his love filled with more ardour, </l>
+                  <l>With giant fists belabours him the harder. </l>
+                  <l>The damned soul always answers, “I will not”.</l>
+               </lg>
+            </quote>
+            <p>Roy Campbell, <hi rend="italics">Poems of Baudelaire</hi>. New York 1952, p. 251. Israëls goes on to say that ‘Je ne peux pas’ (I cannot) would be more appropriate for him.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

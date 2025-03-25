@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Waarschijnlijk Scheveningen, augustus, waarschijnlijk 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Probably Scheveningen, August, probably 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8624V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>043</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="≈1897-08-??"/>
+               <placeName>≈Scheveningen, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">*[S]* [ <hi rend="italics">Meisje aan het strand, leunend op een schep</hi>] <graphic url="ii031"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Waarde Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Erg veel talent tot schrijven, zooals je terecht opmerkt, heb ik eigenlijk niet, maar ik wil je toch even zeggen dat ik je brief heb ontvangen. Misschien ben ik in September nog hier en hoop je dan natuurlijk te zien.</p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Ik zou maar een beetje oppassen voor die spin. Op een goeje dag wordt hij te familiair en kruipt in je haar.<ptr type="note" target="#note.orig.nl.1"/> Excuseer s.v.p. de kortheid van deze brief. De bedoeling is goed moet je maar denken.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">T. à v.</p>
+            <p xml:id="p.orig.nl.7" n="7">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">*[S]* [<hi rend="italics">Girl on the Beach, Leaning on a Spade</hi>] <graphic url="ii031"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I don’t have much talent for writing, as you rightly remark, but I do just want to tell you that I received your letter. I might still be here in September and of course I hope to see you then.</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">I’d watch out a bit for that spider if I were you. One of these days it will get too familiar and crawl into your hair.<ptr type="note" target="#note.tr.en.1"/> Please excuse the shortness of this letter. But you have to think that the intention is good.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">All yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e6069" type="dating">
+            <p>Israëls schrijft dat hij mogelijk nog in september op de plaats zal zijn, waar hij nu is. Dit betekent dat de brief in augustus zal zijn geschreven. De gemaakte briefschets geeft aan dat Israëls destijds aan zee verbleef en aangezien hij in de zomer van 1897 in Scheveningen was (zie de brieven <ref target="ii040.xml">040</ref>, <ref target="ii041.xml">041</ref>, <ref target="ii042.xml">042</ref> en <ref target="ii044.xml">044</ref>), is de onderhavige waarschijnlijk in diezelfde zomer en in deze badplaats geschreven. Vandaar de toegekende plaats en datum.</p>
+            <p>De brieftekst, die door de schets heenloopt, werd later aan de afbeelding toegevoegd. Het kan zijn dat Isaac tegenover Jo’s opmerking dat hij geen schrijftalent heeft, hier zijn tekentalent in stelling bracht. Een vergelijkbare schets maakte hij in een brief aan zijn vriend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs>; dat was mogelijk omstreeks 1894. Zie <ref target="bibliolist-nl.xml#bg030">Tent. cat. Amsterdam 2012</ref>, p. 6 en noot 143.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e6134" type="dating">
+            <p>Israëls writes that he may still be where he is now in September. This means that the letter must have been written in August. The sketch in the letter shows that Israëls was staying by the sea at that time, and since he was in Scheveningen in the summer of 1897 (see letters <ref target="ii040.xml">040</ref>, <ref target="ii041.xml">041</ref>, <ref target="ii042.xml">042</ref> and <ref target="ii044.xml">044</ref>), the present letter was probably written in the same summer in this seaside resort. This explains the assigned place and date.</p>
+            <p>The text of the letter, which runs through the sketch, was added to the picture later. It may be that Isaac was responding to Jo’s remark that he had no talent for writing by showing off his drawing talent. He made a similar sketch in a letter to his friend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs>; that may have been around 1894. See <ref target="bibliolist-en.xml#bg030">exh. cat. Amsterdam 2012</ref>, p. 6 and note 143.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Deze zin sluit aan bij een opmerking in brief <ref target="ii042.xml">042</ref> (van juli-september 1897): ‘’t Plezierigste zou zijn als je een achternamiddag en avond kon komen – de families kunnen er best buiten gelaten worden.’ </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>This relates to a comment in letter <ref target="ii042.xml">042</ref> (of July to September 1897): ‘The best thing would be if you could come for a late afternoon and evening – the families needn’t be involved.’</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

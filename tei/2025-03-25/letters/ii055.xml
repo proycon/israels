@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 8 januari 1898.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 8 January 1898.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8653V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>055</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1898-01-08"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">8 Jan.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het doet mij plezier dat je je nogal goed bezig gehouden hebt in den laatsten tijd naar ’t schijnt.<ptr type="note" target="#note.orig.nl.1"/> Hoe gaat ’t met de nieuwe meid?</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Wat was dat voor een lezing van Mevr. ?<ptr type="note" target="#note.orig.nl.2"/> Het spijt mij dat ik er niets van geweten heb anders was ik er naar toe gegaan. Had het maar gezegd.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Mocht je een avond willen komen schrijf het dan. Overdag ben ik er niet dezer dagen. Maar als je niet ’s avonds kunt dan zal ik ’t je wel schrijven als ik er weer ben bij dag.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Dag Jo,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">Yours</p>
+            <p xml:id="p.orig.nl.9" n="9">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">8 Jan.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I’m pleased that you’ve kept yourself busy recently, so it seems.<ptr type="note" target="#note.tr.en.1"/> How’s it going with the new maid?</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">What sort of talk did Mrs Roland Holst give?<ptr type="note" target="#note.tr.en.2"/> I’m sorry I didn’t know anything about it, otherwise I would have gone. You should have said.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">Write if you’d like to come one evening. I’m not here in the daytime these days. But if you can’t come in the evening I’ll write and tell you when I’m here again in the day.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">Bye Jo,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Yours</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e7529" type="dating">
+            <p>Briefhoofd: ‘8 Jan’. Israëls informeert naar de lezing van <rs type="person" ref="bio.xml#pers049">Henriette Roland Holst-van der Schalk</rs> die Jo heeft bijgewoond. Daarmee doelde hij hoogstwaarschijnlijk op de voordracht die zij op 4 januari 1898 had gehouden. De brief gaat vooraf aan brief <ref target="ii056.xml">056</ref> van 13 januari 1898, waarin Israëls, net als hier, informeert naar Jo’s nieuwe dienstbode.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e7624" type="dating">
+            <p>Letter headed 8 Jan. Israëls asks about the lecture by <rs type="person" ref="bio.xml#pers049">Henriette Roland Holst-van der Schalk</rs> that Jo went to. He was most probably referring to the lecture that she had given on 4 January 1898. The letter precedes letter <ref target="ii056.xml">056</ref> of 13 January 1898, in which Israëls, as he does here, asks about Jo’s new servant.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Mogelijk had Jo aan Israëls geschreven over haar recente contacten met de kunstcriticus <rs type="person" ref="bio.xml#pers084">Julius Meier-Graefe</rs>, die werkte aan zijn boek <hi rend="italics">Entwicklungsgeschichte der modernen Kunst</hi> en in verband daarmee aan haar vroeg of zij foto’s zou kunnen laten maken van haar Van Goghschilderijen. Volgens hem zouden die illustraties niet alleen mooi passen in zijn publicatie, maar bovendien het animo voor <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> kunnen stimuleren. Jo greep deze mogelijkheid aan. Julius Meier-Graefe aan Jo. VGM, b7585; 19 oktober 1897. Hij verzocht haar om opnamen van enkele kleine schilderijen die bij haar in de salon hingen, en die naar eigen goeddunken aan te vullen met een paar andere. Julius Meier-Graefe aan Jo. VGM, b7586; 12 december 1897.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De socialistische dichter en schrijver <rs type="person" ref="bio.xml#pers049">Henriette Goverdine Anna van der Schalk</rs> was op 16 januari 1896 getrouwd met de kunstenaar <rs type="person" ref="bio.xml#pers110">Richard Nicolaüs Roland Holst</rs>, die Jo goed kende. De bedoelde lezing was hoogstwaarschijnlijk ‘De arbeidster en de Sociaal-Democratie’, die zij op 4 januari in Amsterdam voor de <hi rend="blockletter">sdap</hi> had gehouden. Jo was toen al enkele jaren lid was van de partij en had veel belangstelling voor dit onderwerp – in de zomer van 1898 raakte zij in een polemiek over deze kwestie verwikkeld in <hi rend="italics">De Kroniek</hi>. Zie <ref target="bibliolist-nl.xml#bg023">Luijten 2019</ref>, p. 245-246. Jo’s vriendin <rs type="person" ref="bio.xml#pers048">Henriëtte van der Meij</rs> reageerde op de voordracht van <rs type="person" ref="bio.xml#pers049">Roland Holst-van der Schalk</rs> in het artikel ‘Feminisme en Socialisme’, opgenomen in het tijdschrift <hi rend="italics">Belang en Recht</hi>, 15 januari 1898. Zie ook Elsbeth Etty, <hi rend="italics">Liefde is heel het leven niet. Henriette Roland Holst, 1869-1952</hi>. Amsterdam 1996, p. 82-83.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Jo may have written to Israëls about her recent contacts with the art critic <rs type="person" ref="bio.xml#pers084">Julius Meier-Graefe</rs>, who was working on his book <hi rend="italics">Entwicklungsgeschichte der modernen Kunst</hi> and had asked her in that regard if she could get photographs taken of her Van Gogh paintings. He said that these illustrations would fit well in his book and could also stimulate enthusiasm for <rs type="person" ref="bio.xml#pers127">Van Gogh</rs>. Jo seized the opportunity. Julius Meier-Graefe to Jo. VGM, b7585; 19 October 1897. He requested photographs of some small paintings she had in her sitting room, and asked her to add a few more as she thought best. Julius Meier-Graefe to Jo. VGM, b7586; 12 December 1897.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>On 16 January 1896 the socialist poet and writer <rs type="person" ref="bio.xml#pers049">Henriette Goverdine Anna van der Schalk</rs> married the artist <rs type="person" ref="bio.xml#pers110">Richard Nicolaüs Roland Holst</rs>, who Jo knew well. The lecture in question was most probably ‘De arbeidster en de Sociaal-Democratie’ (The Working Woman and Social Democracy), which she had delivered for the <hi rend="blockletter">sdap</hi> in Amsterdam on 4 January. Jo had already been a member of the party for several years and was very interested in this subject – in the summer of 1898 she was involved in a polemic about the issue in <hi rend="italics">De Kroniek</hi>. See <ref target="bibliolist-en.xml#bg024">Luijten 2022</ref>, pp. 180-81. Jo’s friend <rs type="person" ref="bio.xml#pers048">Henriëtte van der Meij</rs> (1850-1945) responded to  <rs type="person" ref="bio.xml#pers049">Roland Holst-van der Schalk</rs>’s lecture in the article ‘Feminisme en Socialisme’, in the magazine <hi rend="italics">Belang en Recht</hi>, 15 January 1898. See also Elsbeth Etty, <hi rend="italics">Liefde is heel het leven niet. Henriette Roland Holst, 1869-1952</hi>. Amsterdam 1996, pp. 82-83.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

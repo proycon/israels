@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, waarschijnlijk eind 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, probably the end of 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8576V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>020</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="≈1895-12-??"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">Vrijdagavond</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Lieve Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Wel bedankt voor de bloemen. Ik heb ze in een vaasje gezet.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Ik zou je wel eens komen opzoeken, maar je bent toch nooit alleen.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">’t Is wel het omgekeerde van mij. De heer <rs type="person" ref="bio.xml#pers036">Erens</rs>
+               <ptr type="note" target="#note.orig.nl.1"/> heeft mij geschreven dat hij begin januari komt logeeren.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Hij is wel niet iemand om je erg op te beuren als je niet zeer vroolijk bent maar ’t is toch in ieder geval een menschelijk wezen om je heen!</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">Ik zal nu zien dat ik mijn ideaal bereik: om niet meer in cafés te eten. Ik geloof als je dat niet hoeft je een beter mensch wordt.</p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">Ik ben laatst gaan kijken naar iemand die een advertentie voor ergens thuis <pb f="1v" facs="#z1v2" n="2"/> eten gezet had, maar daar kwam een juffrouw voor den dag zoo afgrijselijk dat ik maar weer ben weggegaan. </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.10" n="10">*[S]* [<hi rend="italics">Vrouwenkop in profiel</hi>] <graphic url="ii014"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.11" n="11">Je lacht of je mompelt zeker maar weer van: Mon ami, ’t is immers je eigen verkiezing. Jawel, ik hou wel van die combles,<ptr type="note" target="#note.orig.nl.a"/> dat iemand – en dan nogwel jij – dat dan nog zegt op de koop toe.</p>
+            <p xml:id="p.orig.nl.12" n="12" rend="indent">Als ik je zoo zie zitten in je eigen warm huisje met die prettige meubeltjes en dingen en je kind en die goede menschen die je nu wel niet altijd amuseeren maar waar je toch in leeft, dan moet ik wel lachen om mezelf dat ik soms kwaad was dat je sommige dingen niet zoo begreep.</p>
+            <p xml:id="p.orig.nl.13" n="13" rend="indent">Het is zoo heel iets anders als ik zelf. Maar ik val niet graag anderen lastig met eigen affaires, of ’t moet zijn om ze te schilderen, dan durf ik wel.–</p>
+            <p xml:id="p.orig.nl.14" n="14" rend="indent">Wat zal ik je zeggen. De wereld rolt <pb f="1v" facs="#z1v3" n="3"/> steeds voort en de menschen kijken mekaar en zichzelf met verwonderde oogen aan.– Tenminste in ’t begin.  </p>
+            <p xml:id="p.orig.nl.15" n="15" rend="indent">Naderhand kan ’t hun geloof ik niet zooveel meer schelen, dat is ook maar ’t beste. Wat wil je eraan doen.</p>
+            <p xml:id="p.orig.nl.16" n="16" rend="indent">Jij zit rustig in Bussum en ik zit hier etc.</p>
+            <p xml:id="p.orig.nl.17" n="17" rend="indent">Amuseer je maar goed.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.18" n="18">Je vriendje</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Friday evening</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dearest Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">Thank you very much for the flowers. I’ve put them in a vase. </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">I would come to see you, but you’re never on your own.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">That’s the opposite to me. Mr <rs type="person" ref="bio.xml#pers036">Erens</rs>
+               <ptr type="note" target="#note.tr.en.1"/> has written to tell me that he is coming to stay at the beginning of January.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">He’s not someone to buck you up if you’re not very cheerful, but at least it’s having a human being around you!</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">I shall now see to it that I reach my ideal: not to eat in cafés any more. I believe you become a better person if you don’t have to do that.</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">I recently went to see someone who had placed an advertisement for <pb f="1v" facs="#z1v2" n="2"/> eating at someone’s home, but a woman who came to the door was so hideous that I just left. </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">*[S]* [<hi rend="italics">Head of a Woman in Profile</hi>] <graphic url="ii014"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">You laugh or at least you mutter: mon ami, it’s your own choice after all. Sure enough, all I need is for someone – and then you of all people – to make such scornful remarks into the bargain.   </p>
+            <p xml:id="p.tr.en.12"
+               corresp="#p.orig.nl.12"
+               n="12"
+               rend="indent">When I see you sitting in your own warm little house with that nice furniture and things and your child and those good people who don’t always amuse you, amongst whom you still live. I have to laugh at myself for sometimes being angry that you didn’t understand things like that.</p>
+            <p xml:id="p.tr.en.13"
+               corresp="#p.orig.nl.13"
+               n="13"
+               rend="indent">It’s something so very different from me. But I don’t like to bother other people with my own business, or it has to be in order to paint them, then I do dare.–</p>
+            <p xml:id="p.tr.en.14"
+               corresp="#p.orig.nl.14"
+               n="14"
+               rend="indent">What shall I tell you? The world keeps <pb f="1v" facs="#z1v3" n="3"/> turning and the people look surprised at each other and at themselves.– At least to start with. </p>
+            <p xml:id="p.tr.en.15"
+               corresp="#p.orig.nl.15"
+               n="15"
+               rend="indent">Afterwards, I believe, they don’t really care that much, and that’s fine. What do you want to do about it.</p>
+            <p xml:id="p.tr.en.16"
+               corresp="#p.orig.nl.16"
+               n="16"
+               rend="indent">You sit peacefully in Bussum and I’m sitting here etc.</p>
+            <p xml:id="p.tr.en.17"
+               corresp="#p.orig.nl.17"
+               n="17"
+               rend="indent">Enjoy yourself.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.18" corresp="#p.orig.nl.18" n="18">Your boyfriend</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e2937" type="dating">
+            <p>Israëls noemt zichzelf (dit is de enige keer) ‘je vriendje’. Uit de toon blijkt dat ze elkaar inmiddels al beter kennen. Verder laat hij weten dat zijn vriend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs> ‘begin januari’ zal komen. Daarom is als datum ‘waarschijnlijk eind 1895’ toegekend.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e3026" type="dating">
+            <p>Israëls calls himself (this is the only time) ‘your boyfriend’. From the tone it appears that they have meanwhile got to know each other better. He also lets her know that his friend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs> will come at the beginning of January. The date has therefore been given as probably the end of 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>De letterkundige en criticus <rs type="person" ref="bio.xml#pers036">Frans Erens</rs> en Israëls waren erg goed bevriend.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>The literary figure and critic <rs type="person" ref="bio.xml#pers036">Frans Erens</rs>. Israëls and Erens were very good friends. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Rake, schampere reacties. Vgl. de zegswijze <hi rend="italics">c’est le comble!</hi> Voor: ‘dat doet de deur dicht!’, ‘dat ontbrak er nog maar aan!’</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

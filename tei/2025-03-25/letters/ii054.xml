@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, circa 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, around 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8665V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>054</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="≈1897-??-??"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Donderdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Het spijt mij geducht dat ik ’t je zoo lastig maak maar ik kan toch eigenlijk niet goed morgenavond, ik dacht dat ik er mee klaar was maar ik moet absoluut nog eens naar de kermis. Zaterdag laatste avond. Als je mocht kunnen <hi rend="blockletter">zondag</hi> dat zou mij zeer goed schikken. Als je kunt kom <hi rend="italics">dàn</hi>. Dat is zeker goed.</p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Tot ziens.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.5" n="5">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Nogmaals excuus. </p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Thursday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I’m terribly sorry that I’m making things so difficult for you, but I actually can’t make it tomorrow evening, I thought I’d finished but I absolutely have to go back to the fair once more. Saturday is the last evening. If you could do <hi rend="blockletter">Sunday</hi> that would suit me very well. Come <hi rend="italics">then</hi> if you can. That’s certainly all right.</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">See you then.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Sorry again.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e7431" type="dating">
+            <p>De brief past qua toon bij andere brieven uit circa 1897, vandaar de toegekende datering ‘circa 1897’. Israëls geeft aan nog enkele dagen op de Amsterdamse kermis te willen tekenen. Zie voor een impressie de foto <hi rend="italics">Kermis op het Amstelveld</hi>, gedateerd circa 1897 (<hi rend="italics">SAA</hi>, Beeldbank) en vgl. Marja Keyser, <hi rend="italics">Komt dat zien. De Amsterdamse kermis in de negentiende eeuw</hi>. Amsterdam en Rotterdam 1976.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e7479" type="dating">
+            <p>The tone of the letter ties in with other letters from around 1897, hence the assigned date. Israëls says that he wants to spend a few more days drawing at the Amsterdam fair. For an impression see the photograph <hi rend="italics">Kermis op het Amstelveld</hi>, dated c. 1897 (<hi rend="italics">ACA</hi>, Image Bank) and cf. Marja Keyser, <hi rend="italics">Komt dat zien. De Amsterdamse kermis in de negentiende eeuw.</hi> Amsterdam and Rotterdam 1976.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

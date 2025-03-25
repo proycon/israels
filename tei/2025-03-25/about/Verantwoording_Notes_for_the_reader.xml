@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author>Hans Luijten</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2025-02-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.57.1">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2025-02-14T13:55:49Z</date>
+                    <name>Hans Luijten</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original" xml:lang="nl">
+                <head>Verantwoording</head>
+                <p xml:id="p.orig.nl.1" corresp="#p.tr.en.1" n="1">In mei 2008 stelde <rs
+                        type="person" ref="bio.xml#118">Sylvia Cramer</rs> in totaal 103
+                    ongepubliceerde brieven van Isaac Israëls aan Jo ter beschikking voor het
+                    onderzoek naar de biografie van Jo van Gogh-Bonger, dat destijds net was
+                    gestart. Dit onderzoek resulteerde in 2019 in het boek <hi rend="italics">Alles
+                        voor Vincent. Het leven van Jo van Gogh-Bonger</hi> (in 2022 vertaald als
+                        <hi rend="italics">Jo van Gogh-Bonger. The Woman Who Made Vincent
+                        Famous</hi>). In die levensbeschrijving werd voor het eerst uit deze brieven
+                        geciteerd.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.orig.nl.1"/>
+                    </hi> Ze waren afkomstig uit het bezit van Sylvia’s moeder <rs type="person"
+                        ref="bio.xml#096">Mathilde Cramer-van Gogh</rs>. Dit vierde en laatste kind
+                    van <rs type="person" ref="bio.xml#128">Vincent</rs> en <rs type="person"
+                        ref="bio.xml#078">Josina</rs> was dus de kleindochter van Jo. Sinds augustus
+                    2008 maakt deze verzameling deel uit van de collectie van de Vincent van Gogh
+                    Stichting die wordt bewaard in het Van Gogh Museum. De onderhavige digitale
+                    editie bevat al deze brieven. </p>
+                <p xml:id="p.orig.nl.2" corresp="#p.tr.en.2" rend="indent" n="2">Isaac Israëls’
+                    achternaam wordt in de literatuur op twee manieren gespeld, te weten met en
+                    zonder trema op de ‘e’. In correspondenties worden interpunctie en accenten erg
+                    vaak geheel achterwege gelaten. De signatuur die Israëls zelf onder zijn
+                    kunstwerken zette was in kapitalen, waarboven trema’s en accenten doorgaans niet
+                    worden gezet. Zelf zette hij onder zijn brieven dikwijls ‘I.I.’ of Isaac. In
+                    deze uitgave is gekozen voor de spelling Israëls, analoog aan die van zijn vader
+                        <rs type="person" ref="bio.xml#079">Jozef</rs>, en in overeenstemming met de
+                    manier waarop de contemporaine dagbladen zijn achternaam meestal spelden en
+                    waarop Jo zijn naam enkele keren schreef, zoals bijvoorbeeld in haar Dagboek op
+                    13 november 1894.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.orig.nl.2"/>
+                    </hi>
+                </p>
+                <p xml:id="p.orig.nl.3" corresp="#p.tr.en.3" n="3">
+                    <hi rend="Illustratie-onderschrift">Jo Bonger, <hi rend="italics">Dagboek</hi>
+                        4, p. 91; 13 november 1894 (detail).</hi> *Ill. ii070*</p>
+                <p xml:id="p.orig.nl.4" corresp="#p.tr.en.4" n="4">Ook zijn vrienden <rs
+                        type="person" ref="bio.xml#036">Frans Erens</rs> en <rs type="person"
+                        ref="bio.xml#129">Willem Witsen</rs> schreven wel eens ‘Israëls’ en
+                    hetzelfde deed ook <rs type="person" ref="bio.xml#134">Steenhoff</rs>, die in
+                    1918 schreef: ‘Van Israëls heb ik natuurlijk een reçu’.</p>
+                <p xml:id="p.orig.nl.5" corresp="#p.tr.en.5" n="5">
+                    <hi rend="Illustratie-onderschrift">Willem Steenhoff aan Jo van Gogh-Bonger, <hi
+                            rend="italics">Lijst van werken in bruikleen aan Rijksmuseum
+                            Amsterdam</hi>, 1918 (detail). Van Gogh Museum, Amsterdam.</hi> *Ill.
+                    ii069*</p>
+                <p xml:id="p.orig.nl.6" corresp="#p.tr.en.6" n="6">Hoewel Jo zich vanaf 1914 weer Jo
+                    van Gogh-Bonger noemde, zoals bijvoorbeeld te lezen is op de titelpagina van
+                    haar uitgave <hi rend="italics">Brieven aan zijn broeder</hi> (1914), blijft
+                    Israëls nog lange tijd daarna op zijn enveloppen en briefkaarten Jo Cohen
+                    Gosschalk schrijven. In de metadata bij de briefteksten vanaf 1914 is in deze
+                    editie overal als naam ‘Jo van Gogh-Bonger’ aangehouden.</p>
+                <p xml:id="p.orig.nl.7" corresp="#p.tr.en.7" rend="indent" n="7">Van alle originele
+                    brieven zijn transcripties gemaakt. Op deze afschriften zijn de leesteksten
+                    gebaseerd die in deze uitgave zijn opgenomen. Daarin is interpunctie
+                    stilzwijgend toegevoegd of, indien nodig, aangepast; van de dubbele punt bij
+                    afkortingen is overal een punt gemaakt. Elke nieuwe zin wordt ingezet met een
+                    hoofdletter. Namen, titels, landen en plaatsnamen hebben eveneens altijd een
+                    hoofdletter gekregen. Enkele onderstrepingen zijn <hi rend="italics"
+                        >gecursiveerd</hi> – sterk afwijkend schrift en dubbele onderstrepingen
+                    hebben een <hi rend="blockletter">kleinkapitaal</hi> gekregen. Als
+                    gedachtestreepjes, afhalingstekens een het eind van een citaat of parenthesen
+                    ontbreken, zijn die toegevoegd. Bovendien is omwille van het woordbeeld van <hi
+                        rend="italics">s’avonds</hi> en <hi rend="italics">s’morgens</hi> overal <hi
+                        rend="italics">’s avonds</hi> en <hi rend="italics">’s morgens</hi> gemaakt,
+                    en is van vaste samenstellingen bestaande uit twee woorden telkens één woord
+                    gemaakt.</p>
+                <p xml:id="p.orig.nl.8" corresp="#p.tr.en.8" rend="indent" n="8">De datering van een
+                    deel van de correspondentie is en blijft problematisch. Soms zijn brieven bij
+                    het ontbreken van feiten of aanwijzingen noodgedwongen ruim gedateerd of kregen
+                    ze de nuancering ‘mogelijk’ of ‘waarschijnlijk’. In geval van de toekenning
+                    ‘1896 of 1897’ is een brief aan het eind van 1896 geplaatst; in geval van ’10
+                    februari 1896 of 10 februari 1897’ op de eerste datum. Als er een poststempel
+                    voorkomt, is in de eerste noot bij elke brief altijd alleen het stempel van
+                    verzending genoemd, niet (ook) de stempel(s) van ontvangst – een lezer die
+                    hierin is geïnteresseerd kan de aantekeningen bij de transcripties in het Van
+                    Gogh Museum raadplegen; daarin zijn alle stempels wel genoteerd. In de gevallen
+                    waarin een schrijven niet is gedateerd maar er wel een poststempel is, is die
+                    datum aangehouden, tenzij de aanduiding van de dag boven de brief op een dag
+                    eerder wijst (brief <ref target="ii085.xml">085</ref> bijvoorbeeld heeft als
+                    poststempel zaterdag 29 april, maar boven de brief staat ‘vrijdag’).</p>
+                <p xml:id="p.orig.nl.9" corresp="#p.tr.en.9" rend="indent" n="9">Voor zover mogelijk
+                    zijn in de noten de genoemde personen geïdentificeerd en referenties toegelicht.
+                    Sommige personen en feiten konden niet worden achterhaald; zij hebben geen
+                    annotatie gekregen. De noten die toelichting geven op specifiek woordgebruik of
+                    een vertaling geven van een gebruikte vreemde taal (bijna altijd Frans) zijn
+                    opgenomen als voetnoten en genummerd a, b, c.</p>
+                <p xml:id="p.orig.nl.10" corresp="#p.tr.en.10" rend="indent" n="10">Soms krabbelde
+                    Jo enkele aantekeningen op een briefkaart of enveloppe die toevallig nog op haar
+                    bureau lag.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.orig.nl.3"/>
+                    </hi>
+                </p>
+                <p xml:id="p.orig.nl.11" corresp="#p.tr.en.11" n="11">
+                    <ref target="ii058.xml">058</ref> – <hi rend="Illustratie-onderschrift">Jo van
+                        Gogh-Bonger, Adres van het Haagse Hotel Pomona</hi> *Ill. ii068*</p>
+                <p xml:id="p.orig.nl.12" corresp="#p.tr.en.12" n="12">Naast de gebruikelijke
+                    afkortingen zoals van maanden en plaatsen (Dec. en Amst.) gebruikte Israëls de
+                    volgende afkortingen (al dan niet met puntjes):</p>
+                <list type="gloss">
+                    <label>B.J. / B. Jo</label>
+                    <item>Beste Jo</item>
+                    <label>Dr.</label>
+                    <item>Dienaar</item>
+                    <label>Dw. dr.</label>
+                    <item>Dienstwillige dienaar</item>
+                    <label>get.</label>
+                    <item>getekend</item>
+                    <label>I I</label>
+                    <item>Isaac Israëls</item>
+                    <label>T. à v.</label>
+                    <item>
+                        <hi rend="italics">Tout à vous</hi> – Geheel de uwe</item>
+                    <label>toeg.</label>
+                    <item>Toegenegen</item>
+                    <label>T.t.</label>
+                    <item>
+                        <hi rend="italics">Totus tuus</hi> – Geheel de jouwe (of een verkorting van
+                        Tout à toi – Geheel de jouwe)</item>
+                </list>
+                <p xml:id="p.orig.nl.13" corresp="#p.tr.en.13" n="13">Israëls was een fervent
+                    briefschrijver en een deel van zijn correspondentie is uitgegeven. Zie
+                    Jacqueline Royaards-Sandberg, <hi rend="italics">Ik heb je zoveel te vertellen.
+                        Brieven van en aan Lodewijk van Deyssel, Emile en Frans Erens en Isaac
+                        Israëls</hi>. Ed. Harry G.M. Prick. Baarn 1981. Ruim vijftig brieven van
+                    zijn hand aan de kunstenaar <rs type="person" ref="bio.xml#129">Willem
+                        Witsen</rs> en zijn vrouw <rs type="person" ref="bio.xml#013">Augusta Maria
+                        Witsen-Schorr</rs> zijn overgeleverd. Zij berusten in de Koninklijke
+                    Bibliotheek in Den Haag en zijn opgenomen in <hi rend="italics">De
+                        briefwisseling van Willem Witsen (van 1877 tot 1923)</hi>, onder redactie
+                    van Irene de Groot, Leo Jansen, Odilia Vermeulen en Ester Wouthuysen (2007)
+                    raadpleegbaar in de Digitale Bibliotheek voor de Nederlandse Letteren. <ref
+                        target="https://www.dbnl.org/tekst/wits009brie01_01/"
+                        >https://www.dbnl.org/tekst/wits009brie01_01/</ref>. En in het
+                    Literatuurmuseum in Den Haag bevinden zich 172 Franstalige brieven van hem aan
+                    zijn goede vriend <rs type="person" ref="bio.xml#036">Frans Erens</rs>. In de
+                    collectie van de Koninklijke Bibliotheek in Den Haag zijn bovendien 75 brieven
+                    van Israëls aan <rs type="person" ref="bio.xml#036">Erens</rs>, grotendeels in
+                    het Frans (KB 135 B 192) en 25 brieven van hem aan verschillende
+                    correspondenten.</p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Notes for the reader</head>
+                <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">In May 2008 <rs type="person"
+                        ref="bio.xml#118">Sylvia Cramer</rs> made a total of 103 unpublished letters
+                    from Isaac Israëls to Jo available for the research into Jo van Gogh-Bonger’s
+                    biography, which had just started. This research resulted in 2019 in the book
+                        <hi rend="italics">Alles voor Vincent: Het leven van Jo van Gogh-Bonger</hi>
+                    (published in 2022 as <hi rend="italics">Jo van Gogh-Bonger: The Woman Who Made
+                        Vincent Famous</hi>). Quotations from these letters appeared for the first
+                    time in this biography.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.tr.en.1"/>
+                    </hi> They came from the estate of Sylvia’s mother <rs type="person"
+                        ref="bio.xml#096">Mathilde Cramer-van Gogh</rs> (1929-2008). She was the
+                    fourth and last child of <rs type="person" ref="bio.xml#128">Vincent</rs> and
+                        <rs type="person" ref="bio.xml#078">Josina</rs> and thus Jo’s granddaughter.
+                    Since August 2008 this collection has been part of the Vincent van Gogh
+                    Foundation, which is held in the Van Gogh Museum. The present digital edition
+                    contains all these letters. </p>
+                <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" rend="indent" n="2">Isaac Israëls’s
+                    surname is spelled two ways in the literature – with and without a diaeresis on
+                    the e. Punctuation and accents are very often left out altogether in
+                    correspondence. The signature Israëls himself used for his artworks was in
+                    capitals, where diaeresis and accents are not usually used. At the end of his
+                    letters he often wrote ‘I.I.’ or Isaac. In this edition we have chosen to use
+                    the spelling Israëls, as his father <rs type="person" ref="bio.xml#079"
+                        >Jozef</rs> did, and in accordance with the way most of the contemporary
+                    newspapers spelled his name and with the way Jo wrote his name several times,
+                    for instance in her Diary on 13 November 1894.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.tr.en.2"/>
+                    </hi>
+                </p>
+                <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">
+                    <hi rend="Illustratie-onderschrift">Jo Bonger, <hi rend="italics">Diary</hi> 4,
+                        p. 91; 13 November 1894 (detail).</hi> *Ill. ii070*</p>
+                <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">
+                    <rs type="person" ref="bio.xml#134">Steenhoff</rs> did the same; in 1918 he
+                    wrote: ‘Of course I got a receipt from Israëls.’</p>
+                <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">
+                    <hi rend="Illustratie-onderschrift">Willem Steenhoff to Jo van Gogh-Bonger, <hi
+                            rend="italics">List of works on loan to the Rijksmuseum Amsterdam</hi>,
+                        1918 (detail). Van Gogh Museum, Amsterdam.</hi> *Ill. ii069*</p>
+                <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Although Jo started to call
+                    herself Jo van Gogh-Bonger again in 1914, as we can read on the title page of
+                        <hi rend="italics">Brieven aan zijn broeder</hi> (1914), Israëls continued
+                    to write Jo Cohen Gosschalk on his envelopes and postcards for a long time after
+                    that. In this edition the name ‘Jo van Gogh-Bonger’ has been used in the
+                    metadata of the letter texts from 1914 onwards.</p>
+                <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" rend="indent" n="7">Transcripts have
+                    been made of all the original letters. The Dutch texts in this publication are
+                    based on these transcripts. Punctuation has been tacitly added or, if necessary,
+                    revised; the colon after abbreviations has been replaced with a stop throughout.
+                    Each new sentence begins with a capital letter. Names, titles, countries and
+                    place names have likewise been given a capital letter. Words with single
+                    underlining are printed in italics – non-standard handwriting and words with
+                    double underlining have been given in small capitals. Where dashes, closing
+                    quotation marks or parentheses are missing, they have been added. For the sake
+                    of the appearance of the page, <hi rend="italics">s’avonds</hi> and <hi
+                        rend="italics">s’morgens</hi> are printed as <hi rend="italics">’s
+                        avonds</hi> and <hi rend="italics">’s morgens</hi> throughout, and standard
+                    compounds written as two words have been made one word.</p>
+                <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" rend="indent" n="8">The dating of the
+                    correspondence was and remains problematic. In the absence of facts or clues,
+                    some letters have perforce been given a wide range of dates or qualified as
+                    ‘possibly’ or ‘probably’. In the case of the ascription ‘1896 or 1897’ a letter
+                    is placed at the end of 1896; in the case of ‘10 February 1896 or 10 February
+                    1897’ on the first date. If there is a postmark, the postmark when the letter
+                    was sent is always mentioned in the first note to each letter, not (also) the
+                    postmark when it was received – a reader interested in this can consult the
+                    notes to the transcripts in the Van Gogh Museum; all the postmarks are noted
+                    there. In those cases where a letter is not dated, but there is a postmark, that
+                    date is used, unless the day written at the top of the letter is a day earlier:
+                    (letter <ref target="ii085.xml">085</ref>, for instance, has the postmark
+                    Saturday 29 April; ‘Friday’ is written at the top of the letter).</p>
+                <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" rend="indent" n="9">As far as possible,
+                    the people referred to in the notes are identified and references explained.
+                    Some people and facts could not be discovered; they were not given a note. The
+                    notes that explain a specific use of words or provide a translation of a foreign
+                    language that had been used (almost always French) are included as
+                    footnotes.</p>
+                <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" rend="indent" n="10">Sometimes Jo
+                    scribbled notes on a postcard or envelope that happened to be lying on her
+                        desk.<hi rend="Endnote_Anchor">
+                        <ptr type="note" target="#note.tr.en.3"/>
+                    </hi>
+                </p>
+                <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">
+                    <ref target="ii058.xml">058</ref> – <hi rend="Illustratie-onderschrift">Jo van
+                        Gogh-Bonger, Address of the Hotel Pomona in The Hague</hi> *Ill. ii068*</p>
+                <p xml:id="p.tr.en.12" corresp="#p.orig.nl.12" n="12">In addition to the usual
+                    abbreviations such as of months and places (Dec. and Amst.), Israëls used the
+                    following abbreviations (with or without dots):</p>
+                <list type="gloss">
+                    <label>B.J. / B. Jo</label>
+                    <item>Beste Jo (Dear J. / Jo)</item>
+                    <label>Dr.</label>
+                    <item>Dienaar (servant)</item>
+                    <label>Dw. dr.</label>
+                    <item>Dienstwillige dienaar (Devoted servant)</item>
+                    <label>get.</label>
+                    <item>getekend (signed)</item>
+                    <label>I I</label>
+                    <item>Isaac Israëls</item>
+                    <label>T. à v.</label>
+                    <item>
+                        <hi rend="italics">Tout à vous</hi> – Geheel de uwe (All yours)</item>
+                    <label>Uw toeg.</label>
+                    <item>Uw toegenegen (Your affectionate)</item>
+                    <label>T.t.</label>
+                    <item>
+                        <hi rend="italics">Totus tuus</hi> / Tout à toi – Geheel de jouwe (All
+                        yours)</item>
+                </list>
+                <p xml:id="p.tr.en.13" corresp="#p.orig.nl.13" n="13">Israëls was a fervent letter
+                    writer and some of his correspondence has been published. See Jacqueline
+                    Royaards-Sandberg, <hi rend="italics">Ik heb je zoveel te vertellen. Brieven van
+                        en aan Lodewijk van Deyssel, Emile en Frans Erens en Isaac Israëls</hi>. Ed.
+                    Harry G.M. Prick. Baarn 1981. More than fifty of his letters to the artist <rs
+                        type="person" ref="bio.xml#129">Willem Witsen</rs> and his wife <rs
+                        type="person" ref="bio.xml#013">Augusta Maria Witsen-Schorr</rs> have
+                    survived. They are held in the Royal Library (Koninklijke Bibliotheek) in The
+                    Hague and included in<hi rend="italics"> De briefwisseling van Willem Witsen
+                        (van 1877 tot 1923)</hi>, edited by Irene de Groot, Leo Jansen, Odilia
+                    Vermeulen and Ester Wouthuysen (2007); accessible in the Digitale Bibliotheek
+                    voor de Nederlandse Letteren (DBNL) <ref
+                        target="https://www.dbnl.org/tekst/wits009brie01_01/"
+                        >https://www.dbnl.org/tekst/wits009brie01_01/</ref> And in the Literature
+                    Museum in The Hague (LMDH) there are 172 letters in French he wrote to his good
+                    friend <rs type="person" ref="bio.xml#036">Frans Erens</rs>. There are also 75
+                    letters from Israëls to <rs type="person" ref="bio.xml#036">Erens</rs>, most of
+                    them in French (KB 135 B 192) in the Royal Library in The Hague and 25 letters
+                    from him to various correspondents.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation type="notes" xml:lang="nl">
+            <note n="1" xml:id="note.orig.nl.1">
+                <p>In hoofdstuk 9 van Jo’s biografie <hi rend="italics">Alles voor Vincent</hi>
+                    staat haar relatie met Israëls centraal. Luijten 2019, p. 226-251.</p>
+            </note>
+            <note n="2" xml:id="note.orig.nl.2">
+                <p>Eveneens in Bonger, <hi rend="italics">Dagboeken – Diaries</hi> 2019, <hi
+                        rend="italics">Dagboek</hi> 4, p. 97; 5 januari 1896.</p>
+            </note>
+            <note n="3" xml:id="note.orig.nl.3">
+                <p>Respectievelijk brief <ref target="ii058.xml">058</ref> (adres restaurant) en
+                        <ref target="ii087.xml">087</ref> (naam coöperatie). </p>
+            </note>
+        </listAnnotation>
+        <listAnnotation type="notes" xml:lang="en">
+            <note n="1" xml:id="note.tr.en.1">
+                <p>Her relationship with Israëls is the subject of chapter 9 in the biography <hi
+                        rend="italics">Jo van Gogh-Bonger: The Woman who Made Vincent Famous</hi>.
+                    Luijten 2022, pp. 165-84.</p>
+            </note>
+            <note n="2" xml:id="note.tr.en.2">
+                <p>Likewise in Bonger, <hi rend="italics">Dagboeken – Diaries</hi> 2019, <hi
+                        rend="italics">Diary</hi> 4, p. 97; 5 January 1896.</p>
+            </note>
+            <note n="3" xml:id="note.tr.en.3">
+                <p>Letter <ref target="ii058.xml">058</ref> (address of a restaurant) and <ref
+                        target="ii087.xml">087</ref> (name of a cooperative) respectively.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

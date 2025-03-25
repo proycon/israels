@@ -1,0 +1,343 @@
+Inventory of tags and attributes in the source XML file(s).
+Contains the following sections:
+	Formatting Attributes
+	Keyword Attributes
+	Remaining Attributes and Elements
+
+
+
+Formatting Attributes
+
+	<hi>               rend=           120x Endnote_Anchor
+	                                   112x Illustratie-onderschrift
+	                                    12x Paragraafkop
+	                                    50x blockletter
+	                                   970x italics
+	                                    25x super
+
+	<p>                rend=            10x -
+	                                    10x Citaat
+	                                    44x Subparagraafkop
+	                                   547x indent
+	                                     8x ingesprongen
+	                                     2x rechtsuitlijnend
+	                                     6x whiteline-above
+
+	<space>            dim=            557x vertical
+
+	<title>            level=           73x m
+
+Keyword Attributes
+
+	<altIdentifier>    type=           104x ii
+
+	<correspAction>    type=           104x received
+	                                   104x sent
+
+	<date>             lang=            73x en
+	                                    73x nl
+	                   type=           146x creation
+
+	<div>              lang=           108x en
+	                                   108x nl
+	                   type=           108x original
+	                                   108x translation
+
+	<head>             lang=            73x en
+
+	<list>             type=             8x gloss
+
+	<listAnnotation>   lang=           200x en
+	                                   218x nl
+	                   type=            51x langnotes
+	                                   160x notes
+	                                   207x typednotes
+
+	<measure>          lang=           102x en
+	                                   106x nl
+	                   unit=           208x cm
+
+	<note>             lang=           367x en
+	                                   221x nl
+	                   type=           146x collection
+	                                   146x creditline
+	                                   208x dating
+	                                    73x inventory
+	                                   146x photocredits
+	                                     4x shortdesc
+	                                   146x technical
+
+	<objectDesc>       form=            89x letter
+	                                     2x picturecard
+	                                    13x postcard
+
+	<pb>               facs=           172x #s1r
+	                                    80x #s1v
+	                                    54x #s2r
+	                                    52x #s2v
+	                                    36x #z1r1
+	                                    22x #z1r2
+	                                     2x #z1r3
+	                                    10x #z1r4
+	                                    40x #z1v2
+	                                    40x #z1v3
+	                                     2x #z1v4
+	                                     2x #z2r3
+	                                     2x #z2v4
+
+	<ptr>              type=           670x note
+	                                   110x webedition
+
+	<rs>               type=          1273x person
+
+	<space>            unit=           557x lines
+
+	<surname>          type=            24x married-name
+
+	<title>            lang=           104x en
+	                                   104x nl
+	                   type=            38x short
+
+Remaining Attributes and Elements
+
+	<TEI>                              112x 
+
+	<addName>                            1x 
+
+	<appInfo>                            2x 
+
+	<application>      id=               2x X
+	                   ident=            2x TEI_fromDOCX
+	                   version=          2x N.NN.N
+
+	<artwork>          corresp=         73x TODO
+	                   id=              73x X
+	                   source=          73x TODO
+
+	<author>                             5x 
+
+	<availability>     status=         110x unknown
+
+	<bibl>                               4x 
+	                   id=              76x X
+
+	<birth>            cert=             1x medium
+	                                     5x unknown
+	                   when=             4x -NNNN
+	                                   134x NNNN
+
+	<body>                               7x 
+	                   divRole=          1x doc-translations
+	                                   104x original-translation
+
+	<catDesc>                            3x 
+
+	<catRef>           scheme=          73x #OBJALG
+	                   target=          73x X
+
+	<category>         id=               3x X
+
+	<change>                             2x 
+
+	<classDecl>                          2x 
+
+	<correspDesc>                      104x 
+
+	<country>                          104x 
+
+	<date>                               4x 
+	                   when=             3x NNNN-NN-??
+	                                     2x NNNN-NN-N?
+	                                   180x NNNN-NN-NN
+	                                     1x NNNN-NN/NN-??
+	                                     1x NNNN-NN/NN/NN-??
+	                                     1x NNNN/NNNN-??-??
+	                                     3x NNNN/NNNN-NN-NN
+	                                     4x TODO
+	                                     1x ≈NNNN-??-??
+	                                    11x ≈NNNN-NN-??
+	                                     4x ≈NNNN-NN-NN
+	                                     1x ≈NNNN-NN/NN-??
+	                                     2x ≈NNNN/NNNN-NN-NN
+
+	<death>            cert=             1x medium
+	                                     4x unknown
+	                   notBefore=        1x NNNN
+	                   when=             3x -NNNN
+	                                   134x NNNN
+
+	<edition>                            2x 
+
+	<editionStmt>                        2x 
+
+	<encodingDesc>                       4x 
+
+	<facsimile>                        104x 
+
+	<fileDesc>                         112x 
+
+	<forename>                         155x 
+
+	<graphic>          url=             73x TODO
+	                                     2x dummy
+	                                   134x iiNNN
+	                                   181x todo
+
+	<head>                               9x 
+	                   corresp=          2x #head.orig.en.N
+	                   id=               4x X
+	                   n=                4x N
+
+	<idno>                             208x 
+
+	<institution>                      104x 
+
+	<item>                              48x 
+
+	<l>                                 42x 
+
+	<label>                            126x 
+
+	<lb>                                18x 
+
+	<lg>                                12x 
+
+	<licence>          target=         110x X
+
+	<listChange>                         2x 
+
+	<listObject>                         1x 
+
+	<listPerson>                         1x 
+
+	<measure>          commodity=      104x size-hor
+	                                   104x size-ver
+	                   quantity=         3x N,N
+	                                     3x N.N
+	                                    85x NN
+	                                    49x NN,N
+	                                    46x NN.N
+	                                    18x NNN
+	                                     2x NNN,N
+	                                     2x NNN.N
+
+	<msDesc>                           104x 
+
+	<msIdentifier>                     104x 
+
+	<name>                               2x 
+	                   ref=            110x https://huygens.knaw.nl/en
+	                                   110x https://www.vangoghmuseum.nl/en
+
+	<nameLink>                          23x 
+
+	<note>             id=             878x X
+	                   n=              466x N
+	                                   126x NN
+	                                    51x a
+	                                    17x b
+	                                     7x c
+	                                     2x d
+	                                     1x e
+
+	<p>                               1034x 
+	                   corresp=         11x #p.orig.en.N
+	                                     4x #p.orig.en.NN
+	                                   843x #p.orig.nl.N
+	                                   118x #p.orig.nl.NN
+	                                    18x #p.tr.en.N
+	                                    94x #p.tr.en.NN
+	                                    48x #p.tr.en.NNN
+	                   id=            2246x X
+	                   n=             1726x N
+	                                   424x NN
+	                                    96x NNN
+	                   pieter=         147x original
+	                                   147x translation
+	                   style=            3x text-align: justify;
+	                                    11x text-align: left; 
+
+	<pb>               corresp=        174x #pb.orig.nl.N
+	                   f=              298x Nr
+	                                   216x Nv
+	                   id=             348x X
+	                   n=              514x N
+
+	<persName>         full=            13x abb
+	                                   143x yes
+
+	<person>           id=             143x X
+	                   sex=            143x N
+
+	<physDesc>                         104x 
+
+	<placeName>                        104x 
+
+	<profileDesc>                      104x 
+
+	<ptr>              target=         784x X
+
+	<pubPlace>                         110x 
+
+	<publicationStmt>                  112x 
+
+	<publisher>                        110x 
+
+	<quote>                              3x 
+
+	<ref>              target=         537x X
+
+	<relation>         name=            73x creator
+	                   ref=             73x bio;ost.xml#TODO
+
+	<revisionDesc>                       2x 
+
+	<rs>               ref=              1x bio.xml#NN
+	                                   190x bio.xml#NNN
+	                                  1071x bio.xml#persNNN
+	                                    10x bio.xml#persNNN bio.xml#persNNN
+	                                     1x bio.xml#persNNNe
+
+	<seg>                                5x 
+
+	<settlement>                       104x 
+
+	<sourceDesc>                       110x 
+	                   default=          2x false
+
+	<space>            quantity=       557x N
+
+	<standOff>                         106x 
+
+	<surface>          id=             220x X
+	                   n=              131x Nr
+	                                     1x NrN
+	                                    87x Nv
+	                                     1x NvN
+
+	<surname>                          153x 
+
+	<taxonomy>                           1x 
+	                   id=               4x X
+	                   n=                1x Medium
+	                                     1x Object type
+	                                     1x Shape
+	                                     1x Support
+
+	<teiHeader>                        112x 
+
+	<text>                             112x 
+
+	<title>                             61x 
+
+	<titleStmt>                        112x 
+
+	<zone>             id=              78x X
+	                   lrx=             38x NN
+	                                    40x NNN
+	                   lry=             78x NNN
+	                   n=               36x NrN
+	                                    42x NvN
+	                   ulx=             38x N
+	                                    40x NN
+	                   uly=             78x N

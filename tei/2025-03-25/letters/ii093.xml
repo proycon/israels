@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, december 1919.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, December 1919.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8625V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>093</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1919-12-??"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">Maandag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Ik zond je heden het schilderij.<ptr type="note" target="#note.orig.nl.1"/> Het laat een ontzettende leegte op de muur achter en het spijt mij inderdaad dat ik het kwijt ben. Misschien kun je <hi rend="italics">toch</hi> après tout <ptr type="note" target="#note.orig.nl.a"/> iets anders voor hun verkoopen en krijg ik het nog terug!<ptr type="note" target="#note.orig.nl.2"/> Hiernevens in dank <hi rend="italics">f</hi> 10,-.<ptr type="note" target="#note.orig.nl.3"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">
+               <pb f="1v" facs="#z1v2" n="2"/> Ik ga bepaald Zaterdag of Zondag naar Parijs. Maar ik heb zoo’n idee dat ik er niet lang blijf. Wie weet ben ik met oudejaar alweer terug, enfin, nous verrons.  <ptr type="note" target="#note.orig.nl.b"/> Je houdt mij wel op de hoogte, mijn adres in Parijs is zooals je weet 10, Rue Alfred Stevens, <hi rend="blockletter">ix</hi>
+               <hi rend="super">e</hi>.<ptr type="note" target="#note.orig.nl.4"/>
+            </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">
+               <pb f="1v" facs="#z1v3" n="3"/> Ik ben benieuwd of  <rs type="person" ref="bio.xml#pers128">Vincent</rs> en <rs type="person" ref="bio.xml#pers078">J.</rs> er al zijn als ik terug kom.<ptr type="note" target="#note.orig.nl.5"/>
+            </p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Veel groeten en tot ziens.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">Yours always</p>
+            <p xml:id="p.orig.nl.9" n="9">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Monday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I sent you the painting today.<ptr type="note" target="#note.tr.en.1"/> It’s left an incredible void on the wall and I’m really sorry I’ve lost it. Perhaps you could <hi rend="italics">still</hi> sell something else for them après tout<ptr type="note" target="#note.tr.en.a"/> and I can get it back!<ptr type="note" target="#note.tr.en.2"/> Herewith in thanks <hi rend="italics">f</hi> 10.<ptr type="note" target="#note.tr.en.3"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">
+               <pb f="1v" facs="#z1v2" n="2"/> I am definitely going to Paris on Saturday or Sunday. But I have an idea that I won’t stay there long. Who knows, I might be back for the new year, Oh well, we shall see. You keep in touch. As you know, my address in Paris is 10, Rue Alfred Stevens, IXe. <ptr type="note" target="#note.tr.en.4"/>
+            </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">
+               <pb f="1v" facs="#z1v3" n="3"/> I’m curious as to whether  <rs type="person" ref="bio.xml#pers128">Vincent</rs> and <rs type="person" ref="bio.xml#pers078">J.</rs> are already there when I come back.<ptr type="note" target="#note.tr.en.5"/>
+            </p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">Best wishes and see you later.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Yours always</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e14393" type="dating">
+            <p>Aangezien Israëls zegt binnenkort naar Parijs te gaan, maar misschien ‘met oudejaar’ alweer terug is, en hij Jo vanuit die stad op 1 januari 1920 een nieuwjaarswens schreef (zie brief <ref target="ii094.xml">094</ref>), is de onderhavige brief ‘december 1919’ gedateerd.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e14513" type="dating">
+            <p>Since Israëls says he will be going to Paris, but may already be back by the new year, and he wrote Jo new years greetings from that city on 1 January 1920 (see letter <ref target="ii094.xml">094</ref>), the present letter has been assigned the date of December 1919.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Israëls zegt ‘het schilderij’ te hebben gezonden. Mogelijk ging het hier om <hi rend="italics">Het gele huis (‘De straat’)</hi>. Jo had in 1918 aan <rs type="person" ref="bio.xml#pers134">Willem Steenhoff</rs> gevraagd dat naar Israëls te sturen. Het is onwaarschijnlijk dat hij hiermee op de <hi rend="italics">Zonnebloemen</hi> doelde, want op 11 februari 1920 liet hij Jo vanuit Parijs weten opdracht te hebben gegeven ‘om je de zonnebl. op te zenden.’ Zie brief <ref target="ii095.xml">095</ref>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Het is niet duidelijk waarop dit betrekking heeft en wie Israëls bedoelde met ‘hun’.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Het is de vraag of de <hi rend="italics">f</hi> 10,- (het bedrag zat in de enveloppe) een ‘vergoeding’ is geweest voor het feit dat Jo het schilderij lange tijd aan hem had uitgeleend; mogelijk had ze dit bedrag een keer aan Israëls geleend of het hem voorgeschoten. Een andere mogelijkheid is dat ze hiermee de verzendkosten voor het schilderij zou kunnen dekken.</p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Het 9<hi rend="super">e</hi> arrondissement.</p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> en <rs type="person" ref="bio.xml#pers078">Josina</rs> woonden enkele jaren in Amerika en tussentijds in Japan. Zij zouden op 31 januari 1920 terugkeren naar Nederland.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Israëls says he sent ‘the painting’. This may have been <hi rend="italics">The Yellow House (‘The Street’)</hi>. In 1918 Jo had asked <rs type="person" ref="bio.xml#pers134">Willem Steenhoff</rs> to send it to Israëls. It is unlikely that he meant the <hi rend="italics">Sunflowers</hi>, because on 11 February 1920 he had let Jo know from Paris that he had given instructions ‘to send you the sunflowers’. See letter <ref target="ii095.xml">095</ref>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>It is not clear what this relates to or who Israëls meant by ‘them’.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>We do not know whether the <hi rend="italics">f</hi> 10 (the money was in the envelope) was compensation for the fact that Jo had let him hold on to the painting for a long time; it is possible that she had lent Israëls that sum or given it to him as an advance. Another possibility is that she could use it cover the cost of sending the painting.</p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>The 9th arrondissement.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> and <rs type="person" ref="bio.xml#pers078">Josina</rs> lived in America for a few years and, between times, in Japan. They would return to the Netherlands on 31 January 1920.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Tenslotte.</p>
+         </note>
+         <note n="b" xml:id="note.orig.nl.b">
+            <p>Afijn, we zullen zien.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>After all.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

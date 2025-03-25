@@ -1,0 +1,228 @@
+facsNotDeclared:
+  letters/ii008.xml:
+  - z1r1
+  - z1r2
+  letters/ii010.xml:
+  - z1r1
+  - z1r4
+  - z1v2
+  - z1v3
+  letters/ii012.xml:
+  - z1r1
+  - z1r2
+  letters/ii017.xml:
+  - z1r1
+  - z1r2
+  letters/ii018.xml:
+  - z1r1
+  - z1r2
+  letters/ii020.xml:
+  - z1v2
+  - z1v3
+  letters/ii022.xml:
+  - z1r1
+  - z1r2
+  letters/ii029.xml:
+  - z1r1
+  - z1r2
+  - z1v3
+  - z1v4
+  letters/ii030.xml:
+  - z1r1
+  - z1r2
+  letters/ii035.xml:
+  - z1r1
+  - z1r4
+  - z1v2
+  - z1v3
+  letters/ii036.xml:
+  - z1r1
+  - z1r2
+  letters/ii040.xml:
+  - z1r1
+  - z1r2
+  letters/ii041.xml:
+  - z1v2
+  - z1v3
+  letters/ii042.xml:
+  - z1r1
+  - z1r2
+  letters/ii046.xml:
+  - z1v2
+  - z1v3
+  letters/ii048.xml:
+  - z1v2
+  - z1v3
+  letters/ii057.xml:
+  - z1r1
+  - z1r2
+  letters/ii058.xml:
+  - z1v2
+  - z1v3
+  letters/ii060.xml:
+  - z1v2
+  - z1v3
+  letters/ii061.xml:
+  - z1v2
+  - z1v3
+  letters/ii062.xml:
+  - z1v2
+  - z1v3
+  letters/ii069.xml:
+  - z1v2
+  - z1v3
+  letters/ii076.xml:
+  - z1v2
+  - z1v3
+  letters/ii079.xml:
+  - z1v2
+  - z1v3
+  letters/ii082.xml:
+  - z1v2
+  - z1v3
+  letters/ii092.xml:
+  - z1r1
+  - z1r3
+  letters/ii093.xml:
+  - z1v2
+  - z1v3
+  letters/ii094.xml:
+  - z1r1
+  - z1r4
+  - z1v2
+  - z1v3
+  letters/ii096.xml:
+  - z1r1
+  - z1r4
+  - z1v2
+  - z1v3
+  letters/ii098.xml:
+  - z1r1
+  - z1r4
+  - z1v2
+  - z1v3
+  letters/ii099.xml:
+  - z1v2
+  - z1v3
+  letters/ii80.xml:
+  - z1r1
+  - z1v2
+  - z2r3
+  - z2v4
+facsNotUsed:
+  about/Inleiding_introduction.xml: []
+  about/Verantwoording_Notes_for_the_reader.xml: []
+  apparatus/artwork.xml: []
+  about/colofon.xml: []
+  about/woord-van-dank.xml: []
+  letters/ii001.xml: []
+  letters/ii002.xml: []
+  letters/ii003.xml: []
+  letters/ii004.xml: []
+  letters/ii005.xml: []
+  letters/ii006.xml: []
+  letters/ii007.xml: []
+  letters/ii008.xml: []
+  letters/ii009.xml: []
+  letters/ii010.xml: []
+  letters/ii011.xml: []
+  letters/ii012.xml: []
+  letters/ii013.xml: []
+  letters/ii014.xml: []
+  letters/ii015.xml: []
+  letters/ii016.xml: []
+  letters/ii017.xml: []
+  letters/ii018.xml: []
+  letters/ii019.xml: []
+  letters/ii020.xml: []
+  letters/ii021.xml: []
+  letters/ii022.xml: []
+  letters/ii023.xml: []
+  letters/ii024.xml: []
+  letters/ii025.xml: []
+  letters/ii026.xml: []
+  letters/ii027.xml: []
+  letters/ii028.xml: []
+  letters/ii029.xml: []
+  letters/ii030.xml: []
+  letters/ii031.xml: []
+  letters/ii032.xml: []
+  letters/ii033.xml: []
+  letters/ii034.xml: []
+  letters/ii035.xml: []
+  letters/ii036.xml: []
+  letters/ii037.xml: []
+  letters/ii038.xml: []
+  letters/ii039.xml: []
+  letters/ii040.xml: []
+  letters/ii041.xml: []
+  letters/ii042.xml: []
+  letters/ii043.xml: []
+  letters/ii044.xml: []
+  letters/ii045.xml: []
+  letters/ii046.xml: []
+  letters/ii047.xml: []
+  letters/ii048.xml: []
+  letters/ii049.xml: []
+  letters/ii050.xml: []
+  letters/ii051.xml: []
+  letters/ii052.xml: []
+  letters/ii053.xml: []
+  letters/ii054.xml: []
+  letters/ii055.xml: []
+  letters/ii056.xml: []
+  letters/ii057.xml: []
+  letters/ii058.xml: []
+  letters/ii059.xml: []
+  letters/ii060.xml: []
+  letters/ii061.xml: []
+  letters/ii062.xml: []
+  letters/ii063.xml: []
+  letters/ii064.xml: []
+  letters/ii065.xml: []
+  letters/ii066.xml: []
+  letters/ii067.xml: []
+  letters/ii068.xml: []
+  letters/ii069.xml: []
+  letters/ii070.xml: []
+  letters/ii071.xml: []
+  letters/ii072.xml: []
+  letters/ii073.xml: []
+  letters/ii074.xml: []
+  letters/ii075.xml: []
+  letters/ii076.xml: []
+  letters/ii077.xml: []
+  letters/ii078.xml: []
+  letters/ii079.xml: []
+  letters/ii080.xml: []
+  letters/ii081.xml: []
+  letters/ii082.xml: []
+  letters/ii083.xml: []
+  letters/ii084.xml: []
+  letters/ii085.xml: []
+  letters/ii086.xml: []
+  letters/ii087.xml: []
+  letters/ii088.xml: []
+  letters/ii089.xml: []
+  letters/ii090.xml: []
+  letters/ii091.xml: []
+  letters/ii092.xml: []
+  letters/ii093.xml: []
+  letters/ii094.xml: []
+  letters/ii095.xml: []
+  letters/ii096.xml: []
+  letters/ii097.xml: []
+  letters/ii098.xml: []
+  letters/ii099.xml: []
+  letters/ii100.xml: []
+  letters/ii101.xml: []
+  letters/ii102.xml: []
+  letters/ii103.xml: []
+  letters/ii80.xml:
+  - s1r
+  - s1v
+  - s2r3
+  - s2v4
+  apparatus/bibliolist-en.xml: []
+  apparatus/bibliolist-nl.xml: []
+  apparatus/biolist.xml: []

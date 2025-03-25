@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="artworklist"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-artwork.rng" type="application/xml" 
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-artwork.rng" type="application/xml" 
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of artworks identified in the Project "Israels letters to Jo Bonger"</title>
+            <author>Hans Luijten</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc><!--TODO-->
+            <p>Generated on the basis of identifiers in letters and writings form data at rkd.nl</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl><!--TODO-->
+            <taxonomy xml:id="OBJALG" n="Object type">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=OBJALG&amp;language=en-GB&amp;term=79320"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="DRAGER" n="Support">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=DRAGER&amp;language=en-GB&amp;term=97857"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MATERTECHN" n="Medium">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&amp;language=en-GB&amp;term=97846"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="VORM" n="Shape">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=VORM&amp;language=en-GB&amp;term=74840"/>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listObject>
+            <head>List of artworks identified in the Project "Israels letters to Jo Bonger"</head>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii001">
+               <head xml:lang="en">Portrait of Vincent Willem van Gogh</head>
+               <date type="creation" xml:lang="nl">1894</date>
+               <date type="creation" xml:lang="en">1894</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="15,7" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="13" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.7" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="13" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 15,7 × 13 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 15.7 × 13 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="inventory">VGM, s0516</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii002">
+               <head xml:lang="en">Portrait of Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">1895</date>
+               <date type="creation" xml:lang="en">1895</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="15,2" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="11,9" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.2" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="11.9" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Krijt op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Chalk on paper</note>
+               <note type="creditline" xml:lang="nl">Krijt op papier, 15,2 × 11,9 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Chalk on paper, 15.2 × 11.9 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b4665V1962-001</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii003">
+               <head xml:lang="en">Portrait of Theodoor (Theo) van Gogh</head>
+               <date type="creation" xml:lang="nl">1923</date>
+               <date type="creation" xml:lang="en">1923</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="32" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="24,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="32" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="24.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 32 × 24,5 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 32 × 24.5 cm. Private collection.</note>
+               <note type="inventory">Zevenhuizen, Marjolijn de Vries-Van Gogh</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii004">
+               <head xml:lang="en">Gust Wind at the Dapperplein in Amsterdam</head>
+               <date type="creation" xml:lang="nl">ca. 1895</date>
+               <date type="creation" xml:lang="en">c. 1895</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="29" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="45" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="29" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="45" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Pastelkrijt op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pastel on paper</note>
+               <note type="creditline" xml:lang="nl">Pastelkrijt op papier, 29 × 45 cm. Rijksmuseum, Amsterdam. Legaat van de heer en mevrouw Drucker-Fraser, Montreux, 1944.</note>
+               <note type="creditline" xml:lang="en">Pastel on paper, 29 × 45 cm. Rijksmuseum, Amsterdam. Mr and Mrs Drucker-Fraser Bequest, Montreux, 1944.</note>
+               <note type="inventory">SK-A-3665</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (legaat van de heer en mevrouw Drucker-Fraser, Montreux, 1944)</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (Mr and Mrs Drucker-Fraser Bequest, Montreux, 1944)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii005">
+               <head xml:lang="en">Gust Wind at the Dapperplein in Amsterdam (reproduction)</head>
+               <date type="creation" xml:lang="nl">ca. 1895</date>
+               <date type="creation" xml:lang="en">c. 1895</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Postkaart, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Postcard, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8650</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii006">
+               <head xml:lang="en">Portrait of Michiel Marinus de Monchy</head>
+               <date type="creation" xml:lang="nl">1898</date>
+               <date type="creation" xml:lang="en">1898</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Jozef Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="100" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="76" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="100" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="76" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 100 × 76 cm. Museum Rotterdam.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 100 × 76 cm. Museum Rotterdam.</note>
+               <note type="inventory">Inv.nr. 66450</note>
+               <note type="collection" xml:lang="en">Museum Rotterdam, Rotterdam</note>
+               <note type="collection" xml:lang="en">Museum Rotterdam, Rotterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii007">
+               <head xml:lang="en">Isaac Israëls</head>
+               <date type="creation" xml:lang="nl">ca. 1888</date>
+               <date type="creation" xml:lang="en">c. 1888</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Joseph Jessurun de Mesquita--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="22" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="14,4" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="22" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="14.4" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Daglichtgelatinezilverdruk op fotopapier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Daylight gelatin silverprint on photographic paper</note>
+               <note type="creditline" xml:lang="nl">Joseph Jessurun de Mesquita (toegeschreven aan), daglichtgelatinezilverdruk op fotopapier, 22 × 14,4 cm. Rijksmuseum, Amsterdam. Schenking van mevrouw O. Vermeulen en de heer F. Diepenbrock.</note>
+               <note type="creditline" xml:lang="en">Joseph Jessurun de Mesquita (attributed to), daylight gelatin silverprint on photographic paper, 22 × 14.4 cm. Rijksmuseum, Amsterdam. Gift of O. Vermeulen and F. Diepenbrock.</note>
+               <note type="inventory">RP-F-2015-1-1</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (schenking van mevrouw O. Vermeulen en de heer F. Diepenbrock)</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (Gift of O. Vermeulen and F. Diepenbrock)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii008">
+               <head xml:lang="en">Jo van Gogh-Bonger with her baby Vincent Willem van Gogh</head>
+               <date type="creation" xml:lang="nl">1890</date>
+               <date type="creation" xml:lang="en">1890</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Raoul Saisset--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="10,1" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="6,3" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="10.1" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="6.3" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">Raoul Saisset, foto op papier, 10,1 × 6,3 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Raoul Saisset, photo on paper, 10.1 × 6.3 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b4822</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii009">
+               <head xml:lang="en">Jo van Gogh-Bonger with her son Vincent Willem van Gogh</head>
+               <date type="creation" xml:lang="nl">1892</date>
+               <date type="creation" xml:lang="en">1892</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--J.F. Hennequin--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="10,6" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="6,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="10.6" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="6.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">J.F. Hennequin, foto op papier, 10,6 × 6,5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">J.F. Hennequin, photo on paper, 10.6 × 6.5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM,b4824-0001</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii010">
+               <head xml:lang="en">Portrait of Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">1895-1896</date>
+               <date type="creation" xml:lang="en">1895-1896</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="30" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="19,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="30" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="19.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Rood krijt, potlood en met wit gehoogd op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Red chalk, pencil and heightened with white on paper</note>
+               <note type="creditline" xml:lang="nl">Rood krijt, potlood en met wit gehoogd op papier, 30 × 19,5 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Red chalk, pencil and heightened with white on paper, 30 × 19.5 cm. Private collection.</note>
+               <note type="inventory">Amsterdam, Willem van Gogh</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii011">
+               <head xml:lang="en">Vincent Willem van Gogh in Hyde Park</head>
+               <date type="creation" xml:lang="nl">1914</date>
+               <date type="creation" xml:lang="en">1914</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="63" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="76" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="63" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="76" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 63 × 76 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 63 × 76 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0374</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii012">
+               <head xml:lang="en">Theo van Gogh</head>
+               <date type="creation" xml:lang="nl">1889</date>
+               <date type="creation" xml:lang="en">1889</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Bernard F. Eilers--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="13,9" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="10" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="13.9" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="10" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Foto van fotografisch portret op karton</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo of a photographic portrait on cardboard</note>
+               <note type="creditline" xml:lang="nl">Bernard F. Eilers, foto van fotografisch portret op karton, 13,9 × 10 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Bernard F. Eilers, photo of a photographic portrait on cardboard, 13.9 × 10 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b4788a</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii013">
+               <head xml:lang="en">Portrait of Vincent Willem van Gogh</head>
+               <date type="creation" xml:lang="nl">1894</date>
+               <date type="creation" xml:lang="en">1894</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="14,2" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="10,3" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="14.2" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="10.3" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Gekleurd krijt op vergépapier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Coloured chalk on laid paper</note>
+               <note type="creditline" xml:lang="nl">Gekleurd krijt op vergépapier, 14,2 × 10,3 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="creditline" xml:lang="en">Coloured chalk on laid paper, 14.2 × 10.3 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="inventory">VGM, d1145</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii014">
+               <head xml:lang="en">Head of a Woman in Profile</head>
+               <date type="creation" xml:lang="nl">1895</date>
+               <date type="creation" xml:lang="en">1895</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8576</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii015">
+               <head xml:lang="en">Young Cat in different Poses</head>
+               <date type="creation" xml:lang="nl">1896</date>
+               <date type="creation" xml:lang="en">1896</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="35" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="25,6" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="35" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="25.6" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Potlood, rode en zwarte waterverf, zwart krijt op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pencil, red and black water colour, black chalk on paper</note>
+               <note type="creditline" xml:lang="nl">Potlood, rode en zwarte waterverf, zwart krijt op papier, 35 × 25,6 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Pencil, red and black water colour, black chalk on paper, 35 × 25.6 cm. Private collection.</note>
+               <note type="inventory">Amsterdam, Barbara Vroom-van Gogh</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii016">
+               <head xml:lang="en">Fête de Levallois</head>
+               <date type="creation" xml:lang="nl">1902</date>
+               <date type="creation" xml:lang="en">1902</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Paolo Henri--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="113" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="153" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="113" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="153" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Kleurenlithografie</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Colour lithograph</note>
+               <note type="creditline" xml:lang="nl">Kleurenlithografie, 113 × 153 cm. Lithograaf A. Mansion; drukker, G. Mottelet, Levallois. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Colour lithograph, 113 × 153 cm. Litographer A. Mansion; printer, G. Mottelet, Levallois. Whereabouts unknown.</note>
+               <note type="inventory">Internet</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii017">
+               <head xml:lang="en">The Omnibus station at the crossroads of boulevard Montmartre and boulevard des Italiens in Paris</head>
+               <date type="creation" xml:lang="nl">1907-1911</date>
+               <date type="creation" xml:lang="en">1907-1911</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Postkaart, afmetingen onbekend. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Postcard, dimensions unknown. Private collection.</note>
+               <note type="inventory">Internet: https://commons.wikimedia.org/wiki/File:CM_104_-_PARIS_-_Carrefour_des_Bds_Montmartre_et_des_Italiens_-_La_station_des_omnibus.JPG</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii018">
+               <head xml:lang="en">L’Hippodrome in Montmartre, Paris</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Postkaart, afmetingen onbekend. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Postcard, dimensions unknown. Private collection.</note>
+               <note type="inventory">Internet: https://fr.wikipedia.org/wiki/Hippodrome_de_Montmartre</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii019">
+               <head xml:lang="en">Jo van Gogh-Bonger, List of the paintings at Leclercq in Paris</head>
+               <date type="creation" xml:lang="nl">1900</date>
+               <date type="creation" xml:lang="en">1900</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">document</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b5738</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii020">
+               <head xml:lang="en">Le Moulin de la Galette (F 349 / JH 1184)</head>
+               <date type="creation" xml:lang="nl">1886</date>
+               <date type="creation" xml:lang="en">1886</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="55" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="38,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="55" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="38.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 55 × 38,5 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 55 × 38.5 cm. Private collection.</note>
+               <note type="inventory"/>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii021">
+               <head xml:lang="en">Olive Grove (F 711 / JH 1791)</head>
+               <date type="creation" xml:lang="nl">1889</date>
+               <date type="creation" xml:lang="en">1889</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="53,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="64,5" xml:lang="nl"/>
+               <!--Invalid EN measure specification, "53,5 × 64.5 cm"-->
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 53,5 × 64,5 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 53,5 × 64.5 cm. Private collection.</note>
+               <note type="inventory"/>
+               <note type="collection" xml:lang="en">Privécollectie, Zürich</note>
+               <note type="collection" xml:lang="en">Private collection, Zürich</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii022">
+               <head xml:lang="en">Vincent van Gogh, Brieven aan zijn broeder. Amsterdam, Wereldbibliotheek</head>
+               <date type="creation" xml:lang="nl">1914</date>
+               <date type="creation" xml:lang="en">1914</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="22" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="15" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="22" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="15" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Drie delen in linnen gebonden</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Three volumes in cloth</note>
+               <note type="creditline" xml:lang="nl">Drie delen in linnen gebonden, 22 × 15 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Three volumes in cloth, 22 × 15 cm. Private collection.</note>
+               <note type="inventory">Exemplaar Hans Luijten</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii023">
+               <head xml:lang="en">Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">ongedateerd (mogelijk 1915)</date>
+               <date type="creation" xml:lang="en">no date (possibly 1915)</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="50" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="42,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="50" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="42.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 50 × 42,5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 50 × 42.5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0285</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii024">
+               <head xml:lang="en">Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">1926</date>
+               <date type="creation" xml:lang="en">1926</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="35" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="27" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="35" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="27" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 35 × 27 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 35 × 27 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0231</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii025">
+               <head xml:lang="en">The Yellow House (‘The Street’) (F 464 / JH 1589)</head>
+               <date type="creation" xml:lang="nl">1888</date>
+               <date type="creation" xml:lang="en">1888</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="72" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="91,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="72" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="91.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 72 × 91,5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 72 × 91.5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0032</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii026">
+               <head xml:lang="en">Sunflowers (F 458 / JH 1667)</head>
+               <date type="creation" xml:lang="nl">1889</date>
+               <date type="creation" xml:lang="en">1889</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="95" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="95" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 95 × 73 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 95 × 73 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0031</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii027">
+               <head xml:lang="en">Sunflowers (F 454 / JH 1562)</head>
+               <date type="creation" xml:lang="nl">1888</date>
+               <date type="creation" xml:lang="en">1888</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="92,1" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="92.1" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 92,1 × 73 cm. National Gallery, Londen. Gekocht door het Courtauld Fund, 1924.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 92.1 × 73 cm. National Gallery, London. Bought by the Courtauld Fund, 1924.</note>
+               <note type="inventory">Inv.nr. NG3863</note>
+               <note type="collection" xml:lang="en">National Gallery, Londen (gekocht door het Courtauld Fund, 1924)</note>
+               <note type="collection" xml:lang="en">National Gallery, Londen (bought by the Courtauld Fund, 1924)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii028">
+               <head xml:lang="en">Hotel Zoutkeet in Goes</head>
+               <date type="creation" xml:lang="nl">ca. 1890</date>
+               <date type="creation" xml:lang="en">c. 1890</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">Foto op papier, afmetingen onbekend. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Photo on paper, dimensions unknown. Private collection.</note>
+               <note type="inventory">Internet: https://goesdronk.nl/wiki/Hotel_Zoutkeet
+Collectie Foto’s, Hotel Zoutkeet, ZB Beeldbank Zeeland, recordnummer: 6316 </note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii029">
+               <head xml:lang="en">Woman [Josina Petronella Lewe van Nijenstein] in traditional costume (Zuid-Beveland)</head>
+               <date type="creation" xml:lang="nl">ca. 1860-1920</date>
+               <date type="creation" xml:lang="en">c. 1860-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--J.J. Quist--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "ca. 10,5 × 6,5 cm"-->
+               <!--Invalid EN measure specification, "c. 10.5 × 6.5 cm"-->
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">J.J. Quist, Foto op papier, ca. 10,5 × 6,5 cm. RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag.</note>
+               <note type="creditline" xml:lang="en">J.J. Quist, photo on paper, c. 10.5 × 6.5 cm. RKD - Netherlands Institute for Art History, The Hague.</note>
+               <note type="inventory">Internet: https://rkd.nl/nl/explore/images/153634</note>
+               <note type="collection" xml:lang="en">RKD - Nederlands Instituut voor Kunstgeschiedenis (Collectie Iconografisch Bureau), Den Haag</note>
+               <note type="collection" xml:lang="en">RKD - Netherlands Institute for Art History, The Hague</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii030">
+               <head xml:lang="en">Milkmaid Carrying a Yoke</head>
+               <date type="creation" xml:lang="nl">1897</date>
+               <date type="creation" xml:lang="en">1897</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8619</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii031">
+               <head xml:lang="en">Girl at the Beach leaning on a Spade</head>
+               <date type="creation" xml:lang="nl">1897</date>
+               <date type="creation" xml:lang="en">1897</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8624</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii032">
+               <head xml:lang="en">The Bedroom (F 482 / JH 1608)</head>
+               <date type="creation" xml:lang="nl">1888</date>
+               <date type="creation" xml:lang="en">1888</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="74,2" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="91,3" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="74.2" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="91.3" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 74,2 × 91,3 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 74.2 × 91.3 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0047</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii033">
+               <head xml:lang="en">Montmartre: Behind the Moulin de la Galette (F 316 / JH 1246)</head>
+               <date type="creation" xml:lang="nl">1887</date>
+               <date type="creation" xml:lang="en">1887</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="81" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="100" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="81" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="100" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 81 × 100 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 81 × 100 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0018</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii034">
+               <head xml:lang="en">Woman in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="70,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="50,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="70.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="50.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 70,5 × 50,5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting). </note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 70.5 × 50.5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0233</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii035">
+               <head xml:lang="en">Woman reading, wearing a Red Hat next to Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "60,6 x 40,6 cm"-->
+               <measure commodity="size-hor" unit="cm" quantity="60.6" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.6" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 60,6 × 40,6 cm. Van Gogh Museum, Amsterdam. Schenking uit de nalatenschap van mevrouw S.B. Werth.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 60.6 × 40.6 cm. Van Gogh Museum, Amsterdam. Gift from the legacy of Mrs S.B. Werth.</note>
+               <note type="inventory">VGM, s0451</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (schenking uit de nalatenschap van mevrouw S.B. Werth)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (gift from the legacy of Mrs S.B. Werth)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii036">
+               <head xml:lang="en">Woman reading out loud to a Woman lying on a Couch</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "28 x 39 cm (Israëls' kadrering 23 × 33 cm)"-->
+               <!--Invalid EN measure specification, "28 × 39 cm (Israëls's framing in ink, 23 × 33 cm)"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, 28 × 39 cm. Israëls' kadrering 23 × 33 cm. Van Gogh Museum. Amsterdam.</note>
+               <note type="creditline" xml:lang="en">Pen on paper, 28 × 39 cm. Israëls's framing in ink, 23 × 33 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="inventory">VGM, d0736</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii037">
+               <head xml:lang="en">Prof. dr. mr. Isaac Bennie Cohen and his Wife Jacqueline Wilhelmine Longépée</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="94" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="114" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="94" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="114" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 94 × 114 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 94 × 114 cm. Private collection.</note>
+               <note type="inventory">Privé</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii038">
+               <head xml:lang="en">John Bunny</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Foto, afmetingen onbekend. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Photo, dimensions unknown. Whereabouts unknown.</note>
+               <note type="inventory">Internet: https://fr.wikipedia.org/wiki/John_Bunny; alternatief: https://www.gettyimages.nl/detail/nieuwsfoto%27s/john-bunny-vaudeville-performer-d-1915-undated-photograph-nieuwsfotos/515296580?adppopup=true</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii039">
+               <head xml:lang="en">La Place du Tertre</head>
+               <date type="creation" xml:lang="nl">ca. 1910</date>
+               <date type="creation" xml:lang="en">c. 1910</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Maurice Utrillo--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="50,2" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.2" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="73" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 50,2 × 73 cm. Tate Gallery, Londen. </note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 50.2 × 73 cm. Tate Gallery, London. </note>
+               <note type="inventory">N04139</note>
+               <note type="collection" xml:lang="en">Tate Gallery, Londen</note>
+               <note type="collection" xml:lang="en">Tate Gallery, Londen</note>
+               <note type="photocredits" xml:lang="nl">© ADAGP, Paris and DACS, London 2020.</note>
+               <note type="photocredits" xml:lang="en">© ADAGP, Paris and DACS, London 2020.</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii040">
+               <head xml:lang="en">The Painter's Studio</head>
+               <date type="creation" xml:lang="nl">1854-1855</date>
+               <date type="creation" xml:lang="en">1854-1855</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Gustave Courbet--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="361" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="598" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="361" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="598" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 361 × 598 cm. Musée d’Orsay, Parijs. </note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 361 × 598 cm. Musée d’Orsay, Paris. </note>
+               <note type="inventory">RF 2257</note>
+               <note type="collection" xml:lang="en">Musée d’Orsay, Parijs</note>
+               <note type="collection" xml:lang="en">Musée d’Orsay, Paris</note>
+               <note type="photocredits" xml:lang="nl">© Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt</note>
+               <note type="photocredits" xml:lang="en">© Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii041">
+               <head xml:lang="en">Self-portrait</head>
+               <date type="creation" xml:lang="nl">1905-1910</date>
+               <date type="creation" xml:lang="en">1905-1910</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Johan Cohen Gosschalk--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="46" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="36" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="46" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="36" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 46 × 36 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 46 × 36 cm. Van Gogh Museum, Amsterdam.</note>
+               <note type="inventory">VGM, s0370</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii042">
+               <head xml:lang="en">PARIS – Les Grands Cafés des Boulevards – A.P. Public Housse [Houses] of the Boulevards</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Postkaart, afmetingen onbekend. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Postcard, dimensions unknown. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8645</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii043">
+               <head xml:lang="en">SS Koningin der Nederlanden</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Postkaart, afmetingen onbekend. Website De Stoomvaart Maatschappij Nederland, Wormer.</note>
+               <note type="creditline" xml:lang="en">Postcard, dimensions unknown. Website De Stoomvaart Maatschappij Nederland, Wormer.</note>
+               <note type="inventory">http://www.stoomvaartmaatschappijnederland.nl/k/</note>
+               <note type="collection" xml:lang="en">De Stoomvaart Maatschappij Nederland, Wormer</note>
+               <note type="collection" xml:lang="en">De Stoomvaart Maatschappij Nederland, Wormer</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii044">
+               <head xml:lang="en">People sitting aboard the ss Koningin der Nederlanden</head>
+               <date type="creation" xml:lang="nl">1921</date>
+               <date type="creation" xml:lang="en">1921</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8646</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii045">
+               <head xml:lang="en">Self-portrait in the Artist’s Studio (foreside)</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="32,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="23,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="32.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="23.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 32,5 × 23,5 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 32.5 × 23.5 cm. Whereabouts unknown.</note>
+               <note type="inventory">catalogus https://www.christies.com/Lotfinder/lot_details.aspx?hdnSaleID=18662&amp;LN=179&amp;intsaleid=18662&amp;sid=ef2362df-18c9-44ce-8fd8-35965f67a453</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">© 2003 Christie's Images Limited</note>
+               <note type="photocredits" xml:lang="en">© 2003 Christie's Images Limited</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii046">
+               <head xml:lang="en">Portrait of Sophie de Vries-Dalberg (at the back of the panel)</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="32,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="23,5" xml:lang="nl"/>
+               <!--Invalid EN measure specification, "32.5 × 23.5 cm."-->
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 32,5 × 23,5 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 32.5 × 23.5 cm. Whereabouts unknown.</note>
+               <note type="inventory">catalogus https://www.christies.com/Lotfinder/lot_details.aspx?hdnSaleID=18662&amp;LN=179&amp;intsaleid=18662&amp;sid=ef2362df-18c9-44ce-8fd8-35965f67a453</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">© 2003 Christie's Images Limited</note>
+               <note type="photocredits" xml:lang="en">© 2003 Christie's Images Limited</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii047">
+               <head xml:lang="en">Wheat Fields with Auvers on the Background (F 801 / JH 2123)</head>
+               <date type="creation" xml:lang="nl">1890</date>
+               <date type="creation" xml:lang="en">1890</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="44" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="51,5" xml:lang="nl"/>
+               <!--Invalid EN measure specification, "44 x 51.5 cm"-->
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 44 × 51,5 cm. MAH Musée d'art et d'histoire, Ville de Genève. Ancien dépôt de la Fondation Garengo, 1990.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 44 × 51.5 cm. MAH Musée d'art et d'histoire, Ville de Genève. Ancien dépôt de la Fondation Garengo, 1990.</note>
+               <note type="inventory">1990-0055</note>
+               <note type="collection" xml:lang="en">Musée d’Art et d’Histoire de Genève, Genève (ancien dépôt de la Fondation Garengo, 1990)</note>
+               <note type="collection" xml:lang="en">Musée d’Art et d’Histoire de Genève, Genève (ancien dépôt de la Fondation Garengo, 1990)</note>
+               <note type="photocredits" xml:lang="nl">© Musée d'art et d'histoire, Ville de Genève, fotograaf: Jean-Marc Yersin</note>
+               <note type="photocredits" xml:lang="en">© Musée d'art et d'histoire, Ville de Genève, photographer: Jean-Marc Yersin</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii048">
+               <head xml:lang="en">Case with photographs of Jo Bonger and Theo van Gogh</head>
+               <date type="creation" xml:lang="nl">1889</date>
+               <date type="creation" xml:lang="en">1889</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--F.D. van Rosmalen jr., Amsterdam & Ernest Ladrey--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="15,3" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="9,8" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.3" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="9.8" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Foto's op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo's on paper</note>
+               <note type="creditline" xml:lang="nl">F.D. van Rosmalen jr., Amsterdam en Ernest Ladrey, Parijs, foto's op papier, 15,3 × 9,8 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">F.D. van Rosmalen jr., Amsterdam and Ernest Ladrey, Paris, photo's on paper, 15.3 × 9.8 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="inventory">VGM, b4789</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii049">
+               <head xml:lang="en">Isaac Israëls in his studio on the first floor 82 Oosterpark in Amsterdam</head>
+               <date type="creation" xml:lang="nl">1903</date>
+               <date type="creation" xml:lang="en">1903</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Atelier Herz, Amsterdam--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="19,6" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="28,2" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="19.6" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="28.2" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Atelier Herz, Amsterdam</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Atelier Herz, Amsterdam</note>
+               <note type="creditline" xml:lang="nl">Atelier Herz, Amsterdam, 19,6 × 28,2 cm. RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag.</note>
+               <note type="creditline" xml:lang="en">Atelier Herz, Amsterdam, 19.6 × 28.2 cm. RKD - Netherlands Institute for Art History, The Hague.</note>
+               <note type="inventory">RKD</note>
+               <note type="collection" xml:lang="en">RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="collection" xml:lang="en">RKD - Netherlands Institute for Art History, The Hague</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii050">
+               <head xml:lang="en">Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">1895-1897</date>
+               <date type="creation" xml:lang="en">1895-1897</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="40" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="31,4" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="40" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="31.4" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 40 × 31,4 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 40 × 31.4 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0284</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii051">
+               <head xml:lang="en">Jo van Gogh-Bonger</head>
+               <date type="creation" xml:lang="nl">1924</date>
+               <date type="creation" xml:lang="en">1924</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="60,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="45,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="60.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="45.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 60,5 × 45,5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 60.5 × 45.5 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, s0232</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii052">
+               <head xml:lang="en">Vincent Willem van Gogh and Josina Wibaut in the Pyrenees</head>
+               <date type="creation" xml:lang="nl">1914</date>
+               <date type="creation" xml:lang="en">1914</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Foto, afmetingen onbekend. Van Gogh Museum, Amsterdam.</note>
+               <note type="creditline" xml:lang="en">Photo, dimensions unknown. Van Gogh Museum, Amsterdam.</note>
+               <note type="inventory">VGM</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii053">
+               <head xml:lang="en">Pink Peach Trees (‘Souvenir de Mauve’) (F 394 / JH 1379)</head>
+               <date type="creation" xml:lang="nl">1888</date>
+               <date type="creation" xml:lang="en">1888</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Vincent van Gogh--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="73" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="59,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="73" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="59.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 73 × 59,5 cm. Kröller-Müller Museum, Otterlo.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 73 × 59.5 cm. Kröller-Müller Museum, Otterlo.</note>
+               <note type="inventory">KMM, 108.317</note>
+               <note type="collection" xml:lang="en">Kröller-Müller Museum, Otterlo</note>
+               <note type="collection" xml:lang="en">Kröller-Müller Museum, Otterlo</note>
+               <note type="photocredits" xml:lang="nl">Foto: Rik Klein Gotink</note>
+               <note type="photocredits" xml:lang="en">Photo: Rik Klein Gotink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii054">
+               <head xml:lang="en">Nude on a Couch in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="95" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="60" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="95" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="60" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 95 × 60 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 95 × 60 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD download (met watermerk) Vragen Chris, zie https://rkd.nl/nl/explore/images/110177</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii055">
+               <head xml:lang="en">Woman on a Couch in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="88,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="49,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="88.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="49.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 88,5 × 49,5 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 88.5 × 49.5 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD (downloaden met lelijk watermerk) via internet? Vragen Chris; zie https://rkd.nl/nl/explore/images/record?query=isaac+israels&amp;start=77</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii056">
+               <head xml:lang="en">Portrait of Juliette van Buuren-Polak</head>
+               <date type="creation" xml:lang="nl">1912</date>
+               <date type="creation" xml:lang="en">1912</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="32" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="25,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="32" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="25.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Olieverf op paneel, 32 × 25,5 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on panel, 32 × 25.5 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD downloaden of via internet; vragen Chris</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii057">
+               <head xml:lang="en">Juliette van Buuren-Polak</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "afmetingen onbekend"-->
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <catRef target="TODO" scheme="#OBJALG">photograph</catRef>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Foto, afmetingen onbekend. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Photo, dimensions unknown. Whereabouts unknown.</note>
+               <note type="inventory">Internet, opgenomen in Joods Monument.</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii058">
+               <head xml:lang="en">Woman in purple blouse in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="65,1" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="40,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="65.1" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 65,1 × 40,5 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 65.1 × 40.5 cm. Whereabouts unknown.</note>
+               <note type="inventory">internet: https://www.alamy.com/israels-isaac-vrouw-voor-zonnebloemen-van-van-gogh-1-image217600671.html</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii059">
+               <head xml:lang="en">Woman in Profile in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="71" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="59" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="71" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="59" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 71 × 59 cm. Museum de Fundatie, Zwolle en Heino/Wije.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 71 × 59 cm. Museum de Fundatie, Zwolle and Heino/Wije.</note>
+               <note type="inventory">Inv.nr. 2115</note>
+               <note type="collection" xml:lang="en">Museum de Fundatie, Zwolle en Heino/Wije</note>
+               <note type="collection" xml:lang="en">Museum de Fundatie, Zwolle and Heino/Wije</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii060">
+               <head xml:lang="en">Woman sitting in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="84" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="57" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="84" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="57" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 84 × 57 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 84 × 57 cm. Private collection.</note>
+               <note type="inventory">Eigenaar vragen, eventueel</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii061">
+               <head xml:lang="en">Portrait of Rosalie Zélander-Caffé in front of Van Gogh's Sunflowers</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="58,8" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="43,3" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="58.8" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="43.3" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 58,8 × 43,3 cm. Frans Halsmuseum | De Hallen, Haarlem. Legaat van de geportretteerde, 1969.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 58.8 × 43.3 cm. Frans Halsmuseum | De Hallen, Haarlem. Bequest of the person portrayed, 1969.</note>
+               <note type="inventory">msch 69-8.</note>
+               <note type="collection" xml:lang="en">Frans Halsmuseum | De Hallen, Haarlem (legaat van de geportretteerde, 1969)</note>
+               <note type="collection" xml:lang="en">Frans Halsmuseum | De Hallen, Haarlem (bequest of the person portrayed, 1969)</note>
+               <note type="photocredits" xml:lang="nl">Foto: Arend Velsink</note>
+               <note type="photocredits" xml:lang="en">Photo: Arend Velsink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii062">
+               <head xml:lang="en">After the Masked Ball</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="85" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="135" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="85" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="135" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 85 × 135 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 85 × 135 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD vragen Chris</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii063">
+               <head xml:lang="en">In the Studio,</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="89" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="120" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="89" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="120" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 89 × 120 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 89 × 120 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD vragen Chris</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii064">
+               <head xml:lang="en">In the Studio</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="91" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="117,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="91" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="117.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 91 × 117,5 cm. Kunstmuseum, Den Haag.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 91 × 117.5 cm. Kunstmuseum, The Hague.</note>
+               <note type="inventory">objectnummer 0331646</note>
+               <note type="collection" xml:lang="en">Kunstmuseum, Den Haag</note>
+               <note type="collection" xml:lang="en">Kunstmuseum, The Hague</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii065">
+               <head xml:lang="en">Woman sleeping</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="50,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="60,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="60.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 50,5 × 60,5 cm. Centraal Museum, Utrecht. Bruikleen Stichting Van Baaren Museum, 1980.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 50.5 × 60.5 cm. Centraal Museum, Utrecht. Loan Van Baaren Museum Fondation, 1980.</note>
+               <note type="inventory">Inv.nr. 21849</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (bruikleen Stichting Van Baaren Museum, 1980)</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (loan Van Baaren Museum Foundation, 1980)</note>
+               <note type="photocredits" xml:lang="nl">Centraal Museum, Utrecht / Ernst Moritz</note>
+               <note type="photocredits" xml:lang="en">Centraal Museum, Utrecht / Ernst Moritz</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii066">
+               <head xml:lang="en">Girl reading on a Couch</head>
+               <date type="creation" xml:lang="nl">1915-1916</date>
+               <date type="creation" xml:lang="en">1915-1916</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="66" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="100,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="66" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="100.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 66 × 100,5 cm. Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 66 × 100.5 cm. Private collection.</note>
+               <note type="inventory">Eigenaar vragen, eventueel</note>
+               <note type="collection" xml:lang="en">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii067">
+               <head xml:lang="en">Young Woman</head>
+               <date type="creation" xml:lang="nl">1915-1920</date>
+               <date type="creation" xml:lang="en">1915-1920</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="44,5" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="33,5" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="44.5" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="33.5" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 44,5 × 33,5 cm. Centraal Museum, Utrecht. Bruikleen Stichting Van Baaren Museum, 1980.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 44.5 × 33.5 cm. Centraal Museum, Utrecht. Loan Van Baaren Museum Fondation, 1980.</note>
+               <note type="inventory">Inv.nr. 21946</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (bruikleen Stichting Van Baaren Museum, 1980)</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (loan Van Baaren Museum Foundation, 1980)</note>
+               <note type="photocredits" xml:lang="nl">Centraal Museum, Utrecht / Hans Wilschut</note>
+               <note type="photocredits" xml:lang="en">Centraal Museum, Utrecht / Hans Wilschut</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii068">
+               <head xml:lang="en">Jo van Gogh-Bonger, Address of the Hotel Pomona in The Hague</head>
+               <date type="creation" xml:lang="nl">ongedateerd</date>
+               <date type="creation" xml:lang="en">no date</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">document</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b8598b verso</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii069">
+               <head xml:lang="en">Willem Steenhoff to Jo van Gogh-Bonger, List of works on loan to the Rijksmuseum in Amsterdam</head>
+               <date type="creation" xml:lang="nl">1918</date>
+               <date type="creation" xml:lang="en">1918</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <!--Invalid NL measure specification, "* × * cm"-->
+               <!--Invalid EN measure specification, "* × * cm"-->
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">document</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, * × * cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b5611, verso</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii070">
+               <head xml:lang="en">Jo van Gogh-Bonger, Diary 4, p. 91; 13 November 1894</head>
+               <date type="creation" xml:lang="nl">1894</date>
+               <date type="creation" xml:lang="en">1894</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!----></relation>
+               <graphic url="TODO"/>
+               <note type="technical" xml:lang="nl"/>
+               <catRef target="TODO" scheme="#OBJALG">document</catRef>
+               <note type="technical" xml:lang="en"/>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="inventory">VGM, b4550-004 / 094095</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii071">
+               <head xml:lang="en">Self-Portrait with a Portrait of Raden Mas Jodjana in the Background</head>
+               <date type="creation" xml:lang="nl">1919</date>
+               <date type="creation" xml:lang="en">1919</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="50,2" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="40,3" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.2" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.3" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Olieverf op doek, 50,2 × 40,3 cm. Van Gogh Museum, Amsterdam, ter plaatsing in De Mesdag Collectie, Den Haag. Legaat van mevrouw Chavoix-Jodjana.</note>
+               <note type="creditline" xml:lang="en">Oil on canvas, 50.2 × 40.3 cm. Van Gogh Museum, Amsterdam, for placement in De Mesdag Collectie, Den Haag. Bequest Mrs Chavoix-Jodjana.</note>
+               <note type="inventory">VGM, s0550S2021</note>
+               <note type="collection" xml:lang="en">De Mesdag Collectie, Den Haag (legaat van mevrouw Chavoix-Jodjana)</note>
+               <note type="collection" xml:lang="en">De Mesdag Collectie, Den Haag (bequest Mrs Chavoix-Jodjana)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii072">
+               <head xml:lang="en">Self-Portrait Wearing a Black Hat</head>
+               <date type="creation" xml:lang="nl">ongedateerd (waarschijnlijk tussen 1894 en 1898)</date>
+               <date type="creation" xml:lang="en">no date (likely between 1894 and 1898)</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="21" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="13,4" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="21" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="13.4" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Pen op papier, 21 × 13,4 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Pen on paper, 21 × 13.4 cm. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation). </note>
+               <note type="inventory">VGM, d0754</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        source="TODO"
+                        corresp="TODO"
+                        xml:id="ii073">
+               <head xml:lang="en">Ludgate Hill circus in London</head>
+               <date type="creation" xml:lang="nl">ca. 1913</date>
+               <date type="creation" xml:lang="en">ca. 1913</date>
+               <relation name="creator" ref="bio;ost.xml#TODO"><!--Isaac Israëls--></relation>
+               <graphic url="TODO"/>
+               <measure commodity="size-hor" unit="cm" quantity="65" xml:lang="nl"/>
+               <measure commodity="size-ver" unit="cm" quantity="50" xml:lang="nl"/>
+               <measure commodity="size-hor" unit="cm" quantity="65" xml:lang="en"/>
+               <measure commodity="size-ver" unit="cm" quantity="50" xml:lang="en"/>
+               <note type="technical" xml:lang="nl">Aquarel op papier</note>
+               <catRef target="TODO" scheme="#OBJALG">artwork</catRef>
+               <note type="technical" xml:lang="en">Watercolour on paper</note>
+               <note type="creditline" xml:lang="nl">Aquarel op papier, 65 × 50 cm. Verblijfplaats onbekend.</note>
+               <note type="creditline" xml:lang="en">Watercolour on paper, 65 × 50 cm. Whereabouts unknown.</note>
+               <note type="inventory">RKD, afbeeldingsnummer 1001158094 vragen Chris, zie https://rkd.nl/nl/explore/images/248124</note>
+               <note type="collection" xml:lang="en">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl"/>
+               <note type="photocredits" xml:lang="en"/>
+            </ed:artwork>
+         </listObject>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 4 juli 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 4 July 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8569V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>013</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-07-04"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst. 4 juli</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Lieve Mevrouw,</p>
+            <p xml:id="p.orig.nl.3" n="3">Ik had gedacht misschien nog op tijd thuis te komen om u te treffen want ik was vanochtend een beetje buiten gaan teekenen. Ik vrees nu echter dat u er al geweest is voor ik terug was, wat mij zeer spijt. Ik ben nu echter van plan U de volgende week eens te komen opzoeken, misschien breng ik dan nog een kennis van mij mee die ook graag uw schilderijen eens wou zien.<ptr type="note" target="#note.orig.nl.1"/> Vind U dit goed? En welke dag is het dan het beste. U heeft wel veel logés vrees ik op dit oogenblik.<ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.5" n="5">Uw</p>
+            <p xml:id="p.orig.nl.6" n="6">Isaac Israels</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst. 4 July</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dearest Madam,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I had thought I might have got home in time to catch you, because I had gone out for a bit to draw this morning. But now I’m afraid that you had already been before I was back, for which I’m very sorry. However, I now plan to come and visit you next week, perhaps I will bring an acquaintance of mine who would also like to see your paintings at some time.<ptr type="note" target="#note.tr.en.1"/> Is this all right with you? And which day would be the best then? I’m afraid you have a lot of guests at the moment.<ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">Your</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Isaac Israels</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e1992" type="dating">
+            <p>Briefhoofd: ‘4 juli’. Er is nog geen sprake van intimiteit, al permitteert Israëls zich al wel de aanhef ‘Lieve mevrouw’. Op 12 augustus 1895 zouden ze samen in Amsterdam naar een voorstelling door het gezelschap <hi rend="italics">Chat Noir</hi> gaan. Zie <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p, 95. De brief zal daarom waarschijnlijk van 1895 zijn. Vgl. ook brief <ref target="ii011.xml">011</ref>.</p>
+            <p>Voorgedrukt briefhoofd: ‘<hi rend="blockletter">café bellevue. / g.a. hendriks. / plantage middenlaan 4, / amsterdam</hi>. // <hi rend="italics">Amsterdam, ………………189</hi>’.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e2081" type="dating">
+            <p>Letter headed 4 July. There is no question of intimacy at this point, although Israëls did permit himself to address her as ‘Dearest Madam’. They were to go together to a performance by the <hi rend="italics">Chat Noir</hi> company in Amsterdam on 12 August 1895. See <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, p. 95. The letter will therefore probably date from 1895. Cf. also letter <ref target="ii011.xml">011</ref>.</p>
+            <p>Printed letterhead: ‘<hi rend="blockletter">café bellevue</hi>. / <hi rend="blockletter">g.a. hendriks</hi>. / <hi rend="blockletter">plantage middenlaan 4</hi>, / <hi rend="blockletter">amsterdam</hi>. // <hi rend="italics">Amsterdam, ………………189</hi>’.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Die kennis was waarschijnlijk de Nederlandse kunstenaar <rs type="person" ref="bio.xml#pers018">Carel Adolph Lion Cachet</rs> (zie brief <ref target="ii014.xml">014</ref>).</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Israëls bedoelt pensiongasten van Jo in haar Bussumse villa <hi rend="italics">Helma</hi>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>This acquaintance was probably the Dutch artist <rs type="person" ref="bio.xml#pers018">Carel Adolph Lion Cachet</rs> (see letter <ref target="ii014.xml">014</ref>). </p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p style="text-align: justify;">Israëls means guests at Villa Helma, Jo’s boarding house in Bussum.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

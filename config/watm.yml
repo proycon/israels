@@ -1,0 +1,7 @@
+textRepoLevel: 2
+excludeElements:
+  - pb
+  - lb
+  - chunk
+  - token
+asTsv: true

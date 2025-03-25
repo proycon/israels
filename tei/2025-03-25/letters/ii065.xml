@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="md"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, waarschijnlijk 9 november 1914.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, probably 9 November 1914.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2999-12-31">TODO date</date>
+            <availability status="unknown">
+               <licence target="dummy">
+                  <p>Dummy</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8601V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>065</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="≈1914-11-09"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="todo"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Zaterdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Is ’t je wellicht hetzelfde om <hi rend="italics">Dinsdag</hi> in plaats van Maandag te komen? Antwoord mij even p.o. s.v.p. en kom Dinsdag als je maar eenigzins kunt. De Molen<ptr type="note" target="#note.orig.nl.1"/> heb ik opgehangen maar ’t staat wel raar voor de oudere dingen! Je moet maar eens komen zien.</p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Ik had je wel opgebeld doch vreesde dat je er niet was.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">À bientôt.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Saturday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Might it be all the same to you to come on <hi rend="italics">Tuesday</hi> instead of Monday? Answer me right away, please, and come on Tuesday if you possibly can. I’ve hung The Mill,<ptr type="note" target="#note.tr.en.1"/> but it looks really odd with the older things! You must come and see.</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">I did phone you but I’m afraid you weren’t there.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">À bientôt.<ptr type="note" target="#note.tr.en.a"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d425e9598" type="dating">
+            <p>Op vrijdag 6 november 1914 bericht Israëls dat hij Jo ‘volgende week’ zal bellen om iets af te spreken (brief <ref target="ii064.xml">064</ref>). In de onderhavige zegt hij dat te hebben gedaan, maar dat Jo niet had opgenomen en dus niet thuis zal zijn geweest. Op dinsdag 10 november 1914 geeft hij haar zijn telefoonnummer en vraagt hij haar hem te bellen (brief <ref target="ii066.xml">066</ref>). Daarom is aan de brief de datum waarschijnlijk maandag 9 november 1914 toegekend.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d425e9649" type="dating">
+            <p>On Friday 6 November 1914 Israëls tells Jo that he will call her next week to arrange something (letter <ref target="ii064.xml">064</ref>). In the present letter he says that he had done that, but Jo had not answered and so must have been out. On Tuesday 10 November 1914 he gives her his telephone number and asks her to call him (letter <ref target="ii066.xml">066</ref>). The letter has consequently been assigned the date probably Monday 9 November 1914.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Israëls had Vincent van Goghs <hi rend="italics">Molen op Montmartre (Le Moulin de la Galette)</hi> (F 349 / JH 1184), 1886 in zijn bezit. <graphic url="ii020"/> Het is niet bekend langs welke weg en wanneer Israëls dit werk verwierf.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Israëls owned Vincent van Gogh’s <hi rend="italics">Le Moulin de la Galette</hi> (F 349 / JH 1184), 1886. <graphic url="ii020"/> There is no clue as to how or when Israëls acquired this work.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>See you soon.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>
