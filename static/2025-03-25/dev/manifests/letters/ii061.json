@@ -100,39 +100,78 @@
    ]
   },
   {
-   "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/NA",
+   "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v2",
    "type": "Canvas",
    "label": {
     "en": [
-     "NA"
+     "z1v2"
     ]
    },
    "height": 0,
    "width": 0,
    "items": [
     {
-     "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/NA/annotationpage",
+     "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v2/annotationpage",
      "type": "AnnotationPage",
      "items": [
       {
-       "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/NA/anno",
+       "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v2/anno",
        "type": "Annotation",
        "motivation": "painting",
        "body": {
-        "id": "http://localhost:8087/iiif/3/thumb|pages|NA.jpg/full/max/0/default.jpg",
+        "id": "http://localhost:8087/iiif/3/thumb|pages|z1v2.jpg/full/max/0/default.jpg",
         "type": "Image",
         "height": 0,
         "width": 0,
         "service": [
          {
-          "id": "http://localhost:8087/iiif/3/thumb|pages|NA.jpg",
+          "id": "http://localhost:8087/iiif/3/thumb|pages|z1v2.jpg",
           "type": "ImageService3",
           "profile": "http://iiif.io/api/image/3/level1.json"
          }
         ],
         "format": "image/jpeg"
        },
-       "target": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/NA"
+       "target": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v3",
+   "type": "Canvas",
+   "label": {
+    "en": [
+     "z1v3"
+    ]
+   },
+   "height": 0,
+   "width": 0,
+   "items": [
+    {
+     "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v3/annotationpage",
+     "type": "AnnotationPage",
+     "items": [
+      {
+       "id": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v3/anno",
+       "type": "Annotation",
+       "motivation": "painting",
+       "body": {
+        "id": "http://localhost:8087/iiif/3/thumb|pages|z1v3.jpg/full/max/0/default.jpg",
+        "type": "Image",
+        "height": 0,
+        "width": 0,
+        "service": [
+         {
+          "id": "http://localhost:8087/iiif/3/thumb|pages|z1v3.jpg",
+          "type": "ImageService3",
+          "profile": "http://iiif.io/api/image/3/level1.json"
+         }
+        ],
+        "format": "image/jpeg"
+       },
+       "target": "http://localhost:8087/files/static/manifests/letters/ii061.json/canvas/pages/z1v3"
       }
      ]
     }

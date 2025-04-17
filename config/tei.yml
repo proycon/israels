@@ -30,7 +30,7 @@ templates:
   - bibliolist
   - artworklist
 adaptations:
-  - vg
+  - ji
 templateTrigger: "?editem@template"
 adaptationTrigger: "?editem@adaptation"
 prelim: false
