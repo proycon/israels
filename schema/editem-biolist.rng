@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-03-19T12:29:20Z. .
+Schema generated from ODD source 2025-03-26T11:02:50Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -2093,6 +2093,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
          <ref name="tei_nameLink"/>
+         <ref name="tei_addName"/>
       </choice>
    </define>
    <define name="tei_model.persNamePart_alternation">
@@ -2100,12 +2101,14 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
          <ref name="tei_nameLink"/>
+         <ref name="tei_addName"/>
       </choice>
    </define>
    <define name="tei_model.persNamePart_sequence">
       <ref name="tei_surname"/>
       <ref name="tei_forename"/>
       <ref name="tei_nameLink"/>
+      <ref name="tei_addName"/>
    </define>
    <define name="tei_model.persNamePart_sequenceOptional">
       <optional>
@@ -2116,6 +2119,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       </optional>
       <optional>
          <ref name="tei_nameLink"/>
+      </optional>
+      <optional>
+         <ref name="tei_addName"/>
       </optional>
    </define>
    <define name="tei_model.persNamePart_sequenceOptionalRepeatable">
@@ -2128,6 +2134,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <zeroOrMore>
          <ref name="tei_nameLink"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_addName"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.persNamePart_sequenceRepeatable">
       <oneOrMore>
@@ -2138,6 +2147,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_nameLink"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_addName"/>
       </oneOrMore>
    </define>
    <define name="tei_att.datable.iso.attributes">
@@ -2299,6 +2311,16 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_addName">
+      <element name="addName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>

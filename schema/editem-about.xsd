@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2025-03-12T11:29:28Z. .
+    Schema generated from ODD source 2025-04-01T08:37:43Z. .
     TEI Edition: 
     TEI Edition Location: https://www.tei-c.org/Vault/P5//
     
@@ -3574,18 +3574,22 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
               <xs:documentation/>
             </xs:annotation>
             <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="indent">
-                  <xs:annotation>
-                    <xs:documentation/>
-                  </xs:annotation>
-                </xs:enumeration>
-                <xs:enumeration value="line-above">
-                  <xs:annotation>
-                    <xs:documentation/>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
+              <xs:list>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="indent">
+                      <xs:annotation>
+                        <xs:documentation/>
+                      </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="whiteline-above">
+                      <xs:annotation>
+                        <xs:documentation/>
+                      </xs:annotation>
+                    </xs:enumeration>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:list>
             </xs:simpleType>
           </xs:attribute>
         </xs:extension>
@@ -4575,6 +4579,7 @@ Measures]</xs:documentation>
       <xs:attributeGroup ref="tei:tei_att.global.attribute.xmlid"/>
       <xs:attributeGroup ref="tei:tei_att.global.attribute.n"/>
       <xs:attributeGroup ref="tei:tei_att.global.attribute.xmllang"/>
+      <xs:attributeGroup ref="tei:tei_att.global.linking.attribute.corresp"/>
       <xs:attributeGroup ref="tei:tei_att.global.rendition.attribute.rend"/>
       <xs:attributeGroup ref="tei:tei_att.global.rendition.attribute.style"/>
       <xs:attributeGroup ref="tei:tei_att.global.responsibility.attribute.cert"/>

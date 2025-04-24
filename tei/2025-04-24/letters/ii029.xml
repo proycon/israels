@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, waarschijnlijk na 15 augustus 1896.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, probably after 15 August 1896. </title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8566V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>029</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date notBefore="1896-08-15" cert="low"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8566V2008_b"/>
+         <zone n="1r1"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r2"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="NOTFOUND"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+         <zone n="1v4"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v4"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">Zaterdagavond</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het spijt me dat je ’t je zoo aantrekt en ik geloof dat ik mezelf geduchte verwijten moest doen. Heb ik je niet goed behandeld en was ’t beste geweest dat ik je van ’t begin af aan niet meer had terug gezien? Ik ben namelijk zelf ook zeer lafhartig en ik von ’t altijd heel plezierig om je, al was ’t ook op een afstand, bij de hand te hebben. Het maakte voor mij wèl meer verschil of je bij me kwam dan jij zoo denkt. Hoe stel je je mij voor? Een soort van artiest (ik hou niet van dat woord maar dat doet er nu niet toe) levend in idealen, allerlei dingen hebbend waar jij niet van wist.– <pb f="1r" facs="#z1r2" n="2"/> Het is te aardig om ’t tegen te spreken maar je hebt geen begrip van de realiteit en van ’t gedonder dat iemand heeft om iets te bereiken, of niets.– Jij beschouwt me altijd als een soort van gearriveerd mensch, iemand die nu maar door moet gaan of kan gaan en die over zijn toekomst kan oordeelen of beschikken. Terwijl jij denkt dat ik in een veilig hutje zit met mijn werkje en niets meer behoef dan een lief vrouwtje zwalk ik intusschen op zee te midden van verschillende orkanen. Is ’t niet mijn plicht om een passagier af te wijzen al wil die nog zoo graag mee. Ik heb ’t je al dikwijls gezegd: ik kan er niet eens over  <hi rend="italics">denken</hi>, over iets duurzaams bedoel ik, in den zin waarin jij ’t bedoelt en überhaupt.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">
+               <pb f="1v" facs="#z1v3" n="3"/> Bij mij is zeer sterk ontwikkeld, ’t gevoel van de vergankelijkheid van de dingen, en dat zal me ook wel beletten om ooit wat de menschen noemen “gelukkig” te zijn, want dat is juist een gevoel van duurzaamheid geloof ik. Denk daarom niet dat ik me ongelukkig voel. Ik ben weer gelukkig op mijn manier. Als alles toch voorbij gaat en op ’t laatst ikzelf ook, is dat niet goed? De eeuwen zullen wel blijven voortrollen. </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Daarom, ik ken me genoeg – ik zal me troosten, ook als ik je niet meer zie.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Als ik nu dacht of voelde: wij moeten en we <hi rend="italics">zullen</hi> bij elkaar <hi rend="italics">hooren</hi>, dan zou ik ’t zeggen. Maar laat ik volkomen eerlijk zijn: zo voel ik ’t niet. <pb f="1v" facs="#z1v4" n="4"/> Ik heb ’t altijd beschouwd als een magnifieke vergissing van je, een onverdiende en unieke bonne fortune  <ptr type="note" target="#note.orig.nl.a"/> waar ’t toch eigenlijk niet mooi van was dat ik wilde profiteren, maar ’t was te prettig voor me – en iemand als jij zal ik wel niet meer ontmoeten, dat wist ik wel.</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">– Dus ik zal je niet vergeten.</p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">Maar wel geloof ik dat ’t voor jou het beste is om elkaar niet meer te zien.</p>
+            <p xml:id="p.orig.nl.10" n="10" rend="indent">Het spijt me verdomd, geloof me, maar ik vind<ptr type="note" target="#note.orig.nl.1"/> dat je gelijk hebt dat je ’t niet meer wilt.</p>
+            <p xml:id="p.orig.nl.11" n="11" rend="indent">Laat de tijd er maar eens overheen gaan.</p>
+            <p xml:id="p.orig.nl.12" n="12" rend="indent">Ik zal je een portretje sturen zoo gauw ik ’t afheb.</p>
+            <p xml:id="p.orig.nl.13" n="13" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.14" n="14">Yours</p>
+            <p xml:id="p.orig.nl.15" n="15">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Saturday evening</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I’m sorry that you took it so badly, I believe that I am very much to blame. Did I not treat you well and would it have been best if I hadn’t seen you any more again from the outset? I am also very cowardly myself and I always found it very pleasant to have you around, even if it was at a distance. It did make more difference when you came to me than you seem to think. How do you think of me? A sort of artiste (I don’t like that word, but it doesn’t matter) living in ideals, having all sorts of things you knew nothing about.– <pb f="1r" facs="#z1r2" n="2"/> It’s too easy to contradict it but you have no understanding of the reality and of the trouble someone has to achieve something, or nothing.– You always regard me as a sort of well-to-do person, someone who now just has to carry or can carry on and can just decide or control his future. While you think I’m in a safe little cabin with my work and need nothing more than a sweet little woman, in fact I’m adrift at sea buffeted by several hurricanes. It’s my duty to reject a passenger, even though that person still really wants to come with me. As I’ve told you many times before, I can’t even  <hi rend="italics">think</hi>, about something more permanent I mean, in the way that you mean it.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">
+               <pb f="1v" facs="#z1v3" n="3"/> The sense of the transitoriness of things is very strongly developed in me, and that will prevent me from ever being what people call ‘happy’, because that’s just a feeling of permanence I believe. Don’t think I feel unhappy because of it. I’m happy in my own way. And when everything passes and at the end I do too, isn’t that good? The centuries will keep rolling on. </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">Therefore, I know myself well enough – I shall console myself, even if I don’t see you any more.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">If I thought or felt now that we must and we <hi rend="italics">shall belong</hi> together, I would say so. But let me be completely honest: that’s not what I feel. <pb f="1v" facs="#z1v4" n="4"/> I’ve always considered it as a magnificent mistake of yours, an undeserved and unique piece of good fortune and it was in fact not kind of me to want to profit from it, but it was too enjoyable for me – and I’ll never meet anyone else like you, I knew that. </p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">– So I shan’t forget you.</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">But I do think that it’s the best thing for you if we don’t see each other again.</p>
+            <p xml:id="p.tr.en.10"
+               corresp="#p.orig.nl.10"
+               n="10"
+               rend="indent">I’m damned sorry, believe me, but I think<ptr type="note" target="#note.tr.en.1"/> that you’re right that you don’t want it any more.</p>
+            <p xml:id="p.tr.en.11"
+               corresp="#p.orig.nl.11"
+               n="11"
+               rend="indent">Just let time pass.</p>
+            <p xml:id="p.tr.en.12"
+               corresp="#p.orig.nl.12"
+               n="12"
+               rend="indent">I’ll send you a little portrait as soon as I’ve finished it.</p>
+            <p xml:id="p.tr.en.13"
+               corresp="#p.orig.nl.13"
+               n="13"
+               rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.14" corresp="#p.orig.nl.14" n="14">Yours</p>
+            <p xml:id="p.tr.en.15" corresp="#p.orig.nl.15" n="15">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e3937" type="dating">
+            <p>Israëls wil de relatie met Jo niet meer voortzetten – dit speelt waarschijnlijk in 1896. In deze brief schrijft hij bovendien: ‘Ik zal je een portretje sturen zoo gauw ik ’t afheb’, terwijl hij in een brief van 15 augustus 1896 opmerkt: ‘Wees zoo goed en kom ten spoedigste want ik wou een portret van je maken’ (brief <ref target="ii028.xml">028</ref>). Daarom is de onderhavige brief ‘waarschijnlijk na 15 augustus 1896’ gedateerd.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e4020" type="dating">
+            <p>Israëls wants to end the relationship with Jo – this probably happened in 1896. In this letter he moreover writes: ‘I’ll send you a little portrait as soon as I’ve finished it’, while in a letter of 15 August 1896 he asks: ‘Be so good as to come as soon as possible because I want to make a portrait of you’ (letter <ref target="ii028.xml">028</ref>). The present letter is therefore dated probably after 15 August 1896.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Onzekere eindlezing – waarschijnlijk overschreef Israëls het woord ‘geloof’ met ‘vind’ en niet andersom.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Uncertain reading of an overwritten word here. Israëls probably changed ‘believe’ to ‘think’ rather than the other way round.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Succes, geluk in de liefde.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-03-12T11:29:28Z. .
+Schema generated from ODD source 2025-04-01T08:37:43Z. .
 TEI Edition: 
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
   
@@ -3429,12 +3429,16 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <optional>
             <attribute name="rend">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>indent</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>line-above</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
+               <list>
+                  <zeroOrMore>
+                     <choice>
+                        <value>indent</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>whiteline-above</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                     </choice>
+                  </zeroOrMore>
+               </list>
             </attribute>
          </optional>
          <empty/>
@@ -4203,6 +4207,7 @@ Measures]</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
          <ref name="tei_att.global.rendition.attribute.rend"/>
          <ref name="tei_att.global.rendition.attribute.style"/>
          <ref name="tei_att.global.responsibility.attribute.cert"/>
@@ -6191,14 +6196,14 @@ Suggested values include: 1] label; 2] data</a:documentation>
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="about-body-body-corresp-on-dutch-constraint-rule-34">
+                  id="about-body-body-corresp-on-english-constraint-rule-34">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="@corresp">
                <sch:let name="name" value="parent::*/local-name()"/>
                <sch:let name="id" value="parent::*/@xml:id"/>
-               <sch:report test="ancestor::tei:div[@xml:lang='nl' and ancestor::tei:body[@divRole='doc-translations']]">Corresp attribute not allowed on <sch:value-of select="$name"/> element in div with Dutch text, xml:id=<sch:value-of select="$id"/>.</sch:report>
+               <sch:report test="ancestor::tei:div[@xml:lang='en' and ancestor::tei:body[@divRole='doc-translations']]">Corresp attribute not allowed on <sch:value-of select="$name"/> element in div with English text, xml:id=<sch:value-of select="$id"/>.</sch:report>
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"

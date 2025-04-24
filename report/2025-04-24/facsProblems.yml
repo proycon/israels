@@ -1,0 +1,113 @@
+facsNotDeclared:
+  letters/ii80.xml:
+  - z2r3
+  - z2v4
+facsNotUsed:
+  letters/ii008.xml:
+    surface:
+    - s1r
+  letters/ii010.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii012.xml:
+    surface:
+    - s1r
+  letters/ii017.xml:
+    surface:
+    - s1r
+  letters/ii018.xml:
+    surface:
+    - s1r
+  letters/ii020.xml:
+    surface:
+    - s1v
+  letters/ii022.xml:
+    surface:
+    - s1r
+  letters/ii029.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii030.xml:
+    surface:
+    - s1r
+  letters/ii035.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii036.xml:
+    surface:
+    - s1r
+  letters/ii040.xml:
+    surface:
+    - s1r
+  letters/ii041.xml:
+    surface:
+    - s1v
+  letters/ii042.xml:
+    surface:
+    - s1r
+  letters/ii046.xml:
+    surface:
+    - s1v
+  letters/ii048.xml:
+    surface:
+    - s1v
+  letters/ii057.xml:
+    surface:
+    - s1r
+  letters/ii058.xml:
+    surface:
+    - s1v
+  letters/ii060.xml:
+    surface:
+    - s1v
+  letters/ii061.xml:
+    surface:
+    - s1v
+  letters/ii062.xml:
+    surface:
+    - s1v
+  letters/ii069.xml:
+    surface:
+    - s1v
+  letters/ii076.xml:
+    surface:
+    - s1v
+  letters/ii079.xml:
+    surface:
+    - s1v
+  letters/ii082.xml:
+    surface:
+    - s1v
+  letters/ii092.xml:
+    surface:
+    - s1r
+  letters/ii093.xml:
+    surface:
+    - s1v
+  letters/ii094.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii096.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii098.xml:
+    surface:
+    - s1r
+    - s1v
+  letters/ii099.xml:
+    surface:
+    - s1v
+  letters/ii80.xml:
+    surface:
+    - s1r
+    - s1v
+    - s2r3
+    - s2v4
+    zone:
+    - z1r4
+    - z1v3

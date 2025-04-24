@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2025-03-19T12:29:20Z. .
+    Schema generated from ODD source 2025-03-26T11:02:50Z. .
     TEI Edition: Version 4.3.0. Last updated on
             31st August 2021, revision b4f72b1ff
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -1951,6 +1951,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element ref="tei:surname"/>
       <xs:element ref="tei:forename"/>
       <xs:element ref="tei:nameLink"/>
+      <xs:element ref="tei:addName"/>
     </xs:choice>
   </xs:group>
   <xs:group name="tei_model.persNamePart_alternation">
@@ -1958,6 +1959,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element ref="tei:surname"/>
       <xs:element ref="tei:forename"/>
       <xs:element ref="tei:nameLink"/>
+      <xs:element ref="tei:addName"/>
     </xs:choice>
   </xs:group>
   <xs:group name="tei_model.persNamePart_sequence">
@@ -1965,6 +1967,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element ref="tei:surname"/>
       <xs:element ref="tei:forename"/>
       <xs:element ref="tei:nameLink"/>
+      <xs:element ref="tei:addName"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.persNamePart_sequenceOptional">
@@ -1972,6 +1975,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element minOccurs="0" ref="tei:surname"/>
       <xs:element minOccurs="0" ref="tei:forename"/>
       <xs:element minOccurs="0" ref="tei:nameLink"/>
+      <xs:element minOccurs="0" ref="tei:addName"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.persNamePart_sequenceOptionalRepeatable">
@@ -1979,6 +1983,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:surname"/>
       <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:forename"/>
       <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:nameLink"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:addName"/>
     </xs:sequence>
   </xs:group>
   <xs:group name="tei_model.persNamePart_sequenceRepeatable">
@@ -1986,6 +1991,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:element maxOccurs="unbounded" ref="tei:surname"/>
       <xs:element maxOccurs="unbounded" ref="tei:forename"/>
       <xs:element maxOccurs="unbounded" ref="tei:nameLink"/>
+      <xs:element maxOccurs="unbounded" ref="tei:addName"/>
     </xs:sequence>
   </xs:group>
   <xs:attributeGroup name="tei_att.datable.iso.attributes">
@@ -2158,6 +2164,20 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:complexContent>
         <xs:extension base="tei:tei_macro.phraseSeq">
           <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addName">
+    <xs:annotation>
+      <xs:documentation>(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:tei_macro.phraseSeq">
+          <xs:attributeGroup ref="tei:tei_att.global.attributes"/>
+          <xs:attributeGroup ref="tei:tei_att.personal.attributes"/>
           <xs:attributeGroup ref="tei:tei_att.typed.attributes"/>
         </xs:extension>
       </xs:complexContent>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="about"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl">Brieven Isaac Israëls aan Jo Bonger. Colofon</title>
+                <title xml:lang="en">Letters Isaac Israëls to Jo Bonger. Credits</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History andCulture of the Netherlands (KNAW)</name>
+                    <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+                </publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date when="2024-03-12">12 March 2024</date>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                        <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <ptr type="webedition" target="https://xxx.yyy.nep/aaa/001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>N.A.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body divRole="doc-translations">
+            <div xml:lang="nl">
+                <head n="1" xml:id="head.tr.nl.1" corresp="#head.orig.en.1">Colofon</head>
+                <p n="2" xml:id="p.tr.nl.2" corresp="#p.orig.en.2">© 2025 Van Gogh Museum</p>
+                <p n="3" xml:id="p.tr.nl.3" corresp="#p.orig.en.3">Deze editie is gemaakt door het
+                        <ref target="https://www.vangoghmuseum.nl/">Van Gogh Museum</ref> en maakt
+                    deel uit van een reeks digitale uitgaven van documenten en brieven uit de
+                    collectie. Dit is de tweede uitgave. De originele brieven bevinden zich in het
+                    Van Gogh Museum (Vincent van Gogh Stichting).</p>
+                <p n="4" xml:id="p.tr.nl.4" corresp="#p.orig.en.4">Titelbeschrijving<lb/>Isaac
+                    Israëls, <hi rend="italics">Brieven aan Jo van Gogh-Bonger</hi>. Ed. Hans
+                    Luijten. Amsterdam, Van Gogh Museum 2025 <ref
+                        target="http://www.israëlsletters.org">www.israëlsletters.org</ref></p>
+                <p n="5" xml:id="p.tr.nl.5" corresp="#p.orig.en.5">Tekstbezorging en
+                    annotaties<lb/>Hans Luijten, Senior Onderzoeker, Van Gogh Museum</p>
+                <p n="6" xml:id="p.tr.nl.6" corresp="#p.orig.en.6">Tekstredactie en
+                    eindredacteur<lb/>Renske Suijver, Conservator De Mesdag Collectie, Den Haag, Van
+                    Gogh Museum</p>
+                <p n="7" xml:id="p.tr.nl.7" corresp="#p.orig.en.7">Projectleider<lb/>Michiel Goosen,
+                    Hoofd Collectie Informatie, Van Gogh Museum</p>
+                <p n="8" xml:id="p.tr.nl.8" corresp="#p.orig.en.8">Vertaler<lb/>Lynne Richards</p>
+                <p n="9" xml:id="p.tr.nl.9" corresp="#p.orig.en.9">XML<lb/>Hans de Groot en Pieter
+                    Masereeuw</p>
+                <p n="10" xml:id="p.tr.nl.10" corresp="#p.orig.en.10">Bouw website<lb/>***</p>
+                <p n="11" xml:id="p.tr.nl.11" corresp="#p.orig.en.11">Vormgeving<lb/>***</p>
+                <p n="12" xml:id="p.tr.nl.12" corresp="#p.orig.en.12">Contact<lb/>Voor opmerkingen
+                    over de inhoud van deze site, of als er problemen zijn bij het raadplegen, stuur
+                    een email naar <ref target="mailto:research@vangoghmuseum.nl"
+                        >research@vangoghmuseum.nl</ref></p>
+                <p rend="whiteline-above" n="13" xml:id="p.tr.nl.13" corresp="#p.orig.en.13">De uitgever heeft getracht
+                    alle rechthebbenden te achterhalen. Aan hen die desondanks menen aanspraak te
+                    kunnen maken op enig recht, wordt verzocht contact op te nemen met het Van Gogh
+                    Museum, Museumplein 6, 1071 DJ Amsterdam</p>
+            </div>
+            <div xml:lang="en">
+                <head n="1" xml:id="head.orig.en.1">Credits</head>
+                <p n="2" xml:id="p.orig.en.2">© 2025 Van Gogh Museum</p>
+                <p n="3" xml:id="p.orig.en.3">This edition was made by the <ref
+                        target="https://www.vangoghmuseum.nl/">Van Gogh Museum</ref> and is part of
+                    a series of digital editions of documents and letters from the collection. This
+                    is the second edition. The original letters are in the Van Gogh Museum (Vincent
+                    van Gogh Foundation).</p>
+                <p n="4" xml:id="p.orig.en.4">Title <lb/>Isaac Israëls, <hi
+                        rend="italics">Letters to Jo van Gogh-Bonger</hi>. Ed. Hans Luijten.
+                    Amsterdam, Van Gogh Museum 2025 <ref target="http://www.israelsletters.org"
+                        >www.israelsletters.org</ref></p>
+                <p n="5" xml:id="p.orig.en.5">Text and Notes <lb/>Hans Luijten,
+                    Senior Researcher, Van Gogh Museum</p>
+                <p n="6" xml:id="p.orig.en.6">Text Editing and Senior
+                    Editor<lb/>Renske Suijver, Curator The Mesdag Collection, The Hague, Van Gogh
+                    Museum</p>
+                <p n="7" xml:id="p.orig.en.7">Project Manager<lb/>Michiel
+                    Goosen, Head of Collection Information, Van Gogh Museum</p>
+                <p n="8" xml:id="p.orig.en.8">Translator<lb/>Lynne Richards</p>
+                <p n="9" xml:id="p.orig.en.9">XML<lb/>Hans de Groot and Pieter
+                    Masereeuw</p>
+                <p n="10" xml:id="p.orig.en.10">Website
+                    Construction<lb/>***</p>
+                <p n="11" xml:id="p.orig.en.11">Design<lb/>***</p>
+                <p n="12" xml:id="p.orig.en.12">Contact<lb/>For comments about
+                    the content of this site, or if there are problems consulting it, please email
+                        (<ref target="mailto:Research@vangoghmuseum.nl"
+                        >Research@vangoghmuseum.nl</ref>)</p>
+                <p rend="whiteline-above" n="13" xml:id="p.orig.en.13">The publisher has endeavoured
+                    to trace all copyright holders. Anyone who nevertheless believes that they can
+                    claim any right are required to contact the Van Gogh Museum, Museumplein 6, 1071
+                    DJ Amsterdam</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,4692 @@
+biolist.xml
+	1x       0refs    
+	Unique:        1
+	Non-unique:    0
+	Unused:        1
+	Referenced:    0 x    0
+about/Inleiding_introduction.xml
+	1x       0refs    div.orig.en.1
+	1x       0refs    div.orig.en.1.1
+	1x       0refs    div.orig.en.1.2
+	1x       0refs    div.orig.en.1.3
+	1x       0refs    div.orig.en.1.3.1
+	1x       0refs    div.orig.en.1.3.2
+	1x       0refs    div.orig.en.1.3.3
+	1x       0refs    div.orig.en.1.4
+	1x       0refs    div.orig.en.1.4.1
+	1x       0refs    div.orig.en.1.4.2
+	1x       0refs    div.orig.en.1.4.3
+	1x       0refs    div.orig.en.1.4.4
+	1x       0refs    div.orig.en.1.5
+	1x       0refs    div.orig.en.1.5.1
+	1x       0refs    div.orig.en.1.5.10
+	1x       0refs    div.orig.en.1.5.11
+	1x       0refs    div.orig.en.1.5.12
+	1x       0refs    div.orig.en.1.5.13
+	1x       0refs    div.orig.en.1.5.14
+	1x       0refs    div.orig.en.1.5.15
+	1x       0refs    div.orig.en.1.5.16
+	1x       0refs    div.orig.en.1.5.17
+	1x       0refs    div.orig.en.1.5.2
+	1x       0refs    div.orig.en.1.5.3
+	1x       0refs    div.orig.en.1.5.4
+	1x       0refs    div.orig.en.1.5.5
+	1x       0refs    div.orig.en.1.5.6
+	1x       0refs    div.orig.en.1.5.7
+	1x       0refs    div.orig.en.1.5.8
+	1x       0refs    div.orig.en.1.5.9
+	1x       0refs    div.orig.en.1.6
+	1x       0refs    div.tr.nl.1
+	1x       0refs    div.tr.nl.1.1
+	1x       0refs    div.tr.nl.1.2
+	1x       0refs    div.tr.nl.1.3
+	1x       0refs    div.tr.nl.1.3.1
+	1x       0refs    div.tr.nl.1.3.2
+	1x       0refs    div.tr.nl.1.3.3
+	1x       0refs    div.tr.nl.1.4
+	1x       0refs    div.tr.nl.1.4.1
+	1x       0refs    div.tr.nl.1.4.2
+	1x       0refs    div.tr.nl.1.4.3
+	1x       0refs    div.tr.nl.1.4.4
+	1x       0refs    div.tr.nl.1.5
+	1x       0refs    div.tr.nl.1.5.1
+	1x       0refs    div.tr.nl.1.5.10
+	1x       0refs    div.tr.nl.1.5.11
+	1x       0refs    div.tr.nl.1.5.12
+	1x       0refs    div.tr.nl.1.5.13
+	1x       0refs    div.tr.nl.1.5.14
+	1x       0refs    div.tr.nl.1.5.15
+	1x       0refs    div.tr.nl.1.5.16
+	1x       0refs    div.tr.nl.1.5.17
+	1x       0refs    div.tr.nl.1.5.2
+	1x       0refs    div.tr.nl.1.5.3
+	1x       0refs    div.tr.nl.1.5.4
+	1x       0refs    div.tr.nl.1.5.5
+	1x       0refs    div.tr.nl.1.5.6
+	1x       0refs    div.tr.nl.1.5.7
+	1x       0refs    div.tr.nl.1.5.8
+	1x       0refs    div.tr.nl.1.5.9
+	1x       0refs    div.tr.nl.1.6
+	1x       0refs    figure.orig.en.100
+	1x       0refs    figure.orig.en.102
+	1x       0refs    figure.orig.en.104
+	1x       0refs    figure.orig.en.107
+	1x       0refs    figure.orig.en.109
+	1x       0refs    figure.orig.en.112
+	1x       0refs    figure.orig.en.115
+	1x       0refs    figure.orig.en.119
+	1x       0refs    figure.orig.en.122
+	1x       0refs    figure.orig.en.125
+	1x       0refs    figure.orig.en.128
+	1x       0refs    figure.orig.en.13
+	1x       0refs    figure.orig.en.131
+	1x       0refs    figure.orig.en.134
+	1x       0refs    figure.orig.en.137
+	1x       0refs    figure.orig.en.139
+	1x       0refs    figure.orig.en.140
+	1x       0refs    figure.orig.en.141
+	1x       0refs    figure.orig.en.143
+	1x       0refs    figure.orig.en.15
+	1x       0refs    figure.orig.en.16
+	1x       0refs    figure.orig.en.17
+	1x       0refs    figure.orig.en.19
+	1x       0refs    figure.orig.en.23
+	1x       0refs    figure.orig.en.26
+	1x       0refs    figure.orig.en.30
+	1x       0refs    figure.orig.en.38
+	1x       0refs    figure.orig.en.39
+	1x       0refs    figure.orig.en.4
+	1x       0refs    figure.orig.en.40
+	1x       0refs    figure.orig.en.42
+	1x       0refs    figure.orig.en.44
+	1x       0refs    figure.orig.en.45
+	1x       0refs    figure.orig.en.49
+	1x       0refs    figure.orig.en.52
+	1x       0refs    figure.orig.en.54
+	1x       0refs    figure.orig.en.56
+	1x       0refs    figure.orig.en.59
+	1x       0refs    figure.orig.en.6
+	1x       0refs    figure.orig.en.7
+	1x       0refs    figure.orig.en.71
+	1x       0refs    figure.orig.en.73
+	1x       0refs    figure.orig.en.74
+	1x       0refs    figure.orig.en.78
+	1x       0refs    figure.orig.en.79
+	1x       0refs    figure.orig.en.82
+	1x       0refs    figure.orig.en.85
+	1x       0refs    figure.orig.en.90
+	1x       0refs    figure.orig.en.92
+	1x       0refs    figure.orig.en.95
+	1x       0refs    figure.orig.en.97
+	1x       0refs    figure.orig.en.98
+	1x       0refs    figure.orig.en.99
+	1x       0refs    figure.tr.nl.100
+	1x       0refs    figure.tr.nl.102
+	1x       0refs    figure.tr.nl.104
+	1x       0refs    figure.tr.nl.107
+	1x       0refs    figure.tr.nl.109
+	1x       0refs    figure.tr.nl.112
+	1x       0refs    figure.tr.nl.115
+	1x       0refs    figure.tr.nl.119
+	1x       0refs    figure.tr.nl.122
+	1x       0refs    figure.tr.nl.125
+	1x       0refs    figure.tr.nl.128
+	1x       0refs    figure.tr.nl.13
+	1x       0refs    figure.tr.nl.131
+	1x       0refs    figure.tr.nl.134
+	1x       0refs    figure.tr.nl.137
+	1x       0refs    figure.tr.nl.139
+	1x       0refs    figure.tr.nl.140
+	1x       0refs    figure.tr.nl.141
+	1x       0refs    figure.tr.nl.143
+	1x       0refs    figure.tr.nl.15
+	1x       0refs    figure.tr.nl.16
+	1x       0refs    figure.tr.nl.17
+	1x       0refs    figure.tr.nl.19
+	1x       0refs    figure.tr.nl.23
+	1x       0refs    figure.tr.nl.26
+	1x       0refs    figure.tr.nl.30
+	1x       0refs    figure.tr.nl.38
+	1x       0refs    figure.tr.nl.39
+	1x       0refs    figure.tr.nl.4
+	1x       0refs    figure.tr.nl.40
+	1x       0refs    figure.tr.nl.42
+	1x       0refs    figure.tr.nl.44
+	1x       0refs    figure.tr.nl.45
+	1x       0refs    figure.tr.nl.49
+	1x       0refs    figure.tr.nl.52
+	1x       0refs    figure.tr.nl.54
+	1x       0refs    figure.tr.nl.56
+	1x       0refs    figure.tr.nl.59
+	1x       0refs    figure.tr.nl.6
+	1x       0refs    figure.tr.nl.7
+	1x       0refs    figure.tr.nl.71
+	1x       0refs    figure.tr.nl.73
+	1x       0refs    figure.tr.nl.74
+	1x       0refs    figure.tr.nl.78
+	1x       0refs    figure.tr.nl.79
+	1x       0refs    figure.tr.nl.82
+	1x       0refs    figure.tr.nl.85
+	1x       0refs    figure.tr.nl.90
+	1x       0refs    figure.tr.nl.92
+	1x       0refs    figure.tr.nl.95
+	1x       0refs    figure.tr.nl.97
+	1x       0refs    figure.tr.nl.98
+	1x       0refs    figure.tr.nl.99
+	1x       0refs    head.orig.en.0
+	1x       0refs    head.orig.en.1
+	1x       0refs    head.orig.en.101
+	1x       0refs    head.orig.en.103
+	1x       0refs    head.orig.en.106
+	1x       0refs    head.orig.en.108
+	1x       0refs    head.orig.en.111
+	1x       0refs    head.orig.en.114
+	1x       0refs    head.orig.en.118
+	1x       0refs    head.orig.en.121
+	1x       0refs    head.orig.en.124
+	1x       0refs    head.orig.en.127
+	1x       0refs    head.orig.en.130
+	1x       0refs    head.orig.en.133
+	1x       0refs    head.orig.en.136
+	1x       0refs    head.orig.en.142
+	1x       0refs    head.orig.en.145
+	1x       0refs    head.orig.en.24
+	1x       0refs    head.orig.en.47
+	1x       0refs    head.orig.en.51
+	1x       0refs    head.orig.en.55
+	1x       0refs    head.orig.en.58
+	1x       0refs    head.orig.en.61
+	1x       0refs    head.orig.en.64
+	1x       0refs    head.orig.en.75
+	1x       0refs    head.orig.en.80
+	1x       0refs    head.orig.en.83
+	1x       0refs    head.orig.en.86
+	1x       0refs    head.orig.en.89
+	1x       0refs    head.orig.en.91
+	1x       0refs    head.orig.en.94
+	1x       0refs    head.tr.nl.0
+	1x       0refs    head.tr.nl.1
+	1x       0refs    head.tr.nl.101
+	1x       0refs    head.tr.nl.103
+	1x       0refs    head.tr.nl.106
+	1x       0refs    head.tr.nl.108
+	1x       0refs    head.tr.nl.111
+	1x       0refs    head.tr.nl.114
+	1x       0refs    head.tr.nl.118
+	1x       0refs    head.tr.nl.121
+	1x       0refs    head.tr.nl.124
+	1x       0refs    head.tr.nl.127
+	1x       0refs    head.tr.nl.130
+	1x       0refs    head.tr.nl.133
+	1x       0refs    head.tr.nl.136
+	1x       0refs    head.tr.nl.142
+	1x       0refs    head.tr.nl.145
+	1x       0refs    head.tr.nl.24
+	1x       0refs    head.tr.nl.47
+	1x       0refs    head.tr.nl.51
+	1x       0refs    head.tr.nl.55
+	1x       0refs    head.tr.nl.58
+	1x       0refs    head.tr.nl.61
+	1x       0refs    head.tr.nl.64
+	1x       0refs    head.tr.nl.75
+	1x       0refs    head.tr.nl.80
+	1x       0refs    head.tr.nl.83
+	1x       0refs    head.tr.nl.86
+	1x       0refs    head.tr.nl.89
+	1x       0refs    head.tr.nl.91
+	1x       0refs    head.tr.nl.94
+	1x       0refs    list.orig.en.147
+	1x       0refs    list.orig.en.149
+	1x       0refs    list.tr.nl.147
+	1x       0refs    list.tr.nl.149
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.10
+	1x       1ref     note.orig.nl.11
+	1x       1ref     note.orig.nl.12
+	1x       1ref     note.orig.nl.13
+	1x       1ref     note.orig.nl.14
+	1x       1ref     note.orig.nl.15
+	1x       1ref     note.orig.nl.16
+	1x       1ref     note.orig.nl.17
+	1x       1ref     note.orig.nl.18
+	1x       1ref     note.orig.nl.19
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.20
+	1x       1ref     note.orig.nl.21
+	1x       1ref     note.orig.nl.22
+	1x       1ref     note.orig.nl.23
+	1x       1ref     note.orig.nl.24
+	1x       1ref     note.orig.nl.25
+	1x       1ref     note.orig.nl.26
+	1x       1ref     note.orig.nl.27
+	1x       1ref     note.orig.nl.28
+	1x       1ref     note.orig.nl.29
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.30
+	1x       1ref     note.orig.nl.31
+	1x       1ref     note.orig.nl.32
+	1x       1ref     note.orig.nl.33
+	1x       1ref     note.orig.nl.34
+	1x       1ref     note.orig.nl.35
+	1x       1ref     note.orig.nl.36
+	1x       1ref     note.orig.nl.37
+	1x       1ref     note.orig.nl.38
+	1x       1ref     note.orig.nl.39
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.40
+	1x       1ref     note.orig.nl.41
+	1x       1ref     note.orig.nl.42
+	1x       1ref     note.orig.nl.43
+	1x       1ref     note.orig.nl.44
+	1x       1ref     note.orig.nl.45
+	1x       1ref     note.orig.nl.46
+	1x       1ref     note.orig.nl.47
+	1x       1ref     note.orig.nl.48
+	1x       1ref     note.orig.nl.49
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.50
+	1x       1ref     note.orig.nl.51
+	1x       1ref     note.orig.nl.52
+	1x       1ref     note.orig.nl.53
+	1x       1ref     note.orig.nl.54
+	1x       1ref     note.orig.nl.55
+	1x       1ref     note.orig.nl.56
+	1x       1ref     note.orig.nl.57
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.10
+	1x       1ref     note.tr.en.11
+	1x       1ref     note.tr.en.12
+	1x       1ref     note.tr.en.13
+	1x       1ref     note.tr.en.14
+	1x       1ref     note.tr.en.15
+	1x       1ref     note.tr.en.16
+	1x       1ref     note.tr.en.17
+	1x       1ref     note.tr.en.18
+	1x       1ref     note.tr.en.19
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.20
+	1x       1ref     note.tr.en.21
+	1x       1ref     note.tr.en.22
+	1x       1ref     note.tr.en.23
+	1x       1ref     note.tr.en.24
+	1x       1ref     note.tr.en.25
+	1x       1ref     note.tr.en.26
+	1x       1ref     note.tr.en.27
+	1x       1ref     note.tr.en.28
+	1x       1ref     note.tr.en.29
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.30
+	1x       1ref     note.tr.en.31
+	1x       1ref     note.tr.en.32
+	1x       1ref     note.tr.en.33
+	1x       1ref     note.tr.en.34
+	1x       1ref     note.tr.en.35
+	1x       1ref     note.tr.en.36
+	1x       1ref     note.tr.en.37
+	1x       1ref     note.tr.en.38
+	1x       1ref     note.tr.en.39
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.40
+	1x       1ref     note.tr.en.41
+	1x       1ref     note.tr.en.42
+	1x       1ref     note.tr.en.43
+	1x       1ref     note.tr.en.44
+	1x       1ref     note.tr.en.45
+	1x       1ref     note.tr.en.46
+	1x       1ref     note.tr.en.47
+	1x       1ref     note.tr.en.48
+	1x       1ref     note.tr.en.49
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.50
+	1x       1ref     note.tr.en.51
+	1x       1ref     note.tr.en.52
+	1x       1ref     note.tr.en.53
+	1x       1ref     note.tr.en.54
+	1x       1ref     note.tr.en.55
+	1x       1ref     note.tr.en.56
+	1x       1ref     note.tr.en.57
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       0refs    p.orig.en.10
+	1x       0refs    p.orig.en.105
+	1x       0refs    p.orig.en.11
+	1x       0refs    p.orig.en.110
+	1x       0refs    p.orig.en.113
+	1x       0refs    p.orig.en.116
+	1x       0refs    p.orig.en.117
+	1x       0refs    p.orig.en.12
+	1x       0refs    p.orig.en.120
+	1x       0refs    p.orig.en.123
+	1x       0refs    p.orig.en.126
+	1x       0refs    p.orig.en.129
+	1x       0refs    p.orig.en.132
+	1x       0refs    p.orig.en.135
+	1x       0refs    p.orig.en.138
+	1x       0refs    p.orig.en.14
+	1x       0refs    p.orig.en.144
+	1x       0refs    p.orig.en.146
+	1x       0refs    p.orig.en.148
+	1x       0refs    p.orig.en.18
+	1x       0refs    p.orig.en.20
+	1x       0refs    p.orig.en.21
+	1x       0refs    p.orig.en.22
+	1x       0refs    p.orig.en.25
+	1x       0refs    p.orig.en.27
+	1x       0refs    p.orig.en.28.1
+	1x       0refs    p.orig.en.29
+	1x       0refs    p.orig.en.3
+	1x       0refs    p.orig.en.31
+	1x       0refs    p.orig.en.32
+	1x       0refs    p.orig.en.33.1
+	1x       0refs    p.orig.en.34
+	1x       0refs    p.orig.en.35.1
+	1x       0refs    p.orig.en.36
+	1x       0refs    p.orig.en.37
+	1x       0refs    p.orig.en.41
+	1x       0refs    p.orig.en.43
+	1x       0refs    p.orig.en.46
+	1x       0refs    p.orig.en.48
+	1x       0refs    p.orig.en.5
+	1x       0refs    p.orig.en.50
+	1x       0refs    p.orig.en.53
+	1x       0refs    p.orig.en.57
+	1x       0refs    p.orig.en.60
+	1x       0refs    p.orig.en.62
+	1x       0refs    p.orig.en.63
+	1x       0refs    p.orig.en.65
+	1x       0refs    p.orig.en.66
+	1x       0refs    p.orig.en.67
+	1x       0refs    p.orig.en.68.1
+	1x       0refs    p.orig.en.69
+	1x       0refs    p.orig.en.70
+	1x       0refs    p.orig.en.72
+	1x       0refs    p.orig.en.76
+	1x       0refs    p.orig.en.77
+	1x       0refs    p.orig.en.8
+	1x       0refs    p.orig.en.81
+	1x       0refs    p.orig.en.84
+	1x       0refs    p.orig.en.87
+	1x       0refs    p.orig.en.88
+	1x       0refs    p.orig.en.9
+	1x       0refs    p.orig.en.93
+	1x       0refs    p.orig.en.96
+	1x       0refs    p.tr.nl.10
+	1x       0refs    p.tr.nl.105
+	1x       0refs    p.tr.nl.11
+	1x       0refs    p.tr.nl.110
+	1x       0refs    p.tr.nl.113
+	1x       0refs    p.tr.nl.116
+	1x       0refs    p.tr.nl.117
+	1x       0refs    p.tr.nl.12
+	1x       0refs    p.tr.nl.120
+	1x       0refs    p.tr.nl.123
+	1x       0refs    p.tr.nl.126
+	1x       0refs    p.tr.nl.129
+	1x       0refs    p.tr.nl.132
+	1x       0refs    p.tr.nl.135
+	1x       0refs    p.tr.nl.138
+	1x       0refs    p.tr.nl.14
+	1x       0refs    p.tr.nl.144
+	1x       0refs    p.tr.nl.146
+	1x       0refs    p.tr.nl.148
+	1x       0refs    p.tr.nl.18
+	1x       0refs    p.tr.nl.20
+	1x       0refs    p.tr.nl.21
+	1x       0refs    p.tr.nl.22
+	1x       0refs    p.tr.nl.25
+	1x       0refs    p.tr.nl.27
+	1x       0refs    p.tr.nl.28.1
+	1x       0refs    p.tr.nl.29
+	1x       0refs    p.tr.nl.3
+	1x       0refs    p.tr.nl.31
+	1x       0refs    p.tr.nl.32
+	1x       0refs    p.tr.nl.33.1
+	1x       0refs    p.tr.nl.34
+	1x       0refs    p.tr.nl.35.1
+	1x       0refs    p.tr.nl.36
+	1x       0refs    p.tr.nl.37
+	1x       0refs    p.tr.nl.41
+	1x       0refs    p.tr.nl.43
+	1x       0refs    p.tr.nl.46
+	1x       0refs    p.tr.nl.48
+	1x       0refs    p.tr.nl.5
+	1x       0refs    p.tr.nl.50
+	1x       0refs    p.tr.nl.53
+	1x       0refs    p.tr.nl.57
+	1x       0refs    p.tr.nl.60
+	1x       0refs    p.tr.nl.62
+	1x       0refs    p.tr.nl.63
+	1x       0refs    p.tr.nl.65
+	1x       0refs    p.tr.nl.66
+	1x       0refs    p.tr.nl.67
+	1x       0refs    p.tr.nl.68.1
+	1x       0refs    p.tr.nl.69
+	1x       0refs    p.tr.nl.70
+	1x       0refs    p.tr.nl.72
+	1x       0refs    p.tr.nl.76
+	1x       0refs    p.tr.nl.77
+	1x       0refs    p.tr.nl.8
+	1x       0refs    p.tr.nl.81
+	1x       0refs    p.tr.nl.84
+	1x       0refs    p.tr.nl.87
+	1x       0refs    p.tr.nl.88
+	1x       0refs    p.tr.nl.9
+	1x       0refs    p.tr.nl.93
+	1x       0refs    p.tr.nl.96
+	1x       0refs    quote.orig.en.2
+	1x       0refs    quote.orig.en.28
+	1x       0refs    quote.orig.en.33
+	1x       0refs    quote.orig.en.35
+	1x       0refs    quote.orig.en.68
+	1x       0refs    quote.tr.nl.2
+	1x       0refs    quote.tr.nl.28
+	1x       0refs    quote.tr.nl.33
+	1x       0refs    quote.tr.nl.35
+	1x       0refs    quote.tr.nl.68
+	Unique:      484
+	Non-unique:    0
+	Unused:      370
+	Referenced:  114 x  114
+about/Verantwoording_Notes_for_the_reader.xml
+	1x       0refs    figure.orig.nl.11
+	1x       0refs    figure.orig.nl.3
+	1x       0refs    figure.orig.nl.5
+	1x       0refs    figure.tr.en.3
+	1x       0refs    figure.tr.en.5
+	1x       0refs    figure.tr.nl.11
+	1x       0refs    list.orig.nl.13
+	1x       0refs    list.tr.en.13
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	Unique:       34
+	Non-unique:    0
+	Unused:       28
+	Referenced:    6 x    6
+about/colofon.xml
+	1x       0refs    head.orig.en.1
+	1x       0refs    head.tr.nl.1
+	1x       0refs    p.orig.en.10
+	1x       0refs    p.orig.en.11
+	1x       0refs    p.orig.en.12
+	1x       0refs    p.orig.en.13
+	1x       0refs    p.orig.en.2
+	1x       0refs    p.orig.en.3
+	1x       0refs    p.orig.en.4
+	1x       0refs    p.orig.en.5
+	1x       0refs    p.orig.en.6
+	1x       0refs    p.orig.en.7
+	1x       0refs    p.orig.en.8
+	1x       0refs    p.orig.en.9
+	1x       0refs    p.tr.nl.10
+	1x       0refs    p.tr.nl.11
+	1x       0refs    p.tr.nl.12
+	1x       0refs    p.tr.nl.13
+	1x       0refs    p.tr.nl.2
+	1x       0refs    p.tr.nl.3
+	1x       0refs    p.tr.nl.4
+	1x       0refs    p.tr.nl.5
+	1x       0refs    p.tr.nl.6
+	1x       0refs    p.tr.nl.7
+	1x       0refs    p.tr.nl.8
+	1x       0refs    p.tr.nl.9
+	Unique:       26
+	Non-unique:    0
+	Unused:       26
+	Referenced:    0 x    0
+about/woord-van-dank.xml
+	1x       0refs    head.orig.en.1
+	1x       0refs    head.tr.nl.1
+	1x       0refs    p.orig.en.2
+	1x       0refs    p.orig.en.3
+	1x       0refs    p.orig.en.4
+	1x       0refs    p.tr.nl.2
+	1x       0refs    p.tr.nl.3
+	1x       0refs    p.tr.nl.4
+	Unique:        8
+	Non-unique:    0
+	Unused:        8
+	Referenced:    0 x    0
+letters/ii001.xml
+	1x       0refs    note.d433e11
+	1x       0refs    note.d433e96
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       23
+	Non-unique:    0
+	Unused:       19
+	Referenced:    4 x    4
+letters/ii002.xml
+	1x       0refs    note.d433e179
+	1x       0refs    note.d433e244
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       24
+	Non-unique:    0
+	Unused:       22
+	Referenced:    2 x    2
+letters/ii003.xml
+	1x       0refs    note.d433e311
+	1x       0refs    note.d433e388
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       21
+	Non-unique:    0
+	Unused:       19
+	Referenced:    2 x    2
+letters/ii004.xml
+	1x       0refs    note.d433e468
+	1x       0refs    note.d433e510
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       24
+	Non-unique:    0
+	Unused:       24
+	Referenced:    0 x    0
+letters/ii005.xml
+	1x       0refs    note.d433e554
+	1x       0refs    note.d433e600
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       28
+	Non-unique:    0
+	Unused:       28
+	Referenced:    0 x    0
+letters/ii006.xml
+	1x       0refs    note.d433e648
+	1x       0refs    note.d433e694
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       28
+	Non-unique:    0
+	Unused:       28
+	Referenced:    0 x    0
+letters/ii007.xml
+	1x       0refs    note.d433e741
+	1x       0refs    note.d433e817
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       21
+	Non-unique:    0
+	Unused:       17
+	Referenced:    4 x    4
+letters/ii008.xml
+	1x       0refs    note.d433e900
+	1x       0refs    note.d433e982
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       27
+	Non-unique:    0
+	Unused:       23
+	Referenced:    4 x    4
+letters/ii009.xml
+	1x       0refs    note.d433e1064
+	1x       0refs    note.d433e1130
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       18
+	Non-unique:    0
+	Unused:       18
+	Referenced:    0 x    0
+letters/ii010.xml
+	1x       0refs    note.d433e1198
+	1x       0refs    note.d433e1421
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.10
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.orig.nl.c
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.10
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       1ref     note.tr.en.a
+	1x       1ref     note.tr.en.b
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       51
+	Non-unique:    0
+	Unused:       26
+	Referenced:   25 x   25
+letters/ii011.xml
+	1x       0refs    note.d433e1632
+	1x       0refs    note.d433e1731
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.orig.nl.c
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.a
+	1x       1ref     note.tr.en.b
+	1x       1ref     note.tr.en.c
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       32
+	Non-unique:    0
+	Unused:       22
+	Referenced:   10 x   10
+letters/ii012.xml
+	1x       0refs    note.d433e1830
+	1x       0refs    note.d433e1910
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       29
+	Non-unique:    0
+	Unused:       23
+	Referenced:    6 x    6
+letters/ii013.xml
+	1x       0refs    note.d433e1992
+	1x       0refs    note.d433e2081
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       21
+	Non-unique:    0
+	Unused:       17
+	Referenced:    4 x    4
+letters/ii014.xml
+	1x       0refs    note.d433e2180
+	1x       0refs    note.d433e2251
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       23
+	Non-unique:    0
+	Unused:       20
+	Referenced:    3 x    3
+letters/ii015.xml
+	1x       0refs    note.d433e2320
+	1x       0refs    note.d433e2405
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       26
+	Non-unique:    0
+	Unused:       22
+	Referenced:    4 x    4
+letters/ii016.xml
+	1x       0refs    note.d433e2492
+	1x       0refs    note.d433e2570
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       24
+	Non-unique:    0
+	Unused:       21
+	Referenced:    3 x    3
+letters/ii017.xml
+	1x       0refs    note.d433e2646
+	1x       0refs    note.d433e2703
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       25
+	Non-unique:    0
+	Unused:       23
+	Referenced:    2 x    2
+letters/ii018.xml
+	1x       0refs    note.d433e2763
+	1x       0refs    note.d433e2817
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       29
+	Non-unique:    0
+	Unused:       27
+	Referenced:    2 x    2
+letters/ii019.xml
+	1x       0refs    note.d433e2873
+	1x       0refs    note.d433e2904
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       13
+	Non-unique:    0
+	Unused:       13
+	Referenced:    0 x    0
+letters/ii020.xml
+	1x       0refs    figure.orig.nl.10
+	1x       0refs    figure.tr.en.10
+	1x       0refs    note.d433e2937
+	1x       0refs    note.d433e3023
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.15
+	1x       0refs    p.orig.nl.16
+	1x       0refs    p.orig.nl.17
+	1x       0refs    p.orig.nl.18
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.15
+	1x       0refs    p.tr.en.16
+	1x       0refs    p.tr.en.17
+	1x       0refs    p.tr.en.18
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       47
+	Non-unique:    0
+	Unused:       44
+	Referenced:    3 x    3
+letters/ii021.xml
+	1x       0refs    note.d433e3104
+	1x       0refs    note.d433e3149
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       17
+	Non-unique:    0
+	Unused:       15
+	Referenced:    2 x    2
+letters/ii022.xml
+	1x       0refs    note.d433e3195
+	1x       0refs    note.d433e3242
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       23
+	Non-unique:    0
+	Unused:       23
+	Referenced:    0 x    0
+letters/ii023.xml
+	1x       0refs    note.d433e3292
+	1x       0refs    note.d433e3336
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       17
+	Non-unique:    0
+	Unused:       17
+	Referenced:    0 x    0
+letters/ii024.xml
+	1x       0refs    note.d433e3382
+	1x       0refs    note.d433e3435
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       15
+	Non-unique:    0
+	Unused:       15
+	Referenced:    0 x    0
+letters/ii025.xml
+	1x       0refs    note.d433e3490
+	1x       0refs    note.d433e3525
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       15
+	Non-unique:    0
+	Unused:       15
+	Referenced:    0 x    0
+letters/ii026.xml
+	1x       0refs    note.d433e3564
+	1x       0refs    note.d433e3614
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       23
+	Non-unique:    0
+	Unused:       21
+	Referenced:    2 x    2
+letters/ii027.xml
+	1x       0refs    note.d433e3666
+	1x       0refs    note.d433e3714
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       23
+	Non-unique:    0
+	Unused:       23
+	Referenced:    0 x    0
+letters/ii028.xml
+	1x       0refs    note.d433e3767
+	1x       0refs    note.d433e3851
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       37
+	Non-unique:    0
+	Unused:       33
+	Referenced:    4 x    4
+letters/ii029.xml
+	1x       0refs    note.d433e3937
+	1x       0refs    note.d433e4020
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.15
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.15
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	1x       0refs    z1v3
+	1x       0refs    z1v4
+	Unique:       43
+	Non-unique:    0
+	Unused:       40
+	Referenced:    3 x    3
+letters/ii030.xml
+	1x       0refs    note.d433e4096
+	1x       0refs    note.d433e4187
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       36
+	Non-unique:    0
+	Unused:       31
+	Referenced:    5 x    5
+letters/ii031.xml
+	1x       0refs    note.d433e4280
+	1x       0refs    note.d433e4320
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       19
+	Non-unique:    0
+	Unused:       19
+	Referenced:    0 x    0
+letters/ii032.xml
+	1x       0refs    note.d433e4362
+	1x       0refs    note.d433e4411
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       31
+	Non-unique:    0
+	Unused:       31
+	Referenced:    0 x    0
+letters/ii033.xml
+	1x       0refs    note.d433e4462
+	1x       0refs    note.d433e4505
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       22
+	Non-unique:    0
+	Unused:       22
+	Referenced:    0 x    0
+letters/ii034.xml
+	1x       0refs    note.d433e4556
+	1x       0refs    note.d433e4597
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       20
+	Non-unique:    0
+	Unused:       18
+	Referenced:    2 x    2
+letters/ii035.xml
+	1x       0refs    note.d433e4635
+	1x       0refs    note.d433e4719
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.15
+	1x       0refs    p.orig.nl.16
+	1x       0refs    p.orig.nl.17
+	1x       0refs    p.orig.nl.18
+	1x       0refs    p.orig.nl.19
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.20
+	1x       0refs    p.orig.nl.21
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.15
+	1x       0refs    p.tr.en.16
+	1x       0refs    p.tr.en.17
+	1x       0refs    p.tr.en.18
+	1x       0refs    p.tr.en.19
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.20
+	1x       0refs    p.tr.en.21
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       55
+	Non-unique:    0
+	Unused:       52
+	Referenced:    3 x    3
+letters/ii036.xml
+	1x       0refs    note.d433e4806
+	1x       0refs    note.d433e4915
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       26
+	Non-unique:    0
+	Unused:       21
+	Referenced:    5 x    5
+letters/ii037.xml
+	1x       0refs    note.d433e5021
+	1x       0refs    note.d433e5055
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       19
+	Non-unique:    0
+	Unused:       19
+	Referenced:    0 x    0
+letters/ii038.xml
+	1x       0refs    note.d433e5091
+	1x       0refs    note.d433e5169
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       27
+	Non-unique:    0
+	Unused:       27
+	Referenced:    0 x    0
+letters/ii039.xml
+	1x       0refs    note.d433e5250
+	1x       0refs    note.d433e5363
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.15
+	1x       0refs    p.orig.nl.16
+	1x       0refs    p.orig.nl.17
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.15
+	1x       0refs    p.tr.en.16
+	1x       0refs    p.tr.en.17
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       42
+	Non-unique:    0
+	Unused:       40
+	Referenced:    2 x    2
+letters/ii040.xml
+	1x       0refs    note.d433e5520
+	1x       0refs    note.d433e5613
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       37
+	Non-unique:    0
+	Unused:       31
+	Referenced:    6 x    6
+letters/ii041.xml
+	1x       0refs    note.d433e5709
+	1x       0refs    note.d433e5812
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       35
+	Non-unique:    0
+	Unused:       26
+	Referenced:    9 x    9
+letters/ii042.xml
+	1x       0refs    note.d433e5913
+	1x       0refs    note.d433e5987
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       35
+	Non-unique:    0
+	Unused:       31
+	Referenced:    4 x    4
+letters/ii043.xml
+	1x       0refs    figure.orig.nl.1
+	1x       0refs    figure.tr.en.1
+	1x       0refs    note.d433e6063
+	1x       0refs    note.d433e6125
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       21
+	Non-unique:    0
+	Unused:       19
+	Referenced:    2 x    2
+letters/ii044.xml
+	1x       0refs    note.d433e6189
+	1x       0refs    note.d433e6246
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       23
+	Non-unique:    0
+	Unused:       21
+	Referenced:    2 x    2
+letters/ii045.xml
+	1x       0refs    note.d433e6306
+	1x       0refs    note.d433e6366
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       28
+	Non-unique:    0
+	Unused:       26
+	Referenced:    2 x    2
+letters/ii046.xml
+	1x       0refs    note.d433e6422
+	1x       0refs    note.d433e6490
+	1x       1ref     note.orig.nl.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       31
+	Non-unique:    0
+	Unused:       30
+	Referenced:    1 x    1
+letters/ii047.xml
+	1x       0refs    note.d433e6550
+	1x       0refs    note.d433e6586
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       19
+	Non-unique:    0
+	Unused:       17
+	Referenced:    2 x    2
+letters/ii048.xml
+	1x       0refs    note.d433e6624
+	1x       0refs    note.d433e6793
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       47
+	Non-unique:    0
+	Unused:       28
+	Referenced:   19 x   19
+letters/ii049.xml
+	1x       0refs    figure.orig.nl.1
+	1x       0refs    figure.tr.en.1
+	1x       0refs    note.d433e6954
+	1x       0refs    note.d433e7019
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       35
+	Non-unique:    0
+	Unused:       31
+	Referenced:    4 x    4
+letters/ii050.xml
+	1x       0refs    note.d433e7084
+	1x       0refs    note.d433e7122
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       15
+	Non-unique:    0
+	Unused:       15
+	Referenced:    0 x    0
+letters/ii051.xml
+	1x       0refs    note.d433e7165
+	1x       0refs    note.d433e7210
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       19
+	Non-unique:    0
+	Unused:       19
+	Referenced:    0 x    0
+letters/ii052.xml
+	1x       0refs    note.d433e7255
+	1x       0refs    note.d433e7298
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       16
+	Non-unique:    0
+	Unused:       16
+	Referenced:    0 x    0
+letters/ii053.xml
+	1x       0refs    note.d433e7343
+	1x       0refs    note.d433e7377
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       17
+	Non-unique:    0
+	Unused:       15
+	Referenced:    2 x    2
+letters/ii054.xml
+	1x       0refs    note.d433e7413
+	1x       0refs    note.d433e7461
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       17
+	Non-unique:    0
+	Unused:       17
+	Referenced:    0 x    0
+letters/ii055.xml
+	1x       0refs    note.d433e7511
+	1x       0refs    note.d433e7606
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       27
+	Non-unique:    0
+	Unused:       23
+	Referenced:    4 x    4
+letters/ii056.xml
+	1x       0refs    note.d433e7701
+	1x       0refs    note.d433e7791
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       30
+	Non-unique:    0
+	Unused:       24
+	Referenced:    6 x    6
+letters/ii057.xml
+	1x       0refs    note.d433e7875
+	1x       0refs    note.d433e7985
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r2
+	Unique:       31
+	Non-unique:    0
+	Unused:       26
+	Referenced:    5 x    5
+letters/ii058.xml
+	1x       0refs    note.d433e8086
+	1x       0refs    note.d433e8283
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.10
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.orig.nl.c
+	1x       1ref     note.orig.nl.d
+	1x       1ref     note.orig.nl.e
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.10
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       1ref     note.tr.en.a
+	1x       1ref     note.tr.en.b
+	1x       1ref     note.tr.en.c
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       62
+	Non-unique:    0
+	Unused:       34
+	Referenced:   28 x   28
+letters/ii059.xml
+	1x       0refs    note.d433e8478
+	1x       0refs    note.d433e8552
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       38
+	Non-unique:    0
+	Unused:       32
+	Referenced:    6 x    6
+letters/ii060.xml
+	1x       0refs    note.d433e8625
+	1x       0refs    note.d433e8757
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       29
+	Non-unique:    0
+	Unused:       22
+	Referenced:    7 x    7
+letters/ii061.xml
+	1x       0refs    note.d433e8886
+	1x       0refs    note.d433e9016
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.a
+	1x       1ref     note.tr.en.b
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       50
+	Non-unique:    0
+	Unused:       38
+	Referenced:   12 x   12
+letters/ii062.xml
+	1x       0refs    note.d433e9149
+	1x       0refs    note.d433e9250
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       43
+	Non-unique:    0
+	Unused:       37
+	Referenced:    6 x    6
+letters/ii063.xml
+	1x       0refs    note.d433e9355
+	1x       0refs    note.d433e9426
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       40
+	Non-unique:    0
+	Unused:       33
+	Referenced:    7 x    7
+letters/ii064.xml
+	1x       0refs    note.d433e9502
+	1x       0refs    note.d433e9540
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       18
+	Non-unique:    0
+	Unused:       18
+	Referenced:    0 x    0
+letters/ii065.xml
+	1x       0refs    note.d433e9580
+	1x       0refs    note.d433e9631
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	Unique:       22
+	Non-unique:    0
+	Unused:       19
+	Referenced:    3 x    3
+letters/ii066.xml
+	1x       0refs    note.d433e9687
+	1x       0refs    note.d433e9768
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       40
+	Non-unique:    0
+	Unused:       34
+	Referenced:    6 x    6
+letters/ii067.xml
+	1x       0refs    note.d433e9845
+	1x       0refs    note.d433e9941
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       36
+	Non-unique:    0
+	Unused:       30
+	Referenced:    6 x    6
+letters/ii068.xml
+	1x       0refs    note.d433e10036
+	1x       0refs    note.d433e10110
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       35
+	Non-unique:    0
+	Unused:       31
+	Referenced:    4 x    4
+letters/ii069.xml
+	1x       0refs    note.d433e10187
+	1x       0refs    note.d433e10295
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       44
+	Non-unique:    0
+	Unused:       38
+	Referenced:    6 x    6
+letters/ii070.xml
+	1x       0refs    note.d433e10403
+	1x       0refs    note.d433e10462
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       29
+	Non-unique:    0
+	Unused:       27
+	Referenced:    2 x    2
+letters/ii071.xml
+	1x       0refs    note.d433e10525
+	1x       0refs    note.d433e10588
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       30
+	Non-unique:    0
+	Unused:       26
+	Referenced:    4 x    4
+letters/ii072.xml
+	1x       0refs    note.d433e10651
+	1x       0refs    note.d433e10707
+	1x       1ref     note.orig.nl.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       30
+	Non-unique:    0
+	Unused:       29
+	Referenced:    1 x    1
+letters/ii073.xml
+	1x       0refs    note.d433e10762
+	1x       0refs    note.d433e10830
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       20
+	Non-unique:    0
+	Unused:       20
+	Referenced:    0 x    0
+letters/ii074.xml
+	1x       0refs    note.d433e10900
+	1x       0refs    note.d433e10972
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       31
+	Non-unique:    0
+	Unused:       27
+	Referenced:    4 x    4
+letters/ii075.xml
+	1x       0refs    note.d433e11047
+	1x       0refs    note.d433e11123
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       26
+	Non-unique:    0
+	Unused:       20
+	Referenced:    6 x    6
+letters/ii076.xml
+	1x       0refs    note.d433e11200
+	1x       0refs    note.d433e11337
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       41
+	Non-unique:    0
+	Unused:       34
+	Referenced:    7 x    7
+letters/ii077.xml
+	1x       0refs    note.d433e11474
+	1x       0refs    note.d433e11546
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       30
+	Non-unique:    0
+	Unused:       26
+	Referenced:    4 x    4
+letters/ii078.xml
+	1x       0refs    note.d433e11619
+	1x       0refs    note.d433e11684
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       30
+	Non-unique:    0
+	Unused:       28
+	Referenced:    2 x    2
+letters/ii079.xml
+	1x       0refs    note.d433e11751
+	1x       0refs    note.d433e11861
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       42
+	Non-unique:    0
+	Unused:       36
+	Referenced:    6 x    6
+letters/ii080.xml
+	1x       0refs    note.d433e11973
+	1x       0refs    note.d433e12061
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       38
+	Non-unique:    0
+	Unused:       32
+	Referenced:    6 x    6
+letters/ii081.xml
+	1x       0refs    note.d433e12152
+	1x       0refs    note.d433e12227
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       35
+	Non-unique:    0
+	Unused:       28
+	Referenced:    7 x    7
+letters/ii082.xml
+	1x       0refs    note.d433e12300
+	1x       0refs    note.d433e12406
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.orig.nl.5
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.4
+	1x       0refs    pb.tr.en.5
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       42
+	Non-unique:    0
+	Unused:       34
+	Referenced:    8 x    8
+letters/ii083.xml
+	1x       0refs    note.d433e12514
+	1x       0refs    note.d433e12577
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       35
+	Non-unique:    0
+	Unused:       32
+	Referenced:    3 x    3
+letters/ii084.xml
+	1x       0refs    note.d433e12641
+	1x       0refs    note.d433e12790
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       35
+	Non-unique:    0
+	Unused:       24
+	Referenced:   11 x   11
+letters/ii085.xml
+	1x       0refs    note.d433e12935
+	1x       0refs    note.d433e13025
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       40
+	Non-unique:    0
+	Unused:       32
+	Referenced:    8 x    8
+letters/ii086.xml
+	1x       0refs    note.d433e13120
+	1x       0refs    note.d433e13200
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       32
+	Non-unique:    0
+	Unused:       24
+	Referenced:    8 x    8
+letters/ii087.xml
+	1x       0refs    note.d433e13276
+	1x       0refs    note.d433e13337
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       30
+	Non-unique:    0
+	Unused:       26
+	Referenced:    4 x    4
+letters/ii088.xml
+	1x       0refs    note.d433e13398
+	1x       0refs    note.d433e13480
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       38
+	Non-unique:    0
+	Unused:       32
+	Referenced:    6 x    6
+letters/ii089.xml
+	1x       0refs    note.d433e13564
+	1x       0refs    note.d433e13608
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       26
+	Non-unique:    0
+	Unused:       26
+	Referenced:    0 x    0
+letters/ii090.xml
+	1x       0refs    note.d433e13652
+	1x       0refs    note.d433e13718
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       35
+	Non-unique:    0
+	Unused:       31
+	Referenced:    4 x    4
+letters/ii091.xml
+	1x       0refs    note.d433e13786
+	1x       0refs    note.d433e13840
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    pb.tr.en.3
+	1x       0refs    s1r
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       30
+	Non-unique:    0
+	Unused:       27
+	Referenced:    3 x    3
+letters/ii092.xml
+	1x       0refs    note.d433e13892
+	1x       0refs    note.d433e14138
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.10
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.10
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r3
+	Unique:       55
+	Non-unique:    0
+	Unused:       32
+	Referenced:   23 x   23
+letters/ii093.xml
+	1x       0refs    note.d433e14375
+	1x       0refs    note.d433e14495
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       39
+	Non-unique:    0
+	Unused:       26
+	Referenced:   13 x   13
+letters/ii094.xml
+	1x       0refs    note.d433e14607
+	1x       0refs    note.d433e15038
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.10
+	1x       1ref     note.orig.nl.11
+	1x       1ref     note.orig.nl.12
+	1x       1ref     note.orig.nl.13
+	1x       1ref     note.orig.nl.14
+	1x       1ref     note.orig.nl.15
+	1x       1ref     note.orig.nl.16
+	1x       1ref     note.orig.nl.17
+	1x       1ref     note.orig.nl.18
+	1x       1ref     note.orig.nl.19
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.20
+	1x       1ref     note.orig.nl.21
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.9
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.orig.nl.c
+	1x       1ref     note.orig.nl.d
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.10
+	1x       1ref     note.tr.en.11
+	1x       1ref     note.tr.en.12
+	1x       1ref     note.tr.en.13
+	1x       1ref     note.tr.en.14
+	1x       1ref     note.tr.en.15
+	1x       1ref     note.tr.en.16
+	1x       1ref     note.tr.en.17
+	1x       1ref     note.tr.en.18
+	1x       1ref     note.tr.en.19
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.20
+	1x       1ref     note.tr.en.21
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.9
+	1x       1ref     note.tr.en.a
+	1x       1ref     note.tr.en.b
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.15
+	1x       0refs    p.orig.nl.16
+	1x       0refs    p.orig.nl.17
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.15
+	1x       0refs    p.tr.en.16
+	1x       0refs    p.tr.en.17
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       92
+	Non-unique:    0
+	Unused:       44
+	Referenced:   48 x   48
+letters/ii095.xml
+	1x       0refs    note.d433e15456
+	1x       0refs    note.d433e15585
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.tr.en.1
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       28
+	Non-unique:    0
+	Unused:       26
+	Referenced:    2 x    2
+letters/ii096.xml
+	1x       0refs    figure.orig.nl.3
+	1x       0refs    figure.tr.en.3
+	1x       0refs    note.d433e15711
+	1x       0refs    note.d433e15926
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       56
+	Non-unique:    0
+	Unused:       38
+	Referenced:   18 x   18
+letters/ii097.xml
+	1x       0refs    note.d433e16146
+	1x       0refs    note.d433e16379
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.7
+	1x       1ref     note.orig.nl.8
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.orig.nl.c
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       1ref     note.tr.en.7
+	1x       1ref     note.tr.en.8
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.13
+	1x       0refs    p.orig.nl.14
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.13
+	1x       0refs    p.tr.en.14
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       53
+	Non-unique:    0
+	Unused:       34
+	Referenced:   19 x   19
+letters/ii098.xml
+	1x       0refs    note.d433e16602
+	1x       0refs    note.d433e16796
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       46
+	Non-unique:    0
+	Unused:       34
+	Referenced:   12 x   12
+letters/ii099.xml
+	1x       0refs    note.d433e17001
+	1x       0refs    note.d433e17101
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.orig.nl.b
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       35
+	Non-unique:    0
+	Unused:       26
+	Referenced:    9 x    9
+letters/ii100.xml
+	1x       0refs    note.d433e17202
+	1x       0refs    note.d433e17355
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.4
+	1x       1ref     note.orig.nl.5
+	1x       1ref     note.orig.nl.6
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.4
+	1x       1ref     note.tr.en.5
+	1x       1ref     note.tr.en.6
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.tr.en.1
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       37
+	Non-unique:    0
+	Unused:       24
+	Referenced:   13 x   13
+letters/ii101.xml
+	1x       0refs    note.d433e17512
+	1x       0refs    note.d433e17599
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.orig.nl.a
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       1ref     note.tr.en.a
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       32
+	Non-unique:    0
+	Unused:       24
+	Referenced:    8 x    8
+letters/ii102.xml
+	1x       0refs    note.d433e17687
+	1x       0refs    note.d433e17776
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.2
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.2
+	1x       0refs    s1r
+	1x       0refs    s1v
+	Unique:       34
+	Non-unique:    0
+	Unused:       30
+	Referenced:    4 x    4
+letters/ii103.xml
+	1x       0refs    note.d433e17866
+	1x       0refs    note.d433e17981
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.11
+	1x       0refs    p.orig.nl.12
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.11
+	1x       0refs    p.tr.en.12
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r
+	1x       0refs    s2v
+	Unique:       42
+	Non-unique:    0
+	Unused:       36
+	Referenced:    6 x    6
+letters/ii80.xml
+	1x       0refs    note.d425e11371
+	1x       0refs    note.d425e11455
+	1x       1ref     note.orig.nl.1
+	1x       1ref     note.orig.nl.2
+	1x       1ref     note.orig.nl.3
+	1x       1ref     note.tr.en.1
+	1x       1ref     note.tr.en.2
+	1x       1ref     note.tr.en.3
+	1x       0refs    p.orig.nl.1
+	1x       0refs    p.orig.nl.10
+	1x       0refs    p.orig.nl.2
+	1x       0refs    p.orig.nl.3
+	1x       0refs    p.orig.nl.4
+	1x       0refs    p.orig.nl.5
+	1x       0refs    p.orig.nl.6
+	1x       0refs    p.orig.nl.7
+	1x       0refs    p.orig.nl.8
+	1x       0refs    p.orig.nl.9
+	1x       0refs    p.tr.en.1
+	1x       0refs    p.tr.en.10
+	1x       0refs    p.tr.en.2
+	1x       0refs    p.tr.en.3
+	1x       0refs    p.tr.en.4
+	1x       0refs    p.tr.en.5
+	1x       0refs    p.tr.en.6
+	1x       0refs    p.tr.en.7
+	1x       0refs    p.tr.en.8
+	1x       0refs    p.tr.en.9
+	1x       0refs    pb.orig.nl.1
+	1x       0refs    pb.orig.nl.3
+	1x       0refs    pb.orig.nl.4
+	1x       0refs    pb.tr.en.1
+	1x       0refs    pb.tr.en.3
+	1x       0refs    pb.tr.en.4
+	1x       0refs    s1r
+	1x       0refs    s1v
+	1x       0refs    s2r3
+	1x       0refs    s2v4
+	1x       0refs    z1r1
+	1x       0refs    z1r4
+	1x       0refs    z1v2
+	1x       0refs    z1v3
+	Unique:       42
+	Non-unique:    0
+	Unused:       36
+	Referenced:    6 x    6
+apparatus/artwork.xml
+	1x       0refs    DRAGER
+	1x       0refs    MATERTECHN
+	1x       0refs    OBJALG
+	1x       0refs    VORM
+	1x       0refs    ii001
+	1x       0refs    ii002
+	1x       0refs    ii003
+	1x       0refs    ii004
+	1x       0refs    ii005
+	1x       0refs    ii006
+	1x       0refs    ii007
+	1x       0refs    ii008
+	1x       0refs    ii009
+	1x       0refs    ii010
+	1x       0refs    ii011
+	1x       0refs    ii012
+	1x       0refs    ii013
+	1x       0refs    ii014
+	1x       0refs    ii015
+	1x       0refs    ii016
+	1x       0refs    ii017
+	1x       0refs    ii018
+	1x       0refs    ii019
+	1x       0refs    ii020
+	1x       0refs    ii021
+	1x       0refs    ii022
+	1x       0refs    ii023
+	1x       0refs    ii024
+	1x       0refs    ii025
+	1x       0refs    ii026
+	1x       0refs    ii027
+	1x       0refs    ii028
+	1x       0refs    ii029
+	1x       0refs    ii030
+	1x       0refs    ii031
+	1x       0refs    ii032
+	1x       0refs    ii033
+	1x       0refs    ii034
+	1x       0refs    ii035
+	1x       0refs    ii036
+	1x       0refs    ii037
+	1x       0refs    ii038
+	1x       0refs    ii039
+	1x       0refs    ii040
+	1x       0refs    ii041
+	1x       0refs    ii042
+	1x       0refs    ii043
+	1x       0refs    ii044
+	1x       0refs    ii045
+	1x       0refs    ii046
+	1x       0refs    ii047
+	1x       0refs    ii048
+	1x       0refs    ii049
+	1x       0refs    ii050
+	1x       0refs    ii051
+	1x       0refs    ii052
+	1x       0refs    ii053
+	1x       0refs    ii054
+	1x       0refs    ii055
+	1x       0refs    ii056
+	1x       0refs    ii057
+	1x       0refs    ii058
+	1x       0refs    ii059
+	1x       0refs    ii060
+	1x       0refs    ii061
+	1x       0refs    ii062
+	1x       0refs    ii063
+	1x       0refs    ii064
+	1x       0refs    ii065
+	1x       0refs    ii066
+	1x       0refs    ii067
+	1x       0refs    ii068
+	1x       0refs    ii069
+	1x       0refs    ii070
+	1x       0refs    ii071
+	1x       0refs    ii072
+	1x       0refs    ii073
+	Unique:       77
+	Non-unique:    0
+	Unused:       77
+	Referenced:    0 x    0
+apparatus/bibliolist-en.xml
+	1x       0refs    bg012
+	1x       0refs    bg013
+	1x       0refs    bg014
+	1x       0refs    bg015
+	1x       0refs    bg016
+	1x       0refs    bg017
+	1x       0refs    bg018
+	1x       0refs    bg019
+	1x       0refs    bg020
+	1x       0refs    bg021
+	1x       0refs    bg022
+	1x       0refs    bg023
+	1x       0refs    bg024
+	1x       0refs    bg025
+	1x       0refs    bg026
+	1x       0refs    bg027
+	1x       0refs    bg028
+	1x       0refs    bg029
+	1x       0refs    bg030
+	1x       0refs    bg031
+	1x       0refs    bg032
+	1x       0refs    bg033
+	1x       0refs    bg034
+	1x       0refs    bg035
+	1x       0refs    bg036
+	1x       0refs    bg037
+	1x       0refs    bg038
+	Unique:       27
+	Non-unique:    0
+	Unused:       27
+	Referenced:    0 x    0
+apparatus/bibliolist-nl.xml
+	1x       0refs    bg012
+	1x       0refs    bg013
+	1x       0refs    bg014
+	1x       0refs    bg015
+	1x       0refs    bg016
+	1x       0refs    bg017
+	1x       0refs    bg018
+	1x       0refs    bg019
+	1x       0refs    bg020
+	1x       0refs    bg021
+	1x       0refs    bg022
+	1x       0refs    bg023
+	1x       0refs    bg024
+	1x       0refs    bg025
+	1x       0refs    bg026
+	1x       0refs    bg027
+	1x       0refs    bg028
+	1x       0refs    bg029
+	1x       0refs    bg030
+	1x       0refs    bg031
+	1x       0refs    bg032
+	1x       0refs    bg033
+	1x       0refs    bg034
+	1x       0refs    bg035
+	1x       0refs    bg036
+	1x       0refs    bg037
+	1x       0refs    bg038
+	Unique:       27
+	Non-unique:    0
+	Unused:       27
+	Referenced:    0 x    0
+apparatus/biolist.xml
+	1x       0refs    pers000
+	1x       0refs    pers001
+	1x       0refs    pers002
+	1x       0refs    pers003
+	1x       0refs    pers004
+	1x       0refs    pers005
+	1x       0refs    pers006
+	1x       0refs    pers007
+	1x       0refs    pers008
+	1x       0refs    pers009
+	1x       0refs    pers010
+	1x       0refs    pers011
+	1x       0refs    pers012
+	1x       0refs    pers013
+	1x       0refs    pers014
+	1x       0refs    pers015
+	1x       0refs    pers016
+	1x       0refs    pers017
+	1x       0refs    pers018
+	1x       0refs    pers019
+	1x       0refs    pers020
+	1x       0refs    pers021
+	1x       0refs    pers022
+	1x       0refs    pers023
+	1x       0refs    pers024
+	1x       0refs    pers025
+	1x       0refs    pers026
+	1x       0refs    pers027
+	1x       0refs    pers028
+	1x       0refs    pers029
+	1x       0refs    pers030
+	1x       0refs    pers031
+	1x       0refs    pers032
+	1x       0refs    pers033
+	1x       0refs    pers034
+	1x       0refs    pers035
+	1x       0refs    pers036
+	1x       0refs    pers037
+	1x       0refs    pers038
+	1x       0refs    pers039
+	1x       0refs    pers040
+	1x       0refs    pers041
+	1x       0refs    pers042
+	1x       0refs    pers043
+	1x       0refs    pers044
+	1x       0refs    pers045
+	1x       0refs    pers046
+	1x       0refs    pers047
+	1x       0refs    pers048
+	1x       0refs    pers049
+	1x       0refs    pers050
+	1x       0refs    pers051
+	1x       0refs    pers052
+	1x       0refs    pers053
+	1x       0refs    pers054
+	1x       0refs    pers055
+	1x       0refs    pers056
+	1x       0refs    pers057
+	1x       0refs    pers058
+	1x       0refs    pers059
+	1x       0refs    pers060
+	1x       0refs    pers061
+	1x       0refs    pers062
+	1x       0refs    pers063
+	1x       0refs    pers064
+	1x       0refs    pers065
+	1x       0refs    pers066
+	1x       0refs    pers067
+	1x       0refs    pers068
+	1x       0refs    pers069
+	1x       0refs    pers070
+	1x       0refs    pers071
+	1x       0refs    pers072
+	1x       0refs    pers073
+	1x       0refs    pers074
+	1x       0refs    pers075
+	1x       0refs    pers076
+	1x       0refs    pers077
+	1x       0refs    pers078
+	1x       0refs    pers079
+	1x       0refs    pers080
+	1x       0refs    pers081
+	1x       0refs    pers082
+	1x       0refs    pers083
+	1x       0refs    pers084
+	1x       0refs    pers085
+	1x       0refs    pers086
+	1x       0refs    pers087
+	1x       0refs    pers088
+	1x       0refs    pers089
+	1x       0refs    pers090
+	1x       0refs    pers091
+	1x       0refs    pers092
+	1x       0refs    pers093
+	1x       0refs    pers094
+	1x       0refs    pers095
+	1x       0refs    pers096
+	1x       0refs    pers097
+	1x       0refs    pers098
+	1x       0refs    pers099
+	1x       0refs    pers100
+	1x       0refs    pers101
+	1x       0refs    pers102
+	1x       0refs    pers103
+	1x       0refs    pers104
+	1x       0refs    pers105
+	1x       0refs    pers106
+	1x       0refs    pers107
+	1x       0refs    pers108
+	1x       0refs    pers109
+	1x       0refs    pers110
+	1x       0refs    pers111
+	1x       0refs    pers112
+	1x       0refs    pers113
+	1x       0refs    pers114
+	1x       0refs    pers115
+	1x       0refs    pers116
+	1x       0refs    pers117
+	1x       0refs    pers118
+	1x       0refs    pers119
+	1x       0refs    pers120
+	1x       0refs    pers121
+	1x       0refs    pers122
+	1x       0refs    pers123
+	1x       0refs    pers124
+	1x       0refs    pers125
+	1x       0refs    pers126
+	1x       0refs    pers127
+	1x       0refs    pers128
+	1x       0refs    pers129
+	1x       0refs    pers130
+	1x       0refs    pers131
+	1x       0refs    pers132
+	1x       0refs    pers133
+	1x       0refs    pers134
+	1x       0refs    pers135
+	1x       0refs    pers136
+	1x       0refs    pers137
+	1x       0refs    pers138
+	1x       0refs    pers139
+	1x       0refs    pers140
+	1x       0refs    pers141
+	1x       0refs    pers142
+	Unique:      143
+	Non-unique:    0
+	Unused:      143
+	Referenced:    0 x    0

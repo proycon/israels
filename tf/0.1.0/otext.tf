@@ -1,0 +1,23 @@
+@config
+@author=Jozef Israels
+@contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+@contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+@contributors3="N.N."
+@converter=Dirk Roorda (Text-Fabric)
+@descriptionTf=Critical edition
+@fmt:text-orig-full={str}{after}
+@institute1=HuC (Humanities Cluster) Amsterdam
+@institute2=Huygens Instituut Amsterdam
+@institute3=VGM (Van Gogh Museum) Amsterdam
+@language=nl
+@levelConstraints=note < chunk, p; salute < opener, closer; person < chunk; teiHeader < chunk
+@schema=TEI + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist
+@sectionFeatures=folder,file,chunk
+@sectionTypes=folder,file,chunk
+@sourceFormat=TEI
+@teiVersion=2025-04-24
+@title=Letters
+@version=0.1.0
+@writtenBy=Text-Fabric
+@dateWritten=2025-04-24T09:45:03+00:00Z
+

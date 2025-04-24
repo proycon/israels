@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 9 maart 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 9 March 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8661V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>036</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1897-03-09"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8661V2008_b"/>
+         <zone n="1r1"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r2"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">9 maart</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Lieve Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Ik heb in Parijs een neef, korrespondent van ’t Handelsblad en advokaat, die zich speciaal bezig houdt met zaken tusschen franschen en hollanders. Ik denk dat die zeer goed als tusschenpersoon zou kunnen dienen. <ptr type="note" target="#note.orig.nl.1"/> Hij heeft op zijn kaartje staan “avocat de l’ambassade de hollande” en “secretaire de l’association de la presse” of zoo iets.<ptr type="note" target="#note.orig.nl.a"/> Als je wilt wil ik hem gaarne daarover een woordje schrijven Ik zou ook willen schoonmaken, kun je me daar niet eens in <pb f="1r" facs="#z1r2" n="2"/> komen helpen. <ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Ik hoop je eens gauw te zien.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">9 March</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dearest Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I have a cousin in Paris, correspondent of the Handelsblad and a lawyer, who specializes in cases between French and Dutch parties. I think that he would be very well able to act as an intermediary for you.<ptr type="note" target="#note.tr.en.1"/> It says on his card “advocate for the Dutch embassy” and “secretary of the press association” or something like that. If you like, I will be happy to drop him a line. I would like to do the cleaning too, could you possibly <pb f="1r" facs="#z1r2" n="2"/> come and help me do it? <ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">I hope to see you soon.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e4806" type="dating">
+            <p>Briefhoofd: ‘9 maart’. In dit schrijven licht Israëls Jo voor het eerst in over zijn neef – hij brengt hem ook ter sprake in zijn brief van 18 juli 1897 (brief <ref target="ii040.xml">040</ref>). Daarom is aan de onderhavige het jaartal 1897 toegekend. Zie verder over deze neef ook de brieven <ref target="ii041.xml">041</ref> en <ref target="ii044.xml">044</ref>. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e4915" type="dating">
+            <p>Letter headed 9 March. Israëls tells Jo about his cousin for the first time in this letter – he also mentions him in his letter of 18 July 1897 (letter <ref target="ii40.xml">40</ref>). The present letter is therefore dated to 1897. See also letters <ref target="ii041.xml">041</ref> and <ref target="ii044.xml">044</ref> about this cousin.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Advocaat en journalist Mr. <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>, zoon van <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>’ broer <rs type="person" ref="bio.xml#pers087">Louis Israëls</rs> en <rs type="person" ref="bio.xml#pers034">Esther de Jongh</rs>. Deze neef van Isaac was in 1883 gepromoveerd op <hi rend="italics">Internationaal huwelijksgoederenrecht</hi> – later vertrok hij naar Parijs. Hij publiceerde onder meer in het <hi rend="italics">Algemeen Handelsblad</hi> een reeks ‘Brieven uit Parijs’. <rs type="person" ref="bio.xml#pers051">Herman Israëls</rs> was in 1888 getrouwd met <rs type="person" ref="bio.xml#pers033">Estella (Esther) Cohen Bessie</rs>. Zie <hi rend="italics">De minotaurus onzer zeden. Multatuli als heraut van het feminisme</hi>. Red. Myriam Everard en Ulla Jansz. Amsterdam 2010, p. 114-115 en <hi rend="italics">Joods Biografisch Woordenboek</hi>. Vermoedelijk had Jo een conflict met de kunsthandelaar <rs type="person" ref="bio.xml#pers002">Ambroise Vollard</rs>, met wie ze al sinds 1895 in contact stond. In de eerste helft van 1897 waren ze volop in onderhandeling. <rs type="person" ref="bio.xml#pers002">Vollards</rs> betaling van een aantal van Jo gekochte <rs type="person" ref="bio.xml#pers127">Van Goghs</rs> liet lang op zich wachten, omdat hij haar een cheque had gezonden die alleen in Parijs kon worden geïnd. Hierover was Jo erg verbolgen. Israëls suggereerde haar zijn neef <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs> als tussenpersoon.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Blijkbaar had Jo geschreven over de zogeheten voorjaarsschoonmaak, de jaarlijks terugkerende grote schoonmaak waarbij het hele huis van boven tot onder kritisch onder handen werd genomen. In 1901 gingen ook <rs type="person" ref="bio.xml#pers005">Anna Cornelia van Gogh-Carbentus</rs> en <rs type="person" ref="bio.xml#pers136">Willemina (‘Willemien’, ‘Wil’) Jacoba van Gogh</rs>, Jo’s schoonmoeder en schoonzus, geheel en al op in de voorjaarsschoonmaak: ‘O Jo, de schilderijen van Vincent hangen toch zoo mooi bij ons, Wil heeft die grooten afgesponst en tegen de schoone muren voldoen ze zoo en hangen ze zoo mooi in ’t licht.’ Moeder en Willemien van Gogh aan Jo. VGM, b3594; 20 april (citaat) – b3596; 22 april 1901. Het ziet er niet naar uit dat Jo ooit met ze sprak over hoe ze het best met de werken konden omgaan; misschien was ze daar zelf evenmin goed over ingelicht.  </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Lawyer and journalist <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>, the son of <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>’s brother <rs type="person" ref="bio.xml#pers087">Louis Israëls</rs> and <rs type="person" ref="bio.xml#pers034">Esther de Jongh</rs>. This cousin of Isaac’s took his degree in International Marital Property Law in 1883 – later he moved to Paris. Among other things, he published a series of ‘Letters from Paris’ in the <hi rend="italics">Algemeen Handelsblad</hi>. In 1888 <rs type="person" ref="bio.xml#pers051">Herman Israëls</rs> married <rs type="person" ref="bio.xml#pers033">Estella (Esther) Cohen Bessie</rs>. See <hi rend="italics">De minotaurus onzer zeden. Multatuli als heraut van het feminisme</hi>. Eds. Myriam Everard and Ulla Jansz. Amsterdam 2010, pp. 114-15 and <hi rend="italics">Joods Biografisch Woordenboek</hi>. Jo probably had a dispute with the art dealer <rs type="person" ref="bio.xml#pers002">Ambroise Vollard</rs>, with whom she had been in touch since 1895. In the first half of 1897 they were in the midst of negotiations. <rs type="person" ref="bio.xml#pers002">Vollard</rs>’s payment for a number of <rs type="person" ref="bio.xml#pers127">Van Goghs</rs> he had bought from Jo was long overdue, because he had sent her a cheque that could only be cashed in Paris. Jo was furious about it. Israëls suggested that his cousin <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs> could act on her behalf.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>Jo had evidently written about spring cleaning, the annual thorough clean in which the whole house from top to bottom was taken in hand. In 1901 <rs type="person" ref="bio.xml#pers005">Anna Cornelia van Gogh-Carbentus</rs> and <rs type="person" ref="bio.xml#pers136">Willemina (‘Willemien’, ‘Wil’) Jacoba van Gogh</rs>, Jo’s mother-in-law and sister-in-law, threw themselves enthusiastically into the great spring clean: ‘Oh Jo, Vincent’s paintings hang so well here at our house, Wil has sponged off those large ones and they look so good against the clean walls and they hang so beautifully in the light.’ Mrs van Gogh and Willemien to Jo. VGM, b3594; 20 April (quotation) – b3596; 22 April 1901. It does not appear that Jo ever spoke to them about the best way to handle the works; it is possible she did not know herself.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>‘Advocaat van de Nederlandse ambassade’ en ‘Secretaris van de vereniging van journalisten’.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

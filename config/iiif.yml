@@ -3,14 +3,23 @@ switches:
     server: 'http://localhost:8087'
     iiifPath: ''
     iiifPathEsc: ''
+    ext: 'jpg'
+    extm: 'jpeg'
+    hilo: 'thumb'
   preview:
     server: 'https://preview.dev.diginfra.org'
     iiifPath: '[pid]/[org]/[repo]/'
     iiifPathEsc: '[pid]|[org]|[repo]|'
+    ext: 'jpg'
+    extm: 'jpg'
+    hilo: 'scans'
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
     iiifPath: ''
     iiifPathEsc: ''
+    ext: 'jpg'
+    extm: 'jpg'
+    hilo: 'scans'
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -24,7 +33,7 @@ constants:
   provLogoHeight: 270
   provLogoWidth: 288
   ext: 'jpg'
-  iiifRoot: '«server»/iiif/3/«iiifPathEsc»thumb|'
+  iiifRoot: '«server»/iiif/3/«iiifPathEsc»«hilo»|'
   iiifParams: '/full/max/0/default'
   manifestRoot: '«server»/files/«iiifPath»static/manifests/'
   logoRoot: '«server»/files/«iiifPath»static/logo'
@@ -55,25 +64,25 @@ scans:
         folder: folder.folder
         file: file.file
         page: facsfile
-      value: '<canvasUrl>' 
+      value: 'checkPage:‖{file}‖<canvasUrl>' 
     letter:
         vars:
           folder: folder.folder
           file: file.file
           page: '-page.facsfile'
-        value: '<canvasUrl>'
+        value: 'checkPage:‖{file}‖<canvasUrl>' 
   pageUrl:
     page:
       vars:
         page: facsfile
         region: facsregion
-      value: '<pageUrl>' 
+      value: 'checkPage:‖{file}‖<pageUrl>' 
   xywh:
     page:
       vars:
         page: facsfile
         region: facsregion
-      value: 'px:|{page}|{region}'
+      value: 'px:‖{page}‖{region}'
   prev:
     page:
       vars:
@@ -127,7 +136,7 @@ templates:
       logo:
         - id: '«logoRoot»/«provLogoId»'
           type: Image
-          format: image/png
+          format: image/«extm»
           height: '«provLogoHeight»'
           width: '«provLogoWidth»'
 
@@ -156,5 +165,5 @@ templates:
           - 'id': '«iiifRoot»pages|{page}.«ext»'
             'type': ImageService3
             profile: '«profile»'
-          format: image/jpeg
+          format: image/«extm»
         target: '<canvasUrl>'

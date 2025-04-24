@@ -2,6 +2,6 @@ scanQuality: "15%"
 scanResize: "35%"
 
 scanExt:
-  orig: jpf
+  orig: jpg
   thumb: jpg
 

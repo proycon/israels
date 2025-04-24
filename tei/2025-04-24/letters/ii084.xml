@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 26 april 1916.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 26 April 1916.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8632V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>084</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="postcard"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1916-04-26"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8632V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8632V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">26 april</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">B.J.,</p>
+            <p xml:id="p.orig.nl.3" n="3">Ik zond je gister 3 schilderijen terug, het interieur,<ptr type="note" target="#note.orig.nl.1"/> de zonnige heuvel<ptr type="note" target="#note.orig.nl.2"/> en het laantje.<ptr type="note" target="#note.orig.nl.3"/> Heden stuur ik je een overdrukje van het beroemde(?) stukje v. Mej. <rs type="person" ref="bio.xml#pers043">Marius</rs> dat warendig<ptr type="note" target="#note.orig.nl.a"/> 1 mei in onze kunst komt??<ptr type="note" target="#note.orig.nl.4"/> Het is dunkt mij niet kwaad.<ptr type="note" target="#note.orig.nl.5"/> Ik ben benieuwd naar je opinie erover. Bedankt voor de bloemen. Nu, tot spoedig ziens.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.4" n="4">T à t</p>
+            <p xml:id="p.orig.nl.5" n="5">ii</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.2" f="1v" facs="#s1v" n="2"/>
+            <p xml:id="p.orig.nl.6" n="6">Mevr. J. Cohen Gosschalk</p>
+            <p xml:id="p.orig.nl.7" n="7">Koninginne weg 77</p>
+            <p xml:id="p.orig.nl.8" n="8">Amsterdam</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">26 April</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear J.,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Yesterday I sent 3 paintings back to you, the interior,<ptr type="note" target="#note.tr.en.1"/> the sunny hill<ptr type="note" target="#note.tr.en.2"/> and the little avenue.<ptr type="note" target="#note.tr.en.3"/> Today I’m sending you an offprint of the famous (?) piece by Miss <rs type="person" ref="bio.xml#pers043">Marius</rs> that really will appear in <hi rend="italics">Onze Kunst</hi> on 1 May??<ptr type="note" target="#note.tr.en.4"/> To my mind it’s not bad.<ptr type="note" target="#note.tr.en.5"/> I’m curious as to your opinion. Thanks for the flowers. Now, see you soon.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">All yours</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">ii</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.2"
+                corresp="#pb.orig.nl.2"
+                f="1v"
+                facs="#s1v"
+                n="2"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Mevr. J. Cohen Gosschalk</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Koninginne weg 77</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Amsterdam</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e12641" type="dating">
+            <p>Briefkaart. Poststempel: 26 april 1916.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e12790" type="dating">
+            <p>Postcard. Postmark: 26 April 1916.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers127">Van Goghs</rs> schilderij <hi rend="italics">De slaapkamer</hi>, dat op meerdere werken van Israëls voorkomt: Vincent van Gogh,  <hi rend="italics">De slaapkamer</hi>, 1888 (F 482 / JH 1608). <rs type="artwork" ref="artwork.xml#ii032"/>
+            </p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Het is niet met zekerheid te zeggen welk schilderij Israëls bedoelde met ‘de zonnige heuvel’ – er zijn in zijn oeuvre geen werken teruggevonden met een dergelijk onderwerp op de achtergrond. Mogelijk ging het om dit werk: Vincent van Gogh,  <hi rend="italics">Montmartre: achter de Moulin de la Galette</hi> (F 316 / JH 1246), 1887. <rs type="artwork" ref="artwork.xml#ii033"/>
+            </p>
+            <p>Zie ook brief <ref target="ii076.xml">076</ref>, <ref target="ii077.xml">077</ref> en <ref target="ii078.xml">078</ref>.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Israëls had <hi rend="italics">Het gele huis (‘De straat’)</hi> van <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> op 29 november 1915 ontvangen – hij beeldde het op enkele van zijn werken af in de achtergrond. Vincent van Gogh,  <hi rend="italics">Het gele huis (‘De straat’)</hi> (F 464 / JH 1589), 1888. <rs type="artwork" ref="artwork.xml#ii025"/>
+            </p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Grada Hermina Marius, ‘Isaäc Israels’, <hi rend="italics">Onze Kunst</hi> 15 (1916), p. 141-162. <rs type="person" ref="bio.xml#pers043">Marius</rs> spreekt in haar uitvoerige artikel haar lof uit over Israëls’ lust ‘om dit of dat moment uit het volle leven spontaan te schilderen’. Ze schetst zijn ontwikkeling als figuurschilder en haalt een interessante uitspraak van hem aan: ‘“Het schilderen zelf is het minste”, zegt Isaäc Israels. “Het is daarom niet gezegd,” antwoordt hij mij op de vraag of hij niet meer terugkomt op zulk een werk, “dat men alleen werkt wanneer men de verf op het doek zet. Zou men zelfs niet kunnen zeggen, dat afkrabben en uitvegen en weer een schoon doek maken, ook wel degelijk werken kan zijn (ik bedoel natuurlijk niet het fysieke werken alleen)?”’ (p. 142-143). Het stuk is een hommage aan Israëls’ lijnvoering, zijn kleurgebruik en de levendigheid van tekeningen, pastels en schilderijen.</p>
+            <p>De productieve <rs type="person" ref="bio.xml#pers043">Marius</rs> schreef onder meer kritieken voor <hi rend="italics">De Nederlandsche Spectator</hi>, <hi rend="italics">De Gids</hi>, <hi rend="italics">De Nieuwe Gids</hi>, <hi rend="italics">De Kroniek</hi>, <hi rend="italics">Elsevier’s Geïllustreerd Maandschrift</hi>, <hi rend="italics">Onze Kunst</hi> en <hi rend="italics">Woord en Beeld</hi>. Over haar: W.F. Rappard, ‘Een negentiende-eeuwse kunsthistorica van naam: G.H. Marius / A Nineteenth-Century Art Historian of Repute: G.H. Marius’, <hi rend="italics">RKD Bulletin</hi> 1 (1994), p. 1-4.</p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>Israëls noemde het artikel van <rs type="person" ref="bio.xml#pers043">Marius</rs> bij nader inzien toch ‘eenigszins slap […] en banaliseerend’. Zie brief <ref target="ii085.xml">085</ref>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers127">Van Gogh</rs>’s painting <hi rend="italics">The Bedroom</hi>, which appears in several of Israëls’s works: Vincent van Gogh,  <hi rend="italics">The Bedroom</hi>, 1888 (F 482 / JH 1608). <rs type="artwork" ref="artwork.xml#ii032"/>
+            </p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>It is not possible to say for sure which painting Israëls meant by ‘the sunny hill’ – there are no known works in his oeuvre with such a subject in the background. It might have been this one: Vincent van Gogh,  <hi rend="italics">Montmartre: Behind the Moulin de la Galette</hi> (F 316 / JH 1246), 1887. <rs type="artwork" ref="artwork.xml#ii033"/>
+            </p>
+            <p>See also letters <ref target="ii076.xml">076</ref>, <ref target="ii077.xml">077</ref> and <ref target="ii078.xml">078</ref>.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>Israëls received <rs type="person" ref="bio.xml#pers127">Van Gogh</rs>’s <hi rend="italics">The Yellow House (‘The Street’)</hi> on 29 November 1915 – he pictured it in the background of several of his works. Vincent van Gogh,   <hi rend="italics">The Yellow House (‘The Street’)</hi> (F 464 / JH 1589), 1888. <rs type="artwork" ref="artwork.xml#ii025"/>
+            </p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>Grada Hermina Marius, ‘Isaäc Israels’, <hi rend="italics">Onze Kunst</hi> 15 (1916), pp. 141-62. In her lengthy article, <rs type="person" ref="bio.xml#pers043">Marius</rs> praises Israëls’s ‘desire to paint an instance from life at its fullest spontaneously.’ She sketches his development as a figure painter and quotes an interesting comment he made: ‘“Painting itself is the least of it”, says Isaäc Israels. In answer to my question as to whether he doesn’t come back to such a work, he tells me: “It is therefore not to say that one is only working when one puts paint on the canvas. Couldn’t people even say that scraping off and rubbing out and making a clean canvas again can also really be such works (of course I don’t just mean the physical works alone)?”’ (pp. 142-43). The piece is a homage to Israëls’s handling of line, his use of colour and the liveliness of his drawings, pastels and paintings.</p>
+            <p>Among other things, the productive <rs type="person" ref="bio.xml#pers043">Marius</rs> wrote reviews for <hi rend="italics">De Nederlandsche Spectator</hi>, <hi rend="italics">De Gids</hi>, <hi rend="italics">De Nieuwe Gids</hi>, <hi rend="italics">De Kroniek</hi>, <hi rend="italics">Elsevier’s Geïllustreerd Maandschrift</hi>, <hi rend="italics">Onze Kunst</hi> and <hi rend="italics">Woord en Beeld</hi>. On her: W.F. Rappard, ‘Een negentiende-eeuwse kunsthistorica van naam: G.H. Marius / A Nineteenth-Century Art Historian of Repute: G.H. Marius’, <hi rend="italics">RKD Bulletin</hi> 1 (1994), pp. 1-4.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>Upon reflection Israëls described Marius’s article as ‘rather weak … and trivial’. See letter <ref target="ii085.xml">085</ref>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Warempel, werkelijk, heus.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

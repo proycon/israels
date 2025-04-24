@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pcm="http://www.masereeuw.nl/namespaces/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, mogelijk januari 1895. </title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, possibly January 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8629V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>009</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-01" cert="low"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8629V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8629V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Woensdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Indien je er werkelijk plezier in hebt en je voelt je cordaat genoeg ervoor, ben ik in ’t geheel niet ongenegen begin volgende week een portretje van je te komen maken. <pb f="1v" facs="#s1v" n="2"/> Ik kan dan net goed denk ik. Laat mij dus maar eens vernemen wat je ervan denkt. </p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Hartelijk gegroet,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.5" n="5">Always yours</p>
+            <p xml:id="p.orig.nl.6" n="6">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Wednesday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">If you would really like it and feel resolute enough for it, I am not at all disinclined to come and make a little portrait of you next week. <pb f="1v" facs="#s1v" n="2"/> I can just do it then, I think. So just let me know what you think of that. </p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">Affectionately,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">Always yours</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e1064" type="dating">
+            <p>Voorgedrukt briefhoofd: ‘<hi rend="blockletter">koninginnegracht 2 / den haag</hi>’. Om twee redenen is de brief ‘mogelijk januari 1895’ gedateerd. Israëls schrijft in zijn aanhef nog ‘Beste Jo’, wat erop wijst dat zijn schrijven uit het begin van hun correspondentie dateert. Verder stelt hij voor om ‘volgende week’ een portretje van haar te maken. Jo schreef in augustus 1895 in haar dagboek, terugblikkend op het jaar: ‘In Januari – naar Amsterdam geweest.– Ik was dood, doodmoe – ik voelde me verlaten – eenzaam, ongelukkig in de stad – midden in al die menschen – komende uit mijn heerlijke stilte van buiten. Veilig en behagelijk voelde ik me alleen bij Israëls op ’t atelier – het waren heerlijke middagen […] – hij teekende een portretje van me – crayon – ik zat maar heel stil – makkelijk uit te rusten en hij praatte – praatte – haalde uit me allerlei dingen van vroeger. ’t Was heel mooi – heel fijn – ons sentiment – toen.’ <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p. 94. Waarschijnlijk ging het om het schetsje in zwart krijt: Isaac Israëls,  <hi rend="italics">Portret van Jo van Gogh-Bonger</hi>, 1895. <rs type="artwork" ref="artwork.xml#ii002"/>
+            </p>
+            <p>In de brieven <ref target="ii025.xml">025</ref>, <ref target="ii026.xml">026</ref> en <ref target="ii027.xml">027</ref>,  uit respectievelijk kort voor 25 maart, 25 maart en kort na 25 maart 1896 of 1897 is eveneens sprake van het maken van een portret van Jo, maar daar luidt de aanhef respectievelijk ‘My dear’ en twee keer ‘Lieve Jo’.  </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e1130" type="dating">
+            <p>Printed letterhead: ‘<hi rend="blockletter">koninginnegracht 2 / den haag</hi>’. The letter is dated ‘possibly January 1895’ for two reasons. Israëls starts the letter ‘Dear Jo’, which indicates that it dates from the beginning of their correspondence. He also proposes making a small portrait of her ‘next week’. In August 1895, looking back over the year, Jo wrote in her Diary: ‘In January – went to Amsterdam.– I was tired, dead tired – I felt abandoned – lonely, unhappy in the city – amidst all those people – coming from my wonderful quiet in the country. I only felt safe and comfortable in the studio with Israëls – they were wonderful afternoons … – he drew a little portrait of me – crayon – I just sat very still – resting easily and he talked – talked – brought back to me all sorts of thing from the past. It was very pleasant – very good – our feelings – then.’ <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, p. 94. This was probably the little sketch in black chalk: Isaac Israëls,  <hi rend="italics">Portrait of Jo van Gogh-Bonger</hi>, 1895. <rs type="artwork" ref="artwork.xml#ii002"/>
+            </p>
+            <p>In letters <ref target="ii025.xml">025</ref>, <ref target="ii026.xml">026</ref> and <ref target="ii027.xml">027</ref> from shortly before 25 March, 25 March and shortly after 25 March 1896 or 1897 there are also references to making a portrait of Jo, but there he addresses her as ‘My dear’ and twice ‘Dearest Jo’ respectively. </p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>
