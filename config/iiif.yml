@@ -74,8 +74,8 @@ scans:
   pageUrl:
     page:
       vars:
+        file: file.file
         page: facsfile
-        region: facsregion
       value: 'checkPage:‖{file}‖<pageUrl>' 
   xywh:
     page:
