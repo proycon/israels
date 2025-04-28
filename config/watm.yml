@@ -4,4 +4,7 @@ excludeElements:
   - lb
   - chunk
   - token
+excludeToplevelSections:
+  - folder: about
+  - folder: apparatus
 asTsv: true
