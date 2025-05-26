@@ -5,6 +5,6 @@ excludeElements:
   - chunk
   - token
 excludeToplevelSections:
-  - folder: about
+  # - folder: about
   - folder: apparatus
 asTsv: true
