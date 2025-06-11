@@ -1,3 +1,6 @@
+excludedFolders:
+  intro: true
+
 switches:
   dev:
     server: 'http://localhost:8087'
@@ -8,8 +11,8 @@ switches:
     hilo: 'thumb'
   preview:
     server: 'https://preview.dev.diginfra.org'
-    iiifPath: '[pid]/[org]/[repo]/'
-    iiifPathEsc: '[pid]|[org]|[repo]|'
+    iiifPath: '[title]/[org]/[repo]/'
+    iiifPathEsc: '[title]|[org]|[repo]|'
     ext: 'jpg'
     extm: 'jpg'
     hilo: 'scans'
@@ -48,7 +51,7 @@ macros:
   pageUrl: '«iiifRoot»pages|{page}.«ext»«iiifParams».«ext»'
 
 mirador:
-  manifests: '«server»/files/[pid]/[org]/[repo]/static/manifests/letters/'
+  manifests: '«server»/files/[title]/[org]/[repo]/static/manifests/letters/'
   example: 'ii001.json'
 
 scans:
