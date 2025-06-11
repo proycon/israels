@@ -10,7 +10,7 @@ switches:
     extm: 'jpeg'
     hilo: 'thumb'
   preview:
-    server: 'https://preview.dev.diginfra.org'
+    server: '[baseUri]'
     iiifPath: '[title]/[org]/[repo]/'
     iiifPathEsc: '[title]|[org]|[repo]|'
     ext: 'jpg'
