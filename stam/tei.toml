@@ -435,3 +435,7 @@ base = [ "common", "withtext" ]
 path = "//tei:salute"
 textsuffix = "\n"
 
+[[elements]]
+base = [ "common", "withtext" ]
+path = """//tei:space[@dim="vertical" and @unit="lines"]"""
+textsuffix = """\n{% for x in @quantity | int | as_range %}\n{% endfor %}"""
