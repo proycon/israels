@@ -265,7 +265,7 @@ Remaining Attributes and Elements
 	                                     2x d
 	                                     1x e
 
-	<p>                               1161x 
+	<p>                               1163x 
 	                   corresp=          3x #p.en.N
 	                                    41x #p.en.NN
 	                                    16x #p.en.NNN

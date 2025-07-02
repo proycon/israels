@@ -42,7 +42,7 @@ OK  1 namespace for name             :   220x http://www.tei-c.org/ns/1.0
 OK  1 namespace for nameLink         :    23x http://www.tei-c.org/ns/1.0
 OK  1 namespace for note             :  1478x http://www.tei-c.org/ns/1.0
 OK  1 namespace for objectDesc       :   103x http://www.tei-c.org/ns/1.0
-OK  1 namespace for p                :  3375x http://www.tei-c.org/ns/1.0
+OK  1 namespace for p                :  3377x http://www.tei-c.org/ns/1.0
 OK  1 namespace for pb               :   510x http://www.tei-c.org/ns/1.0
 OK  1 namespace for persName         :   156x http://www.tei-c.org/ns/1.0
 OK  1 namespace for person           :   143x http://www.tei-c.org/ns/1.0

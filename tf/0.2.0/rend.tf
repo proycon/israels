@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-147575	italics
+147728	italics
 italics
 italics
 italics
@@ -1403,249 +1403,209 @@ italics
 italics
 italics
 italics
-152496	indent
+152649	indent
 indent
 indent
 indent
-152503	indent
+152656	indent
 indent
-152510	indent
-152515	indent
-152525	indent
-152527	indent
+152663	indent
+152668	indent
+152678	indent
+152680	indent
 indent
-152531	indent
-152534	indent
-152538	indent
-152545	indent
+152684	indent
+152687	indent
+152691	indent
+152698	indent
 indent
-152560	indent
-indent
-indent
-indent
-152567	indent
-indent
-152574	indent
-152579	indent
-152589	indent
-152591	indent
-indent
-152595	indent
-152598	indent
-152602	indent
-152609	indent
-indent
-152738	indent
-152741	indent
+152713	indent
 indent
 indent
+indent
+152720	indent
+indent
+152727	indent
+152732	indent
+152742	indent
+152744	indent
 indent
 152748	indent
 152751	indent
+152755	indent
+152762	indent
+indent
+152891	indent
+152894	indent
 indent
 indent
 indent
-152776	whiteline-above
-152788	whiteline-above
-152792	whiteline-above
+152901	indent
+152904	indent
+indent
+indent
+indent
+152929	whiteline-above
+152941	whiteline-above
+152945	whiteline-above
 whiteline-above
-152795	whiteline-above
+152948	whiteline-above
 whiteline-above
-152800	indent
+152953	indent
 indent
 indent
 indent
-152807	indent
+152960	indent
 indent
-152814	indent
-152819	indent
-152829	indent
-152831	indent
+152967	indent
+152972	indent
+152982	indent
+152984	indent
 indent
-152835	indent
-152838	indent
-152842	indent
-152849	indent
+152988	indent
+152991	indent
+152995	indent
+153002	indent
 indent
-152862	indent
-152865	indent
+153015	indent
+153018	indent
 indent
 indent
 indent
-152882	whiteline-above
-152884	whiteline-above
+153035	whiteline-above
+153037	whiteline-above
 whiteline-above
-152889	indent
+153042	indent
 indent
 indent
 indent
-152896	indent
+153049	indent
 indent
-152903	indent
-152908	indent
-152918	indent
-152920	indent
+153056	indent
+153061	indent
+153071	indent
+153073	indent
 indent
-152924	indent
-152927	indent
-152931	indent
-152938	indent
+153077	indent
+153080	indent
+153084	indent
+153091	indent
 indent
-152951	indent
-152954	indent
+153104	indent
+153107	indent
 indent
 indent
 indent
-152971	whiteline-above
-152973	whiteline-above
+153124	whiteline-above
+153126	whiteline-above
 whiteline-above
-153099	indent
+153252	indent
 indent
-153106	indent
+153259	indent
 indent
-153120	indent
-153127	indent
-153140	indent
-153147	indent
-153160	indent
-153168	indent
-153180	indent
-153190	indent
-153203	indent
-153213	indent
-153225	indent
-153231	indent
-153246	indent
+153273	indent
+153280	indent
+153293	indent
+153300	indent
+153313	indent
+153321	indent
+153333	indent
+153343	indent
+153356	indent
+153366	indent
+153378	indent
+153384	indent
+153399	indent
 indent
-153254	indent
+153407	indent
 indent
-153268	indent
-153274	indent
-153286	indent
+153421	indent
+153427	indent
+153439	indent
 indent
-153294	indent
+153447	indent
 indent
-153330	indent
+153483	indent
 indent
-153338	indent
+153491	indent
 indent
-153359	indent
+153512	indent
 indent
-153367	indent
+153520	indent
 indent
-153383	indent
-153389	indent
-153422	indent
-indent
-153430	indent
-indent
-153445	indent
-indent
-153453	indent
-indent
-153467	indent
-indent
-indent
-153475	indent
-indent
-indent
-153489	indent
-indent
-indent
-indent
-indent
-153499	indent
-indent
-indent
-indent
-indent
-153525	indent
-indent
-indent
-indent
-indent
-153531	indent
-indent
-indent
-indent
-indent
-indent
+153536	indent
 153542	indent
+153575	indent
+indent
+153583	indent
+indent
+153598	indent
+indent
+153606	indent
+indent
+153620	indent
+indent
+indent
+153628	indent
+indent
+indent
+153642	indent
 indent
 indent
 indent
 indent
-153548	indent
+153652	indent
 indent
 indent
 indent
 indent
-indent
-153564	indent
-153569	indent
-153580	indent
-indent
-153588	indent
-indent
-153599	indent
-153605	indent
-153613	indent
-153618	indent
-153625	indent
-153630	indent
-153639	indent
-153647	indent
-153660	indent
+153678	indent
 indent
 indent
 indent
-153669	indent
 indent
-indent
-indent
-153682	indent
-153693	indent
-153713	indent
+153684	indent
 indent
 indent
 indent
 indent
 indent
-indent
-indent
-indent
-153728	indent
-indent
+153695	indent
 indent
 indent
 indent
 indent
+153701	indent
 indent
 indent
 indent
-153749	indent
 indent
 indent
+153717	indent
+153722	indent
+153733	indent
 indent
-153761	indent
+153741	indent
 indent
-indent
-indent
-153782	indent
-indent
-153789	indent
-indent
+153752	indent
+153758	indent
+153766	indent
+153771	indent
+153778	indent
+153783	indent
+153792	indent
 153800	indent
-153810	indent
-153823	indent
+153813	indent
 indent
-153831	indent
 indent
-153857	indent
 indent
+153822	indent
 indent
 indent
 indent
+153835	indent
+153846	indent
+153866	indent
 indent
 indent
 indent
@@ -1654,32 +1614,36 @@ indent
 indent
 indent
 indent
+153881	indent
 indent
 indent
-153878	indent
 indent
 indent
 indent
 indent
 indent
 indent
+153902	indent
 indent
 indent
 indent
+153914	indent
 indent
 indent
 indent
+153935	indent
 indent
+153942	indent
 indent
-153905	indent
+153953	indent
+153963	indent
+153976	indent
 indent
-153912	indent
+153984	indent
 indent
-153926	indent
+154010	indent
 indent
-153933	indent
 indent
-153965	indent
 indent
 indent
 indent
@@ -1689,243 +1653,268 @@ indent
 indent
 indent
 indent
-153982	indent
 indent
 indent
 indent
+154031	indent
 indent
 indent
 indent
 indent
 indent
 indent
-154009	indent
 indent
 indent
 indent
 indent
-154021	indent
 indent
 indent
 indent
 indent
-154042	indent
+154058	indent
 indent
+154065	indent
 indent
-154051	indent
+154079	indent
 indent
+154086	indent
 indent
-154072	indent
+154116	indent
 indent
 indent
 indent
 indent
 indent
-154084	indent
 indent
 indent
 indent
 indent
+154133	indent
 indent
-154101	indent
 indent
-154107	indent
 indent
-154122	indent
-154130	indent
-154143	indent
 indent
 indent
 indent
-154153	indent
 indent
 indent
 indent
-154168	indent
+154160	indent
 indent
 indent
 indent
 indent
-154179	indent
+154172	indent
 indent
 indent
 indent
 indent
-154210	indent
+154193	indent
 indent
 indent
+154202	indent
 indent
 indent
-154220	indent
+154223	indent
 indent
 indent
 indent
 indent
-154253	indent
 indent
+154235	indent
 indent
 indent
 indent
-154265	indent
 indent
 indent
+154252	indent
 indent
+154258	indent
 indent
-154283	indent
-154288	indent
-154297	indent
+154273	indent
+154281	indent
+154294	indent
+indent
+indent
 indent
 154304	indent
 indent
-154312	indent
-154317	indent
-154326	indent
-154331	indent
-154341	indent
-154347	indent
-154357	indent
 indent
 indent
-154366	indent
-indent
-indent
-154381	indent
+154319	indent
 indent
 indent
 indent
-154390	indent
+indent
+154330	indent
 indent
 indent
 indent
-154409	indent
 indent
-154418	indent
-indent
-154435	indent
-154445	indent
-154486	indent
-154496	indent
-154514	indent
-indent
-154521	indent
-indent
-154538	indent
+154361	indent
 indent
 indent
-154550	indent
 indent
 indent
-154578	indent
+154371	indent
 indent
-154591	indent
 indent
-154615	indent
 indent
-154626	indent
 indent
-154660	indent
+154404	indent
 indent
-154667	indent
 indent
-154681	indent
-154692	indent
-154711	indent
-154720	indent
-154738	indent
-154748	indent
-154765	indent
 indent
+indent
+154416	indent
+indent
+indent
+indent
+indent
+154434	indent
+154439	indent
+154448	indent
+indent
+154455	indent
+indent
+154463	indent
+154468	indent
+154477	indent
+154482	indent
+154492	indent
+154498	indent
+154508	indent
+indent
+indent
+154517	indent
+indent
+indent
+154532	indent
+indent
+indent
+indent
+154541	indent
+indent
+indent
+indent
+154560	indent
+indent
+154569	indent
+indent
+154586	indent
+154596	indent
+154637	indent
+154647	indent
+154665	indent
+indent
+154672	indent
+indent
+154689	indent
+indent
+indent
+154701	indent
+indent
+indent
+154729	indent
+indent
+154742	indent
+indent
+154766	indent
 indent
 154777	indent
 indent
+154811	indent
 indent
-154819	indent
-154828	indent
-154844	indent
-154853	indent
-154867	indent
-154874	indent
-154883	indent
-154891	indent
-154906	indent
+154818	indent
 indent
-154913	indent
+154832	indent
+154843	indent
+154862	indent
+154871	indent
+154889	indent
+154899	indent
+154916	indent
 indent
-154929	indent
 indent
-154939	indent
+154928	indent
 indent
-154984	indent
-154992	indent
+indent
+154970	indent
+154979	indent
+154995	indent
 155004	indent
+155018	indent
+155025	indent
+155034	indent
+155042	indent
+155057	indent
 indent
-indent
-indent
-155015	indent
-indent
-indent
-indent
-155037	indent
-155047	indent
 155064	indent
-155072	indent
-155091	indent
 indent
-155101	indent
+155080	indent
 indent
-155121	indent
+155090	indent
 indent
-indent
-155131	indent
-indent
-indent
-155182	indent
-indent
-155192	indent
-indent
-155212	indent
-155220	indent
-155249	indent
-155265	indent
-indent
-155275	indent
-indent
-155315	indent
-indent
-155325	indent
-indent
-155364	indent
+155135	indent
+155143	indent
+155155	indent
 indent
 indent
 indent
+155166	indent
 indent
 indent
 indent
-155376	indent
+155188	indent
+155198	indent
+155215	indent
+155223	indent
+155242	indent
+indent
+155252	indent
+indent
+155272	indent
 indent
 indent
+155282	indent
 indent
 indent
+155333	indent
 indent
+155343	indent
 indent
-155415	indent
+155363	indent
+155371	indent
+155400	indent
+155416	indent
 indent
-indent
-155424	indent
-indent
-indent
-155449	indent
-indent
-indent
-indent
-indent
-indent
-indent
-indent
-indent
+155426	indent
 indent
 155466	indent
 indent
+155476	indent
+indent
+155515	indent
+indent
+indent
+indent
+indent
+indent
+indent
+155527	indent
+indent
+indent
+indent
+indent
+indent
+indent
+155566	indent
+indent
+indent
+155575	indent
+indent
+indent
+155600	indent
 indent
 indent
 indent
@@ -1934,23 +1923,8 @@ indent
 indent
 indent
 indent
-155537	indent
-155546	indent
-155563	indent
 indent
-indent
-indent
-indent
-indent
-indent
-155576	indent
-indent
-indent
-indent
-indent
-indent
-indent
-155614	indent
+155617	indent
 indent
 indent
 indent
@@ -1958,7 +1932,25 @@ indent
 indent
 indent
 indent
-155628	indent
+indent
+indent
+155688	indent
+155697	indent
+155714	indent
+indent
+indent
+indent
+indent
+indent
+indent
+155727	indent
+indent
+indent
+indent
+indent
+indent
+indent
+155765	indent
 indent
 indent
 indent
@@ -1966,45 +1958,53 @@ indent
 indent
 indent
 indent
-155666	indent
+155779	indent
 indent
 indent
 indent
 indent
 indent
-155678	indent
+indent
+indent
+155817	indent
 indent
 indent
 indent
 indent
 indent
-155707	indent
+155829	indent
 indent
 indent
 indent
-155716	indent
+indent
+indent
+155858	indent
 indent
 indent
 indent
-155737	indent
+155867	indent
 indent
 indent
-155746	indent
+indent
+155888	indent
 indent
 indent
-155799	indent
+155897	indent
 indent
-155810	indent
 indent
-155828	indent
-155831	indent
+155950	indent
 indent
-155840	indent
-155843	indent
+155961	indent
 indent
-155861	indent
-155865	indent
-158165	right
+155979	indent
+155982	indent
+indent
+155991	indent
+155994	indent
+indent
+156012	indent
+156016	indent
+158370	right
 indent
 indent
 indent

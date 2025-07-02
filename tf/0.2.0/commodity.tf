@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-150341	size-hor
+150494	size-hor
 size-ver
 size-hor
 size-ver

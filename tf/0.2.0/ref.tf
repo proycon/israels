@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-150667	https://huygens.knaw.nl/en
+150820	https://huygens.knaw.nl/en
 https://www.vangoghmuseum.nl/en
 https://huygens.knaw.nl/en
 https://www.vangoghmuseum.nl/en
@@ -241,7 +241,7 @@ https://huygens.knaw.nl/en
 https://www.vangoghmuseum.nl/en
 https://huygens.knaw.nl/en
 https://www.vangoghmuseum.nl/en
-158892	bio.xml#pers141
+159097	bio.xml#pers141
 bio.xml#pers141
 bio.xml#pers141
 bio.xml#pers141

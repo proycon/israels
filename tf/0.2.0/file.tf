@@ -19,17 +19,17 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-140135	Inleiding_introduction
+140290	Inleiding_introduction
 Verantwoording_Notes_for_the_reader
 colofon
 woord-van-dank
-140316	artwork
-140486	bibliolist-en
+140471	artwork
+140641	bibliolist-en
 bibliolist-nl
 bio
-146155	Inleiding_introduction
+146308	Inleiding_introduction
 Verantwoording_Notes_for_the_reader
 colofon
 woord-van-dank
@@ -141,7 +141,7 @@ artwork
 bibliolist-en
 bibliolist-nl
 bio
-149682	ii001
+149835	ii001
 ii002
 ii003
 ii004

@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-149797	http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+149950	http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
@@ -131,7 +131,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/li
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-156932	https://xxx.yyy.nep/aaa/001
+157137	https://xxx.yyy.nep/aaa/001
 #note.nl.1
 #note.nl.2
 #note.nl.3
@@ -1033,7 +1033,7 @@ https://rkd.nl/en/explore/thesaurus?domain=VORM&language=en-GB&term=74840
 https://xxx.yyy.nep/aaa/001
 https://xxx.yyy.nep/aaa/001
 https://xxx.yyy.nep/aaa/001
-158188	ii020.xml
+158393	ii020.xml
 ii049.xml
 ii043.xml
 http://www.bongerdiaries.org/

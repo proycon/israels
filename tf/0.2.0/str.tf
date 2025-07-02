@@ -19,7 +19,7 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
 Brieven
 Isaac
@@ -44785,6 +44785,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amsterdam
 ,
 2
@@ -45436,6 +45437,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Amst
 .
 30
@@ -46004,6 +46006,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 
@@ -46797,6 +46800,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Amst
 .
 25
@@ -46999,6 +47003,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Amsterdam
@@ -47238,6 +47243,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Amst
@@ -47505,6 +47511,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Amst
 .
@@ -48551,6 +48558,7 @@ Bonger
 ​
 ​
 ​
+​
 
 Amst
 .
@@ -49579,6 +49587,7 @@ Bonger
 ​
 ​
 ​
+​
 
 Woensdag
 ​
@@ -50375,6 +50384,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -53216,6 +53226,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Amst
 .
 Dinsdag
@@ -54225,6 +54236,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 13
@@ -55011,6 +55023,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amst
 .
 4
@@ -55666,6 +55679,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Als
@@ -56390,6 +56404,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Woensdag
@@ -57311,6 +57326,7 @@ Gogh
 -
 Bonger
 ​
+​
 Dinsdag
 .
 ​
@@ -58127,6 +58143,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -58971,6 +58988,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 4
@@ -59728,6 +59746,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amice
 ,
 Deze
@@ -60001,6 +60020,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -61100,6 +61120,7 @@ Gogh
 -
 Bonger
 ​
+​
 Vrijdag
 ​
 
@@ -61456,6 +61477,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -62206,6 +62228,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amst
 .
 4
@@ -62526,6 +62549,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Amst
 .
@@ -63161,6 +63185,7 @@ Gogh
 -
 Bonger
 ​
+​
 Lieve
 Jo
 ,
@@ -63629,6 +63654,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 25
 maart
@@ -64128,6 +64154,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Zaterdag
 ​
@@ -64637,6 +64664,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 Zaterdag
@@ -64727,6 +64755,7 @@ Gogh
 Villa
 Helma
 Bussum
+​
 Amst
 .
 Saturday
@@ -64819,6 +64848,7 @@ Gogh
 Villa
 Helma
 Bussum
+​
 
 Enveloppe
 .
@@ -65350,6 +65380,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -66875,6 +66906,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 Zaterdag
@@ -67972,6 +68004,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amst
 .
 3
@@ -68502,6 +68535,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 Maandag
@@ -68564,6 +68598,7 @@ Gogh
 villa
 Helma
 Bussum
+​
 Amst
 .
 Monday
@@ -68628,6 +68663,7 @@ Gogh
 villa
 Helma
 Bussum
+​
 
 Enveloppe
 .
@@ -68774,6 +68810,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Amst
@@ -69414,6 +69451,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Ruiken
 zeer
 lekker
@@ -69626,6 +69664,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -70972,6 +71011,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 9
@@ -72198,6 +72238,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amst
 .
 29
@@ -72403,6 +72444,7 @@ Bonger
 ​
 ​
 ​
+​
 
 ​
 
@@ -72499,7 +72541,6 @@ Gogh
 Bussum
 Holland
 ​
-
 ​
 
 ​
@@ -72602,7 +72643,6 @@ Gogh
 Bussum
 Holland
 ​
-
 
 Enveloppe
 ,
@@ -72758,6 +72798,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 2
@@ -74138,6 +74179,7 @@ Bonger
 ​
 ​
 ​
+​
 Schev
 .
 18
@@ -74961,6 +75003,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -75932,6 +75975,7 @@ Bonger
 ​
 ​
 ​
+​
 Schev
 .
 Maandag
@@ -76682,6 +76726,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Meisje
 aan
@@ -77445,6 +77490,7 @@ Gogh
 -
 Bonger
 ​
+​
 Schev
 .
 Donderdag
@@ -77887,6 +77933,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Amsterdam
@@ -78714,6 +78761,7 @@ Bonger
 ​
 ​
 ​
+​
 Amst
 .
 17
@@ -79485,6 +79533,7 @@ Gogh
 -
 Bonger
 ​
+​
 Amst
 .
 21
@@ -79768,6 +79817,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -81733,6 +81783,7 @@ Gogh
 -
 Bonger
 ​
+​
 Boerin
 die
 een
@@ -82267,6 +82318,7 @@ Gogh
 -
 Bonger
 ​
+​
 19
 nov
 .
@@ -82714,6 +82766,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Amst
 .
@@ -83177,6 +83230,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Lieve
 Jo
 ,
@@ -83595,6 +83649,7 @@ Gogh
 -
 Bonger
 ​
+​
 Mei
 .
 ​
@@ -83907,6 +83962,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Donderdag
 ​
@@ -84347,6 +84403,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Amst
 .
@@ -85490,6 +85547,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Amst
 .
 ,
@@ -86507,6 +86565,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -87880,6 +87939,7 @@ Bonger
 ​
 ​
 ​
+​
 Paris
 le
 12
@@ -88345,6 +88405,7 @@ Helma
 à
 Bussum
 Hollande
+​
 Paris
 le
 12
@@ -88816,6 +88877,7 @@ Helma
 à
 Bussum
 Hollande
+​
 
 Enveloppe
 .
@@ -90095,6 +90157,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 12
@@ -90187,6 +90250,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 12
@@ -90277,6 +90341,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -90671,6 +90736,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -91816,6 +91882,7 @@ Bonger
 ​
 ​
 ​
+​
 20
 Juli
 ​
@@ -92014,6 +92081,7 @@ Hautes
 -
 Pyrénées
 France
+​
 20
 July
 ​
@@ -92219,6 +92287,7 @@ Hautes
 -
 Pyrénées
 France
+​
 
 Enveloppe
 .
@@ -92563,6 +92632,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -93464,6 +93534,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 Koninginnegracht
@@ -93565,6 +93636,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 Koninginnegracht
@@ -93684,6 +93756,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -94396,6 +94469,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Den
 Haag
 Vrijdag
@@ -94778,6 +94852,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 Zaterdag
 ​
@@ -95330,6 +95405,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 Dinsdag
@@ -95477,6 +95553,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 Tuesday
@@ -95628,6 +95705,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -95915,6 +95993,7 @@ Bonger
 ​
 ​
 ​
+​
 Woensdag
 ​
 
@@ -96019,6 +96098,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Wednesday
 ​
 
@@ -96133,6 +96213,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -96539,6 +96620,7 @@ Bonger
 ​
 ​
 ​
+​
 Vrijdagavond
 ​
 
@@ -96643,6 +96725,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 Friday
 evening
 ​
@@ -96749,6 +96832,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -97035,6 +97119,7 @@ Bonger
 ​
 ​
 ​
+​
 13
 Jan
 .
@@ -97285,6 +97370,7 @@ Koninginneweg
 Amsterdam
 Holland
 .
+​
 13
 Jan
 .
@@ -97545,6 +97631,7 @@ Koninginneweg
 Amsterdam
 Holland
 .
+​
 
 Enveloppe
 .
@@ -97946,6 +98033,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 ,
@@ -98069,6 +98157,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 ,
@@ -98202,6 +98291,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -98392,6 +98482,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Dinsdag
@@ -98762,6 +98853,7 @@ Bonger
 ​
 ​
 ​
+​
 
 Maandag
 ​
@@ -98822,6 +98914,7 @@ Koninginneweg
 77
 Amsterdam
 ​
+​
 
 Monday
 ​
@@ -98881,6 +98974,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -99077,6 +99171,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Den
@@ -99686,6 +99781,7 @@ Bonger
 ​
 ​
 ​
+​
 Woensdagavond
 ​
 
@@ -99766,6 +99862,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Wednesday
 evening
 ​
@@ -99851,6 +99948,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -100316,6 +100414,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Dinsdagavond
@@ -101054,6 +101153,7 @@ Bonger
 ​
 ​
 ​
+​
 Donderdag
 ​
 
@@ -101272,6 +101372,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Thursday
 ​
 
@@ -101498,6 +101599,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -102352,6 +102454,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Den
 Haag
 Maandag
@@ -102851,6 +102954,7 @@ Bonger
 ​
 ​
 ​
+​
 Dinsdag
 ​
 
@@ -102971,6 +103075,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Tuesday
 ​
 
@@ -103095,6 +103200,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -103371,6 +103477,7 @@ Bonger
 ​
 ​
 ​
+​
 
 Beste
 Jo
@@ -103540,6 +103647,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 ​
 
 Dear
@@ -103731,6 +103839,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -104541,6 +104650,7 @@ Bonger
 ​
 ​
 ​
+​
 Vrijdag
 ​
 
@@ -104667,6 +104777,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Friday
 ​
 
@@ -104809,6 +104920,7 @@ Koninginneweg
 Amsterdam
 ​
 
+​
 
 Enveloppe
 .
@@ -105234,6 +105346,7 @@ Bonger
 ​
 ​
 ​
+​
 B
 .
 J
@@ -105365,6 +105478,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Dear
 J
 .
@@ -105521,6 +105635,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -105776,6 +105891,7 @@ Bonger
 ​
 ​
 ​
+​
 
 10
 Febr
@@ -105955,6 +106071,7 @@ Koninginneweg
 77
 Amsterdam
 .
+​
 ​
 
 10
@@ -106142,6 +106259,7 @@ Koninginneweg
 77
 Amsterdam
 .
+​
 
 Enveloppe
 .
@@ -106628,6 +106746,7 @@ Bonger
 ​
 ​
 ​
+​
 Beste
 Jo
 ,
@@ -106737,6 +106856,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Dear
 Jo
 ,
@@ -106845,6 +106965,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -107015,6 +107136,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 26
@@ -108369,6 +108491,7 @@ Bonger
 ​
 ​
 ​
+​
 Vrijdag
 ​
 
@@ -108498,6 +108621,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Friday
 ​
 
@@ -108626,6 +108750,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -108963,6 +109088,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 B
@@ -109593,6 +109719,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Den
 Haag
 ,
@@ -110028,6 +110155,7 @@ Bonger
 ​
 ​
 ​
+​
 
 Maandag
 ​
@@ -110196,6 +110324,7 @@ Koninginneweg
 77
 Amsterdam
 ​
+​
 
 Monday
 ​
@@ -110362,6 +110491,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -110811,6 +110941,7 @@ Gogh
 Bonger
 ​
 ​
+​
 Den
 Haag
 Woensdag
@@ -111044,6 +111175,7 @@ Bonger
 ​
 ​
 ​
+​
 Zondag
 ​
 
@@ -111116,6 +111248,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Sunday
 ​
 
@@ -111192,6 +111325,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -111475,6 +111609,7 @@ Bonger
 ​
 ​
 ​
+​
 Beste
 Jo
 ,
@@ -111537,6 +111672,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 Dear
 Jo
 ,
@@ -111602,6 +111738,7 @@ Gosschalk
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .
@@ -111785,6 +111922,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -114024,6 +114162,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 Maandag
@@ -115010,6 +115149,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -118615,6 +118755,7 @@ Bonger
 ​
 ​
 ​
+​
 Parijs
 ,
 11
@@ -118690,6 +118831,7 @@ Koninginneweg
 Amsterdam
 
 Hollande
+​
 Paris
 ,
 11
@@ -118770,6 +118912,7 @@ Koninginneweg
 Amsterdam
 
 Hollande
+​
 
 Postkaart
 (
@@ -119641,6 +119784,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 ​
@@ -121806,6 +121950,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Solo
@@ -124418,6 +124563,7 @@ Bonger
 ​
 ​
 ​
+​
 Solo
 6
 juli
@@ -126599,6 +126745,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 Zondag
@@ -127501,6 +127648,7 @@ van
 Gogh
 -
 Bonger
+​
 ​
 ​
 Den
@@ -128861,6 +129009,7 @@ Gogh
 Bonger
 ​
 ​
+​
 
 Zondag
 
@@ -129548,6 +129697,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 Zaterdag
@@ -129613,6 +129763,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 Saturday
@@ -129683,6 +129834,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 
 Postkaart
 (
@@ -130235,6 +130387,7 @@ Bonger
 ​
 ​
 ​
+​
 Den
 Haag
 1
@@ -130426,6 +130579,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 The
 Hague
 1
@@ -130626,6 +130780,7 @@ Gogh
 Koninginneweg
 77
 Amsterdam
+​
 
 Enveloppe
 .

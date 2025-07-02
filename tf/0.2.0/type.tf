@@ -19,9 +19,9 @@
 @valueType=str
 @version=0.2.0
 @writtenBy=Text-Fabric
-@dateWritten=2025-07-02T10:44:18+00:00Z
+@dateWritten=2025-07-02T13:38:04+00:00Z
 
-140140	ii
+140295	ii
 ii
 ii
 ii
@@ -124,7 +124,7 @@ ii
 ii
 ii
 ii
-144643	sent
+144796	sent
 received
 sent
 received
@@ -330,7 +330,7 @@ sent
 received
 sent
 received
-145265	creation
+145418	creation
 creation
 creation
 creation
@@ -403,9 +403,9 @@ creation
 creation
 creation
 creation
-145551	intro-nl
-145582	intro-en
-145613	original
+145704	intro-nl
+145735	intro-en
+145766	original
 translation
 original
 translation
@@ -611,7 +611,7 @@ original
 translation
 original
 translation
-149907	gloss
+150060	gloss
 gloss
 gloss
 gloss
@@ -1041,13 +1041,13 @@ typednotes
 typednotes
 notes
 notes
-151154	dating
+151307	dating
 dating
-151160	dating
+151313	dating
 dating
-151164	dating
+151317	dating
 dating
-151168	dating
+151321	dating
 dating
 dating
 dating
@@ -1055,35 +1055,35 @@ dating
 dating
 dating
 dating
-151180	dating
+151333	dating
 dating
-151186	dating
+151339	dating
 dating
 dating
 dating
-151215	dating
+151368	dating
 dating
-151227	dating
+151380	dating
 dating
-151235	dating
+151388	dating
 dating
-151241	dating
+151394	dating
 dating
-151246	dating
+151399	dating
 dating
-151252	dating
+151405	dating
 dating
-151257	dating
+151410	dating
 dating
-151261	dating
+151414	dating
 dating
-151265	dating
+151418	dating
 dating
 dating
 dating
-151272	dating
+151425	dating
 dating
-151276	dating
+151429	dating
 dating
 dating
 dating
@@ -1093,15 +1093,15 @@ dating
 dating
 dating
 dating
-151288	dating
+151441	dating
 dating
 dating
 dating
-151296	dating
+151449	dating
 dating
-151301	dating
+151454	dating
 dating
-151308	dating
+151461	dating
 dating
 dating
 dating
@@ -1109,145 +1109,145 @@ dating
 dating
 dating
 dating
-151318	dating
+151471	dating
 dating
-151323	dating
+151476	dating
 dating
-151330	dating
+151483	dating
 dating
 dating
 dating
 dating
 dating
-151338	dating
+151491	dating
 dating
-151346	dating
+151499	dating
 dating
-151357	dating
+151510	dating
 dating
-151363	dating
-dating
-151367	dating
-dating
-151371	dating
-dating
-151375	dating
-dating
-151378	dating
-dating
-151382	dating
-dating
-151403	dating
-dating
-151409	dating
-dating
-dating
-dating
-dating
-dating
-dating
-dating
-151419	dating
-dating
-dating
-dating
-151427	dating
-dating
-151435	dating
-dating
-151442	dating
-dating
-151472	dating
-dating
-151480	dating
-dating
-151489	dating
-dating
-151503	dating
-dating
-151511	dating
+151516	dating
 dating
 151520	dating
 dating
+151524	dating
 dating
+151528	dating
 dating
-151527	dating
+151531	dating
 dating
 151535	dating
 dating
-151543	dating
+151556	dating
 dating
-151549	dating
-dating
-151557	dating
-dating
-151561	dating
-dating
-151567	dating
-dating
-151570	dating
+151562	dating
 dating
 dating
 dating
-151578	dating
 dating
-151586	dating
+dating
+dating
+dating
+151572	dating
+dating
+dating
+dating
+151580	dating
+dating
+151588	dating
 dating
 151595	dating
 dating
-151601	dating
+151625	dating
 dating
-151605	dating
+151633	dating
 dating
-151613	dating
+151642	dating
 dating
-151621	dating
+151656	dating
 dating
-151630	dating
+151664	dating
 dating
-151640	dating
-dating
-151645	dating
-dating
-151658	dating
-dating
-151668	dating
-dating
-151678	dating
-dating
-151684	dating
-dating
-151692	dating
+151673	dating
 dating
 dating
 dating
-151700	dating
+151680	dating
 dating
-151705	dating
+151688	dating
 dating
-151730	dating
+151696	dating
 dating
-151745	dating
+151702	dating
 dating
-151795	dating
+151710	dating
 dating
-151799	dating
+151714	dating
 dating
-151819	dating
+151720	dating
 dating
-151840	dating
+151723	dating
 dating
-151854	dating
 dating
-151865	dating
 dating
-151880	dating
+151731	dating
 dating
-151890	dating
+151739	dating
 dating
-151896	dating
+151748	dating
 dating
-151904	technical
+151754	dating
+dating
+151758	dating
+dating
+151766	dating
+dating
+151774	dating
+dating
+151783	dating
+dating
+151793	dating
+dating
+151798	dating
+dating
+151811	dating
+dating
+151821	dating
+dating
+151831	dating
+dating
+151837	dating
+dating
+151845	dating
+dating
+dating
+dating
+151853	dating
+dating
+151858	dating
+dating
+151883	dating
+dating
+151898	dating
+dating
+151948	dating
+dating
+151952	dating
+dating
+151972	dating
+dating
+151993	dating
+dating
+152007	dating
+dating
+152018	dating
+dating
+152033	dating
+dating
+152043	dating
+dating
+152049	dating
+dating
+152057	technical
 technical
 creditline
 creditline
@@ -1731,7 +1731,7 @@ shortdesc
 shortdesc
 shortdesc
 shortdesc
-156932	webedition
+157137	webedition
 note
 note
 note
@@ -2626,10 +2626,10 @@ note
 note
 note
 note
-157831	webedition
+158036	webedition
 webedition
 webedition
-158946	person
+159151	person
 person
 person
 person
@@ -4267,27 +4267,27 @@ person
 artwork
 artwork
 artwork
-161678	married-name
-161680	married-name
-161683	married-name
-161686	married-name
-161691	married-name
-161713	married-name
-161715	married-name
-161731	married-name
-161737	married-name
-161739	married-name
-161748	married-name
-161750	married-name
-161759	married-name
-161765	married-name
-161767	married-name
-161773	married-name
-161778	married-name
-161790	married-name
-161796	married-name
-161798	married-name
-161813	married-name
-161819	married-name
-161821	married-name
-161847	married-name
+161883	married-name
+161885	married-name
+161888	married-name
+161891	married-name
+161896	married-name
+161918	married-name
+161920	married-name
+161936	married-name
+161942	married-name
+161944	married-name
+161953	married-name
+161955	married-name
+161964	married-name
+161970	married-name
+161972	married-name
+161978	married-name
+161983	married-name
+161995	married-name
+162001	married-name
+162003	married-name
+162018	married-name
+162024	married-name
+162026	married-name
+162052	married-name
