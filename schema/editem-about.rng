@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-04-01T08:37:43Z. .
+Schema generated from ODD source 2025-05-14T12:39:17Z. .
 TEI Edition: 
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
   
@@ -6247,8 +6247,8 @@ Suggested values include: 1] label; 2] data</a:documentation>
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:p|tei:figure|tei:list">
-               <sch:report test="ancestor::tei:body and not(ancestor::tei:note) and (not(@n) or not(@xml:id))">Block elements in body must contain n and xml:id attributes.</sch:report>
+                      context="tei:p|tei:figure|tei:list|tei:table|tei:quote">
+               <sch:report test="ancestor::tei:body and parent::tei:div and not(ancestor::tei:note) and (not(@n) or not(@xml:id))">Block elements in body must contain n and xml:id attributes.</sch:report>
             </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>

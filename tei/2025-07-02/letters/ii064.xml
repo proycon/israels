@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 6 november 1914.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 6 November 1914.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8605V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>064</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1914-11-06"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8605V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8605V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">Vrijdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Ik had je al wel iets laten hooren maar kan moeilijk wat afspreken. De volgende week zal het <pb f="1v" facs="#s1v" n="2"/> beter gaan. Ik zal je dat begin volgende week even schrijven of opbellen, natuurlijk kom je eens hier en ik moet bij dag je schilderijen zien. Dus in ieder geval tot spoedig! </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.5" n="5">Yours,</p>
+            <p xml:id="p.orig.nl.6" n="6">I.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Friday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I had already let you know something, but it’s difficult to agree anything. It will be <pb f="1v" facs="#s1v" n="2"/> better next week. I shall write to you or telephone you at the beginning of next week even, of course you’ll come here and I must see your paintings in daylight. So see you soon in any event! </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">Yours,</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">I.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e9502" type="dating">
+            <p>Israëls schrijft ‘Vrijdag’ in het briefhoofd. Hij zegt dat hij Jo’s schilderijen ‘bij dag’ wil zien en haar daarover de volgende week te zullen schrijven of bellen. Aangezien hij in zijn brief van 10 november 1914 op dit voornemen terugkomt (zie brief <ref target="ii066.xml">066</ref>), moet de onderhavige brief van vrijdag 6 november 1914 dateren.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e9540" type="dating">
+            <p>Israëls wrote Friday at the top of the letter. He says he wants to see Jo’s paintings in the daytime and will write to her or call her the following week. Since he reverts to this plan in his letter of 10 November 1914 (see letter <ref target="ii066.xml">066</ref>), the present letter must date from Friday 6 November 1914.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Scheveningen, augustus-september 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Scheveningen, August to September 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8621V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>044</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date notBefore="1897-08" notAfter="1897-09" cert="low"/>
+               <placeName>Scheveningen, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8621V2008_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Schev.</p>
+            <p xml:id="p.orig.nl.2" n="2">Donderdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Te schrijven heb ik niet veel bizonders. Ik blijf denk ik tot maandag hier. Als je soms voor dien tijd komt is ’t goed, anders zie ik je later wel spoedig.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Veel voer ik hier niet uit ofschoon ik er wel mijn best voor doe maar ’t hangt niet alleen van mij af. Enfin, het leven is niet altijd een meevaller.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Den uwe</p>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">Mijn neef is nog niet aangekomen.<ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Schev.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Thursday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I haven’t much special to write about. I think I’ll stay here until Monday. It will be good if you can come before that, otherwise I’ll see you soon later.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">I don’t get much done here, although I do my best, but it doesn’t only depend on me. Well, life isn’t always a bed of roses.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Your</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">My cousin still hasn’t arrived.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e6189" type="dating">
+            <p>Het jaartal 1897 is toegekend op basis van het journalistencongres dat op 1 augustus in Stockholm plaatsvond. Zoals het naschrift van de onderhavige brief vermeldt, was Israëls’ neef <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>, die dit congres bijwoonde (brief <ref target="ii40.xml">40</ref>), daar namelijk nog niet van teruggekeerd.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e6246" type="dating">
+            <p>The year 1897 has been assigned on the basis of the journalism conference that took place in Stockholm on 1 August. As Israëls writes in the postscript to the present letter, his cousin <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>, who attended this conference (letter <ref target="ii40.xml">40</ref>), had not yet got back from there.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>. Zie over hem ook de brieven <ref target="ii036.xml">036</ref> en <ref target="ii041.xml">041</ref>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers051">Herman Louis Israëls</rs>. On him see also letters <ref target="ii036.xml">036</ref> and <ref target="ii041.xml">041</ref>.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -3,9 +3,9 @@
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <xs:import namespace="http://xmlschema.huygens.knaw.nl/ns/editem" schemaLocation="editem.xsd"/>
   <!--
-    Schema generated from ODD source 2025-03-19T17:21:50Z. . 
-    TEI Edition:  
-    TEI Edition Location: https://www.tei-c.org/Vault/P5// 
+    Schema generated from ODD source 2025-05-08T11:23:59Z. .
+    TEI Edition: 
+    TEI Edition Location: https://www.tei-c.org/Vault/P5//
     
   -->
   <!---->
@@ -2059,26 +2059,12 @@ Sample values include: 1] all; 2] most; 3] range</xs:documentation>
           <xs:attributeGroup ref="tei:tei_att.typed.attribute.subtype"/>
           <xs:attribute name="type">
             <xs:annotation>
-              <xs:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.
-Suggested values include: 1] deprecationInfo (deprecation information)</xs:documentation>
+              <xs:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
-              <xs:union>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:enumeration value="deprecationInfo">
-                      <xs:annotation>
-                        <xs:documentation>(deprecation information) This element describes why or how its parent element is being deprecated, typically including recommendations for alternate encoding.</xs:documentation>
-                      </xs:annotation>
-                    </xs:enumeration>
-                  </xs:restriction>
-                </xs:simpleType>
-                <xs:simpleType>
-                  <xs:restriction base="xs:token">
-                    <xs:pattern value="[^\p{C}\p{Z}]+"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:union>
+              <xs:restriction base="xs:token">
+                <xs:pattern value="[^\p{C}\p{Z}]+"/>
+              </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
         </xs:extension>
@@ -2167,6 +2153,11 @@ Suggested values include: 1] deprecationInfo (deprecation information)</xs:docum
                     <xs:documentation/>
                   </xs:annotation>
                 </xs:enumeration>
+                <xs:enumeration value="extra">
+                  <xs:annotation>
+                    <xs:documentation/>
+                  </xs:annotation>
+                </xs:enumeration>
                 <xs:enumeration value="technical">
                   <xs:annotation>
                     <xs:documentation/>
@@ -2233,8 +2224,7 @@ Suggested values include: 1] deprecationInfo (deprecation information)</xs:docum
           <xs:attributeGroup ref="tei:tei_att.typed.attribute.subtype"/>
           <xs:attribute name="type">
             <xs:annotation>
-              <xs:documentation>classifies the title according to some convenient typology.
-Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</xs:documentation>
+              <xs:documentation>classifies the title according to some convenient typology.</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
               <xs:restriction base="xs:token">
@@ -2400,72 +2390,12 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:attributeGroup ref="tei:tei_att.typed.attribute.subtype"/>
       <xs:attribute name="type">
         <xs:annotation>
-          <xs:documentation>categorizes the identifier, for example as an ISBN, Social Security number, etc.
-Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC</xs:documentation>
+          <xs:documentation>categorizes the identifier, for example as an ISBN, Social Security number, etc.</xs:documentation>
         </xs:annotation>
         <xs:simpleType>
-          <xs:union>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="ISBN"/>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="ISSN">
-                  <xs:annotation>
-                    <xs:documentation>International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="DOI">
-                  <xs:annotation>
-                    <xs:documentation>Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="URI"/>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="VIAF">
-                  <xs:annotation>
-                    <xs:documentation>A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="ESTC">
-                  <xs:annotation>
-                    <xs:documentation>English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="OCLC">
-                  <xs:annotation>
-                    <xs:documentation>OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:pattern value="[^\p{C}\p{Z}]+"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:union>
+          <xs:restriction base="xs:token">
+            <xs:pattern value="[^\p{C}\p{Z}]+"/>
+          </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
     </xs:complexType>
@@ -2838,6 +2768,16 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <xs:attributeGroup ref="tei:tei_att.canonical.attribute.ref"/>
       <xs:attributeGroup ref="tei:tei_att.editLike.attributes"/>
       <xs:attributeGroup ref="tei:tei_att.sortable.attributes"/>
+      <xs:attribute name="active">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="mutual">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
       <xs:attribute name="name">
         <xs:annotation>
           <xs:documentation>supplies a name for the kind of relationship of which this is an instance.</xs:documentation>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 7 februari 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 7 February 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8572V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>010</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-02-07"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8572V2008r_b"/>
+         <zone n="1r1"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r4"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r4"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8572V2008v_vs_b"/>
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">7 Febr.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Lieve Mevrouw,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het spijt mij erg dat ik niet naar Bussum heb kunnen komen, mijn <rs type="person" ref="bio.xml#pers079">papa</rs>
+               <ptr type="note" target="#note.orig.nl.1"/> is vanmiddag pas weer naar den Haag gegaan, hij was een paar dagen hier om in Arti te eten enz.<ptr type="note" target="#note.orig.nl.2"/> De heele vorige week ben ik bij hem geweest in den Haag. Hij heeft zich hier uitstekend geamuseerd en zoo’n feestje dat kan geen kwaad voor hem.<ptr type="note" target="#note.orig.nl.3"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Ik zelf ben geen feestvierder van natuur maar nu het voorbij is vind ik het toch van de lui die hebben meegedaan hartelijker als van degenen die thuis zijn gebleven, want dit laatste is niet aardig als je weet of je tenminste kunt voorstellen dat je er iemand plezier mee doet als je komt, – of als je er bepaald niet tegen kunt – dit is ook excusabel ofschoon toch een beetje akelig, vind u niet? Het eenige moment dat ik eventjes het onderspit heb gedolven was gisteravond bij Gismonda, <pb f="1v" facs="#z1v2" n="2"/> welk stuk mijn  <rs type="person" ref="bio.xml#pers079">papa</rs> en nichtje graag wilden zien.<ptr type="note" target="#note.orig.nl.4"/> Helaas kwamen zoo sterke souvenirs aan de memorabele avond van de Broeders bij mij op dat ik maar in de foyer ben gaan zitten.<ptr type="note" target="#note.orig.nl.5"/> Alleen in de pauzes heb ik in de zaal kunnen doorbrengen, want eerst vin je zoo’n stuk wel aardig, maar het wreekt zich en hebeteert je.<ptr type="note" target="#note.orig.nl.a"/> Dit is nu wel geen bepaald erg pijnlijk gevoel, maar je bent toch niet goed meer in staat om vriendelijk genoeg te zijn en zoo, en daarenboven is de overgang tot de pauzes dan te groot, want de vreugde is dan een beetje akelig waanzinnig voor de anderen. Enfin, u moet het toch eens gaan zien, want behalve wat eigenlijk het aardigste is, nl. dat dit nu allemaal Nederlanders zijn, zoowel het publiek, op alle rangen, als de akteurs, tot de controleurs en de ouvreuses toe en zelfs jezelf, is het toch ook wel aardig om eenige echte Amsterdammers te zien doen net als Grieken van de 14<hi rend="super">e</hi> eeuw – en zonder dat iemand er om lacht. Het eenige wat ik mij kan voorstellen <pb f="1v" facs="#z1v3" n="3"/> dat even aardig zou geweest zijn, zou zijn om een Griek van het midden der 14 <hi rend="super">e</hi> eeuw net zoo te zien doen als een Amsterdammer, maar ’t is waar, als je ’t maar genoeg <hi rend="italics">de haut et de loin</hi><ptr type="note" target="#note.orig.nl.b"/> ziet is het verschil daartusschen eigenlijk nul, want welk verschil is er nu bijv. in ’t jaar 85927 tusschen een Griek en geen Griek? Ik heb nl. verleden week thuis vijf boeken v. <rs type="person" ref="bio.xml#pers017">Flammarion</rs> gelezen, dat moet u ook eens doen. Ik heb ze thuis laten leggen anders zou ik ’t u sturen, maar ’t kost maar 35 cts. Dan moet u bestellen “Rêves etoilés”, dit is niet kwaad, La fin du monde is een klein beetje kinderachtig. <ptr type="note" target="#note.orig.nl.6"/> ’t Is eigenlijk een <rs type="person" ref="bio.xml#pers080">Jules Verne</rs>
+               <ptr type="note" target="#note.orig.nl.7"/> voor ’t begin van de volgende eeuw, of beter een <rs type="person" ref="bio.xml#pers044">Aimard</rs>.<ptr type="note" target="#note.orig.nl.8"/> Ik lees wel graag dat de wereld vergaat, u niet? Als je dat nog eens kon beleven! Maar de wereld kan je ’t eigenlijk niet noemen, want het is alleen maar de zoogen. aarde, m.a.w. zoo goed als niets, vergaan doet hij daarenboven niet, aangezien elke <pb f="1r" facs="#z1r4" n="4"/> molekuul waaruit zij bestaat <hi rend="italics">an und für sich unsterblich ist</hi>.       <ptr type="note" target="#note.orig.nl.c"/>,<ptr type="note" target="#note.orig.nl.9"/> Wist u dit wel? U is <hi rend="italics">toch</hi> onsterfelijk, maar laat dit geen reden voor u zijn om niet nog <hi rend="italics">voor</hi> 1 Mei eens aan te komen. Laat u die wilde horde maar gerust aan zich zelf over. Barbaren verslinden zich zelven.<ptr type="note" target="#note.orig.nl.10"/> Des te minder zijn er over als u terugkomt. Komt u zoo maar eens een middagje of zoo. Maar schrijf het dan even vooruit. Het is veel aardiger dan dat ik bij u kom, nu als u wil dan komt u maar.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">T. à v.</p>
+            <p xml:id="p.orig.nl.8" n="8">Isaac Israels</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">7 Febr.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">My dear Madam,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I’m very sorry that I wasn’t able to come to Bussum; my <rs type="person" ref="bio.xml#pers079">papa</rs>
+               <ptr type="note" target="#note.tr.en.1"/> only went back to The Hague this afternoon; he was here for a few days to dine at Arti etc.<ptr type="note" target="#note.tr.en.2"/> I had been with him in The Hague for the whole of last week. He enjoyed himself immensely here and a party like that can do him no harm.<ptr type="note" target="#note.tr.en.3"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">By nature I’m not a party lover myself, but now it’s over I think the people who came were more warm-hearted than the ones who stayed home, for this last is not kind if you know or at least can imagine that you would be giving someone pleasure if you were to go, – or if you really can’t stand it – this is also excusable although still a bit nasty, don’t you think? The only moment that I briefly couldn’t deal with it was yesterday evening at Gismonda, <pb f="1v" facs="#z1v2" n="2"/> a play my  <rs type="person" ref="bio.xml#pers079">papa</rs> and niece really wanted to see.<ptr type="note" target="#note.tr.en.4"/> Unfortunately, such strong recollections of the memorable evening of the Broeders overcame me that I went and sat in the foyer.<ptr type="note" target="#note.tr.en.5"/> I could only go into the auditorium in the intervals, because at first you find a piece like this quite good, but then it takes its revenge and numbs you. This is definitely not a very painful feeling, but you’re no longer in any state to be friendly enough and so on, and on top of that the transition to the intervals is too great, because your delight is then a bit unpleasantly mad for the others. Anyway, you should still go and see it, because aside from what is actually the best thing, that is to say, that these are all Dutch people, both the audience, at all levels, and the actors, to the ticket inspectors and the usherettes and even yourself, it is actually quite good to see some real Amsterdammers behaving like Greeks from the fourteenth century – and without anyone laughing at it. The only thing <pb f="1v" facs="#z1v3" n="3"/> I can imagine that would have been as amusing, would to be see a Greek from the mid-fourteenth century behaving like an Amsterdammer, but it’s true, if you just see  <hi rend="italics">de haut et de loin</hi>
+               <ptr type="note" target="#note.tr.en.a"/> enough, the difference between them is actually zero, for what difference is there now, for instance, between a Greek and not a Greek in the year 85927? Last week, namely, I read five books by <rs type="person" ref="bio.xml#pers017">Flammarion</rs>, you must do that at some time too. I left them at home, otherwise I’d send it to you, but it only costs 35 cts. Then you must order “Rêves etoilés”, this isn’t bad, La fin du monde is a little bit childish. <ptr type="note" target="#note.tr.en.6"/> It’s actually a <rs type="person" ref="bio.xml#pers080">Jules Verne</rs>
+               <ptr type="note" target="#note.tr.en.7"/> for the beginning of the next century or, better, an <rs type="person" ref="bio.xml#pers044">Aimard</rs>.<ptr type="note" target="#note.tr.en.8"/> I like to read that the world is perishing, don’t you? If only one could experience that! But you can’t actually call it the world, because it is just the so-called earth, in other words as good as nothing, besides it won’t perish since every <pb f="1r" facs="#z1r4" n="4"/> molecule of which it consists  <hi rend="italics">an und für sich unsterblich ist</hi>.<ptr type="note" target="#note.tr.en.b"/>, <ptr type="note" target="#note.tr.en.9"/> Did you know that? You are immortal <hi rend="italics">nevertheless</hi>, but don’t let this be a reason for you not to come <hi rend="italics">before</hi> 1 May. Leave that wild horde to their own devices. Barbarians devour themselves.<ptr type="note" target="#note.tr.en.10"/> So there’ll be fewer of them when you go back. Do come and see me one afternoon some time. But drop me a line beforehand. It’s much better than me coming to you, now if you want to, then come. </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">Always,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">All yours</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Isaac Israels</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e1198" type="dating">
+            <p>Briefhoofd: ‘7 Feb:’. Israëls schrijft ‘gisteravond’ <hi rend="italics">Gismonda</hi> te hebben gezien. Dit toneelstuk werd op 6 februari 1895 opgevoerd in Amsterdam.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e1421" type="dating">
+            <p>Letter headed: ‘7 Feb:’. Israëls wrote that he had seen <hi rend="italics">Gismonda</hi> ‘yesterday evening'. This play was performed in Amsterdam on 6 February 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Kunstenaarssociëteit <hi rend="italics">Arti et Amicitiae</hi>, gevestigd aan het Rokin.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>
+               <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs> werd eind januari gefêteerd op zijn 71<hi rend="super">e</hi> verjaardag in <hi rend="italics">Pulchri Studio</hi> in Den Haag (dat had op zijn 70<hi rend="super">e</hi> moeten gebeuren, maar de feestelijkheden waren een jaar uitgesteld omdat zijn vrouw <rs type="person" ref="bio.xml#pers000">Aleida Schaap</rs> op 16 januari 1894 overleed). Op 5 februari 1895 werd de gelauwerde kunstenaar na Den Haag ook in het Amsterdamse <hi rend="italics">Arti et Amicitiae</hi> gehuldigd met een feestmaal en lovende toespraken. Beide genootschappen hadden exposities ingericht met zijn werk. Zie ‘Hulde aan Jozef Israëls’, <hi rend="italics">Rotterdamsch Nieuwsblad</hi>, 29 januari 1895 en <hi rend="italics">Algemeen Handelsblad</hi>, 6 februari 1895. Zie ook Tent.cat. Groningen 1999, p. 37.</p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Israëls was op 6 februari 1895 in de Amsterdamse Stadsschouwburg aanwezig bij de première van het melodrama <hi rend="italics">Gismonda</hi> (1894) van <rs type="person" ref="bio.xml#pers126">Victorien Sardou</rs>, opgevoerd door de Koninklijke Vereeniging Het Nederlandsch Tooneel. Het stuk speelt zich af in het veertiende-eeuwse Griekenland. Het is niet duidelijk welke nicht van Israëls meeging naar de opvoering.</p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>In de aanloop naar de publicatie van zijn boek <hi rend="italics">De broeders, tragedie van het recht</hi> (1894) had de Nederlandse schrijver <rs type="person" ref="bio.xml#pers038">Frederik van Eeden</rs> stukken hieruit declamerend opgevoerd, verspreid over locaties in het land. De eerste avond dat hij dit had gedaan in Amsterdam, was dat voor een zaal vol literatoren en schilders geweest. De dichter <rs type="person" ref="bio.xml#pers050">Herman Gorter</rs> liep op een van deze avonden weg, omdat hij het zo slecht vond – ook Israëls en Jo, die de teleurstellende declamatie hadden bijgewoond, waren die mening toegedaan. Jo schreef in haar dagboek: de voordracht ‘was zoo vervelend. Israëls was er ook.’ <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p. 92; 14 november 1894. ‘In <hi rend="italics">De Broeders</hi> is de troostende boodschap dat de mens in laatste instantie iets onsterfelijks in zich heeft en dat het goede ten slotte zegeviert’, aldus Jan Fontijn, <hi rend="italics">Tweespalt</hi>. <hi rend="italics">Het leven van Frederik van Eeden tot 1901</hi>. Amsterdam 1999, p. 366-367, 372 (citaat).</p>
+         </note>
+         <note n="6" xml:id="note.orig.nl.6">
+            <p>De Fransman <rs type="person" ref="bio.xml#pers017">Camille Flammarion</rs> schreef veel boeken over astronomie, ballonvaarten en het heelal. Zijn boek <hi rend="italics">Rêves étoilés</hi> (1888) bevat vijf verhalen waaronder ‘Georges Spero’ en ‘Voyage dans le ciel’ – op het omslag van de uitgave, die verscheen in de serie ‘Auteurs célèbres’, staat dat het boek voor 60 centimes te koop was. <hi rend="italics">La fin du monde</hi> (1894) van <rs type="person" ref="bio.xml#pers017">Flammarion</rs> was recent verschenen.</p>
+         </note>
+         <note n="7" xml:id="note.orig.nl.7">
+            <p>
+               <rs type="person" ref="bio.xml#pers080">Jules Verne</rs>, Frans schrijver van avontuurlijke reisbeschrijvingen.</p>
+         </note>
+         <note n="8" xml:id="note.orig.nl.8">
+            <p>
+               <rs type="person" ref="bio.xml#pers044">Gustave Aimard</rs>, Frans schrijver van avonturenromans.</p>
+         </note>
+         <note n="9" xml:id="note.orig.nl.9">
+            <p>Dezelfde formulering werd ook toegepast op de menselijke geest. Zie Adolph Helfferich, <hi rend="italics">Die christliche Mystik in ihrer Entwickelung und in ihren Denkmalen</hi>. 2 dln. Gotha 1842, dl. 1, p. 465.</p>
+         </note>
+         <note n="10" xml:id="note.orig.nl.10">
+            <p>Israëls duidde de plattelanders ook aan als Cananefaten, zie brief <ref target="ii012.xml">012</ref>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The artists’ society <hi rend="italics">Arti et Amicitiae</hi>, located on Rokin.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>At the end of January, <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs> was fêted on his seventy-first birthday in <hi rend="italics">Pulchri Studio</hi> in The Hague (it should have happened on his seventieth, but the celebrations were postponed for a year because his wife, <rs type="person" ref="bio.xml#pers000">Aleida Schaap</rs>, died on 16 January 1894). After The Hague, on 5 February 1895 the artist was also honoured in Amsterdam’s <hi rend="italics">Arti et Amicitiae</hi> with a festive meal and eulogies. Both societies had staged exhibitions of his work. See ‘Hulde aan Jozef Israëls’, <hi rend="italics">Rotterdamsch Nieuwsblad</hi>, 29 January 1895 and <hi rend="italics">Algemeen Handelsblad</hi>, 6 February 1895. See also exh. cat. Groningen 1999, p. 37.</p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>On 6 February 1895, Israëls attended the premiere of the melodrama <hi rend="italics">Gismonda</hi> (1894) by <rs type="person" ref="bio.xml#pers126">Victorien Sardou</rs> at the Amsterdam municipal theatre, performed by the Koninklijke Vereeniging Het Nederlandsch Tooneel. The play is set in fourteenth-century Greece. It is not clear which of Israëls’s nieces went to the performance.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>In the run-up to the publication of his book <hi rend="italics">De broeders, tragedie van het recht</hi> (1894) the Dutch author <rs type="person" ref="bio.xml#pers038">Frederik van Eeden</rs> had declaimed extracts from it in venues all over the country. The first evening he had done this in Amsterdam it was for an auditorium full of literary figures and painters. The poet <rs type="person" ref="bio.xml#pers050">Herman Gorter</rs> walked out on one of these evenings because he thought it was so bad –Israëls and Jo, who had attended the disappointing recitation, were of the same opinion. Jo wrote in her Diary: the lecture ‘was so boring. Israëls was there too.’ <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, p. 92; 14 November 1894. ‘<hi rend="italics">De Broeders</hi> contains the comforting message that in the final analysis mankind has something immortal in it and that in the end good will triumph,’ wrote Jan Fontijn, <hi rend="italics">Tweespalt. Het leven van Frederik van Eeden tot 1901</hi>. Amsterdam 1999, pp. 366-67, 372 (quotation).</p>
+         </note>
+         <note n="6" xml:id="note.tr.en.6">
+            <p>The Frenchman <rs type="person" ref="bio.xml#pers017">Camille Flammarion</rs> wrote many books on astronomy, balloon flights and the universe. His book <hi rend="italics">Rêves étoilés</hi> (1888) contains five stories including ‘Georges Spero’ and ‘Voyage dans le ciel’ – on the cover of the edition, which appeared in the series ‘Auteurs célèbres’, the book is priced at 60 centimes. <hi rend="italics">La fin du monde</hi> (1894) by <rs type="person" ref="bio.xml#pers017">Flammarion</rs> had appeared recently.</p>
+         </note>
+         <note n="7" xml:id="note.tr.en.7">
+            <p>
+               <rs type="person" ref="bio.xml#pers080">Jules Verne</rs>, French writer of adventurous travel stories.</p>
+         </note>
+         <note n="8" xml:id="note.tr.en.8">
+            <p>
+               <rs type="person" ref="bio.xml#pers044">Gustave Aimard</rs>, French writer of adventure novels.</p>
+         </note>
+         <note n="9" xml:id="note.tr.en.9">
+            <p>The same formulation was also applied to the human spirit. See Adolph Helfferich, <hi rend="italics">Die christliche Mystik in ihrer Entwickelung und in ihren Denkmalen</hi>. 2 vols. Gotha 1842, vol. 1, p. 465.</p>
+         </note>
+         <note n="10" xml:id="note.tr.en.10">
+            <p>Israëls also described country people as Cananefates, see letter <ref target="ii012.xml">012</ref>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Versuft je.</p>
+         </note>
+         <note n="b" xml:id="note.orig.nl.b">
+            <p>Van bovenaf en van veraf.</p>
+         </note>
+         <note n="c" xml:id="note.orig.nl.c">
+            <p>Strikt genomen onsterfelijk is.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>From high and far away.</p>
+         </note>
+         <note n="b" xml:id="note.tr.en.b">
+            <p>Is strictly speaking immortal.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

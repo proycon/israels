@@ -4,4 +4,6 @@ provenanceSpec:
   graphicsRelative: thumb
 typeDisplay:
   page:
+    label: '<span class=editorial>folio {facs}</span>'
+    template: '<span class=editorial>folio {n}</span>'
     graphics: true

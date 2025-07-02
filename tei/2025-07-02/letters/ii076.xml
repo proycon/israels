@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 25 november 1915.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 25 November 1915.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8614V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>076</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1915-11-25"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8614-001V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8614-001V2008v_vs_b"/>
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="b8614-002V2008_b"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="b8614-002V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Donderdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Het is zeer instruktief deze dingen hier te hebben staan. Als ik op dit oogenblik <hi rend="italics">moest</hi> kiezen zou ik toch die groene olijfboomen houden.<ptr type="note" target="#note.orig.nl.1"/> Indien je het goedvindt houd ik de andere nog hier tot je komt. Ik wil met plezier nog eens een portret van je maken en zal je dan tegen de achtergrond van een <rs type="person" ref="bio.xml#pers127">Vincent</rs> maken.<ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">
+               <pb f="1v" facs="#z1v2" n="2"/> Ik begin nu echter te begrijpen hoe dat moet gaan, dus ik wou het zóó doen: je in één keer schilderen – wij moeten dan werken van 1 tot 3 en een lichte dag hebben anders is het de moeite niet waard. Na Dinsdag  <hi rend="italics">a.s.</hi> ben ik tot je dispositie,<ptr type="note" target="#note.orig.nl.a"/> dus laat mij maar weten welke dag je wil komen, als het te donker is heb ik nog best tijd om <pb f="1v" facs="#z1v3" n="3"/> het je ’s ochtends te telefoneeren. </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Is het je mogelijk om dat laantje nog eens hier te sturen?<ptr type="note" target="#note.orig.nl.3"/> Je krijgt alles eerlijk terug. Ik zou dat ding ook graag eens hier zien als het <hi rend="italics">kan</hi>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.4" f="2r" facs="#s2r" n="4"/>
+            <p xml:id="p.orig.nl.8" n="8">Mevr. J. Cohen Gosschalk</p>
+            <p xml:id="p.orig.nl.9" n="9">Koninginneweg 77</p>
+            <p xml:id="p.orig.nl.10" n="10">Amsterdam</p>
+            <pb xml:id="pb.orig.nl.5" f="2v" facs="#s2v" n="5"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Thursday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">It is very instructive to have these things here. If I <hi rend="italics">had</hi> to choose right now I would keep these green olive trees.<ptr type="note" target="#note.tr.en.1"/> If you don’t mind, I’ll keep the other one here until you come. ‘I would love to paint another portrait of you, against the background of a <rs type="person" ref="bio.xml#pers127">Vincent</rs>.<ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">
+               <pb f="1v" facs="#z1v2" n="2"/> However, I’m now beginning to understand how it has to go, so I would do it like this: paint you in one go – we will have to work from 1 to 3 and have a bright day otherwise it’s not worth the trouble. I will be at your disposal after  <hi rend="italics">next</hi> Tuesday; so just let me know which day you want to come. If it’s too dark I shall have plenty of time <pb f="1v" facs="#z1v3" n="3"/> to phone you in the morning.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Is it possible to send that little avenue here some time?  <ptr type="note" target="#note.tr.en.3"/> I promise you’ll get everything back safely. I would very much like to see that thing here once more if I <hi rend="italics">can</hi>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.4"
+                corresp="#pb.orig.nl.4"
+                f="2r"
+                facs="#s2r"
+                n="4"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Mevr. J. Cohen Gosschalk</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Koninginneweg 77</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Amsterdam</p>
+            <pb xml:id="pb.tr.en.5"
+                corresp="#pb.orig.nl.5"
+                f="2v"
+                facs="#s2v"
+                n="5"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e11200" type="dating">
+            <p>Enveloppe. Poststempel: 25 november 1915.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e11337" type="dating">
+            <p>Envelope. Letter headed ‘Thursday’. Postmark: 25 November 1915. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Jo had Isaac twee werken van <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> in bruikleen gestuurd; die ontving hij op dinsdag 23 november (zie brief <ref target="ii075.xml">075</ref>). Welke dat precies waren is niet met zekerheid te zeggen. Het is niet uitgesloten dat hij twee versies van olijfbomen had en de meest groene koos. Aangezien Israëls in het bezit kwam van <rs type="person" ref="bio.xml#pers127">Van Goghs</rs>
+               <hi rend="italics">Olijfboomgaard</hi> ging het waarschijnlijk om dit werk. Vincent van Gogh, <hi rend="italics">Olijfboomgaard</hi> (F 711 / JH 1791), 1889. <rs type="artwork" ref="artwork.xml#ii021">Ill. ii021</rs>
+            </p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Israëls gebruikte de <hi rend="italics">Zonnebloemen</hi> (F 458 / JH 1667) en (F 454 / JH 1562) voor meerdere vrouwenportretten; er zijn echter geen portretten van Jo bekend die hij tijdens haar leven met een <rs type="person" ref="bio.xml#pers127">Van Gogh</rs>-schilderij op de achtergrond maakte. Op de achtergrond van het postume <hi rend="italics">Portret van Jo van Gogh-Bonger</hi> uit 1925 suggereerde hij achter haar <hi rend="italics">Het gele huis </hi>
+               <hi rend="italics">(‘De straat’)</hi> (F 464 / JH 1589). Isaac Israëls,  <hi rend="italics">Portret van Jo van Gogh-Bonger</hi>, 1925. <rs type="artwork" ref="artwork.xml#ii024">Ill. ii024</rs>, Vincent van Gogh, <hi rend="italics">Het gele huis (‘De straat’)</hi> (F 464 / JH 1589), 1888. <rs type="artwork" ref="artwork.xml#ii025">Ill. ii025</rs>
+            </p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Israëls bedoelde Van Goghs <hi rend="italics">Het gele huis (‘De straat’)</hi> dat evenals twee versies van de <hi rend="italics">Zonnebloemen</hi> tot eind november 1915 in Amsterdam werd geëxposeerd bij de ‘Moderne Kunst Kring’ aan de Keizersgracht 756. Jo liet het schilderij meteen na afloop van de expositie naar Israëls sturen, want hij ontving het op de avond van 29 november 1915 (zie brief <ref target="ii078.xml">078</ref>). Met ‘nog eens’ bedoelt Israëls ‘eens een keer’, niet dat hij het al eens eerder te leen kreeg. Vincent van Gogh,  <hi rend="italics">Zonnebloemen</hi> (F 458 / JH 1667), 1889 <rs type="artwork" ref="artwork.xml#ii026">Ill. ii026</rs>, Vincent van Gogh, <hi rend="italics">Zonnebloemen</hi> (F 454 / JH 1562), 1888. <rs type="artwork" ref="artwork.xml#ii027">Ill. ii027</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Jo had sent Isaac two works by <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> on loan; he received them on Tuesday 23 November (see letter <ref target="ii075.xml">075</ref>). It is not possible to say with certainty which ones they were. It may be that he had two versions of olive trees and chose the greener of the two. Since Israëls had Van Gogh’s <hi rend="italics">Olive Grove</hi> in his possession, it was probably this work. Vincent van Gogh,  <hi rend="italics">Olive Grove</hi> (F 711 / JH 1791), 1889. <rs type="artwork" ref="artwork.xml#ii021">Ill. ii021</rs>
+            </p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>Israëls used the <hi rend="italics">Sunflowers</hi> (F 458 / JH 1667) and (F 454 / JH 1562) for several women’s portraits, however we know of no portraits of Jo that he made during her lifetime with a <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> painting in the background. In the background of the posthumous <hi rend="italics">Portrait of Jo van Gogh-Bonger</hi> of 1925 he suggested <hi rend="italics">The Yellow House </hi>
+               <hi rend="italics">(‘The Street’)</hi> (F 464 / JH 1589) behind her. Isaac Israëls,  <hi rend="italics">Portrait of Jo van Gogh-Bonger</hi>, 1925. <rs type="artwork" ref="artwork.xml#ii024">Ill. ii024</rs> Vincent van Gogh,  <hi rend="italics">The Yellow House (‘The Street’)</hi> (F 464 / JH 1589), 1888. <rs type="artwork" ref="artwork.xml#ii025">Ill. ii025</rs>
+            </p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>Israëls meant <rs type="person" ref="bio.xml#pers127">Van Gogh</rs>’s <hi rend="italics">The Yellow House (‘The Street’)</hi> which was exhibited along with two versions of the <hi rend="italics">Sunflowers</hi> at the ‘Moderne Kunst Kring’ at 756 Keizersgracht in Amsterdam until the end of November 1915. Jo must have had the painting sent to Israëls as soon as the exhibition ended, since he received it in the evening of 29 November 1915 (see letter <ref target="ii078.xml">078</ref>). Vincent van Gogh, <hi rend="italics">Sunflowers</hi> (F 458 / JH 1667), 1889 <rs type="artwork" ref="artwork.xml#ii026">Ill. ii026</rs>, Vincent van Gogh,  <hi rend="italics">Sunflowers</hi> (F 454 / JH 1562), 1888. <rs type="artwork" ref="artwork.xml#ii027">Ill. ii027</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Beschikking.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

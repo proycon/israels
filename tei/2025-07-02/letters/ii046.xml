@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 17 september 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 17 September 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8592V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>046</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1897-09-17"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8592V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8592V2008v_vs_b"/>
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">17 Sept.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Ma chère,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het is allemaal heel lief en goed maar laat je nu toch eens een oogenblik niet alleen door ’t gevoel meeslepen en erken nu eens zelf –</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Van trouwen komt <hi rend="italics">toch</hi> nooit iets. Je weet het, en verder: Nooit en nimmer zou ik iemand willen brengen tot iets waar hij naderhand spijt of gezanik om zou krijgen. Je hebt <hi rend="italics">volkomen</hi> en absoluut gelijk dat je ’t niet wil. Ik wil ’t evenmin.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Dus wat hebben we er verder <pb f="1v" facs="#z1v2" n="2"/> aan om elkaar zoo veel te zien. Voor een officiële conversatie zijn we al te ver heen. Verder kunnen we niet gaan. Laat ons dan hierbij blijven. </p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Wees nu verstandig, van ’t gevoel alleen kan zelfs jij toch ook niet leven. ’t Kan nu eenmaal niet, dus waarom dan de heeltijd<ptr type="note" target="#note.orig.nl.a"/> net te doen of ’t wel kan. Dat je van mij houdt dat zal altijd een goed iets zijn voor mij om aan te denken. Dat is voor mij genoeg en voor jou het beste.</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">Laten we nu maar de <pb f="1v" facs="#z1v3" n="3"/> vijandelijkheden staken en denken dat ’t zoo al  <hi rend="italics">heel</hi> aardig is geweest. Nu is ’t nog goed, als het langer duurt, dan zou het misschien vervelend worden. Ik ben volstrekt niet hardvochtig of ondankbaar. Het spijt me dat ’t zoo is maar ’t is niet anders.</p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">We zien mekaar nog weleens terug. Geloof me,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.10" n="10">Je vriend</p>
+            <p xml:id="p.orig.nl.11" n="11">I.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">17 Sept.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Ma chère,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">It’s all well and good, but don’t let yourself be carried along for a moment by these feelings and just acknowledge to yourself –</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Nothing will <hi rend="italics">ever</hi> come of marriage. You know it, and besides: never ever would I want to bring someone to do something that they would regret or be upset by afterwards. You are <hi rend="italics">completely</hi> and absolutely right that you don’t want it. I don’t want it either.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">So what do we have to gain <pb f="1v" facs="#z1v2" n="2"/> from seeing each other so often. We’ve already gone too far for an official conversation. We can’t go any further. Let us leave it here. </p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">Be sensible now, even you can’t live on feelings alone. It can’t happen, so why behave as if it’s possible all the time. That you love me will always be something good for me to think about. That’s enough for me and the best thing for you.</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">Let’s just cease the <pb f="1v" facs="#z1v3" n="3"/> hostilities and think that this has been so  <hi rend="italics">very</hi> pleasant. It’s still good now, if it goes on any longer it could perhaps get tiresome. I am absolutely not hard-hearted or ungrateful. I’m sorry that it’s so, but that’s the way it is.</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">We’ll meet again one day. Believe me,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Your friend</p>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">I.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e6422" type="dating">
+            <p>Briefhoofd: ‘17 sept.’. Het jaar moet 1897 zijn, gezien het gestelde ‘ultimatum’ en de brieven uit deze periode.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e6490" type="dating">
+            <p>Letter headed 17 Sept. The year must be 1897, given the ‘ultimatum’ and the letters from this period.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Vgl. voor deze constructie in de betekenis van ‘de hele tijd’, waarschijnlijk afkomstig uit de spreektaal: ‘Jan moet de heeltijd alles zoeken’, <hi rend="italics">Algemeen Handelsblad</hi>, 4 april 1932. Het <hi rend="italics">WNT</hi> geeft het woord ‘heeltijden’ voor ‘bijna altijd’ in het Antwerps dialect.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 6 augustus 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 6 August 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8666V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>016</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-08-06"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8666V2008_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Dinsdag.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Ik inviteer je om Maandagavond mee te gaan naar de Franschen, die moeten nogal een grappig stuk geven.<ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Meld mij even of je ’t doet, maar blijf er dan ook bij (’t is met jou altijd onsekuur).</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Als je misschien liever niet gaat ben ik <hi rend="italics">volstrekt</hi> niet <hi rend="italics">boos</hi> erom. Doe maar wat je ’t prettigst vindt.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">T.t.</p>
+            <p xml:id="p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">(Excuseer dat ik niet meer schrijf, ik ben er niet erg voor geschikt<ptr type="note" target="#note.orig.nl.a"/>).</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Tuesday.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I invite you to come with me to the French on Monday evening, they’re supposed to be putting on an amusing show.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">Let me know if you’ll come, but then don’t change your mind (I can never be sure about you).</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">And if you perhaps would rather not go, I will <hi rend="italics">absolutely</hi> not be <hi rend="italics">cross</hi> about it. Just do what you like best.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">All yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">(Excuse me for not writing more, It’s not so convenient for me right now).</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e2492" type="dating">
+            <p>De toegekende datering is op basis van het ter sprake gebrachte theaterbezoek. Voorgedrukt briefpapier. Israëls draaide het blad 180 graden bij het beschrijven, waardoor de afbeelding van het hotel met daaronder ‘ <hi rend="blockletter">Krasnapolsky / Amsterdam</hi>’ op z’n kop kwam te staan en het papier eronder niet werd gebruikt.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e2570" type="dating">
+            <p>The date given to this letter is based on the visit to the theatre that was mentioned. Printed letterhead. Israëls turned the sheet 180 degrees when he wrote on it, so the picture of the hotel with ‘ <hi rend="blockletter">Krasnapolsky / Amsterdam</hi>’ was upside down and the paper below was not used.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Israëls bedoelde het gezelschap van <hi rend="italics">Chat Noir</hi> dat in het Grand Théâtre aan de Amstelstraat onder andere het lied ‘Berceuse bleue’ van <rs type="person" ref="bio.xml#pers039">Gabriel Montoya</rs> opvoerde. Deze voorstelling van ‘dichters, fumisten en fantaisisten’, inclusief Chinees schimmenspel, stond tussen 9-12 augustus 1895 op de planken – de ‘Maandagavond’ die hij voorstelt was dus maandag 12 augustus 1895. <hi rend="italics">Algemeen Handelsblad</hi> van 10 augustus plaatste een enthousiaste reactie en stelde: ‘De dames behoeven volstrekt niet thuis te blijven, integendeel’. <rs type="person" ref="bio.xml#pers039">Montoya</rs>’s zang van zijn eigen, op muziek gezette gedicht, werd geprezen in <hi rend="italics">Het Nieuws van den Dag</hi>, 6-13 augustus, in advertenties en artikelen. In haar dagboek memoreerde Jo de twee beginregels van ‘Berceuse bleue’, waarvan ze had genoten: ‘C’étaient deux amoureux / Qui rêvaient d’amours lointaines’. Zie <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p. 94-95; 4, augustus 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Israëls was referring to the <hi rend="italics">Chat Noir</hi> company, which performed, among other things, the song ‘Berceuse bleue’ by <rs type="person" ref="bio.xml#pers039">Gabriel Montoya</rs> in the Grand Théâtre in Amstelstraat. This programme of ‘poets, comedians and fantasists’, including a Chinese shadow play, was on from 9 to12 August 1895 – the ‘Monday evening’ he proposed was therefore Monday 12 August 1895. The <hi rend="italics">Algemeen Handelsblad</hi> of 10 August printed an enthusiastic review, stating: ‘The ladies absolutely do not have to stay at home, on the contrary.’ <rs type="person" ref="bio.xml#pers039">Montoya</rs>’s singing of his own poem, set to music, was praised in <hi rend="italics">Het Nieuws van den Dag</hi>, 6-13 August, in advertisements and articles. In her diary Jo mentioned the first two lines of ‘Berceuse bleue’, which she had noted: ‘C’étaient deux amoureux / Qui rêvaient d’amours lointaines’. See <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, pp. 94-95; 4, August 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Het komt me nu niet zo goed uit.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

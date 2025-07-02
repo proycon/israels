@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="about"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl">Brieven Isaac Israëls aan Jo Bonger. Woord van dank</title>
+                <title xml:lang="en">Letters Isaac Israëls to Jo Bonger. Acknowledgements</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History andCulture of the Netherlands (KNAW)</name>
+                    <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+                </publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date when="2024-03-12">12 March 2024</date>
+                <availability status="restricted">
+                    <licence
+                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                        <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <ptr type="webedition" target="https://xxx.yyy.nep/aaa/001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>N.A.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body divRole="doc-translations">
+            <div xml:lang="nl">
+                <head n="1" xml:id="head.tr.nl.1" corresp="#head.orig.en.1">Woord van dank</head>
+                <p n="2" xml:id="p.tr.nl.2" corresp="#p.orig.en.2">Ik ben de volgende leden van de familie Van Gogh, het
+                    bestuur van de Vincent van Gogh Stichting, mijn collega’s bij het Van Gogh
+                    Museum, vakgenoten, vrienden en dierbaren bijzonder erkentelijk voor al hun
+                    waardevolle bijdragen en stimulans aan de totstandkoming van deze uitgave. Mijn
+                    dank gaat uit naar:</p>
+                <p rend="whiteline-above" n="3" xml:id="p.tr.nl.3" corresp="#p.orig.en.3">Mathilde (‘Til’) Cramer-van Gogh, Sylvia Cramer, Machteld
+                    van Laer-Cramer, Barbara Vroom-Cramer, Mars Cramer, Anneke van Gogh-Vonhoff,
+                    Jantine van Gogh, Josien van Gogh, Janne Heling, Marjolijn de Vries-van Gogh,
+                    Johan van Gogh, Willem van Gogh, Emilie Gordenker, Rob Groot, Marjolein Stege,
+                    Marije Vellekoop, Roelie Zwikker, Nienke Bakker, Fleur Roos Rosa de Carvalho,
+                    Isolde Cael, Anita Homan, Zibi Dowgwillo, Anita Vriend, Louis van Tilborgh, Teio
+                    Meedendorp, Heleen van Driel, Albert Meyer, Martine Blok, Maurice Tromp, Anniek
+                    Meinders, Ger Luijten, Eva Rovers, Renske Cohen Tervaert, Freek Heijbroek,
+                    Jessica Voeten, Henk Schouwenaar, Ira Schouwenaar, Fusien Bijl de Vroe, Paul
+                    Steenhoff, Helma Steenhoff-Brokx, Juliette van Uhm, Merel Rotman, Peter Boot, Elli Bleeker,
+                    Hans de Groot, Michiel Goosen en Pieter Masereeuw.
+                </p>
+                <p rend="whiteline-above" n="4" xml:id="p.tr.nl.4" corresp="#p.orig.en.4">Veel dank aan Fieke Pabst, Monique Hageman, Renske
+                    Suijver, Lisa Smit, Lynne Richards, Roxanne van den Bosch en Natascha Veldhorst,
+                    voor hun extra waardevolle bijdragen.
+                </p>
+            </div>
+            <div xml:lang="en">
+               <head n="1" xml:id="head.orig.en.1">Acknowledgements</head>
+               <p n="2" xml:id="p.orig.en.2">I am deeply grateful to the following members of the Van
+                   Gogh family, the board of the Vincent van Gogh Foundation, my colleagues at the
+                   Van Gogh Museum, confreres, friends and loved ones for all their valuable
+                   contributions and encouragement in the creation of this edition. My thanks
+                   to:</p>
+               <p rend="whiteline-above" n="3" xml:id="p.orig.en.3">Mathilde (‘Til’) Cramer-van Gogh, Sylvia Cramer, Machteld
+                   van Laer-Cramer, Barbara Vroom-Cramer, Mars Cramer, Anneke van Gogh-Vonhoff,
+                   Jantine van Gogh, Josien van Gogh, Janne Heling, Marjolijn de Vries-van Gogh,
+                   Johan van Gogh, Willem van Gogh, Emilie Gordenker, Rob Groot, Marjolein Stege,
+                   Marije Vellekoop, Roelie Zwikker, Nienke Bakker, Fleur Roos Rosa de Carvalho,
+                   Isolde Cael, Anita Homan, Zibi Dowgwillo, Anita Vriend, Louis van Tilborgh, Teio
+                   Meedendorp, Heleen van Driel, Albert Meyer, Martine Blok, Maurice Tromp, Anniek
+                   Meinders, Ger Luijten, Eva Rovers, Renske Cohen Tervaert, Freek Heijbroek,
+                   Jessica Voeten, Henk Schouwenaar, Ira Schouwenaar, Fusien Bijl de Vroe, Paul
+                   Steenhoff, Helma Steenhoff-Brokx, Juliette van Uhm, Merel Rotman, Peter Boot, Elli Bleeker,
+                   Hans de Groot, Michiel Goosen en Pieter Masereeuw.
+               </p>
+               <p rend="whiteline-above" n="4" xml:id="p.orig.en.4">I am also greatly indebted to Fieke Pabst, Monique
+                   Hageman, Renske Suijver, Lisa Smit, Lynne Richards, Roxanne van den Bosch en
+                   Natascha Veldhorst for their extremely valuable input.
+               </p>
+           </div>
+        </body>
+    </text>
+</TEI>
