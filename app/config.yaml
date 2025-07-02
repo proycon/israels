@@ -29,10 +29,9 @@ provenanceSpec:
   webUrl: '{webBase}/<1>/<2>/<3>&version={version}'
   webUrlLex: '{webBase}/word?version={version}&id=<lid>'
   branch: main
-  graphicsRelative: thumb
 typeDisplay:
   page:
     label: <span class=editorial>folio {facs}</span>
     template: <span class=editorial>folio {n}</span>
-    graphics: true
+    graphics: false
 writing: ''

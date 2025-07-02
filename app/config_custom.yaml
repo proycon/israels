@@ -1,9 +1,10 @@
 interfaceDefaults:
   showGraphics: true
-provenanceSpec:
-  graphicsRelative: thumb
+# provenanceSpec:
+#   graphicsRelative: thumb
 typeDisplay:
   page:
     label: '<span class=editorial>folio {facs}</span>'
     template: '<span class=editorial>folio {n}</span>'
-    graphics: true
+    graphics: false
+    # graphics: true
