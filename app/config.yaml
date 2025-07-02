@@ -17,7 +17,7 @@ docs:
   featurePage: transcription
 interfaceDefaults:
   fmt: layout-orig-full
-  showGraphics: true
+  # showGraphics: true
 provenanceSpec:
   corpus: '{org} - {repo}{relative}'
   doi: 10.5281/zenodo.notyet
