@@ -1,5 +1,5 @@
-interfaceDefaults:
-  showGraphics: true
+# interfaceDefaults:
+#  showGraphics: true
 # provenanceSpec:
 #   graphicsRelative: thumb
 typeDisplay:

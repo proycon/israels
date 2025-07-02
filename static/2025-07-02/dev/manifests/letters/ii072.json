@@ -61,78 +61,39 @@
  ],
  "items": [
   {
-   "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-001V2008_b",
+   "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/filenotfound",
    "type": "Canvas",
    "label": {
     "en": [
-     "b8612-001V2008_b"
+     "filenotfound"
     ]
    },
-   "height": 2895,
-   "width": 2170,
+   "height": 640,
+   "width": 480,
    "items": [
     {
-     "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-001V2008_b/annotationpage",
+     "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/filenotfound/annotationpage",
      "type": "AnnotationPage",
      "items": [
       {
-       "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-001V2008_b/anno",
+       "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/filenotfound/anno",
        "type": "Annotation",
        "motivation": "painting",
        "body": {
-        "id": "http://localhost:8087/iiif/3/thumb|pages|b8612-001V2008_b.jpg/full/max/0/default.jpg",
+        "id": "http://localhost:8087/iiif/3/thumb|pages|filenotfound.jpg/full/max/0/default.jpg",
         "type": "Image",
-        "height": 2895,
-        "width": 2170,
+        "height": 640,
+        "width": 480,
         "service": [
          {
-          "id": "http://localhost:8087/iiif/3/thumb|pages|b8612-001V2008_b.jpg",
+          "id": "http://localhost:8087/iiif/3/thumb|pages|filenotfound.jpg",
           "type": "ImageService3",
           "profile": "http://iiif.io/api/image/3/level1.json"
          }
         ],
         "format": "image/jpeg"
        },
-       "target": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-001V2008_b"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-002V2008_b",
-   "type": "Canvas",
-   "label": {
-    "en": [
-     "b8612-002V2008_b"
-    ]
-   },
-   "height": 2170,
-   "width": 2895,
-   "items": [
-    {
-     "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-002V2008_b/annotationpage",
-     "type": "AnnotationPage",
-     "items": [
-      {
-       "id": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-002V2008_b/anno",
-       "type": "Annotation",
-       "motivation": "painting",
-       "body": {
-        "id": "http://localhost:8087/iiif/3/thumb|pages|b8612-002V2008_b.jpg/full/max/0/default.jpg",
-        "type": "Image",
-        "height": 2170,
-        "width": 2895,
-        "service": [
-         {
-          "id": "http://localhost:8087/iiif/3/thumb|pages|b8612-002V2008_b.jpg",
-          "type": "ImageService3",
-          "profile": "http://iiif.io/api/image/3/level1.json"
-         }
-        ],
-        "format": "image/jpeg"
-       },
-       "target": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/b8612-002V2008_b"
+       "target": "http://localhost:8087/files/static/manifests/letters/ii072.json/canvas/pages/filenotfound"
       }
      ]
     }
