@@ -183,6 +183,32 @@ extra:
       - correspDesc
       - profileDesc
     nodeType: letter
+  titleEn:
+    meta:
+      description: >-
+        The english title of the letter; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - title:
+          lang: en
+      - titleStmt
+      - fileDesc
+    nodeType: letter
+  titleNl:
+    meta:
+      description: >-
+        The dutch title of the letter; «base»
+      valueType: str
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - title:
+          lang: nl
+      - titleStmt
+      - fileDesc
+    nodeType: letter
   personRef:
     meta:
       description: >-
