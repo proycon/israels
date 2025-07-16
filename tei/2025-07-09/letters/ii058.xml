@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Parijs, 12 juli 1900.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Paris, 12 July 1900.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8598V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>058</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1900-07-12"/>
+               <placeName>Paris, France</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8598-001V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8598-001V2008v_vs_b"/>
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="b8598-002V2008_b"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="b8598-002V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Paris</p>
+            <p xml:id="p.orig.nl.2" n="2">le 12 Juillet</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Ma chère Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">’t Is hier op ’t oogenblik nog al vroolijk.  </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Er is een kolossale kermis avenue de Clichy, daar zie je deftige heren en magnifieke dametjes rondrennen op houten varkentjes onder een prachtig elektrisch licht.<ptr type="note" target="#note.orig.nl.1"/> Ze prepareren zich overal voor de 14<hi rend="super">e</hi> juli.<ptr type="note" target="#note.orig.nl.2"/> Wat de tentoonstelling<ptr type="note" target="#note.orig.nl.3"/> aangaat, dat is een heerlijke gelegenheid om je tijd te escamoteeren.<ptr type="note" target="#note.orig.nl.a"/> Het aardigst zijn overal die exotische restaurants, hier Russische kelners, daar Chineesche, verderop zie je al de chique dames die komen ’s middags thee drinken in Ceylon.<ptr type="note" target="#note.orig.nl.4"/> Ik heb hier ook gegeten bij een Fransche familie, die woont drie hoog op de boulevard Montmartre, maar het zijn <pb f="1v" facs="#z1v2" n="2"/> geloof ik millionairs. Na den eten ga je op ’t balcon staan, dan zie je de heele boulevard van de Père-Lachaise tot ’t Trocadero. <ptr type="note" target="#note.orig.nl.5"/> Enfin, al was ’t maar alleen dat je niet in Amsterdam bent! ’s Avonds wel die prachtige avonden die wij nu hebben, door Parijs rijden op een omnibus dat is bepaald grandioos.<ptr type="note" target="#note.orig.nl.6"/> Zou je niet eens een paar dagen hier komen? Maar je hebt zoo andere herinneringen van Parijs.<ptr type="note" target="#note.orig.nl.7"/> Van tijd tot tijd verveel ik mij dood, en dan amuseer ik mij weer bizonder. Met <rs type="person" ref="bio.xml#pers094">Bauer</rs>
+               <ptr type="note" target="#note.orig.nl.8"/> hebben we nog al pret gehad, maar als je hier in je eentje rondzwemt, dat is eigenlijk je ware. Om 12 uur in de buurt van die groote costumiers, <ptr type="note" target="#note.orig.nl.b"/> dan zie je al die naaistertjes die gaan dejeuneren en die koopen dan kaas, wijn en brood. Het is ongeloofelijk hoe gemeen<ptr type="note" target="#note.orig.nl.c"/>
+               <pb f="1v" facs="#z1v3" n="3"/> die lui hier eten in die kleine kroegjes. Maar ze schijnen ’t zich niet erg aan te trekken. Wat aangaat om wat dieper in die lui door te dringen dan een gewone étranger <ptr type="note" target="#note.orig.nl.d"/> doet, dat is nogal moeilijk. Er is hier ook een kolossaal hippodrome, met minstens tweeduizend figuranten, waaronder Napoleon I, die heeft een sukses, dat is geweldig.<ptr type="note" target="#note.orig.nl.9"/> Je sprak van iemand die dingen van <rs type="person" ref="bio.xml#pers127">Vincent</rs> had in de Rue Vercingétorix, <ptr type="note" target="#note.orig.nl.10"/> als je nog aardig vindt dat ik daarheen ga dan schrijf het maar even. Je brief naar Scheveningen heb ik niet gekregen. Heb je nieuwe logés? Je vous envoie mon salut cordial.<ptr type="note" target="#note.orig.nl.e"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">II.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.4" f="2r" facs="#s2r" n="4"/>
+            <p xml:id="p.orig.nl.7" n="7">M<hi rend="super">me</hi> J. van Gogh</p>
+            <p xml:id="p.orig.nl.8" n="8">Villa Helma</p>
+            <p xml:id="p.orig.nl.9" n="9">à Bussum </p>
+            <p xml:id="p.orig.nl.10" n="10">Hollande</p>
+            <pb xml:id="pb.orig.nl.5" f="2v" facs="#s2v" n="5"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Paris</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">le 12 Juillet</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Ma chère Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">It’s really rather jolly here at the moment.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">There is a huge fair in avenue de Clichy, where you see the fashionable gentlemen and magnificent ladies ride on the merry-go-round on little wooden pigs under magnificent electric light.<ptr type="note" target="#note.tr.en.1"/> They’re getting ready for the 14th July everywhere.<ptr type="note" target="#note.tr.en.2"/> As far as the exhibition is concerned,<ptr type="note" target="#note.tr.en.3"/> it’s a wonderful opportunity to while away your time. The best things are these exotic restaurants everywhere, here Russian waiters, there Chinese, further along you see all the chic ladies who come to drink afternoon tea in Ceylon.<ptr type="note" target="#note.tr.en.4"/> I’ve also eaten here with a French family who live on the third floor in boulevard Montmartre, but <pb f="1v" facs="#z1v2" n="2"/> I think they’re millionaires. After the meal you go and stand on the balcony, then you see the whole boulevard from the Père-Lachaise to the Trocadero. <ptr type="note" target="#note.tr.en.5"/> Anyway, if only it wasn’t that you are in Amsterdam! In the evenings we’re having now, riding through Paris on an omnibus is absolutely grand. <ptr type="note" target="#note.tr.en.6"/> Couldn’t you come here for a few days? But you have such different memories of Paris.<ptr type="note" target="#note.tr.en.7"/> From time to time I’m bored to death, and then I really enjoy myself again. <rs type="person" ref="bio.xml#pers094">Bauer</rs> and I have had a lot of fun,<ptr type="note" target="#note.tr.en.8"/> but when you’re swanning around on your own here, that’s actually the real thing. Near these large costumiers at noon,<ptr type="note" target="#note.tr.en.a"/> then you see all the little seamstresses having lunch, and they buy cheese, wine and bread. The way these people here eat <pb f="1v" facs="#z1v3" n="3"/> in these little bars is incredible. <ptr type="note" target="#note.tr.en.b"/> But it doesn’t seem to bother them. Getting through to these folk on a deeper level than an ordinary foreigner does is quite difficult. There is also a colossal hippodrome, with at least two thousand performers, including Napoleon I, which is successful, it’s amazing.<ptr type="note" target="#note.tr.en.9"/> You mentioned someone who had things by <rs type="person" ref="bio.xml#pers127">Vincent</rs> in Rue Vercingétorix,<ptr type="note" target="#note.tr.en.10"/> if you’d like me to go there, write and let me know. I haven’t got your letter from Scheveningen yet. Have you got new guests? Je vous envoie mon salut cordial.<ptr type="note" target="#note.tr.en.c"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">II.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.4"
+                corresp="#pb.orig.nl.4"
+                f="2r"
+                facs="#s2r"
+                n="4"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">M<hi rend="super">me</hi> J. van Gogh</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Villa Helma</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">à Bussum </p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Hollande</p>
+            <pb xml:id="pb.tr.en.5"
+                corresp="#pb.orig.nl.5"
+                f="2v"
+                facs="#s2v"
+                n="5"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e8086" type="dating">
+            <p>Enveloppe. Poststempel: 12 juli 1900. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e8283" type="dating">
+            <p>Envelope. Postmark: 12 July 1900.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Een voorbeeld van zulke varkentjes op een draaimolen geeft de poster <hi rend="italics">Fête de Levallois</hi> van Paolo Henri (?-?) uit 1902. <rs type="artwork" ref="artwork.xml#ii016">Ill. ii016</rs>
+            </p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Quatorze Juillet is de nationale feestdag van Frankrijk.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>
+               <seg>De vijfde Wereldtentoonstelling, die duurde van 15 april tot 12 november 1900.</seg>
+            </p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Israëls doelt hier op allerlei locaties die hij zag op de Wereldtentoonstelling. Ze zijn alle te zien op het <hi rend="italics">Plan practique de l’exposition universelle 1900 contenant tous les palais et pavillons</hi>. </p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>We weten niet welk appartement Israëls bezocht. Het had van oost naar west een weids uitzicht, dat zich uitstrekte van de begraafplaats Père-Lachaise tot aan het Palais du Trocadéro, gebouwd voor de Wereldtentoonstelling van 1878 (het werd afgebroken in 1935).</p>
+         </note>
+         <note n="6" xml:id="note.orig.nl.6">
+            <p>Dit type vervoer – er waren open en gesloten omnibussen – was buitengewoon geliefd, zoals ook ansichtkaarten uit die tijd laten zien. <hi rend="italics">Het Omnibus-station aan de kruising van de boulevard Montmartre en boulevard des Italiens in Parijs</hi>, 1900. <rs type="artwork" ref="artwork.xml#ii017">Ill. ii017</rs>
+            </p>
+         </note>
+         <note n="7" xml:id="note.orig.nl.7">
+            <p>Jo had tijdens haar huwelijk met <rs type="person" ref="bio.xml#pers120">Theo van Gogh</rs> tussen 1889 en 1890 in Parijs gewoond. Hun appartement was op cité Pigalle 8. Door <rs type="person" ref="bio.xml#pers120">Theo</rs>’s fatale ziekte had Jo de stad in november 1890 met hun kleine zoontje <rs type="person" ref="bio.xml#pers128">Vincent</rs> noodgedwongen moeten verlaten. <rs type="person" ref="bio.xml#pers120">Theo</rs> overleed op 25 januari 1891 in Utrecht.</p>
+         </note>
+         <note n="8" xml:id="note.orig.nl.8">
+            <p>De Nederlandse schilder en graficus <rs type="person" ref="bio.xml#pers094">Marius Bauer</rs> brak tijdens de Wereldtentoonstelling internationaal door met zijn etsen die daar waren geëxposeerd.</p>
+         </note>
+         <note n="9" xml:id="note.orig.nl.9">
+            <p>Het Hippodrome op Place de Clichy was op 13 mei 1900 tijdens de Wereldtentoonstelling in gebruik genomen en bood plaats aan zevenduizend bezoekers. <hi rend="italics">Le Figaro</hi> beschreef het magnifieke spektakel, waaruit blijkt dat Israëls het aantal figuranten overdrijft: het waren er geen tweeduizend maar 850: ‘À la scène finale, le triomphe de César, participent 850 personnes et 120 chevaux, ainsi qu’une première danseuse étoile: M<hi rend="super">lle</hi> Ferrero (…).’ Vgl. <hi rend="italics">L’Hippodrome de Montmartre, Parijs</hi>, z.d. <rs type="artwork" ref="artwork.xml#ii018">Ill. ii018</rs>
+            </p>
+         </note>
+         <note n="10" xml:id="note.orig.nl.10">
+            <p>De Franse kunstcriticus <rs type="person" ref="bio.xml#pers081">Julien Leclercq</rs> woonde in de rue Vercingétorix 6, in het vroegere huis van <rs type="person" ref="bio.xml#pers104">Paul Gauguin</rs>, waar op dat moment werken van <rs type="person" ref="bio.xml#pers127">Vincent van Gogh</rs> waren tentoongesteld. Jo had er acht schilderijen en drie tekeningen voor uitgeleend. Zie Julien Leclercq aan Jo van Gogh-Bonger. VGM, b1895; 14 maart 1900; <ref target="bibliolist-nl.xml#bg027">Supinen 1990</ref>; <ref target="bibliolist-nl.xml#bg012">
+                  <hi rend="italics">Account Book</hi> 2002</ref>, p. 144 en <ref target="bibliolist-nl.xml#bg023">Luijten 2019</ref>, p. 267-271. Een lijstje van Jo laat zien om welke schilderijen het ging en welke prijzen ze vroeg. Jo van Gogh-Bonger, <hi rend="italics">Lijst van schilderijen bij Leclercq in Parijs</hi>, 1900. <rs type="artwork" ref="artwork.xml#ii019">Ill. ii019</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>The 1902 poster <hi rend="italics">Fête de Levallois</hi> by Paolo Henri (?-?) captures pigs like this on a carousel. <rs type="artwork" ref="artwork.xml#ii016">Ill. ii016</rs>
+            </p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>Bastille Day on 14 July is the national day of France.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>
+               <seg>The fifth </seg>
+               <seg>World’s Fair</seg>
+               <seg>, which ran from 15 April to 12 November 1900.</seg>
+            </p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>Israëls is referring here to all sorts of locations he saw at the World’s Fair. They can all be seen on the <hi rend="italics">Plan practique de l’exposition universelle 1900 contenant tous les palais et pavillons</hi>.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>We do not know which apartment Israëls visited. It had a panoramic view from east to west, running from Père-Lachaise cemetery to the Palais du Trocadéro, built for the 1878 World’s Fair (it was demolished in 1935).</p>
+         </note>
+         <note n="6" xml:id="note.tr.en.6">
+            <p>This form of transport – there were open and closed omnibuses – was extremely popular, as can be seen on picture postcards of the time. <hi rend="italics">The Omnibus-station at the junction of boulevard Montmartre and boulevard des Italiens in Paris</hi>, 1900. <rs type="artwork" ref="artwork.xml#ii017">Ill. ii017</rs>
+            </p>
+         </note>
+         <note n="7" xml:id="note.tr.en.7">
+            <p>Jo had lived in Paris between 1889 and 1890 during her marriage to <rs type="person" ref="bio.xml#pers120">Theo van Gogh</rs>. Their apartment was at 8 cité Pigalle. Because of <rs type="person" ref="bio.xml#pers120">Theo</rs>’s terminal illness, Jo had been compelled to leave the city with her little son <rs type="person" ref="bio.xml#pers128">Vincent</rs> in November 1890. Theo died in Utrecht in January 1891.</p>
+         </note>
+         <note n="8" xml:id="note.tr.en.8">
+            <p>The Dutch painter and printmaker <rs type="person" ref="bio.xml#pers094">Marius Bauer</rs> made an international breakthrough at the World’s Fair with his etchings that were exhibited there.</p>
+         </note>
+         <note n="9" xml:id="note.tr.en.9">
+            <p>
+               <seg>The </seg>Hippodrome in Place de Clichy was opened on 13 May 1900 during the World’s Fair and could seat an audience of seven thousand. <hi rend="italics">Le Figaro</hi> described the magnificent spectacle in a review from which it is clear that Israëls exaggerated the number of performers: there were 850 not two thousand: ‘À la scène finale, le triomphe de César, participent 850 personnes et 120 chevaux, ainsi qu’une première danseuse étoile: Mlle Ferrero ….’ (In the final scene, the triumph of Caesar, there were 850 performers and 120 horses, as well as a prima ballerina, Mlle Ferrero ….) Cf. <hi rend="italics">L’Hippodrome de Montmartre, Paris</hi>, <hi rend="italics">s.a</hi>. <rs type="artwork" ref="artwork.xml#ii018">Ill. ii018</rs>
+            </p>
+         </note>
+         <note n="10" xml:id="note.tr.en.10">
+            <p>The French art critic <rs type="person" ref="bio.xml#pers081">Julien Leclercq</rs> lived at 6 rue Vercingétorix, in <rs type="person" ref="bio.xml#pers104">Paul Gauguin</rs>’s former house, where works by  <rs type="person" ref="bio.xml#pers127">Vincent van Gogh</rs> were being exhibited at the time. Jo had lent eight paintings and three drawings for the show. See Julien Leclercq to Jo van Gogh-Bonger. VGM, b1895; 14 March 1900; <ref target="bibliolist-en.xml#bg027">Supinen 1990</ref>; <ref target="bibliolist-en.xml#bg012">
+                  <hi rend="italics">Account Book</hi> 2002</ref>, p. 144 and <ref target="bibliolist-en.xml#bg024">Luijten 2022</ref>, pp. 190-200. Jo wrote a list of the paintings and the prices she was asking. Jo van Gogh-Bonger, <hi rend="italics">Lijst van schilderijen bij Leclercq in Parijs</hi>, 1900. <rs type="artwork" ref="artwork.xml#ii019">Ill. ii019</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Verdrijven.</p>
+         </note>
+         <note n="b" xml:id="note.orig.nl.b">
+            <p>Makers van theaterkostuums.</p>
+         </note>
+         <note n="c" xml:id="note.orig.nl.c">
+            <p>Dit kan twee dingen betekenen: eenvoudig, of: allemaal door elkaar, los van rangen en standen.</p>
+         </note>
+         <note n="d" xml:id="note.orig.nl.d">
+            <p>Buitenlander, vreemdeling.</p>
+         </note>
+         <note n="e" xml:id="note.orig.nl.e">
+            <p>Ik stuur u mijn hartelijke groeten.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>The makers of theatrical costumes.</p>
+         </note>
+         <note n="b" xml:id="note.tr.en.b">
+            <p>The word Israëls used can mean two things: simple, or people of all walks of life together.</p>
+         </note>
+         <note n="c" xml:id="note.tr.en.c">
+            <p>I send you my cordial greetings.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

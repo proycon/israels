@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, circa februari 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, around February 1895. </title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8570V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>011</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-02" cert="low"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8570V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8570V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">Dinsdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Lieve Mevrouw,</p>
+            <p xml:id="p.orig.nl.4" n="4">Allerliefst van u – ik heb ze dadelijk in een vaasje gezet met water, is dat niet het beste? Het ziet er direkt heel anders uit in een kamer als er bloemen in staan. Het krijgt iets feestelijks. Dus – <hi rend="italics">bien merci</hi>.<ptr type="note" target="#note.orig.nl.a"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Houd u de boeken s.v.p. zoo lang u wilt. Ik heb ze al zoo dikwijls gelezen dat ik er nu best een jaartje mee kan wachten. Er staan bij die van <rs type="person" ref="bio.xml#pers029">Poe</rs>
+               <ptr type="note" target="#note.orig.nl.1"/> een heeleboel<ptr type="note" target="#note.orig.nl.b"/> die niet in andere edities staan geloof ik. Laatst ben ik langs Bussum gegaan, nl. in de trein naar Laren met mijn <rs type="person" ref="bio.xml#pers079">papa</rs>
+               <ptr type="note" target="#note.orig.nl.2"/> die daar even na toe wou.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">
+               <pb f="1v" facs="#s1v" n="2"/> Ik schijn evenwel niet de “Bosse” voor het buitenleven te bezitten <ptr type="note" target="#note.orig.nl.c"/> – misschien komt het pas later bij mij op. Op ’t oogenblik heb ik allerlei Amsterdamsche dingen te doen anders kwam ik u onmiddelijk bezoeken. Misschien zie ik u nog eens voor die tijd? Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">Uw toeg.</p>
+            <p xml:id="p.orig.nl.8" n="8">II</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Tuesday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dearest Madam,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">How very sweet of you – I put them in a vase of water straight away, that’s best, isn’t it? A room immediately looks different if there are flowers in it. It feels festive. So – <hi rend="italics">bien merci</hi>.<ptr type="note" target="#note.tr.en.a"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Please keep the books as long as you like. I’ve already read them so often that I can now do without them for a year. In the ones by <rs type="person" ref="bio.xml#pers029">Poe</rs>
+               <ptr type="note" target="#note.tr.en.1"/> there are a lot<ptr type="note" target="#note.tr.en.b"/> that aren’t in other editions I think. I went past Bussum the other day – in the train to Laren with my  <rs type="person" ref="bio.xml#pers079">papa</rs>
+               <ptr type="note" target="#note.tr.en.2"/> who wanted to go there for a while.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">
+               <pb f="1v" facs="#s1v" n="2"/> However, I don’t seem to have the “Bosse” for life in the country <ptr type="note" target="#note.tr.en.c"/> – perhaps it will come to me later. At the moment I have all sorts of Amsterdam things to do otherwise I would come to visit you immediately. Perhaps I’ll see you again before that time? Always,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Your affectionate </p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">II</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e1632" type="dating">
+            <p>Israëls spreekt Jo aan met ‘Lieve Mevrouw’ en hij laat weten dat ze zijn geleende boeken, waaronder verhalen van <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>, gerust een tijd mag houden. Jo schreef in augustus 1895 in haar dagboek, terugblikkend op het jaar: ‘In Januari – naar Amsterdam geweest.– Ik was dood, doodmoe – ik voelde me verlaten – eenzaam, ongelukkig in de stad – midden in al die menschen – komende uit mijn heerlijke stilte van buiten. Veilig en behagelijk voelde ik me alleen bij Israëls op ’t atelier – het waren heerlijke middagen.’ <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p. 94. Het ligt voor de hand dat ze bij dat bezoek de boeken heeft meegekregen. In brief <ref target="ii012.xml">012</ref>, die van 13 maart 1895 zal dateren, komt hij terug op <rs type="person" ref="bio.xml#pers029">Poe</rs>. Het onderhavige schrijven moet daaraan vooraf zijn gegaan. Zie in dit verband ook brief <ref target="ii013.xml">013</ref>, die van juli 1895 zal zijn.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e1731" type="dating">
+            <p>Israëls addresses Jo as ‘Dearest Madam’ and tells her that she’s welcome to keep the books he lent her, including stories by <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>, for a while. In August 1895, looking back over the year, Jo wrote in her Diary: ‘In January – went to Amsterdam.– I was tired, dead tired – I felt abandoned – lonely, unhappy in the city – amidst all those people – coming from my wonderful quiet in the country. I only felt safe and comfortable in the studio with Israëls – they were wonderful afternoons … – he drew a little portrait of me – crayon – I just sat very still – resting easily and he talked – talked – brought back to me all sorts of thing from the past. It was very pleasant – very good – our feelings – then.’ <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, p. 94. It seems obvious that she took the books home with her after that visit. In letter <ref target="ii012.xml">012</ref>, which must date from 13 March 1895, he comes back to <rs type="person" ref="bio.xml#pers029">Poe</rs>. The present letter must have predated that. In this regard see also letter <ref target="ii013.xml">013</ref>, which must date from July 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>De Amerikaanse schrijver <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De kunstenaar <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>The American writer <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The artist <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Dank u wel.</p>
+         </note>
+         <note n="b" xml:id="note.orig.nl.b">
+            <p>
+               <hi rend="italics">Lees</hi>: een heleboel verhalen.</p>
+         </note>
+         <note n="c" xml:id="note.orig.nl.c">
+            <p>De uitdrukking <hi rend="italics">avoir la bosse de quelque chose</hi> betekent aanleg voor iets hebben.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>Many thanks.</p>
+         </note>
+         <note n="b" xml:id="note.tr.en.b">
+            <p>He means a lot of stories.</p>
+         </note>
+         <note n="c" xml:id="note.tr.en.c">
+            <p>The expression <hi rend="italics">avoir la bosse de quelque chose</hi> means to have an aptitude for something.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

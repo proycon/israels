@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, waarschijnlijk tweede helft september 1897.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, probably second half of September 1897.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8655V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>045</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date notBefore="1897-09-15" notAfter="1897-09-30" cert="low"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8655V2008_b"/>
+         <zone xml:id="z1r1"
+            ulx="0"
+            uly="0"
+            lrx="50"
+            lry="100"/>
+         <zone xml:id="z1r2"
+            ulx="50"
+            uly="0"
+            lrx="100"
+            lry="100"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amsterdam</p>
+            <p xml:id="p.orig.nl.2" n="2">Zaterdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">My dear,</p>
+            <p xml:id="p.orig.nl.4" n="4">’t Spijt me dat je daar zoolang gewacht hebt – maar hoe kon ik dat weten – ik ben een heel andere weg terug gegaan, over Kwadijk – Hoorn.<ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Och, wat hadden we er ook aan gehad, je had toch direkt weer weggemoeten als eeuwige slavin van je plicht of je plichtsgevoel ––– enfin, het is toch <hi rend="italics">bar</hi> dat die familie je zoo onder de plak heeft dat je zoo’n heele zomer niet eens een dag met  <hi rend="italics">mij</hi> uit durft gaan – en dan zou ik nog zeggen dat ’t me spijt <pb f="1r" facs="#z1r2" n="2"/> dat ik er niet meer intiem mee ben! De volgende week ga ik een paar dagen naar Zeeland, schrijf mij maar als je wilt hierheen, dat komt wel terecht. </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Ik von je de vorige keer toen ik bij je was erg vermoeid dacht ik – och, je moest daar ook niet altijd zitten jij.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Dat rustige hoekkie van je, in welk werelddeel denk je is dat? Jopie, ik hoop dat je je een beetje prettig voelt.</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">Dag,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.9" n="9">Yours</p>
+            <p xml:id="p.orig.nl.10" n="10">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amsterdam</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Saturday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">My dear,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I’m sorry that you waited there so long – but how could I have known – I went back a completely different way, via Kwadijk – Hoorn.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Oh, what good would it have done us anyway, you would have had to dash away immediately as the eternal slave to your duty or your sense of duty – still it’s going too far when your family has you so firmly under its thumb that you don’t dare to go out with me even for a day for the whole of the summer – and then I’m supposed to say <pb f="1r" facs="#z1r2" n="2"/> that I’m sorry I’m not more intimate with you! I’m going to Zeeland for a few days next week, write to me here if you want to, it will get to me. </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">I thought you were very tired that last time I was with you and I thought – oh, you shouldn’t be sitting there all the time.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">That quiet corner of yours, what continent do you think it’s on? Jopie, I hope that you feel a bit content.</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">Bye,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Yours</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e6306" type="dating">
+            <p>Israëls noemt Jo liefkozend ‘Jopie’ en zegt vermanend dat ze een slavin is van haar plichtsgevoel en teveel onder de plak zit van haar familie, zo ernstig dat ze de ‘hele zomer’ geen dag samen weg hebben gekund. Verder meldt hij ‘volgende week’ naar Zeeland te vertrekken. Er zijn twee brieven van Israëls die hij begin oktober 1897 in Zeeland schreef; toen was hij al enige tijd daar (zie brief <ref target="ii048.xml">048</ref> en <ref target="ii049.xml">049</ref>). Op basis hiervan is de onderhavige brief gedateerd waarschijnlijk tweede helft september 1897.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e6366" type="dating">
+            <p>Israëls lovingly calls Jo by the pet name ‘Jopie’ and admonishes her for being a slave to her sense of duty and too much under her family’s thumb, so much so that they haven’t been able to get away together for a day all summer. He goes on to tell her that he will be going to Zeeland next week. There are two letters from Israëls that he wrote in Zeeland at the beginning of October 1897; by then he had been there for some time (see letters <ref target="ii048.xml">048</ref> and <ref target="ii049.xml">049</ref>). On this basis, the present letter is dated probably second half of September 1897.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Het dorp Kwadijk (gemeente Edam-Volendam) ligt net ten noorden van Purmerend, richting Hoorn. Het is niet te zeggen waarvandaan Israëls was teruggekeerd.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>The village of Kwadijk (in the district of Edam-Volendam) is to the north of Purmerend, towards Hoorn. There is no way of knowing where Israëls was coming back from.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

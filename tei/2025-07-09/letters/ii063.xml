@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 22 oktober 1914.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 22 October 1914.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8604V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>063</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1914-10-22"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8604-001V2008_b"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="b8604-002V2008_b"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="b8604-002V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">Koninginnegracht 2</p>
+            <p xml:id="p.orig.nl.3" n="3">22 Oct.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.4" n="4">Chère Amie, </p>
+            <p xml:id="p.orig.nl.5" n="5">Ik vermoed dat je nog in ’t land bent.<ptr type="note" target="#note.orig.nl.1"/> Kom je weleens hier anders kom ik je dezer dagen zelf weleens opzoeken.<ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">– Ik vond hier dat ander portretje van je, schrijf mij even of je er nu bent dan zend ik het je na het wat gevernist te hebben.<ptr type="note" target="#note.orig.nl.3"/> Dus laat even wat hooren.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Met hartelijke groet,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">Isaac I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.2" f="2r" facs="#s2r" n="2"/>
+            <p xml:id="p.orig.nl.9" n="9">Mevr. Wed. J. Cohen Gosschalk</p>
+            <p xml:id="p.orig.nl.10" n="10">Koninginneweg 77</p>
+            <p xml:id="p.orig.nl.11" n="11">Amsterdam</p>
+            <pb xml:id="pb.orig.nl.3" f="2v" facs="#s2v" n="3"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Koninginnegracht 2</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">22 Oct.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">Chère Amie,<ptr type="note" target="#note.tr.en.a"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">I suspect you are still in the country.<ptr type="note" target="#note.tr.en.1"/> Are you going to come here some time, otherwise I will come and visit you myself one of these days.<ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">– I found that other small portrait of you here, write and tell me if you’re here now, then I’ll send it to you after I’ve given it a spot of varnish.<ptr type="note" target="#note.tr.en.3"/> So let me know.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">With warmest wishes,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Isaac I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.2"
+                corresp="#pb.orig.nl.2"
+                f="2r"
+                facs="#s2r"
+                n="2"/>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Mevr. Wed. J. Cohen Gosschalk</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Koninginneweg 77</p>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">Amsterdam</p>
+            <pb xml:id="pb.tr.en.3"
+                corresp="#pb.orig.nl.3"
+                f="2v"
+                facs="#s2v"
+                n="3"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e9355" type="dating">
+            <p>Enveloppe. Poststempel: 23 oktober 1914.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e9426" type="dating">
+            <p>Envelope. Postmark: 23 October 1914.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Een moeilijk te plaatsen opmerking. Misschien had Jo Isaac in vertrouwen verteld over de plannen die werden gemaakt om naar de Internationale Socialistische Vrouwenconferentie voor de vrede in Bern te gaan, maar dat zou pas plaatsvinden in maart 1915. (In januari schreef Israëls haar vanuit Bern, zie brief <ref target="ii069.xml">069</ref>.) </p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Dat laatste deed Israëls: hij ging precies een week later bij Jo eten. Jo schreef aan <rs type="person" ref="bio.xml#pers128">Vincent</rs> over dat bezoek: ‘Donderdag had ik een bezoek van Isaac Israels, hij at bij me en we spraken wel over jou in Londen; hij had je brieven gekregen; hij houdt echt van je – ’t speet hem dat je weg was uit Londen! Hij was erg melankoliek, dat zijn alleen in ’t oude huis van zijn vader is ook haast niet te doen voor hem. Niemand weet beter dan ik hoe zulk thuiskomen in een leeg huis is – hij houdt zich altijd wel groot maar is au fond heel gevoelig. Hij tobt er nu over wat hij doen zal met dat huis – aanhouden of verkoopen! Niemand kan daarin raden Hij vond de schilderijen zoo prachtig – zei dat ’t de mooiste collectie was uit Amsterdam.’ VGM, b2106; 29 oktober 1914. </p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Kennelijk had Israëls een vroeger geschilderd portret van Jo nog in zijn bezit; er is slechts één portret van haar in de nalatenschap dat gevernist is, namelijk: Isaac Israëls,  <hi rend="italics">Portret van Jo van Gogh-Bonger</hi>, ongedateerd (1895-1897). Van Gogh Museum, Amsterdam. <rs type="artwork" ref="artwork.xml#ii050">Ill. ii050</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>A remark that is difficult to place. Jo may have told Isaac in confidence about the plans made to go to the International Socialist Women’s Conference for peace in Berne, but that did not take place until March 1915. (In January Israëls wrote to her from Berne, see letter <ref target="ii069.xml">069</ref>.)</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>Israëls did just that: he went to have a meal with Jo. Jo wrote about the visit to <rs type="person" ref="bio.xml#pers128">Vincent</rs>: ‘Thursday I had a visit from Isaac Israëls, he ate with me and we talked about you in London; he had received your letters; he is really fond of you – he was sorry you’d left London! He was very melancholy; he finds being alone in his father’s old house almost unbearable. Nobody knows better than I what it’s like coming home to an empty house – he always puts on a brave face, but deep down he’s very sensitive. He’s worrying now about what to do with that house – hang on to it or sell it! No one can advise him about that. He thought the paintings were so good – said it was the finest collection in Amsterdam.’ VGM, b2106; 29 October 1914.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>Apparently, Israel had an earlier painted portrait of Jo still in his possession; there is only one portrait of her in the estate that is varnished, viz. Isaac Israëls,  <hi rend="italics">Portrait of Jo van Gogh-Bonger</hi>, undated (1895-1897). Van Gogh Museum, Amsterdam. <rs type="artwork" ref="artwork.xml#ii050">Ill. ii050</rs>
+            </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Beste vriendin.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>Dear Friend.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 15 oktober 1916.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 15 October 1916.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8640V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>092</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1916-10-15"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8640V2008r_b"/>
+         <zone n="1r1"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r3"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8640V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.1" n="1">15 oct. 1916</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Het doet mij veel plezier iets van je te vernemen. Je had alleen wel een beetje meer kunnen vertellen vind ik.</p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Hoe bevalt <rs type="person" ref="bio.xml#pers128">Vincent</rs> het leven in Amerika en denken zij er vooreerst te blijven? Heeft hij daar een goed baantje,<ptr type="note" target="#note.orig.nl.1"/> en <rs type="person" ref="bio.xml#pers078">Jos</rs>?<ptr type="note" target="#note.orig.nl.2"/> Jij blijft er natuurlijk vooreerst. Maar ik bedenk daar dat je natuurlijk tallooze brieven te schrijven hebt en <pb f="1v" facs="#s1v" n="2"/> je dat allemaal al dikwijls hebt verteld. Het is wel een verbazend verstandig idee van je geweest er heen te gaan want het is hier een dooje boel, altijd precies hetzelfde, en als je hier een nieuwe draai wilt krijgen moet je net doen als Münchhausen die zich zelf bij zijn pruik pakte en zich zoo met paard en al aan de overkant van de rivier gooide. <ptr type="note" target="#note.orig.nl.3"/> Ik heb onlangs warendig<ptr type="note" target="#note.orig.nl.a"/> een bestelling gekregen om een dame te schilderen maar aangezien ik de zonnebloemen niet meer had om die kop tegenaan te schilderen is zij totaal mislukt, dus wees maar blij dat je er niet was anders had ik je dat schilderij weer te leen gevraagd.<ptr type="note" target="#note.orig.nl.4"/> De dames <rs type="person" ref="bio.xml#pers074">Osiek</rs>, <rs type="person" ref="bio.xml#pers073">Bodenheim</rs> en <rs type="person" ref="bio.xml#pers059">Ritsema</rs> gaan met <rs type="person" ref="bio.xml#pers091">L. Ansingh</rs> een tentoonst. houden hier ter eere van de heropening van de Kunstzaal Kleykamp.<ptr type="note" target="#note.orig.nl.5"/> Dus wel jammer ook daarvoor dat je er nu niet bent. Je kunt après tout <ptr type="note" target="#note.orig.nl.b"/> hier toch niet zoo goed gemist worden. Blijf dus niet al te lang weg. <rs type="person" ref="bio.xml#pers117">Mevr. de V.</rs> logeert tegenwoordig Witte Brug.<ptr type="note" target="#note.orig.nl.6"/> Ook jammer dat je daar nu niet eens mee kunt gaan eten. Enfin, je hebt zeker heele andere dingen aan je hoofd tegenwoordig, maar vergeet de Uwen niet.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">
+               <pb f="1r" facs="#z1r3" n="3"/> Gaan jelui eens naar een  <hi rend="italics">goeje</hi> bioskoop in New York en vertel mij eens of je <hi rend="italics">daar</hi> eindelijk eens wat anders ziet als mijn oude vijand <rs type="person" ref="bio.xml#pers075">Bunny</rs>,<ptr type="note" target="#note.orig.nl.7"/> en of die echte Amerik. films zoo idioot flauw zijn als die je hier altijd ziet.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">
+               <rs type="person" ref="bio.xml#pers117">Mevr. de V.</rs> volgt tegenwoordig de lezingen van Prof. <rs type="person" ref="bio.xml#pers042">Bolland</rs>, dus op de goede weg hè?<ptr type="note" target="#note.orig.nl.8"/>
+            </p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Zij heeft bizonder veel lust om naar Amerika te gaan, dus wie weet!!</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">Laat nog eens gauw wat hooren, ik ben zeer benieuwd. Interesseert <rs type="person" ref="bio.xml#pers128">Vincent</rs> zich voor de beurs tegenwoordig??<ptr type="note" target="#note.orig.nl.9"/> In onze tijd bestond dat nog niet! Heeft hij ooit mijn brief gekregen?<ptr type="note" target="#note.orig.nl.10"/>
+            </p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">Hartelijke groeten aan allen.</p>
+            <p xml:id="p.orig.nl.10" n="10" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.11" n="11">Yours</p>
+            <p xml:id="p.orig.nl.12" n="12">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">15 Oct. 1916</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I am delighted to hear from you. Only I think you could have told me a bit more.</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">How does <rs type="person" ref="bio.xml#pers128">Vincent</rs> like life in America and do they think they’ll be staying for the time being? Has he got a good job there,<ptr type="note" target="#note.tr.en.1"/> and <rs type="person" ref="bio.xml#pers078">Jos</rs>?<ptr type="note" target="#note.tr.en.2"/> Of course you’ll be staying for the time being. But I realize that you obviously have countless letters to write and <pb f="1v" facs="#s1v" n="2"/> you’ve already told all about it often. It has been a surprisingly sensible idea of yours to go there, because it’s a dead bore here, always exactly the same, and if you want to get a new twist here, you have to act like Münchhausen, who picked himself up by his wig and thus threw himself, horse and all, to the other side of the river. <ptr type="note" target="#note.tr.en.3"/> I recently actually had a commission to paint a lady, but since I didn’t have the sunflowers any more to paint her head against it was a total failure, so be glad you weren’t here, otherwise I’d have asked to borrow that painting again.<ptr type="note" target="#note.tr.en.4"/> The ladies <rs type="person" ref="bio.xml#pers074">Osiek</rs>, <rs type="person" ref="bio.xml#pers073">Bodenheim</rs> and <rs type="person" ref="bio.xml#pers059">Ritsema</rs> are going to stage an exhibition here with <rs type="person" ref="bio.xml#pers091">L. Ansingh</rs> to mark the reopening of the Kleykamp gallery.<ptr type="note" target="#note.tr.en.5"/> So it’s a shame that you aren’t here now for that. Après tout<ptr type="note" target="#note.tr.en.a"/> you really are missed. So don’t stay away too long. <rs type="person" ref="bio.xml#pers117">Mrs de V.</rs> is currently staying at the Witte Brug.<ptr type="note" target="#note.tr.en.6"/> It’s also a pity that you can’t go and dine with her there. Well, you certainly have very different things on your mind at the moment, but don’t forget your friends.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">
+               <pb f="1r" facs="#z1r3" n="3"/> Go to a  <hi rend="italics">good</hi> cinema in New York from time to time and tell me if you ever see anything <hi rend="italics">there</hi> other than my old enemy <rs type="person" ref="bio.xml#pers075">Bunny</rs>,<ptr type="note" target="#note.tr.en.7"/> and if those real American films are just as stupid as the ones that you always see here.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">
+               <rs type="person" ref="bio.xml#pers117">Mrs de V.</rs> is presently attending Prof <rs type="person" ref="bio.xml#pers042">Bolland</rs>’s lectures, so on the right path, eh?<ptr type="note" target="#note.tr.en.8"/>
+            </p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">She has a really strong desire to go to America, so who knows!!</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">Let me hear something from you soon, I’m very curious. Is <rs type="person" ref="bio.xml#pers128">Vincent</rs> taking an interest in the stock exchange nowadays??<ptr type="note" target="#note.tr.en.9"/> It didn’t exist in our day! Did he ever get my letter?<ptr type="note" target="#note.tr.en.10"/>
+            </p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">Warmest wishes to everyone.</p>
+            <p xml:id="p.tr.en.10"
+               corresp="#p.orig.nl.10"
+               n="10"
+               rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">Yours</p>
+            <p xml:id="p.tr.en.12" corresp="#p.orig.nl.12" n="12">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e13892" type="dating">
+            <p>Voorgedrukt briefhoofd: ‘<hi rend="blockletter">koninginnegracht</hi> 2.’</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e14138" type="dating">
+            <p>Printed letterhead: ‘<hi rend="blockletter">koninginnegracht </hi>2.’</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> was begonnen als <hi rend="italics">junior draughtsman</hi> op de tekenkamer van de Public Service Electric Company in Newark.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>
+               <rs type="person" ref="bio.xml#pers078">Josina van Gogh-Wibaut</rs> werkte waarschijnlijk op de bibliotheek van de <hi rend="italics">Rand School of Social Science</hi>, een opleidingsinstituut en onderzoeksbureau dat nauw verbonden was aan de Socialist Party of America (<hi rend="blockletter">spa</hi>). In maart 1918 ontving zij een enveloppe die was gericht aan de Rand School Library, 7 E. 15th St NYC (IISG).</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Eén van de verhalen over de Duitse edelman <rs type="person" ref="bio.xml#pers086">Karl Friedrich Hieronymus Baron von Münchhausen</rs> – die in het Russische leger diende in de strijd tegen de Turken –, verzameld door <rs type="person" ref="bio.xml#pers112">Rudolf Erich Raspe</rs>. Ze werden in 1785 uitgegeven onder de titel <hi rend="italics">Baron Munchausen’s Narrative of his Marvellous Travels and Campaigns in Russia</hi> – het jaar daarop kwam de Duitse vertaling uit.</p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Het is niet bekend welke van de twee versies van Van Goghs <hi rend="italics">Zonnebloemen</hi> (F 458 / JH 1667 of F 454 / JH 1562) Israëls eerder had geleend. Hij had het schilderij in mei 1916 geretourneerd; zie brief <ref target="ii087.xml">087</ref> en <ref target="ii088.xml">088</ref>.</p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>Van de kunstenaressen <rs type="person" ref="bio.xml#pers074">Johanna Elisabeth (‘Betsy’) Osieck</rs>, <rs type="person" ref="bio.xml#pers073">Johanna Cornelia (‘Nelly’) Hermana Bodenheim</rs>, <rs type="person" ref="bio.xml#pers059">Jacoba (‘Coba’) Johanna Ritsema</rs> en <rs type="person" ref="bio.xml#pers091">Maria Elisabeth (‘Lizzy’) Georgina Ansingh</rs> werden in november-december 1916 schilderijen en tekeningen tentoongesteld bij Kunstzaal Kleykamp. Die was in november in het zogenoemde Witte Huis getrokken, een groot pand aan de Scheveningseweg 3 (later nummer 17); daarvoor was deze kunsthandel gevestigd in de Haagse Oranjestraat 9. Zie <ref target="bibliolist-nl.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>.</p>
+         </note>
+         <note n="6" xml:id="note.orig.nl.6">
+            <p>‘Mevrouw de V.’ is hoogstwaarschijnlijk <rs type="person" ref="bio.xml#pers117">Sophie de Vries-Dalberg</rs>, een geliefde van Israëls, die op dat moment blijkbaar logeerde in Hotel de Wittebrug aan de Badhuisweg in Den Haag. Zij was in 1911 gescheiden van haar man <rs type="person" ref="bio.xml#pers113">Samuel de Vries</rs> en zat vaak model voor Israëls. In april 1922 zou Israëls haar treffen op Java, waarna zij doorreisde naar Amerika. Vgl. brief <ref target="ii098.xml">098</ref>, waarin hij Jo laat weten dat <rs type="person" ref="bio.xml#pers117">De Vries</rs> haar een brief vanuit Amerika zal sturen.</p>
+         </note>
+         <note n="7" xml:id="note.orig.nl.7">
+            <p>De corpulente <rs type="person" ref="bio.xml#pers075">John Bunny</rs>, een ster in de vroege Amerikaanse zwijgende film. John Bunny, Foto. <rs type="artwork" ref="artwork.xml#ii038">Ill. ii038</rs>
+            </p>
+         </note>
+         <note n="8" xml:id="note.orig.nl.8">
+            <p>De filosoof <rs type="person" ref="bio.xml#pers042">Gerardus Johannes Petrus Josephus Bolland</rs>. Zijn denken oefende grote invloed uit op de studerende jeugd en jonge intelligentsia. <rs type="person" ref="bio.xml#pers042">Bolland</rs> was behalve fascinerend denker ook een taalvirtuoos en meeslepend redenaar, die zijn gehoor wist te bespelen. Wie hem ging horen, kwam bijna onherroepelijk in de ban van zijn ideeën. Zie Willem Otterspeer, <hi rend="italics">Bolland. Een biografie</hi>. Amsterdam 1996.</p>
+         </note>
+         <note n="9" xml:id="note.orig.nl.9">
+            <p>De New York Stock Exchange, die sinds 1817 bestond. Of <rs type="person" ref="bio.xml#pers128">Vincent</rs> particulier belegde, is niet bekend.</p>
+         </note>
+         <note n="10" xml:id="note.orig.nl.10">
+            <p>Deze brief is niet overgeleverd. Vgl. in dit verband de brief aan Jo van 10 februari 1916, waarin Israëls zegt aan <rs type="person" ref="bio.xml#pers128">Vincent</rs> te zullen schrijven (brief <ref target="ii082.xml">082</ref>).</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> had started work as a junior draughtsman at the drawing office of the Public Service Electric Company in Newark.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>
+               <rs type="person" ref="bio.xml#pers078">Josina van Gogh-Wibaut</rs> probably worked at the library of the Rand School of Social Science, a training centre and research bureau that was closely associated with the Socialist Party of America (<hi rend="blockletter">spa</hi>). In March 1918 she received an envelope addressed to the Rand School Library, 7 E. 15th St NYC (IISG).</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>One of the stories about the German nobleman <rs type="person" ref="bio.xml#pers086">Karl Friedrich Hieronymus Baron von Münchhausen</rs> – who served in the Russian army in the battle against the Turks – collected by <rs type="person" ref="bio.xml#pers112">Rudolf Erich Raspe</rs>. They were published in 1785 under the title <hi rend="italics">Baron Munchausen’s Narrative of his Marvellous Travels and Campaigns in Russia</hi>; the German translation appeared the following year.</p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>We do not know which of the two versions of Van Gogh’s <hi rend="italics">Sunflowers</hi> (F 458 / JH 1667 or F 454 / JH 1562) Israëls had borrowed before. He had returned the painting in May 1916; see letters <ref target="ii087.xml">087</ref> and <ref target="ii088.xml">088</ref>.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>In November-December 1916, paintings and drawings by the artists <rs type="person" ref="bio.xml#pers074">Johanna Elisabeth (‘Betsy’) Osieck</rs>, <rs type="person" ref="bio.xml#pers073">Johanna Cornelia (‘Nelly’) Hermana Bodenheim</rs>, <rs type="person" ref="bio.xml#pers059">Jacoba (‘Coba’) Johanna Ritsema</rs> and <rs type="person" ref="bio.xml#pers091">Maria Elisabeth (Lizzy) Georgina Ansingh</rs> were shown at the Kleykamp gallery. In November it had moved to premises known as the White House, a large building at number 3 Scheveningseweg (later number 17); before that this gallery had been housed at number 9 Oranjestraat in The Hague. See <ref target="bibliolist-en.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>.</p>
+         </note>
+         <note n="6" xml:id="note.tr.en.6">
+            <p>‘Mrs de V.’ is most probably <rs type="person" ref="bio.xml#pers117">Sophie de Vries-Dalberg</rs>, Israëls’s mistress, who was apparently staying in Hotel de Wittebrug in Badhuisweg in The Hague. She was divorced from her husband <rs type="person" ref="bio.xml#pers113">Samuel de Vries</rs> in 1911 and often sat for Israëls. In April 1922 Israëls would encounter her on Java, after which she travelled on to America, cf. letter <ref target="ii098.xml">098</ref>, in which he tells Jo that <rs type="person" ref="bio.xml#pers117">De Vries</rs> will send her a letter from America.</p>
+         </note>
+         <note n="7" xml:id="note.tr.en.7">
+            <p>The corpulent <rs type="person" ref="bio.xml#pers075">John Bunny</rs>, a star of early American silent films. John Bunny, Photograph. <rs type="artwork" ref="artwork.xml#ii038">Ill. ii038</rs>
+            </p>
+         </note>
+         <note n="8" xml:id="note.tr.en.8">
+            <p>The philosopher <rs type="person" ref="bio.xml#pers042">Gerardus Johannes Petrus Josephus Bolland</rs>. His thinking had a strong influence on students and the young intelligentsia. <rs type="person" ref="bio.xml#pers042">Bolland</rs>, a fascinating thinker, was also a language virtuoso and compelling orator who knew how to play his audience. Anyone who went to hear him was almost irrevocably captivated by his ideas. See Willem Otterspeer, <hi rend="italics">Bolland. Een biografie</hi>. Amsterdam 1996.</p>
+         </note>
+         <note n="9" xml:id="note.tr.en.9">
+            <p>The New York Stock Exchange, which had been in existence since 1817. We do not know whether <rs type="person" ref="bio.xml#pers128">Vincent</rs> invested on his own account.</p>
+         </note>
+         <note n="10" xml:id="note.tr.en.10">
+            <p>This letter has not survived. Cf. in this connection the letter to Jo of 10 February 1916, in which Israëls says he will write to Vincent (letter <ref target="ii082.xml">082</ref>).</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Warempel, werkelijk.</p>
+         </note>
+         <note n="b" xml:id="note.orig.nl.b">
+            <p>Alles welbeschouwd.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>After all.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

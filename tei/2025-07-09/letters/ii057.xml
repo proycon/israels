@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 5 februari 1898.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 5 February 1898.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8597V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>057</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1898-02-05"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8597V2008r_b"/>
+         <zone n="1r1"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r2"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8597V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">Zaterdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Ik wil je toch even vertellen dat ik al een dag of acht hier ben, het geval met die voet<ptr type="note" target="#note.orig.nl.1"/> is verleden vrijdag zoo erg geworden dat er prof. <rs type="person" ref="bio.xml#pers065">Iterson</rs> uit Leiden<ptr type="note" target="#note.orig.nl.2"/> bij gehaald is moeten worden, die heeft er geducht in gesneden en sedert die tijd gaat het nu goed vooruit. Het is echter een zeer vervelend geval zooals je wel kunt begrijpen. Voorlopig moet de voet tweemaal per dag verbonden worden om de wond open te houden, totdat alles wat er niet in hoort er uit is, dat gaat niet gauw en dan moet die wond dicht en dan zal het nog wel een tijdje duren voor hij weer goed kan loopen. Het is een <pb f="1r" facs="#z1r2" n="2"/> ellendig geval voor den man, dat kan je begrijpen, altijd te moeten liggen op de canapee of in bed. Hij heeft dan ook meestal danig het land maar gelukkig zijn eetlust is goed – het is voor mij ook beroerd, net was ik goed aan ’t werk en was een ding begonnen waar ik verduiveld graag mee door was gegaan, net het goeie weer er voor, enfin, het is eigenlijk het vervelendst dat ik hier niet veel kan helpen zelfs, hij heeft verpleging, omgeving, <ptr type="note" target="#note.orig.nl.a"/> alles wat hij noodig heeft maar hij vindt het dan prettig als ik eens een praatje kom maken, enfin, er zoo’n beetje bij in de buurt ben. Wat kan je zeggen als iemand zooals hij nu je noodig heeft – enfin, we <pb f="1v" facs="#s1v" n="3"/> zullen er wel weer doorheen rollen, misschien dat ik de volgende week wel weer weg kom. </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">En hoe gaat ’t met jou? Vertel me eens wat.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">Yours</p>
+            <p xml:id="p.orig.nl.8" n="8">Isaac</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.9" n="9">N.B. Vertel er maar niet te veel van (dit ongeval van mijn <rs type="person" ref="bio.xml#pers079">papa</rs>), het kon eens in de krant komen, dat is nooit plezierig. Adieu.</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Saturday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I just want to tell you that I’ve been here for a week or so; the business with the foot<ptr type="note" target="#note.tr.en.1"/> got so bad last Friday that Prof <rs type="person" ref="bio.xml#pers065">Iterson</rs> from Leiden<ptr type="note" target="#note.tr.en.2"/> had to be called in; he really cut into it and since then it’s been progressing well. It’s a very uncomfortable business, though, as you can certainly understand. For the time being the foot has to be bandaged twice a day to keep the wound open, until everything that shouldn’t be in there has come out; that’s not going to happen soon and then the wound has to heal, and then it will still be a while before he can walk again properly. It’s a <pb f="1r" facs="#z1r2" n="2"/> miserable thing for the man, you can understand, having to lie on the sofa or in bed constantly. He really hates it most of the time, but luckily his appetite is good. It’s rotten for me too, I was just working well and had started a thing which I damned well wanted to carry on with, just the right weather for it; anyway, the most annoying thing is that I can’t even help much here, he has nurses and company, everything he needs but he likes it if I come and have a chat with him now and then, and stay around. What can you say if someone like him needs you now – anyway, we’ll <pb f="1v" facs="#s1v" n="3"/> get through it again; perhaps I will be able to get away again next week.   </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">And how are things with you? Tell me what’s happening.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Yours</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Isaac</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">N.B. Don’t say too much about it (my <rs type="person" ref="bio.xml#pers079">papa</rs>’s accident), it could get into the papers; that’s never pleasant. Adieu.</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e7875" type="dating">
+            <p>Isaac schrijft dat <rs type="person" ref="bio.xml#pers079">zijn vader</rs> is geopereerd aan zijn voet en dat hij nu sinds een week bij hem is. Op grond van <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>’ aquarel <hi rend="italics">Zelfportret met verbonden voet</hi> (1898) die hij op 19 oktober 1898 met een briefje verstuurde aan de verzamelaar <rs type="person" ref="bio.xml#pers092">Maria Lydia Drucker-Fraser</rs> weten we dat hij in dat jaar herstellende was van die operatie. Zie Tent.cat. Groningen 1999, p. 332-333; vgl. ook brief <ref target="ii056.xml">056</ref>. Israëls vroeg op 13 februari [1898] aan zijn vriend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs> om <rs type="person" ref="bio.xml#pers079">zijn vader</rs> – die op dat moment goed werd verzorgd – een brief te schrijven. Hij zegt daarin <hi rend="italics">twee weken</hi> bij <rs type="person" ref="bio.xml#pers079">zijn vader</rs> te zijn geweest. <ref target="bibliolist-nl.xml#bg030">Tent.cat. Amsterdam 2012</ref>, p. 48 en n. 225. Op basis hiervan is aan de onderhavige brief, die op een zaterdag werd geschreven, de datum 5 februari 1898 toegekend.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e7985" type="dating">
+            <p>Isaac writes that <rs type="person" ref="bio.xml#pers079">his father</rs> has had an operation on his foot and that he’s been with him for a week. We know from <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>’s watercolour <hi rend="italics">Self-Portrait with Bandaged Foot</hi> (1898), which he sent with a note to the collector <rs type="person" ref="bio.xml#pers092">Maria Lydia Drucker-Fraser</rs> on 19 October 1898, that he was recovering from the operation that year. See exh. cat. Groningen 1999, pp. 332-33; cf. also letter <ref target="ii056.xml">056</ref>. On 13 February [1898] Israëls wrote and asked his friend <rs type="person" ref="bio.xml#pers036">Frans Erens</rs> to write a letter to <rs type="person" ref="bio.xml#pers079">his father</rs>, who was being well looked after at that time. He told him that he had been with his father for two weeks. <ref target="bibliolist-en.xml#bg030">Exh. cat. Amsterdam 2012</ref>, p. 48 and n. 225. Based on this, the present letter, which was written on a Saturday, has been assigned the date 5 February 1898.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Israëls schreef aan de toneelspeelster <rs type="person" ref="bio.xml#pers061">Jacqueline Sandberg</rs> dat het met <rs type="person" ref="bio.xml#pers079">zijn vader</rs> ‘heel langzaam vooruit gaat’ en dat de herstellende het ‘eeuwige liggen’ vreselijk beu wordt. Zie <ref target="bibliolist-nl.xml#bg026">Royaards-Sandberg 1981</ref>, p. 471-472. De editeur Harry M. Prick kende deze ongedateerde brief de datum ‘[Maart 1898]’ toe.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De Nederlandse medicus <rs type="person" ref="bio.xml#pers065">Jan Egens van Iterson</rs> was sinds 1878 als hoogleraar heelkunde en gerechtelijke geneeskunde verbonden aan de Universiteit Leiden.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Israëls wrote to the actress <rs type="person" ref="bio.xml#pers061">Jacqueline Sandberg</rs> that it was ‘progressing very slowly’ with <rs type="person" ref="bio.xml#pers079">his father</rs> and that the convalescent was absolutely fed up with ‘eternally lying down’. See <ref target="bibliolist-en.xml#bg026">Royaards-Sandberg 1981</ref>, pp. 471-72. The editor Harry M. Prick assigned the date ‘[March 1898]’ to this undated letter.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The Dutch physician <rs type="person" ref="bio.xml#pers065">Jan Egens van Iterson</rs> had been attached to Leiden University as professor of surgery and forensic medicine since 1878.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Vrienden, kennissen.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 10 juni 1923.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 10 June 1923.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8649V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="postcard"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1923-06-10"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8649V2008v_vs_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8649V2008r_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">
+               <hi rend="italics">Zondag</hi>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Woensdag zou ik kunnen komen, schrijf even of dat goed is en of ik dan direkt (en hoe laat zoowat) bij <rs type="person" ref="bio.xml#pers128">V.</rs>
+               <ptr type="note" target="#note.orig.nl.1"/> zal komen. Ik neem dan een heel klein paneeltje mee,<ptr type="note" target="#note.orig.nl.2"/> niet veel grooter dan dat kinderportretje van V.<ptr type="note" target="#note.orig.nl.3"/> Schrijf even ook, of dat je bedoeling was. Ik zal ’t dan eens probeeren, lukt het, tant mieux, <ptr type="note" target="#note.orig.nl.a"/> anders neem ik het plankje weer mee terug, ’s avonds ga ik weer hier terug. Is dat goed? </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.4" n="4">Always yours</p>
+            <p xml:id="p.orig.nl.5" n="5">Isaac</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.2" f="1v" facs="#s1v" n="2"/>
+            <p xml:id="p.orig.nl.6" n="6">Mevrouw J. Van Gogh</p>
+            <p xml:id="p.orig.nl.7" n="7">Koninginneweg 77</p>
+            <p xml:id="p.orig.nl.8" n="8">Amsterdam</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">
+               <hi rend="italics">Sunday</hi>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">I could come on Wednesday, drop me a line and let me know if that’s all right and if I can come to V. directly (and roughly how late).<ptr type="note" target="#note.tr.en.1"/> I shall bring a very small panel,<ptr type="note" target="#note.tr.en.2"/> not much larger than that portrait of <rs type="person" ref="bio.xml#pers128">V.</rs> as a child.<ptr type="note" target="#note.tr.en.3"/> And let me know if that was the intention. I’ll try it then, if it works, tant mieux,<ptr type="note" target="#note.tr.en.a"/> otherwise I’ll take the little plank back with me, I’ll be coming back here in the evening. Is that all right?</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">Always yours</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5">Isaac</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.2"
+                corresp="#pb.orig.nl.2"
+                f="1v"
+                facs="#s1v"
+                n="2"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Mevrouw J. Van Gogh</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Koninginneweg 77</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Amsterdam</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e17512" type="dating">
+            <p>Briefkaart. Poststempel: maandag 11 juni 1923.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e17599" type="dating">
+            <p>Postcard. Postmark: Monday 11 June 1923.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>In 1922 waren Jo’s zoon <rs type="person" ref="bio.xml#pers128">Vincent</rs> en schoondochter <rs type="person" ref="bio.xml#pers078">Josina</rs> met hun twee zoontjes verhuisd van de Alexander Boersstraat 13 naar de Waldeck Pyrmontlaan 10 in Amsterdam, wederom vlak bij Jo.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Israëls had toegezegd een portretje te willen maken van Jo’s eerste kleinzoon <rs type="person" ref="bio.xml#pers119">Theo</rs> – twee weken later liet zij Israëls weten dat ze was ingenomen met het resultaat (zie brief <ref target="ii102.xml">102</ref>). Isaac Israëls, <hi rend="italics">Portret van Theodoor (Theo) van Gogh</hi>, 1923. <rs type="artwork" ref="artwork.xml#ii003">Ill. ii003</rs>
+            </p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Isaac Israëls, <hi rend="italics">Portret van Vincent Willem van Gogh</hi>, 1894. <rs type="artwork" ref="artwork.xml#ii001">Ill. ii001</rs>
+            </p>
+            <p>Dit portretje was maar half zo groot. Het meet slechts 15,5 x 13 cm. – dat van <rs type="person" ref="bio.xml#pers119">Theo</rs> 32 x 24,5 cm.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>In 1922 Jo’s son <rs type="person" ref="bio.xml#pers128">Vincent</rs> and her daughter-in-law <rs type="person" ref="bio.xml#pers078">Josina</rs> had moved with their two little sons from 13 Alexander Boersstraat to 10 Waldeck Pyrmontlaan in Amsterdam, again close to Jo.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>Israëls had said he was happy to make a portrait of Jo’s first grandson <rs type="person" ref="bio.xml#pers119">Theo</rs> – two weeks later she told Israëls that she was pleased with the result (see letter <ref target="ii102.xml">102</ref>). Isaac Israëls, <hi rend="italics">Portrait of Theodoor (Theo) van Gogh</hi>, 1923. <rs type="artwork" ref="artwork.xml#ii003">Ill. ii003</rs>
+            </p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>Isaac Israëls, <hi rend="italics">Portrait of Vincent Willem van Gogh</hi>, 1894. <rs type="artwork" ref="artwork.xml#ii001">Ill. ii001</rs> This little portrait was only half the size. It measures just 15.5 x 13 cm. –  <rs type="person" ref="bio.xml#pers119">Theo</rs>’s is 32 x 24.5 cm.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Des te beter.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="en">
+         <note n="a" xml:id="note.tr.en.a">
+            <p>So much the better.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

@@ -11,8 +11,8 @@ switches:
     hilo: 'thumb'
   preview:
     server: '[baseUri]'
-    iiifPath: '[title]/[org]/[repo]/'
-    iiifPathEsc: '[title]|[org]|[repo]|'
+    iiifPath: '[title]/'
+    iiifPathEsc: '[title]|'
     ext: 'jpg'
     extm: 'jpg'
     hilo: 'scans'
@@ -51,7 +51,7 @@ macros:
   pageUrl: '«iiifRoot»pages|{page}.«ext»«iiifParams».«ext»'
 
 mirador:
-  manifests: '«server»/files/[title]/[org]/[repo]/static/manifests/letters/'
+  manifests: '«server»/files/[title]/static/manifests/letters/'
   example: 'ii001.json'
 
 scans:

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo Cohen Gosschalk-Bonger. Den Haag, 12 augustus 1912. </title>
+            <title xml:lang="en">Isaac Israëls to Jo Cohen Gosschalk-Bonger. The Hague, 12 August 1912.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8599V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>059</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1912-08-12"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8599-001V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8599-001V2008v_vs_b"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="b8599-002V2008_b"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="b8599-002V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">12 Aug. ’12</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Ik heb altijd verzuimd om je te bedanken voor het lieve briefje dat je me indertijd schreef. Maar nu het vandaag, net een jaar geleden is, wil ik je toch <pb f="1v" facs="#s1v" n="2"/> zeggen dat ik er nog aan denk. <ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Ik hoop dat het jou en <rs type="person" ref="bio.xml#pers071">je man</rs>, goed gaat.<ptr type="note" target="#note.orig.nl.2"/> Geloof me steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Je oude vriend<ptr type="note" target="#note.orig.nl.3"/>
+            </p>
+            <p xml:id="p.orig.nl.7" n="7">Isaac Israels</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.3" f="2r" facs="#s2r" n="3"/>
+            <p xml:id="p.orig.nl.8" n="8">Mevrouw Cohen-Gosschalk</p>
+            <p xml:id="p.orig.nl.9" n="9">Koninginneweg 77</p>
+            <p xml:id="p.orig.nl.10" n="10">Amsterdam</p>
+            <pb xml:id="pb.orig.nl.4" f="2v" facs="#s2v" n="4"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">12 Aug. ’12</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">I have always neglected to thank you for the sweet note you sent me at the time. But now it is exactly a year ago today, I want to tell you <pb f="1v" facs="#s1v" n="2"/> that I still think about it.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">I hope all is well with you and <rs type="person" ref="bio.xml#pers071">your husband</rs>.<ptr type="note" target="#note.tr.en.2"/> Believe me always,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Your old friend<ptr type="note" target="#note.tr.en.3"/>
+            </p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Isaac Israels</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.3"
+                corresp="#pb.orig.nl.3"
+                f="2r"
+                facs="#s2r"
+                n="3"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Mevrouw Cohen-Gosschalk</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Koninginneweg 77</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Amsterdam</p>
+            <pb xml:id="pb.tr.en.4"
+                corresp="#pb.orig.nl.4"
+                f="2v"
+                facs="#s2v"
+                n="4"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e8478" type="dating">
+            <p>Enveloppe. Poststempel 12 augustus 1912. Aangezien Jo op dat moment in haar zomerhuis was, in het Rozenlaantje 12, werd het adres doorgehaald en aangepast in ‘Laren N H.’. Daar werd de brief op 13 augustus bezorgd. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e8552" type="dating">
+            <p>Envelope. Postmark 12 August 1912. Since Jo was in her summer house at 12 Rozenlaantje at that moment, the address was crossed out and changed to ‘Laren N H.’. The letter was delivered there on 13 August.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Jo had Isaac destijds dus gecondoleerd met het overlijden van zijn vader <rs type="person" ref="bio.xml#pers079">Jozef</rs> op 12 augustus 1911.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Dit moet voor Jo een pijnlijke opmerking zijn geweest: Israëls was niet op de hoogte dat Jo inmiddels weer weduwe was. <rs type="person" ref="bio.xml#pers071">Johan Cohen Gosschalk</rs>, haar tweede echtgenoot, was namelijk enkele maanden daarvoor, op 18 mei 1912, overleden.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Nadat de relatie tussen hen was beëindigd en Jo zich enige tijd later verloofde met <rs type="person" ref="bio.xml#pers071">Johan Cohen Gosschalk</rs> was de correspondentie gestopt. Vandaar dat Israëls zich hier haar ‘oude vriend’ noemt.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Jo had sent Isaac her condolences on the death of his father <rs type="person" ref="bio.xml#pers079">Jozef</rs> on 12 August 1911.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>This must have been a painful greeting for Jo: Israëls was not aware that Jo had meanwhile been widowed again. <rs type="person" ref="bio.xml#pers071">Johan Cohen Gosschalk</rs>, her second husband, had died months before, on 18 May 1912.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>After their relationship ended and Jo got engaged to Johan Cohen Gosschalk some time later, the correspondence stopped. This is why Israëls calls her his ‘old friend’ here.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

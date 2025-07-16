@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, 1 januari 1924.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, 1 January 1924.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2024-03-12">12 March 2024</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="TODO"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8651V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>103</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1924-01-01"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8651-001V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8651-001V2008v_vs_b"/>
+      </surface>
+      <surface n="2r" xml:id="s2r">
+         <graphic url="b8651-002V2008_b"/>
+      </surface>
+      <surface n="2v" xml:id="s2v">
+         <graphic url="b8651-002V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">1 Januari</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Je hebt gelijk, het is niets aardig dat ik allang niet eens ben aangekomen want ik had wel gehoord dat je een beetje aan ’t sukkelen was geweest. Maar ik kon hier, wat anders nooit gebeurt, onmogelijk weg. Intusschen zal dit weldra beter worden, dus je ziet mij stellig binnenkort. Ik kom dan bij je eten als je ’t goed vindt. Ik ben intusschen blij dat ik vast wat van <hi rend="italics">jou</hi> hoor, <pb f="1v" facs="#s1v" n="2"/> werkelijk, je ben een trouwe vriendin. </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Tot spoedig ziens dus, omhelsd en groet allen (<rs type="person" ref="bio.xml#pers128">V.</rs> en <rs type="person" ref="bio.xml#pers078">J</rs>)<ptr type="note" target="#note.orig.nl.1"/> hartelijk van je</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Isaac.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">Een groot verlies voor mij is dat van <rs type="person" ref="bio.xml#pers123">Steinlen</rs>. Wist je dat ik hem zoo goed kende en zijn familie? Ik was nog pas bij hem geweest.<ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">Ik vertel je er wel van.</p>
+            <p xml:id="p.orig.nl.9" n="9" rend="indent">’t Vincentje? prachtig. Wanneer je maar wilt.<ptr type="note" target="#note.orig.nl.3"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.orig.nl.3" f="2r" facs="#s2r" n="3"/>
+            <p xml:id="p.orig.nl.10" n="10">Mevrouw J. van Gogh</p>
+            <p xml:id="p.orig.nl.11" n="11">Koninginneweg 77</p>
+            <p xml:id="p.orig.nl.12" n="12">Amsterdam</p>
+            <pb xml:id="pb.orig.nl.4" f="2v" facs="#s2v" n="4"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">1 January</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">You’re right, it’s not nice that I hadn’t come for a long time, for I had heard that you had been a bit poorly. But I couldn’t possibly get away from here, which otherwise never happens. Meanwhile this will get better presently, so you’ll definitely see me soon. I’ll come and eat with you if that’s all right. In the meantime I’m glad that I hear from <hi rend="italics">you</hi> now, you <pb f="1v" facs="#s1v" n="2"/> really are a true friend. </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">So see you soon, hug and greet everyone ( and <rs type="person" ref="bio.xml#pers078">J.</rs>)<ptr type="note" target="#note.tr.en.1"/> warmly, from your</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Isaac.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">
+               <rs type="person" ref="bio.xml#pers123">Steinlen</rs> is a great loss for me. Did you know that I knew him and his family so well? I had just been with him.<ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">I’ll tell you about it.</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9" rend="indent">The little Vincent? splendid. Whenever you like.<ptr type="note" target="#note.tr.en.3"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <pb xml:id="pb.tr.en.3"
+                corresp="#pb.orig.nl.3"
+                f="2r"
+                facs="#s2r"
+                n="3"/>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Mevrouw J. van Gogh</p>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">Koninginneweg 77</p>
+            <p xml:id="p.tr.en.12" corresp="#p.orig.nl.12" n="12">Amsterdam</p>
+            <pb xml:id="pb.tr.en.4"
+                corresp="#pb.orig.nl.4"
+                f="2v"
+                facs="#s2v"
+                n="4"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e17866" type="dating">
+            <p>Enveloppe. Poststempel: 2 januari 1924. Achterzijde enveloppe, voorgedrukt: ‘<hi rend="blockletter">koninginnegracht 2 / den haag</hi>.’ Dit is de laatste overgeleverde brief van Isaac aan Jo. Zij stierf op 2 september 1925.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e17981" type="dating">
+            <p>Envelope. Postmark 2 January 1924. On the back of the envelope, printed: ‘<hi rend="blockletter">koninginnegracht 2</hi> / <hi rend="blockletter">den haag</hi>.’ This is the last surviving letter from Isaac to Jo. She died on 2 September 1925.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> en <rs type="person" ref="bio.xml#pers078">Josina</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De kunstenaar <rs type="person" ref="bio.xml#pers123">Théophile Alexandre Steinlen</rs> was op 13 december 1923 in Parijs overleden. Israëls kende hem al vanaf circa 1904, mogelijk door bemiddeling van de journalist en schrijver  <rs type="person" ref="bio.xml#pers095">Marie Joseph Brusse</rs>, en zij raakten in de jaren 1910-1923 goed bevriend. Israëls bezocht de familie in hun buitenhuis in Jouy en had tijdens de oorlog voedselpakketjes gestuurd naar een familielid dat gevangen was gezet. Zie Judith Wesselingh, ‘Isaac Israels in Parijs’, in:  <hi rend="italics">Isaac Israels. Hollands impressionist</hi>. <ref target="bibliolist-nl.xml#bg034">Tent.cat. Rotterdam</ref>, De Kunsthal, 1999-2000. Rotterdam 1999, p. 84-123, i.h.b. p. 116-117.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Mogelijk had Jo aan Israëls gevraagd om een werk van <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> uit te lenen voor een tentoonstelling en stond dat bij haar. In deze brief spreekt hij van ‘’t Vincentje’. Rond die tijd werden er meerdere exposities voorbereid. Twee Van Goghs uit Israëls’ verzameling waren in elk geval in april te zien in Pulchri Studio in Den Haag op de ‘Tentoonstelling van kunstwerken uit het bezit van werkende leden van het genootschap’, namelijk <hi rend="italics">Le Moulin de la Galette</hi> (F 349 / JH 1184), 1886 (<rs type="artwork" ref="artwork.xml#ii020">Ill. ii020</rs>) en  <hi rend="italics">Olijfboomgaard</hi> (F 711 / JH 1791), 1889 (<rs type="artwork" ref="artwork.xml#ii021">Ill. ii021</rs>). Zij meten respectievelijk 55 x 38,5 cm en 53,5 x 64,5 cm. Op enig moment had Israëls ook <hi rend="italics">Gezicht op Auvers met korenveld</hi> (F 801 / JH 2123) 1890 in zijn bezit; dit doek meet 43 x 50 cm. (<rs type="artwork" ref="artwork.xml#ii047">Ill. ii047</rs>) Vgl. brief <ref target="ii102.xml">102</ref>, waar Israëls spreekt van ‘mijn Van Goghje’.  </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent</rs> and <rs type="person" ref="bio.xml#pers078">Josina</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The artist <rs type="person" ref="bio.xml#pers123">Théophile Alexandre Steinlen</rs> died on 13 December 1923. Israëls had known him since around 1904, possibly through the intermediation of the journalist and writer  <rs type="person" ref="bio.xml#pers095">Marie Joseph Brusse</rs>, and they became close friends in the 1910 to 1923 period. Israëls visited the family in their country house in Jouy and during the war had sent food parcels to a member of the family who had been imprisoned. See Judith Wesselingh, ‘Isaac Israels in Paris’, in <hi rend="italics">Isaac Israels. Hollands impressionist</hi>. <ref target="bibliolist-en.xml#bg034">Exh. cat. Rotterdam</ref>, De Kunsthal, 1999-2000. Rotterdam 1999, pp. 84-123, esp. 116-17.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>It is possible that Jo had asked Israëls to lend a work by <rs type="person" ref="bio.xml#pers127">Van Gogh</rs> for an exhibition and it was with her. In this letter he refers to ‘the little Vincent’. Several exhibitions were being organized around this time. Two Van Goghs from Israëls’s collection could in any event be seen in April at Pulchri Studio in The Hague at the ‘Tentoonstelling van kunstwerken uit het bezit van werkende leden van het genootschap’, namely <hi rend="italics">Le Moulin de la Galette</hi> (F 349 / JH 1184), 1886 (<rs type="artwork" ref="artwork.xml#ii020">Ill. ii020</rs>) and <hi rend="italics">Olive Grove</hi> (F 711 / JH 1791), 1889 (<rs type="artwork" ref="artwork.xml#ii021">Ill. ii021</rs>). They measure 55 x 38.5 cm and 53.5 x 64.5 cm respectively. At some point Israëls also had <hi rend="italics">View of Auvers with Wheatfield</hi> (F 801 / JH 2123), 1890 in his possession; this canvas measures 43 x 50 cm. (<rs type="artwork" ref="artwork.xml#ii047">Ill. ii047</rs>) Cf. letter <ref target="ii102.xml">102</ref>, where Israëls refers to ‘my little Van Gogh’. </p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>
