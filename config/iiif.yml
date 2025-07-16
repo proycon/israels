@@ -4,25 +4,28 @@ excludedFolders:
 switches:
   dev:
     server: 'http://localhost:8087'
+    iiifserver: 'http://localhost:8087'
     iiifPath: ''
     iiifPathEsc: ''
     ext: 'jpg'
     extm: 'jpeg'
-    hilo: 'thumb'
+    hilo: 'thumb|'
   preview:
     server: '[baseUri]'
+    iiifserver: '[iiifBaseUri]'
     iiifPath: '[title]/'
     iiifPathEsc: '[title]|'
     ext: 'jpg'
     extm: 'jpg'
-    hilo: 'scans'
+    hilo: ''
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
+    iiifserver: 'https://data.vangogh.huygens.knaw.nl'
     iiifPath: ''
     iiifPathEsc: ''
     ext: 'jpg'
     extm: 'jpg'
-    hilo: 'scans'
+    hilo: 'scans|'
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -36,7 +39,7 @@ constants:
   provLogoHeight: 270
   provLogoWidth: 288
   ext: 'jpg'
-  iiifRoot: '«server»/iiif/3/«iiifPathEsc»«hilo»|'
+  iiifRoot: '«iiifserver»/iiif/3/«iiifPathEsc»«hilo»'
   iiifParams: '/full/max/0/default'
   manifestRoot: '«server»/files/«iiifPath»static/manifests/'
   logoRoot: '«server»/files/«iiifPath»static/logo'
