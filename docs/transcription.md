@@ -228,6 +228,22 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
+## `titleEn`
+
+The english title of the letter; 
+The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
+## `titleNl`
+
+The dutch title of the letter; 
+The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
 ## `personRef`
 
 Reference key to the details of a person; 
@@ -240,6 +256,14 @@ The values of this feature have type str.
 
 Reference key to the details of an artwork; 
 The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
+## `inFigure`
+
+Whether this elements has a figure element as parent; 
+The values of this feature have type int.
 *   `conversionMethod`: `derived`
 *   `conversionCode`: `tt`
 
@@ -544,6 +568,22 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
+## `titleEn`
+
+The english title of the letter; «base»
+The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
+## `titleNl`
+
+The dutch title of the letter; «base»
+The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
 ## `personRef`
 
 Reference key to the details of a person; «base»
@@ -556,6 +596,14 @@ The values of this feature have type str.
 
 Reference key to the details of an artwork; «base»
 The values of this feature have type str.
+*   `conversionMethod`: `derived`
+*   `conversionCode`: `tt`
+
+
+## `inFigure`
+
+Whether this elements has a figure element as parent; «base»
+The values of this feature have type int.
 *   `conversionMethod`: `derived`
 *   `conversionCode`: `tt`
 

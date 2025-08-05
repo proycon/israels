@@ -2,7 +2,7 @@ import types
 from tf.advanced.app import App
 
 
-KNOWN_RENDS = {'sc', 'h1', 'sub', 'super', 'small_caps', 'italic', 'bold', 'b', 'smallcaps', 'margin', 'h2', 'spaced', 'spat', 'ul', 'h3', 'italics', 'large', 'underline', 'h5', 'above', 'h4', 'center', 'h6', 'sup', 'below', 'i'}
+KNOWN_RENDS = {'italic', 'below', 'small_caps', 'h2', 'underline', 'margin', 'bold', 'large', 'h4', 'h6', 'h5', 'italics', 'ul', 'spaced', 'h3', 'super', 'above', 'i', 'spat', 'sup', 'smallcaps', 'sub', 'h1', 'sc', 'b', 'center'}
 
 
 def fmt_layout(app, n, **kwargs):

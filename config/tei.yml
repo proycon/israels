@@ -231,3 +231,14 @@ extra:
       - rs@ref:
           type: artwork
     nodeType: rs
+  inFigure:
+    meta:
+      description: >-
+        Whether this elements has a figure element as parent; «base»
+      valueType: int
+      conversionMethod: derived
+      conversionCode: tt
+    path:
+      - head@1
+      - figure
+    nodeType: head
