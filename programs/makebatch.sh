@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# creates a batch script to visualise resources, for use with `stam batch`
+
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
     echo "Invalid parameters: expected resource_id, format, and output extension">&2
     exit 1

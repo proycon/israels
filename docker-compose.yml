@@ -1,0 +1,116 @@
+networks:
+  tt_network:
+
+services:
+  textsurf:
+    container_name: textsurf
+    image: registry.diginfra.net/tt/textsurf:${TEXTSURF_VERSION}
+    environment:
+      UNLOADTIME: ${TEXTSURF_UNLOADTIME}
+    networks:
+      - tt_network
+    expose:
+      - ${TEXTSURF_PORT}
+    ports:
+      - "${TEXTSURF_PORT}:8080"
+    restart: unless-stopped
+    volumes:
+      - ./data/textsurf:/data
+
+  annorepo:
+    container_name: annorepo
+    depends_on:
+      - mongodb
+    environment:
+      AR_EXTERNAL_BASE_URL: ${ANNOREPO_URL}
+      AR_MONGODB_URL: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@${MONGODB_HOST}:${MONGODB_PORT}/
+      AR_DB_NAME: annorepo
+      AR_PAGE_SIZE: 100
+      AR_WITH_AUTHENTICATION: yes
+      AR_ROOT_API_KEY: ${ANNOREPO_ROOT_API_KEY}
+    expose:
+      - ${ANNOREPO_PORT}
+    ports:
+      - "${ANNOREPO_PORT}:8080"
+    healthcheck:
+      test: "curl -fail http://localhost:${ANNOREPO_CTL_PORT}/healthcheck"
+      interval: 1s
+      retries: 20
+      start_period: 1s
+      timeout: 1s
+    image: ghcr.io/knaw-huc/annorepo-server:${ANNOREPO_VERSION}
+    networks:
+      - tt_network
+    restart: unless-stopped
+    tty: true
+
+  broccoli:
+    container_name: broccoli
+    depends_on:
+      annorepo:
+        condition: service_healthy
+      elastic:
+        condition: service_started
+    environment:
+      BASEURL: ${BASE_URL}
+      PROJECT: ${PROJECT}
+      ELASTIC_PORT: ${ELASTIC_PORT}
+      BROCCOLI_PORT: ${BROCCOLI_PORT}
+      ANNOREPO_PORT: ${ANNOREPO_PORT}
+      BR_EXTERNAL_BASE_URL: ${BASE_URL}:${BROCCOLI_PORT}
+      TIER0: ${TIER0}
+      TIER1: ${TIER1}
+    expose:
+      - ${BROCCOLI_PORT}
+    ports:
+      - "${BROCCOLI_PORT}:8080"
+    image: ghcr.io/knaw-huc/broccoli:${BROCCOLI_VERSION}
+    networks:
+      - tt_network
+    restart: unless-stopped
+    volumes:
+      - ./etc/broccoli/config.yml:/app/broccoli/config.yml:ro
+
+  elastic:
+    # see https://docs.rancherdesktop.io/how-to-guides/increasing-open-file-limit/
+    # needed to run the stack on macos under rancher desktop
+    container_name: elastic
+    environment:
+      elasticport: ${ELASTIC_PORT}
+      node.name: br01
+      cluster.initial_master_nodes: br01
+      cluster.name: elastic-cluster
+      bootstrap.memory_lock: ${ELASTIC_MEMORY_LOCK}
+      xpack.security.enabled: false
+      ES_JAVA_OPTS: ${ELASTIC_JAVA_OPTS}
+    expose:
+      - ${ELASTIC_PORT}
+    ports:
+      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    networks:
+      - tt_network
+    restart: unless-stopped
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./data/elastic:/usr/share/elasticsearch/data
+
+  mongodb:
+    command: --quiet  # suppress checkpoint logging (every minute)
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
+    expose:
+      - ${MONGODB_PORT}
+    ports:
+      - "${MONGODB_PORT}:27017"
+    image: docker.io/mongo:${MONGODB_VERSION}
+    networks:
+      - tt_network
+    restart: unless-stopped
+    volumes:
+      - ./data/mongo:/data/db

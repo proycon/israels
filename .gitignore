@@ -72,3 +72,11 @@ curatedscans/
 #########################################
 .jekyll-metadata
 .obsidian*
+
+# STAM output
+stam/*.store.stam.json
+stam/*.html
+stam/*.txt
+stam/*.webannotations.jsonl
+stam/*.batch
+

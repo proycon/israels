@@ -1,0 +1,1 @@
+annorepo-tools @ git+https://github.com/knaw-huc/annorepo-tools@master
