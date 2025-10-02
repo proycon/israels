@@ -19,8 +19,8 @@ endif
 #--------------------------------------------------------------------------------
 
 tei_files := $(wildcard tei/2025-04-24/letters/*.xml)
-stam_files := $(tei_files:tei/2025-04-24/%.xml=stam/%.store.stam.json)
-webannotation_files := $(tei_files:tei/%.xml=stam/%.webannotations.jsonl)
+stam_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.store.stam.json)
+webannotation_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.webannotations.jsonl)
 html_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.html)
 
 all: webannotations
@@ -54,18 +54,18 @@ stam/%.webannotations.jsonl: stam/%.store.stam.json env
 		--annotation-prefix "$(ANNOREPO_URL)/$(PROJECT)/" \
 		--resource-prefix "$(TEXTSURF_URL)/$(PROJECT)" \
 		--format w3anno \
-		$< | programs/consolidate_webannotations.py  > $@;
-    #(^-- The URL for textsurf contains a small placeholder/trigger that will be processed and removed by the consolidate_webannotations.py script)
+		$< | consolidate-web-annotations  > $@;
+    #(^-- The URL for textsurf contains a small placeholder/trigger that will be processed and removed by the consolidate-web-annotations script)
 	@rm .annorepo-uploaded 2> /dev/null || true
 
 stam/%.html: stam/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
-	echo $< | ./makebatch.sh query.template html html > $@.batch && stam stam/$*.html.batch $< < $@.batch
+	echo $< | programs/makebatch.sh query.template html html > $@.batch && stam stam/$*.html.batch $< < $@.batch
 	rm $@.html.batch
 
 stam/%.ansi.txt: stam/%.html.batch env
 	@echo "--- ANSI Text visualisation via STAM ---">&2
-	echo $< | ./makebatch.sh query.template ansi ansi.txt > $@.batch && stam stam/$*.ansi.batch $< < $@.batch
+	echo $< | programs/makebatch.sh query.template ansi ansi.txt > $@.batch && stam stam/$*.ansi.batch $< < $@.batch
 	rm $@.ansi.batch
 
 stam/%.html.batch: stam/%.store.stam.json
@@ -95,7 +95,7 @@ env:
 	python -m venv env && . env/bin/activate && pip install -r requirements.txt
 	
 clean:
-	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt tei/index .started .annorepo-uploaded data/elastic data/mongo data/textsurf
+	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*.html .started .annorepo-uploaded data/elastic data/mongo data/textsurf
 
 start: .started
 .started:
