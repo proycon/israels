@@ -50,12 +50,11 @@ stam/%.webannotations.jsonl: stam/%.store.stam.json env
 		--add-context "https://ns.huc.knaw.nl/textannodata.jsonld" \
 		--ns "tei: http://www.tei-c.org/ns/1.0#" \
 		--ns "xml: http://www.w3.org/XML/1998/namespace/" \
-		--extra-target-template "POSTPROCESS:$(TEXTSURF_URL)/api2/$(PROJECT)|{resource}/{begin},{end}" \
+		--extra-target-template "$(TEXTSURF_URL)/api2/$(PROJECT)|{resource}/{begin},{end}" \
 		--annotation-prefix "$(ANNOREPO_URL)/$(PROJECT)/" \
 		--resource-prefix "$(TEXTSURF_URL)/$(PROJECT)" \
 		--format w3anno \
 		$< | consolidate-web-annotations  > $@;
-    #(^-- The URL for textsurf contains a small placeholder/trigger that will be processed and removed by the consolidate-web-annotations script)
 	@rm .annorepo-uploaded 2> /dev/null || true
 
 stam/%.html: stam/%.html.batch env
