@@ -1,1 +1,3 @@
 annorepo-tools @ git+https://github.com/knaw-huc/annorepo-tools@master
+peen-indexer @ git+https://github.com/knaw-huc/peen-indexer@main
+text-info @ git+https://github.com/annotation/text-info
