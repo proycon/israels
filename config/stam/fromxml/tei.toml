@@ -316,7 +316,7 @@ stop = true
 [[elements]]
 base = [ "common" ]
 path = "//tei:fileDesc/tei:publicationStmt/tei:ptr"
-handling = "ResourceSelector"
+annotation = "ResourceSelector"
 
     [[elements.annotationdata]]
     key = "target"
