@@ -106,7 +106,7 @@ index: .index
 	. env/bin/activate && peen-indexer \
 		--annorepo-host=$(ANNOREPO_URL) \
 		--annorepo-container=$(PROJECT) \
-		--config etc/indexer/config.yml \
+		--config config/indexer/config.yml \
 		--elastic-host=$(ELASTIC_URL) \
 		--elastic-index=$(PROJECT)
 	@touch $@

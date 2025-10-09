@@ -79,7 +79,7 @@ services:
       - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     volumes:
-      - ./etc/broccoli/config.yml:/app/broccoli/config.yml:ro
+      - ./config/broccoli/config.yml:/app/broccoli/config.yml:ro
 
   elastic:
     # see https://docs.rancherdesktop.io/how-to-guides/increasing-open-file-limit/
