@@ -73,10 +73,13 @@ curatedscans/
 .jekyll-metadata
 .obsidian*
 
-# STAM output
-stam/*.store.stam.json
-stam/*.html
-stam/*.txt
-stam/*.webannotations.jsonl
-stam/*.batch
-
+# Local patterns                                                                                                                                                                                                                                                                 
+stam/*.json                                                                                                                                                                                                                                                                 
+stam/*jsonl                                                                                                                                                                                                                                                                      
+stam/*.txt                                                                                                                                                                                                                                                                       
+.started                                                                                                                                                                                                                                                                         
+.annorepo-uploaded                                                                                                                                                                                                                                                               
+.index                                                                                                                                                                                                                                                                           
+data/elastic                                                                                                                                                                                                                                                                     
+data/mongo                                                                                                                                                                                                                                                                       
+data/textsurf 
