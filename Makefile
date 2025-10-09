@@ -165,6 +165,7 @@ help:
 	@echo
 	@echo "  start                      - to start all services (docker compose up)"
 	@echo "  stop                       - to stop all services (docker compose down)"
+	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
 	@echo 
 	@echo "(individual steps in ascending/chronological dependency order):"
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
