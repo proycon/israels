@@ -1,6 +1,11 @@
+all: help
 .PHONY: clean untangle webannotations annorepo start stop html
 .SECONDARY:
 .DELETE_ON_ERROR:
+
+HOSTNAME ?= $(shell hostname -f)
+export HOSTNAME
+export PATH := $(HOME)/.cargo/bin:$(PATH) 
 
 #----------------- read environment variables from external file(s) ------------
 include common.env
@@ -75,31 +80,64 @@ html: $(html_files)
 	@echo "--- HTML visualisation via STAM (all) ---">&2
 	stam batch $< < html.batch
 
+ingest: annorepo textsurf
+
 annorepo: .annorepo-uploaded
 .annorepo-uploaded: .started env $(webannotation_files)
+	@echo "--- Clearing Broccoli cache (prior) ---">&2
+	-curl -X DELETE "$(BROCCOLI_URL)/projects/$(PROJECT)/cache"
 	@echo "--- Exporting web annotations to Annorepo ---">&2
 	. env/bin/activate && upload-web-annotations \
 		--annorepo-base-url "$(ANNOREPO_URL)" \
 		--container-id "$(PROJECT)" \
 		--api-key "$(ANNOREPO_ROOT_API_KEY)" \
 		--overwrite-existing-container $(webannotation_files)
+	@echo "--- Clearing Broccoli cache (post) ---">&2
+	-curl -X DELETE "$(BROCCOLI_URL)/projects/$(PROJECT)/cache"
 	@touch $@
 
-install-dependencies: env
-	@echo "--- Installing dependencies ---">&2
-	cargo install stam-tools
+textsurf: data/textsurf/.populated
+data/textsurf/.populated: .started $(stam-files)
+	cp -f stam/*.txt data/textsurf/
+	@touch $@
+
+index: .index
+.index: annorepo
+	. env/bin/activate && peen-indexer \
+		--annorepo-host=$(ANNOREPO_URL) \
+		--annorepo-container=$(PROJECT) \
+		--config etc/indexer/config.yml \
+		--elastic-host=$(ELASTIC_URL) \
+		--elastic-index=$(PROJECT)
+	@touch $@
+
+install-dependencies: 
+	@echo "--- Checking global prerequisites---">&2
+	@command -v cargo || (echo "Missing dependency: cargo" && false)
+	@command -v rustc || (echo "Missing dependency: rustc" && false)
+	@command -v curl || (echo "Missing dependency: curl" && false)
+	@command -v python3 || (echo "Missing dependency: python3" && false)
+	@command -v docker || (echo "Missing dependency: docker" && false)
+	@echo "--- Installing local dependencies ---">&2
+	command -v stam || cargo install stam-tools
+	make env
 
 env:
 	@echo "--- Setting up virtual environment ---">&2
-	python -m venv env && . env/bin/activate && pip install -r requirements.txt
+	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
 	
-clean:
-	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*.html .started .annorepo-uploaded data/elastic data/mongo data/textsurf
+clean: clean-services
+	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*html
+
+clean-services:
+	-make stop
+	-rm -Rf .started .annorepo-uploaded .index data/elastic data/mongo data/textsurf
 
 start: .started
 .started:
 	mkdir -p data/elastic
 	chmod a+rwx data/elastic #temporary patch, this is obviously not smart in production settings
+	@ping -c 1 $(HOSTNAME) || (echo "Sanity check failed: detected hostname ($HOSTNAME) does not resolve" && false)
 	@touch $@
 ifneq (,$(wildcard custom.env))
 	@echo "--- Starting services (with custom config) ---">&2
@@ -124,7 +162,17 @@ help:
 	@echo "  start                      - to start all services (docker compose up)"
 	@echo "  stop                       - to stop all services (docker compose down)"
 	@echo 
+	@echo "(individual steps in ascending/chronological dependency order):"
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
-	@echo "  webannotations             - to output webannotations"
-	@echo "  annorepo                   - upload the webannotations to Annorepo"
-	@echo "  						      requires separate \`make start' first"
+	@echo "  webannotations             - to generate webannotations"
+	@echo "  ingest                     - to populate the various services with data"
+	@echo 
+	@echo "(individual upload steps in ascending/chronological order where applicable):"
+	@echo "  annorepo                   - to upload the webannotations to Annorepo"
+	@echo "  textsurf                   - to add the texts to TextSurf"
+	@echo "  index                      - to build the search index"
+	@echo
+	@echo "(cleaning targets):"
+	@echo "  clean                      - clean all generated targets (including services, but keeps dependencies intact)"
+	@echo "  clean-services             - cleans all data pertaining to the services"
+	@echo "  clean-dependencies         - clean local dependencies (python env)"

@@ -1,5 +1,6 @@
 networks:
-  tt_network:
+  bridge_network:
+    driver: bridge
 
 services:
   textsurf:
@@ -8,7 +9,9 @@ services:
     environment:
       UNLOADTIME: ${TEXTSURF_UNLOADTIME}
     networks:
-      - tt_network
+      - bridge_network
+    extra_hosts:
+      - ${HOSTNAME}:host-gateway
     expose:
       - ${TEXTSURF_PORT}
     ports:
@@ -32,6 +35,7 @@ services:
       - ${ANNOREPO_PORT}
     ports:
       - "${ANNOREPO_PORT}:8080"
+      - "${ANNOREPO_CTL_PORT}:8081"
     healthcheck:
       test: "curl -fail http://localhost:${ANNOREPO_CTL_PORT}/healthcheck"
       interval: 1s
@@ -40,7 +44,9 @@ services:
       timeout: 1s
     image: ghcr.io/knaw-huc/annorepo-server:${ANNOREPO_VERSION}
     networks:
-      - tt_network
+      - bridge_network
+    extra_hosts:
+      - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     tty: true
 
@@ -54,9 +60,11 @@ services:
     environment:
       BASEURL: ${BASE_URL}
       PROJECT: ${PROJECT}
+      ELASTIC_HOST: ${ELASTIC_HOST}
       ELASTIC_PORT: ${ELASTIC_PORT}
-      BROCCOLI_PORT: ${BROCCOLI_PORT}
+      ANNOREPO_HOST: ${ANNOREPO_HOST}
       ANNOREPO_PORT: ${ANNOREPO_PORT}
+      BR_EXTERNAL_URL: ${BASE_URL}:${BROCCOLI_PORT}
       BR_EXTERNAL_BASE_URL: ${BASE_URL}:${BROCCOLI_PORT}
       TIER0: ${TIER0}
       TIER1: ${TIER1}
@@ -66,7 +74,9 @@ services:
       - "${BROCCOLI_PORT}:8080"
     image: ghcr.io/knaw-huc/broccoli:${BROCCOLI_VERSION}
     networks:
-      - tt_network
+      - bridge_network
+    extra_hosts:
+      - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     volumes:
       - ./etc/broccoli/config.yml:/app/broccoli/config.yml:ro
@@ -82,14 +92,16 @@ services:
       cluster.name: elastic-cluster
       bootstrap.memory_lock: ${ELASTIC_MEMORY_LOCK}
       xpack.security.enabled: false
-      ES_JAVA_OPTS: ${ELASTIC_JAVA_OPTS}
+      ES_JAVA_OPTS: "-Xms${ELASTIC_JAVA_MEM}m -Xmx${ELASTIC_JAVA_MEM}m"
     expose:
       - ${ELASTIC_PORT}
     ports:
       - "${ELASTIC_PORT}:${ELASTIC_PORT}"
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
     networks:
-      - tt_network
+      - bridge_network
+    extra_hosts:
+      - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     ulimits:
       memlock:
@@ -110,7 +122,9 @@ services:
       - "${MONGODB_PORT}:27017"
     image: docker.io/mongo:${MONGODB_VERSION}
     networks:
-      - tt_network
+      - bridge_network
+    extra_hosts:
+      - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     volumes:
       - ./data/mongo:/data/db
