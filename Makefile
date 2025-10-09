@@ -144,14 +144,15 @@ start: .started
 	@touch $@
 ifneq (,$(wildcard custom.env))
 	@echo "--- Starting services (with custom config) ---">&2
-	docker compose --env-file common.env --env-file "custom.env" up &
+	docker compose --env-file common.env --env-file "custom.env" up -d
 else ifneq (,$(wildcard $(HOSTNAME).env))
 	@echo "--- Starting services for $(HOSTNAME) ---">&2
-	docker compose --env-file common.env --env-file "$(HOSTNAME).env" up &
+	docker compose --env-file common.env --env-file "$(HOSTNAME).env" up -d
 else
 	@echo "--- Starting services (common configuration only) ---">&2
-	docker compose --env-file common.env up &
+	docker compose --env-file common.env up -d
 endif
+	@echo "--- Use 'make logs' to see docker logs" >&2
 
 stop:
 	@echo "--- Stopping services ---">&2 
