@@ -133,6 +133,9 @@ clean-services:
 	-make stop
 	-rm -Rf .started .annorepo-uploaded .index data/elastic data/mongo data/textsurf
 
+logs:
+	docker compose --env-file common.env logs --follow
+
 start: .started
 .started:
 	mkdir -p data/elastic
