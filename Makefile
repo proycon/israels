@@ -23,10 +23,11 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 #--------------------------------------------------------------------------------
 
-tei_files := $(wildcard tei/2025-04-24/letters/*.xml)
-stam_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.store.stam.json)
-webannotation_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.webannotations.jsonl)
-html_files := $(tei_files:tei/2025-04-24/letters/%.xml=stam/%.html)
+tei_dir := tei/2025-04-24/letters
+tei_files := $(wildcard $(tei_dir)/*.xml)
+stam_files := $(tei_files:$(tei_dir)/%.xml=stam/%.store.stam.json)
+webannotation_files := $(tei_files:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
+html_files := $(tei_files:$(tei_dir)/%.xml=stam/%.html)
 
 all: webannotations
 
@@ -61,6 +62,26 @@ stam/%.webannotations.jsonl: stam/%.store.stam.json env
 		--format w3anno \
 		$< | consolidate-web-annotations  > $@;
 	@rm .annorepo-uploaded 2> /dev/null || true
+
+validate: tei-info
+tei-info:
+	@echo "--- Validating TEI ---">&2
+	mkdir $@
+	. env/bin/activate && validate-tei --tei-dir $(dir $(tei_dir)) --output-dir $@  --schema-dir schema --config config/tei.yml
+
+scans:
+	@echo "--- Downloading scans from surfdrive ---">&2
+	@echo "   Note: The scans must have been shared explicitly with you for this to work,">&2
+	@echo "         and you must have rclone with remote $(RCLONE_SURFDRIVE) set up to connect to surfdrive">&2
+	rclone \
+		-v sync --no-update-modtime --delete-excluded --exclude '.DS_Store' \
+		$(RCLONE_SURFDRIVE):israels-Scans-Curated/scans \
+		$@
+
+manifests: tei-info scans
+	@echo "--- Creating manifests ---">&2
+	mkdir $@
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(dir $(tei_dir)) --scaninfo-dir scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
 stam/%.html: stam/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
@@ -127,7 +148,7 @@ env:
 	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
 	
 clean: clean-services
-	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*html
+	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*html tei-info manifests
 
 clean-services:
 	-make stop
@@ -167,7 +188,10 @@ help:
 	@echo "  stop                       - to stop all services (docker compose down)"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
 	@echo 
-	@echo "(individual steps in ascending/chronological dependency order):"
+	@echo "(individual steps in ascending/chronological dependency order where applicable):"
+	@echo "  validate                   - to validate TEI XML input"
+	@echo "  scans                      - download scans (from surfdrive, must have been shared with you)"
+	@echo "  manifests                  - create IIIF manifests"
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
 	@echo "  webannotations             - to generate webannotations"
 	@echo "  ingest                     - to populate the various services with data"
