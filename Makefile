@@ -23,7 +23,7 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 #--------------------------------------------------------------------------------
 
-tei_dir := tei/2025-04-24/letters
+tei_dir := tei/2025-10-07/letters
 tei_files := $(wildcard $(tei_dir)/*.xml)
 stam_files := $(tei_files:$(tei_dir)/%.xml=stam/%.store.stam.json)
 webannotation_files := $(tei_files:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
