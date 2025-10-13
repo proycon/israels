@@ -36,7 +36,7 @@ webannotations: $(webannotation_files)
 
 # untangle from XML source
 #  also produces plain text files in stam/*.txt and stam/*.normal.txt (normalised)
-stam/%.store.stam.json: tei/2025-04-24/letters/%.xml
+stam/%.store.stam.json: $(tei_dir)/%.xml
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config config/stam/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
