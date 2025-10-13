@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="about"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-about.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl">Brieven Isaac Israëls aan Jo Bonger. Colofon</title>
+                <title xml:lang="en">Letters Isaac Israëls to Jo Bonger. Credits</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History andCulture of the Netherlands (KNAW)</name>
+                    <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+                </publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date when="2025-09-12">12 September 2025</date>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                        <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <ptr type="webedition" target="https://israelsletters.org"/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>N.A.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body divRole="doc-translations">
+            <div xml:lang="nl">
+                <head n="9" xml:id="head.tr.nl.1" corresp="#head.orig.en.1">Colofon</head>
+                <p n="2" xml:id="p.tr.nl.2" corresp="#p.orig.en.2">© 2025 Van Gogh Museum</p>
+                <p n="3" xml:id="p.tr.nl.3" corresp="#p.orig.en.3">Deze editie is gemaakt door het
+                    Van Gogh Museum in samenwerking met Huygens Instituut voor Nederlandse geschiedenis en cultuur. Zij maakt
+                    deel uit van een reeks digitale uitgaven van documenten en brieven uit de
+                    collectie. Dit is de tweede uitgave. De originele brieven bevinden zich in het
+                    Van Gogh Museum (Vincent van Gogh Stichting).</p>
+                <p xml:id="p.tr.nl.4" n="4">&#8203;</p>
+                <p n="5" xml:id="p.tr.nl.5" corresp="#p.orig.en.5"><hi rend="italics">Titelbeschrijving</hi></p>
+                <p n="6" xml:id="p.tr.nl.6" corresp="#p.orig.en.6">Isaac
+                    Israëls, <hi rend="italics">Brieven aan Jo van Gogh-Bonger</hi>. Ed. Hans
+                    Luijten. Amsterdam, Van Gogh Museum 2025 www.israëlsletters.org</p>
+                <p xml:id="p.tr.nl.7" n="7">&#8203;</p>
+                <p n="8" xml:id="p.tr.nl.8" corresp="#p.orig.en.8"><hi rend="italics">Tekstbezorging en
+                    annotaties</hi></p>
+                <p n="9" xml:id="p.tr.nl.9" corresp="#p.orig.en.9">Hans Luijten, Senior Onderzoeker, Van Gogh Museum</p>
+                <p xml:id="p.tr.nl.10" n="10">&#8203;</p>
+                <p n="11" xml:id="p.tr.nl.11" corresp="#p.orig.en.11"><hi rend="italics">Tekstredactie en
+                    eindredacteur</hi></p>
+                <p n="12" xml:id="p.tr.nl.12" corresp="#p.orig.en.12">Renske Suijver, Conservator De Mesdag Collectie, Den Haag, Van
+                    Gogh Museum</p>
+                <p xml:id="p.tr.nl.13" n="13">&#8203;</p>
+                <p n="14" xml:id="p.tr.nl.14" corresp="#p.orig.en.14"><hi rend="italics">Beeldredactie</hi></p>
+                <p n="15" xml:id="p.tr.nl.15" corresp="#p.orig.en.15">Roxanne van den Bosch, Redacteur, Van Gogh Museum</p>
+                <p xml:id="p.tr.nl.16" n="16">&#8203;</p>
+                <p n="17" xml:id="p.tr.nl.17" corresp="#p.orig.en.17"><hi rend="italics">Projectleiders</hi></p>
+                <p n="18" xml:id="p.tr.nl.18" corresp="#p.orig.en.18">Michiel Goosen,
+                    Hoofd Collectie Informatie, Van Gogh Museum en Cindy Stijger, Projectleider Collectie Informatie, Van Gogh Museum</p>
+                <p xml:id="p.tr.nl.19" n="19">&#8203;</p>
+                <p n="20" xml:id="p.tr.nl.20" corresp="#p.orig.en.20"><hi rend="italics">Vertaler</hi></p>
+                <p n="21" xml:id="p.tr.nl.21" corresp="#p.orig.en.21">Lynne Richards</p>
+                <p xml:id="p.tr.nl.22" n="22">&#8203;</p>
+                <p n="23" xml:id="p.tr.nl.23" corresp="#p.orig.en.23"><hi rend="italics">XML</hi></p>
+                <p n="24" xml:id="p.tr.nl.24" corresp="#p.orig.en.24">Hans de Groot, Pieter
+                    Masereeuw, Peter Boot en Fenia Menexi</p>
+                <p xml:id="p.tr.nl.25" n="25">&#8203;</p>
+                <p n="26" xml:id="p.tr.nl.26" corresp="#p.orig.en.26"><hi rend="italics">Projectleiding digitale editie</hi></p>
+                <p n="27" xml:id="p.tr.nl.27" corresp="#p.orig.en.27">Elli Bleeker, Peter Boot</p>
+                <p xml:id="p.tr.nl.28" n="28">&#8203;</p>
+                <p n="29" xml:id="p.tr.nl.29" corresp="#p.orig.en.29"><hi rend="italics">Ontwikkeling digitale editie</hi></p>
+                <p n="30" xml:id="p.tr.nl.30" corresp="#p.orig.en.30">Hennie Brugman, Bram Buitendijk, Sebastiaan van Daalen, Hayco de Jong, Bas Leenknecht, Dirk Roorda (KNAW/HuC/Digital Infrastructure)</p>
+                <p xml:id="p.tr.nl.31" n="31">&#8203;</p>
+                <p n="32" xml:id="p.tr.nl.32" corresp="#p.orig.en.32"><hi rend="italics">Vormgeving</hi></p>
+                <p n="33" xml:id="p.tr.nl.33" corresp="#p.orig.en.33">Bas Doppen</p>
+                <p xml:id="p.tr.nl.34" n="34">&#8203;</p>
+                <p n="35" xml:id="p.tr.nl.35" corresp="#p.orig.en.35">Contact: <lb/>Voor opmerkingen
+                    over de inhoud van deze site, of als er problemen zijn bij het raadplegen, stuur
+                    een email naar research@vangoghmuseum.nl</p>
+                <p n="36" xml:id="p.tr.nl.36" corresp="#p.orig.en.36">De uitgever heeft getracht
+                    alle rechthebbenden te achterhalen. Aan hen die desondanks menen aanspraak te
+                    kunnen maken op enig recht, wordt verzocht contact op te nemen met het Van Gogh
+                    Museum, Museumplein 6, 1071 DJ Amsterdam</p>
+                <p n="37" xml:id="p.tr.nl.37" corresp="#p.orig.en.37">Deze site werd ontwikkeld met financiële steun van de Stichting Pica.</p>
+            </div>
+            <div xml:lang="en">
+                <head n="9" xml:id="head.orig.en.1">Credits</head>
+                <p n="2" xml:id="p.orig.en.2">© 2025 Van Gogh Museum</p>
+                <p n="3" xml:id="p.orig.en.3">This edition was made by the Van Gogh Museum and produced in collaboration with the Huygens Institute for Dutch history and culture. It is part of
+                    a series of digital editions of documents and letters from the collection. This
+                    is the second edition. The original letters are in the Van Gogh Museum (Vincent
+                    van Gogh Foundation).</p>
+                <p xml:id="p.orig.en.4" n="4">&#8203;</p>
+                <p n="5" xml:id="p.orig.en.5"><hi rend="italics">Title</hi></p>
+                <p n="6" xml:id="p.orig.en.6">Isaac Israëls, <hi
+                        rend="italics">Letters to Jo van Gogh-Bonger</hi>. Ed. Hans Luijten.
+                    Amsterdam, Van Gogh Museum 2025 www.israelsletters.org</p>
+                <p xml:id="p.orig.en.7" n="4">&#8203;</p>
+                <p n="8" xml:id="p.orig.en.8"><hi rend="italics">Text and Notes</hi></p>
+                <p n="9" xml:id="p.orig.en.9"> Hans Luijten,
+                    Senior Researcher, Van Gogh Museum</p>
+                <p xml:id="p.orig.en.10" n="10">&#8203;</p>
+                <p n="11" xml:id="p.orig.en.11"><hi rend="italics">Text Editing and Senior
+                    Editor</hi></p> 
+                <p n="12" xml:id="p.orig.en.12">Renske Suijver, Curator The Mesdag Collection, The Hague, Van Gogh
+                    Museum</p>
+                <p xml:id="p.orig.en.13" n="13">&#8203;</p>
+                <p n="14" xml:id="p.orig.en.14"><hi rend="italics">Picture editing</hi></p>
+                <p n="15" xml:id="p.orig.en.15">Roxanne van den Bosch, Editor, Van Gogh Museum</p>
+                <p xml:id="p.orig.en.16" n="4">&#8203;</p>
+                <p n="17" xml:id="p.orig.en.17"><hi rend="italics">Project Managers</hi></p>
+                <p n="18" xml:id="p.orig.en.18">Michiel
+                    Goosen, Head of Collection Information, Van Gogh Museum and Cindy Stijger, Project Manager Collection Information, Van Gogh Museum</p>
+                <p xml:id="p.orig.en.19" n="19">&#8203;</p>
+                <p n="20" xml:id="p.orig.en.20"><hi rend="italics">Translator</hi></p>
+                <p n="21" xml:id="p.orig.en.21">Lynne Richards</p>
+                <p xml:id="p.orig.en.22" n="22">&#8203;</p>
+                <p n="23" xml:id="p.orig.en.23"><hi rend="italics">XML</hi></p>
+                <p n="24" xml:id="p.orig.en.24">Hans de Groot, Pieter
+                    Masereeuw, Peter Boot and Fenia Menexi</p>
+                <p xml:id="p.orig.en.25" n="25">&#8203;</p>
+                <p n="26" xml:id="p.orig.en.26"><hi rend="italics">Project Management Digital Edition</hi></p>
+                <p n="27" xml:id="p.orig.en.27">Elli Bleeker, Peter Boot</p>
+                <p xml:id="p.orig.en.28" n="28">&#8203;</p>
+                <p n="29" xml:id="p.orig.en.29"><hi rend="italics">Development Digital Edition</hi></p>
+                <p n="30" xml:id="p.orig.en.30">Hennie Brugman, Bram Buitendijk, Sebastiaan van Daalen, Hayco de Jong, Bas Leenknecht, Dirk Roorda (KNAW/HuC/Digital Infrastructure)</p>
+                <p xml:id="p.orig.en.31" n="31">&#8203;</p>
+                <p n="32" xml:id="p.orig.en.32"><hi rend="italics">Design</hi></p>
+                <p n="33" xml:id="p.orig.en.33">Bas Doppen</p>
+                <p xml:id="p.orig.en.34" n="4">&#8203;</p>
+                <p n="35" xml:id="p.orig.en.35">Contact: <lb/>For comments about
+                    the content of this site, or if there are problems consulting it, please email
+                        research@vangoghmuseum.nl</p>
+                <p rend="whiteline-above" n="36" xml:id="p.orig.en.36">The publisher has endeavoured
+                    to trace all copyright holders. Anyone who nevertheless believes that they can
+                    claim any right are required to contact the Van Gogh Museum, Museumplein 6, 1071
+                    DJ Amsterdam</p>
+                <p rend="whiteline-above" n="37" xml:id="p.orig.en.37">This site was developed with financial support from the Pica Foundation.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, waarschijnlijk circa oktober 1896.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, probably around October 1896.  </title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2025-09-12">12 September 2025</date> 
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="https://israelsletters.org"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8585V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>030</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1896-10" cert="low"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8585V2008_b"/>
+         <zone n="1r1"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r2"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r2"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8585V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="s1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">Zaterdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Amica,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het is wel de moeite niet waard maar hier heb je eenige afbeeldingen van het katje.<ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Het beest wekt de algemeene bewondering op. Het is dan ook een goed beest. Nooit had ik kunnen denken dat ik nog een katje zou hebben.</p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Ik ben nu zeer aan dit dier gehecht, ’s avonds lees ik een krant en dan gaat het brave dier zoolang in de binnenzij van mijn jas zitten!! Gedecideerd, ik ben de man van de onverdiende genegenheden.</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Zijn menu is zeer beperkt en bestaat uit roggebrood en melk. ’s Zaterdags daarenboven een haringkop, maar dit interesseert je niet, zooals jij zou zeggen.</p>
+            <p xml:id="p.orig.nl.8" n="8" rend="indent">
+               <pb xml:id="pb.orig.nl.2" f="s1r" facs="#z1r2" n="2"/> Misschien voel je je niet lekker door het weer, dat ontstemt<ptr type="note" target="#note.orig.nl.a"/> de meeste mensen een beetje. Als je plezier hebt eens aan te komen doe het gerust. ’s Avonds is wel het beste maar laat het dan zoo lang mogelijk vooruit weten anders ben ik misschien in Scheveningen.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.9" n="9">(Was get.)</p>
+            <p xml:id="p.orig.nl.10" n="10">Geheel den uwe</p>
+            <p xml:id="p.orig.nl.11" n="11">I. I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.12" n="12">A propos, reeds eenige jaren vergeet ik je te zeggen dat mijn straat niet Parkstraat heet maar <hi rend="italics">Ooster</hi>park, n<hi rend="super">o.</hi> 82.<ptr type="note" target="#note.orig.nl.2"/>
+            </p>
+            <pb xml:id="pb.orig.nl.3" f="s1v" facs="#s1v" n="3"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="s1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Saturday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Amica,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">It’s really not worth the trouble, but here are some pictures of the little cat.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">The beast is generally admired. It is therefore a good beast. I would never have thought that I would have a cat.</p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">I’m very attached to this animal now, I read a paper in the evening and then the good animal sits inside my jacket while I do!! Decidedly, I’m the man of undeserved affections.</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">His menu is very limited and consists of rye bread and milk. On Saturdays a herring head as well, but this doesn’t interest you as you would say.</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8" rend="indent">
+               <pb xml:id="pb.tr.en.2" corresp="#p.orig.nl.2" f="s1r" facs="#z1r2" n="2"/> Perhaps you don’t feel well because of the weather; it upsets most people a little. If you would like to come some time, go ahead. Evenings are best, but then let me know as long as possible in advance or I might be in Scheveningen. </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">(Signed.)</p>
+            <p xml:id="p.tr.en.10" corresp="#p.orig.nl.10" n="10">Wholly yours</p>
+            <p xml:id="p.tr.en.11" corresp="#p.orig.nl.11" n="11">I. I.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.12" corresp="#p.orig.nl.12" n="12">A propos, for years I have forgotten to tell you that my street isn’t called Parkstraat, it’s <hi rend="italics">Ooster</hi>park, no<hi rend="super">.</hi> 82.<ptr type="note" target="#note.tr.en.2"/>
+            </p>
+            <pb xml:id="pb.tr.en.3" corresp="#pb.orig.nl.3" f="s1v" facs="#s1v" n="3"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e4096" type="dating">
+            <p>Israëls schrijft dat hij al ‘eenige jaren’ aan Jo zijn hernoemde adres vergeet door te geven. Dat adres was sinds 27 februari 1895 veranderd. Aangezien hij hier, evenals in twee andere brieven de aanhef ‘Amica’ gebruikt, en die brieven respectievelijk 3 oktober 1896 (brief <ref target="ii031.xml">031</ref>) en 17 oktober 1896 (brief <ref target="ii033.xml">033</ref>) zijn gedateerd, is aan de onderhavige brief als datering ‘waarschijnlijk circa oktober 1896’ toegekend.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e4187" type="dating">
+            <p>Israëls writes that he had already forgotten to give Jo his changed address ‘for some years’. That address had been changed on 27 February 1895. Since here, as he had in two other letters, he uses the greeting ‘Amica’, and those letters are dated 3 October 1896 (letter <ref target="ii031.xml">031</ref>) and 17 October 1896 (letter <ref target="ii033.xml">033</ref>) respectively, the present letter has been dated probably about October 1896.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Isaac Israëls, <hi rend="italics">Jonge poes, in verschillende houdingen</hi>, 1896. <rs type="artwork" ref="artwork.xml#ii015">Ill. 15</rs> Aantekening linksonder in potlood door Jo’s zoon <rs type="person" ref="bio.xml#pers128">Vincent</rs>: ‘Isaac Israëls door mij er onder gezet V.W. v. G’.</p>
+            <p>Israëls wist ongetwijfeld van Jo’s poezenliefde. Op 26 september 1892 schreef ze in haar dagboek: ‘Mijn overvloed van teerheid of liefde wat ’t is – besteed ik nu maar alleen aan ’t kind – (die kan er nooit teveel van hebben) – en aan de poes. Mijn lief, klein, zwart poesje, ik dacht niet dat ik zooveel aan je zou gaan hechten’. <ref target="bibliolist-nl.xml#bg013">
+                  <hi rend="italics">Dagboek</hi>
+               </ref> 4, p. 71.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Het atelier dat Israëls in 1888 had betrokken – zijn derde – was in Eerste Parkstraat 438. Op 27 februari 1895 hadden B&amp;W van Amsterdam de straat hernoemd tot Oosterpark (<hi rend="italics">Algemeen Handelsblad</hi>, 3 maart 1895).</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Isaac Israëls, <hi rend="italics">Young Cat, in Different Positions</hi>, 1896. <rs type="artwork" ref="artwork.xml#ii015">Ill. 15</rs> Note lower left in pencil by Jo’s son <rs type="person" ref="bio.xml#pers128">Vincent</rs>: ‘Isaac Israëls door mij er onder gezet V.W. v. G’. (Isaac Israëls written underneath by me V.W.v.G.)</p>
+            <p>Israëls undoubtedly knew of Jo’s love of cats. On 26 September 1892 she wrote in her diary: ‘My abundance of tenderness or love, whatever it is – I now devote solely to the child – (who can never have too much of it) – and the cat. My sweet little black puss, I never thought that I’d become so attached to you’. <ref target="bibliolist-en.xml#bg013">
+                  <hi rend="italics">Diary</hi>
+               </ref> 4, p. 71.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The studio Israëls had moved into in 1888 – his third – was at 438 Eerste Parkstraat. On 27 February 1895 Amsterdam council had renamed the street Oosterpark (<hi rend="italics">Algemeen Handelsblad</hi>, 3 March 1895).</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Israëls schreef ‘ontstemd’.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

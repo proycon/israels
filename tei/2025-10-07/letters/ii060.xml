@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo Cohen Gosschalk-Bonger. Den Haag, 4 november 1913.</title>
+            <title xml:lang="en">Isaac Israëls to Jo Cohen Gosschalk-Bonger. The Hague, 4 November 1913.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2025-09-12">12 September 2025</date> 
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="https://israelsletters.org"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8626V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>060</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1913-11-04"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8626V2008r_b"/>
+         <zone n="1r1"
+            ulx="50"
+            uly="0"
+            lrx="100"
+            lry="100"
+            xml:id="z1r1"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8626V2008v_vs_b"/>
+         <zone n="1v2"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1v2"/>
+         <zone n="1v3"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1v3"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#z1r1" n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.1" n="1">4 nov.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.2" n="2">Beste Jo,</p>
+            <p xml:id="p.orig.nl.3" n="3">Die tentoonst. gaat nogal geloof ik. Ik heb er zelfs 1 verkocht wat zeldzaam is in Rotterdam.<ptr type="note" target="#note.orig.nl.1"/> Ik geloof dat <rs type="person" ref="bio.xml#pers067">Veth</rs><ptr type="note" target="#note.orig.nl.2"/> de situatie gered heeft. Hij was zeer toevallig net hier en had net een ochtend vrij, wat hem haast nooit gebeurt, toen ik daar heen zou gaan om te zien wat daar was. Hij heeft toen een <pb f="1v" facs="#z1v2" n="2"/> inspiratie gekregen om die dingen te hangen waar ik nooit aan zou hebben gedacht, enfin, eenige chance moet men altijd hebben anders helpt niets in deze wereld. Denk niet dat die tent. als Phileas Fogg een reis om de wereld gaat maken.<ptr type="note" target="#note.orig.nl.3"/> Rotterdam, en daarmede Basta. Ga er maar niet <pb f="1v" facs="#z1v3" n="3"/> heen, dan houd je misschien een illusie en een regret<ptr type="note" target="#note.orig.nl.a"/> dat je er niet geweest bent, dat is voor mij toch het meest flatteuse hè?</p>
+            <p xml:id="p.orig.nl.4" n="4" rend="indent">Tot spoedig in ieder geval.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.orig.nl.7" n="7">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#z1r1"
+                n="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">4 Nov.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Dear Jo,</p>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">That exhibition is going rather well, I think. I even sold one there, which is rare in Rotterdam.<ptr type="note" target="#note.tr.en.1"/> I believe <rs type="person" ref="bio.xml#pers067">Veth</rs><ptr type="note" target="#note.tr.en.2"/> saved the situation. By pure coincidence he was just here and just happened to have a morning free, which he almost never does, when I went to have a look at what kind of works were to be seen. Then he was <pb f="1v" facs="#z1v2" n="2"/> inspired to hang these things where I would never have thought; well, one always has to have some luck otherwise nothing in this world helps. Don’t imagine that this exhibition is going to make a round-the-world trip like Phileas Fogg.<ptr type="note" target="#note.tr.en.3"/> Rotterdam, and that’s the lot. Don’t <pb f="1v" facs="#z1v3" n="3"/> go, then perhaps you can keep an illusion and regret that you hadn’t been there, after all that’s the most flattering for me, right? </p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4" rend="indent">See you soon in any event.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6">Yours</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e8625" type="dating">
+            <p>Het toegekende jaartal 1913 is op basis van de tentoonstelling die Israëls ter sprake brengt (zie noot 1). Voorgedrukt briefhoofd: ‘<hi rend="blockletter">koninginnegracht 2 / den haag</hi>’.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e8757" type="dating">
+            <p>The date 1913 assigned to this letter is based on the exhibition Israëls mentions (see note 1). Printed letterhead: ‘<hi rend="blockletter">koninginnegracht 2 / den haag</hi>’.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Isaac Israëls had de aquarel <hi rend="italics">Ludgate Hill</hi> afgestaan voor de Rotterdamse <hi rend="italics">Tentoonstelling van werken van Moderne Meesters</hi>, die van 12 oktober tot en met 9 november 1913 te zien was in de Kunstzalen van Unger &amp; Van Mens, aldus nummer 16 in de overgeleverde catalogus (RKD, 200314020). Het zal <hi rend="italics">Ludgate circus te Londen</hi>, 65 x 50 cm. zijn geweest. <rs type="artwork" ref="artwork.xml#ii073">Ill. 73</rs> (RKD, afbeeldingsnummer 1001158094). Huidige verblijfplaats onbekend. In 1967 was de tekening eigendom van J.R. ten Cate in Almelo. Daarna van Van Wulfften Palthe C. ten Cate. Zie  <ref target="bibliolist-nl.xml#bg025">Reisel 1967</ref>, p. 161 (<hi rend="italics">Het viaduct, Londen</hi>), <ref target="bibliolist-nl.xml#bg037">Wagner 1985</ref>, p. 96, afb. 115. Wie in 1913 de koper was, is onbekend. Een anonieme recensent sprak lovend over deze kleurrijke aquarel die ‘vol mouvement’ de drukte in de moderne stad weergaf. <hi rend="italics">Nieuwe Rotterdamsche Courant</hi>, 25 oktober 1913. De kunsthandel Unger &amp; Van Mens, geopend in 1912, was gehuisvest aan de Eendrachtsweg 27 in Rotterdam, waar een souterrain en drie tentoonstellingszalen op de bovenverdieping waren. Op deze expositie was ook werk van <rs type="person" ref="bio.xml#pers094">Marius Bauer</rs>, <rs type="person" ref="bio.xml#pers122">Théophile Emile Achille de Bock</rs>, <rs type="person" ref="bio.xml#pers041">George Hendrik Breitner</rs>, <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>, <rs type="person" ref="bio.xml#pers057">Jacob Hendrik Maris</rs>, <rs type="person" ref="bio.xml#pers132">Willem Maris</rs>, <rs type="person" ref="bio.xml#pers011">Anton Mauve</rs> en <rs type="person" ref="bio.xml#pers064">Jan Toorop</rs> te zien.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De kunstcriticus <rs type="person" ref="bio.xml#pers067">Jan Veth</rs>.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Phileas Fogg gaat in het boek <hi rend="italics">Le tour du monde en quatre-vingts jours</hi> (1872) van de Franse schrijver <rs type="person" ref="bio.xml#pers080">Jules Verne</rs> de weddenschap aan dat hij in 80 dagen om de wereld kan reizen.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Isaac Israëls had lent the watercolour <hi rend="italics">Ludgate Hill</hi> for the Rotterdam exhibition of the work of modern artists, the <hi rend="italics">Tentoonstelling van werken van Moderne Meesters</hi>, which ran from 12 October to 9 November 1913 in the Unger &amp; Van Mens gallery, according to number 16 in the surviving catalogue (RKD, 200314020). It must have been <hi rend="italics">Ludgate Circus in London</hi>, 65 x 50 cm. <rs type="artwork" ref="artwork.xml#ii073">Ill. 73</rs> (RKD, number 1001158094). Present whereabouts unknown. In 1967 the drawing belonged to J.R. ten Cate in Almelo. After that to Van Wulfften Palthe C. ten Cate. See  <ref target="bibliolist-en.xml#bg025">Reisel 1967</ref>, p. 161 (<hi rend="italics">The Viaduct, London</hi>), <ref target="bibliolist-en.xml#bg037">Wagner 1985</ref>, p. 96, fig. 115. Who bought the drawing in 1913 is unknown. An anonymous reviewer praised this colourful watercolour, full of movement, that conveyed the hustle and bustle in the modern city. <hi rend="italics">Nieuwe Rotterdamsche Courant</hi>, 25 October 1913. The Unger &amp; Van Mens gallery, which opened in 1912, was housed at 27 Eendrachtsweg in Rotterdam, which had a basement and three exhibition rooms upstairs. The exhibition also included work by <rs type="person" ref="bio.xml#pers094">Marius Bauer</rs>, <rs type="person" ref="bio.xml#pers122">Théophile Emile Achille de Bock</rs>, <rs type="person" ref="bio.xml#pers041">George Hendrik Breitner</rs>, <rs type="person" ref="bio.xml#pers079">Jozef Israëls</rs>, <rs type="person" ref="bio.xml#pers057">Jacob Hendrik Maris</rs>, <rs type="person" ref="bio.xml#pers132">Willem Maris</rs>, <rs type="person" ref="bio.xml#pers011">Anton Mauve</rs> and <rs type="person" ref="bio.xml#pers064">Jan Toorop</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The art critic <rs type="person" ref="bio.xml#pers067">Jan Veth</rs>.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>In the French author <rs type="person" ref="bio.xml#pers080">Jules Verne</rs>’s book <hi rend="italics">Around the World in Eighty Days</hi> (1872), Phileas Fogg bets that he can travel around the world in that time.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Spijt.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

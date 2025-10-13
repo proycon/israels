@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Den Haag, begin april 1923.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. The Hague, early April 1923.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2025-09-12">12 September 2025</date> 
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="https://israelsletters.org"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8643V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date notBefore="1923-04-01" notAfter="1923-04-10"/>
+               <placeName>The Hague, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8643V2008r_b"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8643V2008v_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="1r" facs="#s1r" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Den Haag</p>
+            <p xml:id="p.orig.nl.2" n="2">Dinsdag</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Beste Jo,</p>
+            <p xml:id="p.orig.nl.4" n="4">Het is een allerliefst idee van je en ik doe het graag, natuurlijk. Volgende week heb ik niets meer te doen en dan kom ik wel aan, ik telefoneer je eerst even.<ptr type="note" target="#note.orig.nl.1"/>
+            </p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">Kleykamp<ptr type="note" target="#note.orig.nl.2"/> is wel een “fous”<ptr type="note" target="#note.orig.nl.a"/> geloof ik, een vergissing van mij.<ptr type="note" target="#note.orig.nl.3"/> Maar <pb f="1v" facs="#s1v" n="2"/> als ik ’t niet gedaan had, had ik gedacht dat ik ’t doen moest: zoo komt hoogmoed voor den val. </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Er exposeert bij Kl. ook een <rs type="person" ref="bio.xml#pers008">Freule</rs>,<ptr type="note" target="#note.orig.nl.4"/> vriendin van <rs type="person" ref="bio.xml#pers046">H.M.</rs><ptr type="note" target="#note.orig.nl.5"/> die <hi rend="blockletter">daar</hi><ptr type="note" target="#note.orig.nl.6"/> verwacht wordt om te komen kijken! Jammer dat je dat werk van die <rs type="person" ref="bio.xml#pers008">Freule</rs> (overigens een best mensch) niet eens ziet!</p>
+            <p xml:id="p.orig.nl.7" n="7" rend="indent">Tot spoedig dus!</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.8" n="8">Always yours</p>
+            <p xml:id="p.orig.nl.9" n="9">Isaac</p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="1r"
+                facs="#s1r"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">The Hague</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">Tuesday</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Dear Jo,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">It’s a delightful idea of yours and I’ll be happy to do it, of course. I have nothing more to do next week and I’ll come then, I’ll phone you first.<ptr type="note" target="#note.tr.en.1"/>
+            </p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">Kleykamp<ptr type="note" target="#note.tr.en.2"/> is a fool, I think, a mistake on my part.<ptr type="note" target="#note.tr.en.3"/> But <pb f="1v" facs="#s1v" n="2"/> if I hadn’t done it, I would have thought that I ought to do it: and that’s how pride comes before a fall. </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">A <rs type="person" ref="bio.xml#pers008">Freule</rs> is also exhibiting at Kl.,<ptr type="note" target="#note.tr.en.4"/> she’s a friend of <rs type="person" ref="bio.xml#pers046">H.M.</rs>’s<ptr type="note" target="#note.tr.en.5"/> who is expected to go <hi rend="blockletter">there</hi><ptr type="note" target="#note.tr.en.6"/> to have a look! It’s a shame you won’t see this <rs type="person" ref="bio.xml#pers008">Freule</rs>’s work (she’s a really nice person)!</p>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7" rend="indent">So see you soon!</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Always yours</p>
+            <p xml:id="p.tr.en.9" corresp="#p.orig.nl.9" n="9">Isaac</p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e17202" type="dating">
+            <p>De datering is toegekend op basis van de genoemde tentoonstelling bij Kleykamp en op het krantenbericht in het <hi rend="italics">Rotterdams Nieuwsblad</hi> van 5 april 1923 (zie noot 6).</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e17355" type="dating">
+            <p>The date is assigned on the basis of the exhibition at Kleykamp and on the report in the <hi rend="italics">Rotterdams Nieuwsblad</hi> of 5 April 1923.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>Mogelijk had Jo aan Israëls gevraagd of hij een portret van haar kleinzoon <rs type="person" ref="bio.xml#pers119">Theo</rs> wilde maken, wat namelijk kort daarop zou gebeuren; vgl. brief <ref target="ii101.xml">101</ref>. Wellicht wilde Jo het schilderijtje cadeau doen aan <rs type="person" ref="bio.xml#pers128">Vincent</rs> en <rs type="person" ref="bio.xml#pers078">Josina</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>Van 24 maart tot 11 april 1923 exposeerde Israëls in de grote salons van de Koninklijke Kunstzaal Kleykamp in Den Haag grotendeels met werken die hij in Nederlands-Indië had gemaakt (zie <hi rend="italics">Haagsche Courant</hi>, 11 april 1923 en brief <ref target="ii099.xml">099</ref>). De thema’s waren voornamelijk dansers en inlandse meisjes. In een zijvleugel waren werken met vrouwen uit de Jordaan, volkstypen en een naakt te zien. Op 26 maart 1923 plaatste de <hi rend="italics">Haagsche Courant</hi> een enthousiast stuk over deze tentoonstelling – op 29 maart, 4 april en 10 april deed de <hi rend="italics">Nieuwe Rotterdamsche Courant</hi> dat, die het had over ‘magistrale doeken’.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>Het contact met deze ‘dwaas’ <rs type="person" ref="bio.xml#pers107">Pieter Gabriel Kleykamp</rs> leidde er in 1924 evengoed toe dat Israëls zijn echtgenote <rs type="person" ref="bio.xml#pers116">Sibilla Maria Antonia Ermina Kleykamp-Haagen Smit</rs> zou portretteren. Het echtpaar Kleykamp had omstreeks 1900 in Rotterdam een bedrijf gehad in rieten manden en meubelen en een kleine kunsthandel in Aziatische kunst. In 1909 vertrokken zij naar Den Haag, waar ze in 1916 een groot huis betrokken aan de Scheveningseweg, dat al gauw <hi rend="italics">Huize Kleykamp</hi> werd genoemd. Zie <ref target="bibliolist-nl.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>.</p>
+         </note>
+         <note n="4" xml:id="note.orig.nl.4">
+            <p>Dit was jonkvrouw barones <rs type="person" ref="bio.xml#pers008">Anna Gerhardina Bentinck</rs>, die in de kleine salons aquarellen tentoonstelde, enkele stillevens, ‘uitsluitend poppetafereelen, hoogst eigenaardig en persoonlijk werk’, aldus <hi rend="italics">Het Vaderland</hi>, 24 maart 1923. Zie ook <ref target="bibliolist-nl.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>, p. 191.</p>
+         </note>
+         <note n="5" xml:id="note.orig.nl.5">
+            <p>
+               <rs type="person" ref="bio.xml#pers046">Hare Majesteit Koningin Wilhelmina Helena Pauline Maria</rs>, Koningin der Nederlanden.</p>
+         </note>
+         <note n="6" xml:id="note.orig.nl.6">
+            <p>Israëls onderstreepte het woord ‘daar’ driemaal. Misschien doelt hij met deze nadruk dat niet zijn werk maar dat van <rs type="person" ref="bio.xml#pers008">de freule</rs> de reden was dat de koningin naar de tentoonstelling ging. <rs type="person" ref="bio.xml#pers046">Koningin Wilhelmina</rs>, die in 1920 het predicaat ‘Koninklijk’ aan kunsthandel Kleykamp had verleend, was rondgeleid door de oudste zoon <rs type="person" ref="bio.xml#pers026">Cornelis (‘Kees’) Gabriel Kleykamp</rs> en had de tentoonstelling ‘langdurig’ bezocht, aldus het <hi rend="italics">Rotterdams Nieuwsblad</hi> van 5 april 1923.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>Jo may have asked Israëls if he would make a portrait of her grandson <rs type="person" ref="bio.xml#pers119">Theo</rs>, which he did soon afterwards; cf. letter <ref target="ii101.xml">101</ref>. Jo probably wanted it as a present for <rs type="person" ref="bio.xml#pers128">Vincent</rs> and <rs type="person" ref="bio.xml#pers078">Josina</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>From 24 March to 11 April 1923 Israëls showed paintings and drawings in the large galleries of the Royal Kleykamp gallery in The Hague. <hi rend="italics">Haagsche Courant</hi>, 23 March 1923, largely of works he had made in the Dutch East Indies (see <hi rend="italics">Haagsche Courant</hi>, 11 April 1923 and letter <ref target="ii099.xml">099</ref>). The subjects were mostly dancers and native girls. In a side room there were works featuring women from the run-down district of the Jordaan in Amsterdam, folk types and a nude. Op 26 March 1923 the <hi rend="italics">Haagsche Courant</hi> ran an enthusiastic piece about this exhibition – the <hi rend="italics">Nieuwe Rotterdamsche Courant</hi> did the same on 29 March, 4 April and 10 April, talking about ‘masterly canvases’.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>All the same, the contact with this ‘fool’ <rs type="person" ref="bio.xml#pers107">Pieter Gabriel Kleykamp</rs> led in 1924 to a commission for a portrait of his wife <rs type="person" ref="bio.xml#pers116">Sibilla Maria Antonia Ermina Kleykamp-Haagen Smit</rs>. Around 1900, the Kleykamps had had a firm in Rotterdam dealing in rattan baskets and furniture and a small gallery dealing in Asian art. In 1909 they moved to The Hague, where in 1916 they settled in a large house in Scheveningseweg, which soon became known as <hi rend="italics">Huize Kleykamp</hi>. See <ref target="bibliolist-en.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>.</p>
+         </note>
+         <note n="4" xml:id="note.tr.en.4">
+            <p>A Freule is an aristocratic lady. This was Jonkvrouw Baroness <rs type="person" ref="bio.xml#pers008">Anna Gerhardina Bentinck</rs>, who showed watercolours, some still lifes, in the small rooms, ‘exclusively puppet scenes, highly individual and personal work’, according to <hi rend="italics">Het Vaderland</hi>, 24 March 1923. See also <ref target="bibliolist-en.xml#bg021">
+                  <hi rend="italics">Kleykamp</hi> 2008</ref>, p. 191.</p>
+         </note>
+         <note n="5" xml:id="note.tr.en.5">
+            <p>
+               <rs type="person" ref="bio.xml#pers046">Her Majesty Wilhelmina Helena Pauline Maria, Queen Wilhelmina</rs>.</p>
+         </note>
+         <note n="6" xml:id="note.tr.en.6">
+            <p>Israëls underlined the word ‘there’ three times. Perhaps he meant with this emphasis that it was because of <rs type="person" ref="bio.xml#pers008">the Freule</rs>’s work, not his, that the queen went to the exhibition. <rs type="person" ref="bio.xml#pers046">Queen Wilhelmina</rs>, who had granted the designation ‘Royal’ to the Kleykamp gallery in 1920, was shown round by the oldest son <rs type="person" ref="bio.xml#pers026">Cornelis (‘Kees’) Gabriel Kleykamp</rs> and had spent a long time at the exhibition according to the <hi rend="italics">Rotterdams Nieuwsblad</hi> of 5 April 1923.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="langnotes" xml:lang="nl">
+         <note n="a" xml:id="note.orig.nl.a">
+            <p>Een ‘fou’ is een idioot.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>

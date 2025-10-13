@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?editem template="artworklist"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-artworklist.rng" type="application/xml" 
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-artworklist.rng" type="application/xml" 
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of artworks identified in the Project "Israels letters to Jo Bonger"</title>
+            <author>Hans Luijten</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc><!--TODO-->
+            <p>Generated on the basis of identifiers in letters and writings form data at rkd.nl</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl><!--TODO-->
+            <taxonomy xml:id="OBJALG" n="Object type">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=OBJALG&amp;language=en-GB&amp;term=79320"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="DRAGER" n="Support">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=DRAGER&amp;language=en-GB&amp;term=97857"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MATERTECHN" n="Medium">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=MATERTECHN&amp;language=en-GB&amp;term=97846"/>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="VORM" n="Shape">
+               <bibl>
+                  <ptr target="https://rkd.nl/en/explore/thesaurus?domain=VORM&amp;language=en-GB&amp;term=74840"/>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listObject>
+            <head>List of artworks identified in the Project "Israels letters to Jo Bonger"</head>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii001" type="art">
+               <idno>s0516S2008</idno>
+               <head xml:lang="nl">Portret van Vincent Willem van Gogh (Ill. 1)</head>
+               <head xml:lang="en">Portrait of Vincent Willem van Gogh (Ill. 1)</head>
+               <date type="creation">1894</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii001"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.7"/>
+               <measure commodity="size-ver" unit="cm" quantity="13"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii002" type="art">
+               <idno>b4665V1962</idno>
+               <head xml:lang="nl">Portret van Jo van Gogh-Bonger (Ill. 2)</head>
+               <head xml:lang="en">Portrait of Jo van Gogh-Bonger (Ill. 2)</head>
+               <date type="creation">1895</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii002"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="11.9"/>
+               <note type="technical" xml:lang="nl">Krijt op papier</note>
+               <note type="technical" xml:lang="en">Chalk on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii003" type="art">
+               <head xml:lang="nl">Portret van Theodoor (Theo) van Gogh (Ill. 3)</head>
+               <head xml:lang="en">Portrait of Theodoor (Theo) van Gogh (Ill. 3)</head>
+               <date type="creation">1923</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii003"/>
+               <measure commodity="size-hor" unit="cm" quantity="32"/>
+               <measure commodity="size-ver" unit="cm" quantity="24.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Zevenhuizen, Marjolijn de Vries-Van Gogh</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii004" type="art">
+               <idno>b8650V2008</idno>
+               <head xml:lang="nl">Windvlaag op het Dapperplein in Amsterdam (Ill. 4)</head>
+               <head xml:lang="en">Gust Wind at the Dapperplein in Amsterdam (Ill. 4)</head>
+               <date type="creation">c. 1895</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii004"/>
+               <measure commodity="size-hor" unit="cm" quantity="29"/>
+               <measure commodity="size-ver" unit="cm" quantity="45"/>
+               <note type="technical" xml:lang="nl">Pastelkrijt op papier</note>
+               <note type="technical" xml:lang="en">Pastel on paper</note>
+               <note type="creditline" xml:lang="nl">Rijksmuseum, Amsterdam. Legaat van de heer en mevrouw Drucker-Fraser, Montreux, 1944</note>
+               <note type="creditline" xml:lang="en">Rijksmuseum, Amsterdam. Mr and Mrs Drucker-Fraser Bequest, Montreux, 1944</note>          
+               <note type="collection" xml:lang="nl">Rijksmuseum, Amsterdam (legaat van de heer en mevrouw Drucker-Fraser, Montreux, 1944)</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (Mr and Mrs Drucker-Fraser Bequest, Montreux, 1944)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii005" type="ill">
+               <idno>b8650V2008r</idno>
+               <head xml:lang="nl">Windvlaag op het Dapperplein in Amsterdam (reproductie) (Ill. 5)</head>
+               <head xml:lang="en">Gust Wind at the Dapperplein in Amsterdam (reproduction) (Ill. 5)</head>
+               <date type="creation">c. 1895</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii005"/>
+               <measure commodity="size-hor" unit="cm" quantity="14"/>
+               <measure commodity="size-ver" unit="cm" quantity="8.9"/> 
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii006" type="art">
+               <idno>66450</idno>
+               <head xml:lang="nl">Portret van Michiel Marinus de Monchy (Ill. 6)</head>
+               <head xml:lang="en">Portrait of Michiel Marinus de Monchy (Ill. 6)</head>
+               <date type="creation">1898</date>
+               <relation name="creator" ref="bio.xml#pers079"><!--Jozef Israëls--></relation>
+               <graphic url="ii006"/>
+               <measure commodity="size-hor" unit="cm" quantity="100"/>
+               <measure commodity="size-ver" unit="cm" quantity="76"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Museum Rotterdam</note>
+               <note type="creditline" xml:lang="en">Museum Rotterdam</note>
+               <note type="collection" xml:lang="nl">Museum Rotterdam, Rotterdam</note>
+               <note type="collection" xml:lang="en">Museum Rotterdam, Rotterdam</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii007" type="ill">
+               <idno>RP-F-2015-1-1</idno>
+               <head xml:lang="nl">Isaac Israëls (Ill. 7)</head>
+               <head xml:lang="en">Isaac Israëls (Ill. 7)</head>
+               <date type="creation">c. 1888</date>
+               <graphic url="ii007"/>
+               <measure commodity="size-hor" unit="cm" quantity="22"/>
+               <measure commodity="size-ver" unit="cm" quantity="14.4"/>
+               <note type="technical" xml:lang="nl">Daglichtgelatinezilverdruk op fotopapier</note>
+               <note type="technical" xml:lang="en">Daylight gelatin silverprint on photographic paper</note>
+               <note type="creditline" xml:lang="nl">Joseph Jessurun de Mesquita (toegeschreven aan). Rijksmuseum, Amsterdam. Schenking van mevrouw O. Vermeulen en de heer F. Diepenbrock</note>
+               <note type="creditline" xml:lang="en">Joseph Jessurun de Mesquita (attributed to). Rijksmuseum, Amsterdam. Gift of O. Vermeulen and F. Diepenbrock</note>
+               <note type="collection" xml:lang="nl">Rijksmuseum, Amsterdam (schenking van mevrouw O. Vermeulen en de heer F. Diepenbrock)</note>
+               <note type="collection" xml:lang="en">Rijksmuseum, Amsterdam (Gift of O. Vermeulen and F. Diepenbrock)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii008" type="ill">
+               <idno>b4822V1962</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger met haar baby Vincent Willem van Gogh (Ill. 8)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger with her baby Vincent Willem van Gogh (Ill. 8)</head>
+               <date type="creation">1890</date>
+               <graphic url="ii008"/>
+               <measure commodity="size-hor" unit="cm" quantity="10.1"/>
+               <measure commodity="size-ver" unit="cm" quantity="6.3"/>
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl">Foto: Raoul Saisset</note>
+               <note type="photocredits" xml:lang="en">Photo: Raoul Saisset</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii009" type="ill">
+               <idno>b4824V1984</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger met haar zoon Vincent Willem van Gogh (Ill. 9)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger with her son Vincent Willem van Gogh (Ill. 9)</head>
+               <date type="creation">1892</date>
+               <graphic url="ii009"/>
+               <measure commodity="size-hor" unit="cm" quantity="10.6"/>
+               <measure commodity="size-ver" unit="cm" quantity="6.5"/>
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation).</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="photocredits" xml:lang="nl">Foto: J.F. Hennequin</note>
+               <note type="photocredits" xml:lang="en">Photo: J.F. Hennequin</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii010" type="art">
+               <head xml:lang="nl">Portret van Jo van Gogh-Bonger (Ill. 10)</head>
+               <head xml:lang="en">Portrait of Jo van Gogh-Bonger (Ill. 10)</head>
+               <date type="creation">1895─96</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii010"/>
+               <measure commodity="size-hor" unit="cm" quantity="30"/>
+               <measure commodity="size-ver" unit="cm" quantity="19.5"/>
+               <note type="technical" xml:lang="nl">Rood krijt, potlood en met wit gehoogd op papier</note>
+               <note type="technical" xml:lang="en">Red chalk, pencil and heightened with white on paper</note>
+               <note type="creditline" xml:lang="nl">Privécollectie.</note>
+               <note type="creditline" xml:lang="en">Private collection.</note>
+               <note type="extra">Amsterdam, Willem van Gogh</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii011" type="art">
+               <idno>s0374V1982</idno>
+               <head xml:lang="nl">Vincent Willem van Gogh in Hyde Park, Londen (Ill. 11)</head>
+               <head xml:lang="en">Vincent Willem van Gogh in Hyde Park (Ill. 11)</head>
+               <date type="creation">1914</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii011"/>
+               <measure commodity="size-hor" unit="cm" quantity="63"/>
+               <measure commodity="size-ver" unit="cm" quantity="76"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii013" type="art">
+               <idno>d1145S2008</idno>
+               <head xml:lang="nl">Portret van Vincent Willem van Gogh (Ill. 13)</head>
+               <head xml:lang="en">Portrait of Vincent Willem van Gogh (Ill. 13)</head>
+               <date type="creation">1894</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii013"/>
+               <measure commodity="size-hor" unit="cm" quantity="14.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="10.3"/>
+               <note type="technical" xml:lang="nl">Gekleurd krijt op vergépapier</note>
+               <note type="technical" xml:lang="en">Coloured chalk on laid paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii014" type="art">
+               <idno>b8576V2008</idno>
+               <head xml:lang="nl">Vrouwenkop in profiel (Ill. 14)</head>
+               <head xml:lang="en">Head of a Woman in Profile (Ill. 14)</head>
+               <date type="creation">1895</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii014"/>
+               <measure commodity="size-hor" unit="cm" quantity="2.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="2.5"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii015" type="art">
+               <head xml:lang="nl">Jonge poes in verschillende houdingen (Ill. 15)</head>
+               <head xml:lang="en">Young Cat in different Poses (Ill. 15)</head>
+               <date type="creation">1896</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii015"/>
+               <measure commodity="size-hor" unit="cm" quantity="35"/>
+               <measure commodity="size-ver" unit="cm" quantity="25.6"/>
+               <note type="technical" xml:lang="nl">Potlood, rode en zwarte waterverf, zwart krijt op papier</note>
+               <note type="technical" xml:lang="en">Pencil, red and black water colour, black chalk on paper</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Amsterdam, Barbara Vroom-van Gogh</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii016" type="art">
+               <head xml:lang="nl">Fête de Levallois (Ill. 16)</head>
+               <head xml:lang="en">Fête de Levallois (Ill. 16)</head>
+               <date type="creation">1902</date>
+               <relation name="creator" ref="bio.xml#pers101"><!--Paolo Henri--></relation>
+               <graphic url="ii016"/>
+               <measure commodity="size-hor" unit="cm" quantity="153"/>
+               <measure commodity="size-ver" unit="cm" quantity="113"/>
+               <note type="technical" xml:lang="nl">Kleurenlithografie</note>
+               <note type="technical" xml:lang="en">Colour lithograph</note>
+               <note type="creditline" xml:lang="nl">Lithograaf A. Mansion; drukker, G. Mottelet, Levallois. Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Lithographer A. Mansion; printer, G. Mottelet, Levallois. Whereabouts unknown</note>
+               <note type="extra">Internet</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii017" type="ill">
+               <head xml:lang="nl">Het Omnibus-station aan de kruising van boulevard Montmartre en boulevard des Italiens in Parijs (Ill. 17)</head>
+               <head xml:lang="en">The Omnibus station at the crossroads of boulevard Montmartre and boulevard des Italiens in Paris (Ill. 17)</head>
+               <date type="creation">1907─11</date>
+               <graphic url="ii017"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Internet: https://commons.wikimedia.org/wiki/File:CM_104_-_PARIS_-_Carrefour_des_Bds_Montmartre_et_des_Italiens_-_La_station_des_omnibus.JPG</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii018" type="ill">
+               <head xml:lang="nl">L’Hippodrome de Montmartre, Parijs (Ill. 18)</head>
+               <head xml:lang="en">L’Hippodrome in Montmartre, Paris (Ill. 18)</head>
+               <date type="creation">no date</date>
+               <graphic url="ii018"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Internet: https://fr.wikipedia.org/wiki/Hippodrome_de_Montmartre</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii019" type="ill">
+               <idno>b5738V1996</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger, Lijst van schilderijen bij Leclercq in Parijs (Ill. 19)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger, List of the paintings at Leclercq in Paris (Ill. 19)</head>
+               <date type="creation">1900</date>
+               <graphic url="ii019"/>
+               <measure commodity="size-hor" unit="cm" quantity="11.4"/>
+               <measure commodity="size-ver" unit="cm" quantity="18"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+               xml:id="ii020" type="art" corresp="https://vangoghworldwide.org/artwork/F348">
+               <head xml:lang="nl">Molen op Montmartre (Le Moulin de la Galette) (F 349 / JH 1184) (Ill. 20)</head>
+               <head xml:lang="en">Le Moulin de la Galette (F 349 / JH 1184) (Ill. 20)</head>
+               <date type="creation">1886</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii020"/>
+               <measure commodity="size-hor" unit="cm" quantity="55"/>
+               <measure commodity="size-ver" unit="cm" quantity="38.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii021" type="art">
+               <head xml:lang="nl">Olijfboomgaard (F 711 / JH 1791) (Ill. 21)</head>
+               <head xml:lang="en">Olive Grove (F 711 / JH 1791) (Ill. 21)</head>
+               <date type="creation">1889</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii021"/>
+               <measure commodity="size-hor" unit="cm" quantity="64.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="53.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Privécollectie, Zürich</note>
+               <note type="creditline" xml:lang="en">Private collection, Zürich</note>
+               <note type="collection" xml:lang="nl">Privécollectie, Zürich</note>
+               <note type="collection" xml:lang="en">Private collection, Zürich</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii022" type="ill">
+               <head xml:lang="nl">Vincent van Gogh, Brieven aan zijn broeder. Amsterdam, Wereldbibliotheek (Ill. 22)</head>
+               <head xml:lang="en">Vincent van Gogh, Brieven aan zijn broeder. Amsterdam, Wereldbibliotheek (Ill. 22)</head>
+               <date type="creation">1914</date>
+               <graphic url="ii022"/>
+               <measure commodity="size-hor" unit="cm" quantity="22"/>
+               <measure commodity="size-ver" unit="cm" quantity="15"/>
+               <note type="technical" xml:lang="nl">Drie delen in linnen gebonden</note>
+               <note type="technical" xml:lang="en">Three volumes in cloth</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Exemplaar Hans Luijten</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii023" type="art">
+               <idno>s0285V1963</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger (Ill. 23)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger (Ill. 23)</head>
+               <date type="creation">no date (possibly 1915)</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii023"/>
+               <measure commodity="size-hor" unit="cm" quantity="50"/>
+               <measure commodity="size-ver" unit="cm" quantity="42.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii024" type="art">
+               <idno>s0231V1962</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger (Ill. 24)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger (Ill. 24)</head>
+               <date type="creation">1926</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii024"/>
+               <measure commodity="size-hor" unit="cm" quantity="35"/>
+               <measure commodity="size-ver" unit="cm" quantity="27"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii025" type="art" corresp="https://vangoghworldwide.org/artwork/F464">
+               <idno>s0032V1962</idno>
+               <head xml:lang="nl">Het Gele Huis (De straat) (F 464 / JH 1589) (Ill. 25)</head>
+               <head xml:lang="en">The Yellow House (The Street) (F 464 / JH 1589) (Ill. 25)</head>
+               <date type="creation">1888</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii025"/>
+               <measure commodity="size-hor" unit="cm" quantity="72"/>
+               <measure commodity="size-ver" unit="cm" quantity="91.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii026" type="art" corresp="https://vangoghworldwide.org/artwork/F458">
+               <idno>s0031V1962</idno>
+               <head xml:lang="nl">Zonnebloemen (F 458 / JH 1667) (Ill. 26)</head>
+               <head xml:lang="en">Sunflowers (F 458 / JH 1667) (Ill. 26)</head>
+               <date type="creation">1889</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii026"/>
+               <measure commodity="size-hor" unit="cm" quantity="95"/>
+               <measure commodity="size-ver" unit="cm" quantity="73"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii027" type="art" corresp="https://vangoghworldwide.org/artwork/F454">
+               <idno>NG3863</idno>
+               <head xml:lang="nl">Zonnebloemen (F 454 / JH 1562) (Ill. 27)</head>
+               <head xml:lang="en">Sunflowers (F 454 / JH 1562) (Ill. 27)</head>
+               <date type="creation">1888</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii027"/>
+               <measure commodity="size-hor" unit="cm" quantity="92.1"/>
+               <measure commodity="size-ver" unit="cm" quantity="73"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">The National Gallery, Londen. Gekocht door het Courtauld Fund, 1924</note>
+               <note type="creditline" xml:lang="en">The National Gallery, London. Bought by the Courtauld Fund, 1924</note>
+               <note type="collection" xml:lang="nl">The National Gallery, Londen (gekocht door het Courtauld Fund, 1924)</note>
+               <note type="collection" xml:lang="en">The National Gallery, Londen (bought by the Courtauld Fund, 1924)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii028" type="ill">
+               <head xml:lang="nl">Hotel Zoutkeet in Goes (Ill. 28)</head>
+               <head xml:lang="en">Hotel Zoutkeet in Goes (Ill. 28)</head>
+               <date type="creation">c. 1890</date>
+               <graphic url="ii028"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">ZB Beeldbank Zeeland</note>
+               <note type="creditline" xml:lang="en">ZB Beeldbank Zeeland</note>
+               <note type="extra">Internet: https://goesdronk.nl/wiki/Hotel_Zoutkeet
+Collectie Foto’s, Hotel Zoutkeet, ZB Beeldbank Zeeland, recordnummer: 6316 </note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii029" type="ill">
+               <head xml:lang="nl">Vrouw [Josina Petronella Lewe van Nijenstein] in Zeeuwse klederdracht (Ill. 29)</head>
+               <head xml:lang="en">Woman [Josina Petronella Lewe van Nijenstein] in traditional costume (Zuid-Beveland) (Ill. 29)</head>
+               <date type="creation">c. 1860─1920</date>
+               <graphic url="ii029"/>
+               <measure commodity="size-hor" unit="cm" quantity="6.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="10.5"/>
+               <note type="technical" xml:lang="nl">Foto op papier</note>
+               <note type="technical" xml:lang="en">Photo on paper</note>
+               <note type="creditline" xml:lang="nl">J.J. Quist. RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="creditline" xml:lang="en">J.J. Quist. RKD - Netherlands Institute for Art History, The Hague</note>
+               <note type="extra">Internet: https://rkd.nl/nl/explore/images/153634</note>
+               <note type="collection" xml:lang="nl">RKD - Nederlands Instituut voor Kunstgeschiedenis (Collectie Iconografisch Bureau), Den Haag</note>
+               <note type="collection" xml:lang="en">RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii030" type="art">
+               <idno>b8619V2008</idno>
+               <head xml:lang="nl">Boerin die een juk draagt (Ill. 30)</head>
+               <head xml:lang="en">Milkmaid Carrying a Yoke (Ill. 30)</head>
+               <date type="creation">1897</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii030"/>
+               <measure commodity="size-hor" unit="cm" quantity="2"/>
+               <measure commodity="size-ver" unit="cm" quantity="3"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii031" type="art">
+               <idno>b8624V2008</idno>
+               <head xml:lang="nl">Meisje aan het strand, leunend op een schep (Ill. 31)</head>
+               <head xml:lang="en">Girl at the Beach leaning on a Spade (Ill. 31)</head>
+               <date type="creation">1897</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii031"/>
+               <measure commodity="size-hor" unit="cm" quantity="17.8"/>
+               <measure commodity="size-ver" unit="cm" quantity="22.6"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii032" type="art" corresp="https://vangoghworldwide.org/artwork/F482">
+               <idno>s0047V1962</idno>
+               <head xml:lang="nl">De slaapkamer (F 482 / JH 1608) (Ill. 32)</head>
+               <head xml:lang="en">The Bedroom (F 482 / JH 1608) (Ill. 32)</head>
+               <date type="creation">1888</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii032"/>
+               <measure commodity="size-hor" unit="cm" quantity="74.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="91.3"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii033" type="art" corresp="https://vangoghworldwide.org/artwork/F316">
+               <idno>s0018V1962</idno>
+               <head xml:lang="nl">Montmartre: achter de Moulin de la Galette (F 316 / JH 1246) (Ill. 33)</head>
+               <head xml:lang="en">Montmartre: Behind the Moulin de la Galette (F 316 / JH 1246) (Ill. 33)</head>
+               <date type="creation">1887</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii033"/>
+               <measure commodity="size-hor" unit="cm" quantity="81"/>
+               <measure commodity="size-ver" unit="cm" quantity="100"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii034" type="art">
+               <idno>s0233V1971</idno>
+               <head xml:lang="nl">Vrouw voor Van Goghs Zonnebloemen (Ill. 34)</head>
+               <head xml:lang="en">Woman in front of Van Gogh's Sunflowers (Ill. 34)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii034"/>
+               <measure commodity="size-hor" unit="cm" quantity="70.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="50.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii035" type="art">
+               <idno>s0451N1995</idno>
+               <head xml:lang="nl">Lezende vrouw met rode hoed naast Van Goghs Zonnebloemen (Ill. 35)</head>
+               <head xml:lang="en">Woman reading, wearing a Red Hat next to Van Gogh's Sunflowers (Ill. 35)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii035"/>
+               <measure commodity="size-hor" unit="cm" quantity="60.6"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.6"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam. Staat der Nederlanden, schenking uit de nalatenschap van mevrouw S.B. Wertheimer-Weijl</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam. State of the Netherlands, donated from the estate of Mrs S.B. Wertheimer-Weijl</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (schenking uit de nalatenschap van mevrouw S.B. Werth)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (gift from the legacy of Mrs S.B. Werth)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii036" type="art">
+               <idno>d0736V1982</idno>
+               <head xml:lang="nl">Vrouw die voorleest aan een vrouw op een canapé (Ill. 36)</head>
+               <head xml:lang="en">Woman Reading to a Woman Lying on a Sofa (Ill. 36)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii036"/>
+               <!--Invalid EN measure specification, "28 × 39 cm (Israëls's framing in ink, 23 × 33 cm)"-->
+               <measure commodity="size-hor" unit="cm" quantity="33"/>
+               <measure commodity="size-ver" unit="cm" quantity="23"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="extra">28 × 39 cm (Israëls's framing in ink, 23 × 33 cm)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii037" type="art">
+               <head xml:lang="nl">Prof. dr. mr. Isaac Bennie Cohen en zijn vrouw Jacqueline Wilhelmine Longépée (Ill. 37)</head>
+               <head xml:lang="en">Prof. dr. mr. Isaac Bennie Cohen and his Wife Jacqueline Wilhelmine Longépée (Ill. 37)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii037"/>
+               <measure commodity="size-hor" unit="cm" quantity="94"/>
+               <measure commodity="size-ver" unit="cm" quantity="114"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Privé</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii038" type="ill">
+               <head xml:lang="nl">John Bunny (Ill. 38)</head>
+               <head xml:lang="en">John Bunny (Ill. 38)</head>
+               <date type="creation">no date</date>
+               <graphic url="ii038"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">Internet: https://fr.wikipedia.org/wiki/John_Bunny; alternatief: https://www.gettyimages.nl/detail/nieuwsfoto%27s/john-bunny-vaudeville-performer-d-1915-undated-photograph-nieuwsfotos/515296580?adppopup=true</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii039" type="art">
+               <idno>N04139</idno>
+               <head xml:lang="nl">La Place du Tertre (Ill. 39)</head>
+               <head xml:lang="en">La Place du Tertre (Ill. 39)</head>
+               <date type="creation">c. 1910</date>
+               <relation name="creator" ref="bio.xml#pers097"><!--Maurice Utrillo--></relation>
+               <graphic url="ii039"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="73"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Tate Gallery, Londen</note>
+               <note type="creditline" xml:lang="en">Tate Gallery, London</note>
+               <note type="collection" xml:lang="nl">Tate Gallery, Londen</note>
+               <note type="collection" xml:lang="en">Tate Gallery, Londen</note>
+               <note type="photocredits" xml:lang="nl">© ADAGP, Parijs en DACS, Londen 2020</note>
+               <note type="photocredits" xml:lang="en">© ADAGP, Paris and DACS, London 2020</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii040" type="art">
+               <idno>RF 2257</idno>
+               <head xml:lang="nl">L’Atelier du peintre (Ill. 40)</head>
+               <head xml:lang="en">The Painter's Studio (Ill. 40)</head>
+               <date type="creation">1854─55</date>
+               <relation name="creator" ref="bio.xml#pers045"><!--Gustave Courbet--></relation>
+               <graphic url="ii040"/>
+               <measure commodity="size-hor" unit="cm" quantity="361"/>
+               <measure commodity="size-ver" unit="cm" quantity="598"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Musée d'Orsay, Parijs</note>
+               <note type="creditline" xml:lang="en">Musée d'Orsay, Paris</note>
+               <note type="collection" xml:lang="nl">Musée d’Orsay, Parijs</note>
+               <note type="collection" xml:lang="en">Musée d’Orsay, Paris</note>
+               <note type="photocredits" xml:lang="nl">© Musée d’Orsay, Dist. GrandpalaisRmn / Patrice Schmidt</note>
+               <note type="photocredits" xml:lang="en">© Musée d’Orsay, Dist. GrandpalaisRmn / Patrice Schmidt</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii041" type="art">
+               <idno>s0370V1994</idno>
+               <head xml:lang="nl">Zelfportret (Ill. 41)</head>
+               <head xml:lang="en">Self-portrait (Ill. 41)</head>
+               <date type="creation">1905─10</date>
+               <relation name="creator" ref="bio.xml#pers071"><!--Johan Cohen Gosschalk--></relation>
+               <graphic url="ii041"/>
+               <measure commodity="size-hor" unit="cm" quantity="46"/>
+               <measure commodity="size-ver" unit="cm" quantity="36"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii042" type="ill">
+               <idno>b8645V2008</idno>
+               <head xml:lang="nl">PARIS – Les Grands Cafés des Boulevards – A.P. Public Housse [lees: Houses] of the Boulevards (Ill. 42)</head>
+               <head xml:lang="en">PARIS – Les Grands Cafés des Boulevards – A.P. Public Housse [Houses] of the Boulevards (Ill. 42)</head>
+               <date type="creation">no date</date>
+               <graphic url="ii042"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Postkaart</note>
+               <note type="technical" xml:lang="en">Postcard</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii044" type="art">
+               <idno>b8646V20028</idno>
+               <head xml:lang="nl">Figuren aan boord van het stoomschip Koningin der Nederlanden (Ill. 44)</head>
+               <head xml:lang="en">People sitting aboard the ss Koningin der Nederlanden (Ill. 44)</head>
+               <date type="creation">1921</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii044"/>
+               <measure commodity="size-hor" unit="cm" quantity="11.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="12.2"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii045" type="art">
+               <head xml:lang="nl">Zelfportret in het atelier (voorkant) (Ill. 45)</head>
+               <head xml:lang="en">Self-portrait in the Artist’s Studio (front) (Ill. 45)</head>
+               <date type="creation">no date</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii045"/>
+               <measure commodity="size-hor" unit="cm" quantity="32.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="23.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">catalogus https://www.christies.com/Lotfinder/lot_details.aspx?hdnSaleID=18662&amp;LN=179&amp;intsaleid=18662&amp;sid=ef2362df-18c9-44ce-8fd8-35965f67a453</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: © 2003 Christie's Images Limited</note>
+               <note type="photocredits" xml:lang="en">Photo: © 2003 Christie's Images Limited</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii046" type="art">
+               <head xml:lang="nl">Portret van Sophie de Vries-Dalberg (achterkant) (Ill. 46)</head>
+               <head xml:lang="en">Portrait of Sophie de Vries-Dalberg (back) (Ill. 46)</head>
+               <date type="creation">no date</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii046"/>
+               <measure commodity="size-hor" unit="cm" quantity="23.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="32.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">catalogus https://www.christies.com/Lotfinder/lot_details.aspx?hdnSaleID=18662&amp;LN=179&amp;intsaleid=18662&amp;sid=ef2362df-18c9-44ce-8fd8-35965f67a453</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: © 2003 Christie's Images Limited</note>
+               <note type="photocredits" xml:lang="en">Photo: © 2003 Christie's Images Limited</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii047" type="art">
+               <idno>1990-0055</idno>
+               <head xml:lang="nl">Gezicht op Auvers met korenveld (F 801 / JH 2123) (Ill. 47)</head>
+               <head xml:lang="en">Wheat Fields with Auvers on the Background (F 801 / JH 2123) (Ill. 47)</head>
+               <date type="creation">1890</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii047"/>
+               <measure commodity="size-hor" unit="cm" quantity="51.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="44"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">MAH Musée d'art et d'histoire, Ville de Genève. Ancien dépôt de la Fondation Garengo, 1990</note>
+               <note type="creditline" xml:lang="en">MAH Musée d'art et d'histoire, Ville de Genève. Ancien dépôt de la Fondation Garengo, 1990</note>
+               <note type="collection" xml:lang="nl">Musée d’Art et d’Histoire de Genève, Genève (ancien dépôt de la Fondation Garengo, 1990)</note>
+               <note type="collection" xml:lang="en">Musée d’Art et d’Histoire de Genève, Genève (ancien dépôt de la Fondation Garengo, 1990)</note>
+               <note type="photocredits" xml:lang="nl">Foto: © Musée d'art et d'histoire, Ville de Genève, fotograaf: Jean-Marc Yersin</note>
+               <note type="photocredits" xml:lang="en">Photo: © Musée d'art et d'histoire, Ville de Genève, photographer: Jean-Marc Yersin</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii048" type="ill">
+               <idno>b4789V1962</idno>
+               <head xml:lang="nl">Etui met foto’s van Jo Bonger en Theo van Gogh (Ill. 48)</head>
+               <head xml:lang="en">Case with photographs of Jo Bonger and Theo van Gogh (Ill. 48)</head>
+               <date type="creation">1889</date>
+               <graphic url="ii048"/>
+               <measure commodity="size-hor" unit="cm" quantity="15.3"/>
+               <measure commodity="size-ver" unit="cm" quantity="9.8"/>
+               <note type="technical" xml:lang="nl">Foto's op papier</note>
+               <note type="technical" xml:lang="en">Photos on paper</note>
+               <note type="creditline" xml:lang="nl">F.D. van Rosmalen jr., Amsterdam en Ernest Ladrey, Parijs. Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting).</note>
+               <note type="creditline" xml:lang="en">F.D. van Rosmalen Jr., Amsterdam and Ernest Ladrey, Paris. Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii049" type="ill">
+               <idno>RKD-PF-765</idno>
+               <head xml:lang="nl">Isaac Israëls in zijn atelier op de eerste etage van Oosterpark 82 in Amsterdam (Ill. 49)</head>
+               <head xml:lang="en">Isaac Israëls in his studio on the first floor 82 Oosterpark in Amsterdam (Ill. 49)</head>
+               <date type="creation">1903</date>
+               <graphic url="ii049"/>
+               <measure commodity="size-hor" unit="cm" quantity="19.6"/>
+               <measure commodity="size-ver" unit="cm" quantity="28.2"/>
+               <note type="technical" xml:lang="nl">Atelier Herz, Amsterdam</note>
+               <note type="technical" xml:lang="en">Atelier Herz, Amsterdam</note>
+               <note type="creditline" xml:lang="nl">Atelier Herz, Amsterdam. RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="creditline" xml:lang="en">Atelier Herz, Amsterdam. RKD - Netherlands Institute for Art History, The Hague</note>
+               <note type="collection" xml:lang="nl">RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="collection" xml:lang="en">RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii050" type="art">
+               <idno>s0284V1963</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger (Ill. 50)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger (Ill. 50)</head>
+               <date type="creation">1895─97</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii050"/>
+               <measure commodity="size-hor" unit="cm" quantity="40"/>
+               <measure commodity="size-ver" unit="cm" quantity="31.4"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii051" type="art">
+               <idno>s0232V1962</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger (Ill. 51)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger (Ill. 51)</head>
+               <date type="creation">1924</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii051"/>
+               <measure commodity="size-hor" unit="cm" quantity="60.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="45.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii052" type="ill">
+               <head xml:lang="nl">Vincent Willem van Gogh en Josina Wibaut in de Pyreneeën (Ill. 52)</head>
+               <head xml:lang="en">Vincent Willem van Gogh and Josina Wibaut in the Pyrenees (Ill. 52)</head>
+               <date type="creation">1914</date>
+               <graphic url="ii052"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam</note>
+               <note type="photocredits" xml:lang="nl">Foto: Van Gogh Museum, Documentatie</note>
+               <note type="photocredits" xml:lang="en">Photo: Van Gogh Museum, Documentation</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii053" type="art" corresp="https://vangoghworldwide.org/artwork/F394">
+               <idno>108.317</idno>
+               <head xml:lang="nl">Roze perzikbomen (‘Souvenir de Mauve’) (F 394 / JH 1379) (Ill. 53)</head>
+               <head xml:lang="en">Pink Peach Trees (‘Souvenir de Mauve’) (F 394 / JH 1379) (Ill. 53)</head>
+               <date type="creation">1888</date>
+               <relation name="creator" ref="bio.xml#pers127"><!--Vincent van Gogh--></relation>
+               <graphic url="ii053"/>
+               <measure commodity="size-hor" unit="cm" quantity="73"/>
+               <measure commodity="size-ver" unit="cm" quantity="59.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Kröller-Müller Museum, Otterlo</note>
+               <note type="creditline" xml:lang="en">Kröller-Müller Museum, Otterlo</note>
+               <note type="collection" xml:lang="nl">Kröller-Müller Museum, Otterlo</note>
+               <note type="collection" xml:lang="en">Kröller-Müller Museum, Otterlo</note>
+               <note type="photocredits" xml:lang="nl">Foto: Rik Klein Gotink</note>
+               <note type="photocredits" xml:lang="en">Photo: Rik Klein Gotink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        corresp="https://rkd.nl/nl/explore/images/110177"
+                        xml:id="ii054" type="art">
+               <head xml:lang="nl">Naakt op een divan voor Van Goghs Zonnebloemen (Ill. 54)</head>
+               <head xml:lang="en">Nude on a Couch in front of Van Gogh's Sunflowers (Ill. 54)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii054"/>
+               <measure commodity="size-hor" unit="cm" quantity="95"/>
+               <measure commodity="size-ver" unit="cm" quantity="60"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">RKD download (met watermerk) Vragen Chris, zie https://rkd.nl/nl/explore/images/110177</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="photocredits" xml:lang="en">Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii055" type="art">
+               <head xml:lang="nl">Vrouw op een divan voor Van Goghs Zonnebloemen (Ill. 55)</head>
+               <head xml:lang="en">Woman on a Couch in front of Van Gogh's Sunflowers (Ill. 55)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii055"/>
+               <measure commodity="size-hor" unit="cm" quantity="88.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="49.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">RKD (downloaden met lelijk watermerk) via internet? Vragen Chris; zie https://rkd.nl/nl/explore/images/record?query=isaac+israels&amp;start=77</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="photocredits" xml:lang="en">Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii056" type="art">
+               <head xml:lang="nl">Portret van Juliette van Buuren-Polak (Ill. 56)</head>
+               <head xml:lang="en">Portrait of Juliette van Buuren-Polak (Ill. 56)</head>
+               <date type="creation">1912</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii056"/>
+               <measure commodity="size-hor" unit="cm" quantity="32"/>
+               <measure commodity="size-ver" unit="cm" quantity="25.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op paneel</note>
+               <note type="technical" xml:lang="en">Oil on panel</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend. Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown. Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+               <note type="extra">RKD downloaden of via internet; vragen Chris</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii057" type="ill">
+               <head xml:lang="nl">Juliette van Buuren-Polak (Ill. 57)</head>
+               <head xml:lang="en">Juliette van Buuren-Polak (Ill. 57)</head>
+               <date type="creation">no date</date>
+               <graphic url="ii057"/>
+               <!--Invalid EN measure specification, "dimensions unknown"-->
+               <note type="technical" xml:lang="nl">Foto</note>
+               <note type="technical" xml:lang="en">Photo</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private Collection</note>
+               <note type="extra">Internet, opgenomen in Joods Monument.</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private Collection</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii058" type="art">
+               <head xml:lang="nl">Vrouw in paarse bloes voor Zonnebloemen van Van Gogh (Ill. 58)</head>
+               <head xml:lang="en">Woman in purple blouse in front of Van Gogh's Sunflowers (Ill. 58)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii058"/>
+               <measure commodity="size-hor" unit="cm" quantity="65.1"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">internet: https://www.alamy.com/israels-isaac-vrouw-voor-zonnebloemen-van-van-gogh-1-image217600671.html</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii059" type="art">
+               <idno>2115</idno>
+               <head xml:lang="nl">Vrouw in profiel voor de Zonnebloemen van Van Gogh (Ill. 59)</head>
+               <head xml:lang="en">Woman in Profile in front of Van Gogh's Sunflowers (Ill. 59)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii059"/>
+               <measure commodity="size-hor" unit="cm" quantity="71"/>
+               <measure commodity="size-ver" unit="cm" quantity="59"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Museum de Fundatie, Zwolle en Heino/Wije</note>
+               <note type="creditline" xml:lang="en">Museum de Fundatie, Zwolle and Heino/Wije</note>
+               <note type="collection" xml:lang="nl">Museum de Fundatie, Zwolle en Heino/Wije</note>
+               <note type="collection" xml:lang="en">Museum de Fundatie, Zwolle and Heino/Wije</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii060" type="art">
+               <head xml:lang="nl">Vrouw zittend voor Van Goghs Zonnebloemen (Ill. 60)</head>
+               <head xml:lang="en">Woman sitting in front of Van Gogh's Sunflowers (Ill. 60)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii060"/>
+               <measure commodity="size-hor" unit="cm" quantity="84"/>
+               <measure commodity="size-ver" unit="cm" quantity="57"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Eigenaar vragen, eventueel</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl">Foto: Rik Klein Gotink</note>
+               <note type="photocredits" xml:lang="en">Photo: Rik Klein Gotink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii061" type="art">
+               <idno>msch 69-8.</idno>
+               <head xml:lang="nl">Portret van Rosalie Zélander-Caffé voor de Zonnebloemen van Van Gogh (Ill. 61)</head>
+               <head xml:lang="en">Portrait of Rosalie Zélander-Caffé in front of Van Gogh's Sunflowers (Ill. 61)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii061"/>
+               <measure commodity="size-hor" unit="cm" quantity="58.8"/>
+               <measure commodity="size-ver" unit="cm" quantity="43.3"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Frans Hals Museum, Haarlem</note>
+               <note type="creditline" xml:lang="en">Frans Hals Museum, Haarlem</note>
+               <note type="collection" xml:lang="nl">Frans Halsmuseum | De Hallen, Haarlem (legaat van de geportretteerde, 1969)</note>
+               <note type="collection" xml:lang="en">Frans Halsmuseum | De Hallen, Haarlem (bequest of the person portrayed, 1969)</note>
+               <note type="photocredits" xml:lang="nl">Foto: Arend Velsink</note>
+               <note type="photocredits" xml:lang="en">Photo: Arend Velsink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii062" type="art">
+               <head xml:lang="nl">Na het bal-masqué (Ill. 62)</head>
+               <head xml:lang="en">After the Masked Ball (Ill. 62)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii062"/>
+               <measure commodity="size-hor" unit="cm" quantity="85"/>
+               <measure commodity="size-ver" unit="cm" quantity="135"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="photocredits" xml:lang="en">Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii063" type="art">
+               <head xml:lang="nl">In het atelier (Ill. 63)</head>
+               <head xml:lang="en">In the Studio (Ill. 63)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii063"/>
+               <measure commodity="size-hor" unit="cm" quantity="89"/>
+               <measure commodity="size-ver" unit="cm" quantity="120"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">RKD vragen Chris</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="photocredits" xml:lang="en">Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii064" type="art">
+               <idno>0331646</idno>
+               <head xml:lang="nl">In het atelier (Ill. 64)</head>
+               <head xml:lang="en">In the Studio (Ill. 64)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii064"/>
+               <measure commodity="size-hor" unit="cm" quantity="91"/>
+               <measure commodity="size-ver" unit="cm" quantity="117.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Kunstmuseum, Den Haag</note>
+               <note type="creditline" xml:lang="en">Kunstmuseum, The Hague</note>
+               <note type="collection" xml:lang="nl">Kunstmuseum, Den Haag</note>
+               <note type="collection" xml:lang="en">Kunstmuseum, The Hague</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii065" type="art">
+               <idno>21849</idno>
+               <head xml:lang="nl">Slapende vrouw (Ill. 65)</head>
+               <head xml:lang="en">Woman sleeping (Ill. 65)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii065"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="60.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Centraal Museum, Utrecht. Bruikleen Stichting Van Baaren Museum, 1980</note>
+               <note type="creditline" xml:lang="en">Centraal Museum, Utrecht. Loan Van Baaren Museum Fondation, 1980</note>
+               <note type="collection" xml:lang="nl">Centraal Museum, Utrecht (bruikleen Stichting Van Baaren Museum, 1980)</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (loan Van Baaren Museum Foundation, 1980)</note>
+               <note type="photocredits" xml:lang="nl">Centraal Museum, Utrecht / Ernst Moritz</note>
+               <note type="photocredits" xml:lang="en">Centraal Museum, Utrecht / Ernst Moritz</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii066" type="art">
+               <head xml:lang="nl">Lezend meisje op een sofa (Ill. 66)</head>
+               <head xml:lang="en">Girl reading on a Couch (Ill. 66)</head>
+               <date type="creation">1915─16</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii066"/>
+               <measure commodity="size-hor" unit="cm" quantity="66"/>
+               <measure commodity="size-ver" unit="cm" quantity="100.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Privécollectie</note>
+               <note type="creditline" xml:lang="en">Private collection</note>
+               <note type="extra">Eigenaar vragen, eventueel</note>
+               <note type="collection" xml:lang="nl">Privécollectie</note>
+               <note type="collection" xml:lang="en">Private collection</note>
+               <note type="photocredits" xml:lang="nl">Foto: Rik Klein Gotink</note>
+               <note type="photocredits" xml:lang="en">Photo: Rik Klein Gotink</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii067" type="art">
+               <idno>21946</idno>
+               <head xml:lang="nl">Jonge vrouw (Ill. 67)</head>
+               <head xml:lang="en">Young Woman (Ill. 67)</head>
+               <date type="creation">1915─20</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii067"/>
+               <measure commodity="size-hor" unit="cm" quantity="44.5"/>
+               <measure commodity="size-ver" unit="cm" quantity="33.5"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Centraal Museum, Utrecht. Bruikleen Stichting Van Baaren Museum, 1980</note>
+               <note type="creditline" xml:lang="en">Centraal Museum, Utrecht. Loan Van Baaren Museum Fondation, 1980</note>
+               <note type="collection" xml:lang="nl">Centraal Museum, Utrecht (bruikleen Stichting Van Baaren Museum, 1980)</note>
+               <note type="collection" xml:lang="en">Centraal Museum, Utrecht (loan Van Baaren Museum Foundation, 1980)</note>
+               <note type="photocredits" xml:lang="nl">Centraal Museum, Utrecht / Hans Wilschut</note>
+               <note type="photocredits" xml:lang="en">Centraal Museum, Utrecht / Hans Wilschut</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii068" type="art">
+               <idno>b8598V2008</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger, Adres van het Haagse hotel Pomona (Ill. 68)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger, Address of the Hotel Pomona in The Hague (Ill. 68)</head>
+               <date type="creation">no date</date>
+               <graphic url="ii068"/>
+               <measure commodity="size-hor" unit="cm" quantity="22.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="17.6"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii069" type="art">
+               <idno>b5611V1996</idno>
+               <head xml:lang="nl">Willem Steenhoff aan Jo van Gogh-Bonger, Lijst van bruiklenen aan het Rijksmuseum in Amsterdam (Ill. 69)</head>
+               <head xml:lang="en">Willem Steenhoff to Jo van Gogh-Bonger, List of works on loan to the Rijksmuseum in Amsterdam (Ill. 69)</head>
+               <date type="creation">1918</date>
+               <graphic url="ii069"/>
+               <measure commodity="size-hor" unit="cm" quantity="13.3"/>
+               <measure commodity="size-ver" unit="cm" quantity="20.8"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii070" type="ill">
+               <idno>b4550V1986</idno>
+               <head xml:lang="nl">Jo van Gogh-Bonger, Dagboek 4, p. 91; 13 november 1894 (Ill. 70)</head>
+               <head xml:lang="en">Jo van Gogh-Bonger, Diary 4, p. 91; 13 November 1894 (Ill. 70)</head>
+               <date type="creation">1894</date>
+               <graphic url="ii070"/>
+               <note type="technical" xml:lang="nl"/>
+               <note type="technical" xml:lang="en"/>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii071" type="art">
+               <idno>s0550S2021</idno>
+               <head xml:lang="nl">Zelfportret met een portret van Raden Mas Jodjana op de achtergrond (Ill. 71)</head>
+               <head xml:lang="en">Self-Portrait with a Portrait of Raden Mas Jodjana in the Background (Ill. 71)</head>
+               <date type="creation">1919</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii071"/>
+               <measure commodity="size-hor" unit="cm" quantity="50.2"/>
+               <measure commodity="size-ver" unit="cm" quantity="40.3"/>
+               <note type="technical" xml:lang="nl">Olieverf op doek</note>
+               <note type="technical" xml:lang="en">Oil on canvas</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam, ter plaatsing in De Mesdag Collectie, Den Haag. Legaat van mevrouw Chavoix-Jodjana</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam, for placement in The Mesdag Collection, The Hague. Bequest of Mrs Chavoix-Jodjana</note>
+               <note type="collection" xml:lang="nl">De Mesdag Collectie, Den Haag (legaat van mevrouw Chavoix-Jodjana)</note>
+               <note type="collection" xml:lang="en">The Mesdag Collection, The Hague (bequest of Mrs Chavoix-Jodjana)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii072" type="art">
+               <idno>d0754V1995</idno>
+               <head xml:lang="nl">Zelfportret met zwarte hoed (Ill. 72)</head>
+               <head xml:lang="en">Self-Portrait Wearing a Black Hat (Ill. 72)</head>
+               <date type="creation">no date (likely between 1894 and 1898)</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii072"/>
+               <measure commodity="size-hor" unit="cm" quantity="21"/>
+               <measure commodity="size-ver" unit="cm" quantity="13.4"/>
+               <note type="technical" xml:lang="nl">Pen op papier</note>
+               <note type="technical" xml:lang="en">Pen on paper</note>
+               <note type="creditline" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="creditline" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+               <note type="collection" xml:lang="nl">Van Gogh Museum, Amsterdam (Vincent van Gogh Stichting)</note>
+               <note type="collection" xml:lang="en">Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</note>
+            </ed:artwork>
+            <ed:artwork xmlns:ed="http://xmlschema.huygens.knaw.nl/ns/editem"
+                        xml:id="ii073" type="art">
+               <head xml:lang="nl">Ludgate circus te Londen (Ill. 73)</head>
+               <head xml:lang="en">Ludgate Hill circus in London (Ill. 73)</head>
+               <date type="creation">1913</date>
+               <relation name="creator" ref="bio.xml#pers141"><!--Isaac Israëls--></relation>
+               <graphic url="ii073"/>
+               <measure commodity="size-hor" unit="cm" quantity="65"/>
+               <measure commodity="size-ver" unit="cm" quantity="50"/>
+               <note type="technical" xml:lang="nl">Aquarel op papier</note>
+               <note type="technical" xml:lang="en">Watercolour on paper</note>
+               <note type="creditline" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="creditline" xml:lang="en">Whereabouts unknown</note>
+               <note type="extra">RKD, afbeeldingsnummer 1001158094 vragen Chris, zie https://rkd.nl/nl/explore/images/248124</note>
+               <note type="collection" xml:lang="nl">Verblijfplaats onbekend</note>
+               <note type="collection" xml:lang="en">Whereabouts unknown</note>
+               <note type="photocredits" xml:lang="nl">Foto: RKD - Nederlands Instituut voor Kunstgeschiedenis, Den Haag</note>
+               <note type="photocredits" xml:lang="en">Photo: RKD - Netherlands Institute for Art History, The Hague</note>
+            </ed:artwork>
+         </listObject>
+      </body>
+   </text>
+</TEI>

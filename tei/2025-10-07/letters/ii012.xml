@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl">Isaac Israëls aan Jo van Gogh-Bonger. Amsterdam, 13 maart 1895.</title>
+            <title xml:lang="en">Isaac Israëls to Jo van Gogh-Bonger. Amsterdam, 13 March 1895.</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="https://huygens.knaw.nl/en">Huygens Institute for the History and Culture of the Netherlands (KNAW)</name>
+               <name ref="https://www.vangoghmuseum.nl/en">Van Gogh Museum Amsterdam</name>
+            </publisher>
+            <pubPlace>Amsterdam</pubPlace>
+            <date when="2025-09-12">12 September 2025</date> 
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+               </licence>
+            </availability>
+            <ptr type="webedition" target="https://israelsletters.org"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>The Netherlands</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>VGM</institution>
+                  <idno>b8571V2008</idno>
+                  <altIdentifier type="ii">
+                     <idno>012</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="letter"/>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs type="person" ref="bio.xml#pers141">Isaac Israëls</rs>
+               <date when="1895-03-13"/>
+               <placeName>Amsterdam, The Netherlands</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <rs type="person" ref="bio.xml#pers140">Jo van Gogh-Bonger</rs>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="1r" xml:id="s1r">
+         <graphic url="b8571V2008_b"/>
+         <zone n="1r1"
+               ulx="0"
+               uly="0"
+               lrx="50"
+               lry="100"
+               xml:id="z1r1"/>
+         <zone n="1r2"
+               ulx="50"
+               uly="0"
+               lrx="100"
+               lry="100"
+               xml:id="z1r2"/>
+      </surface>
+      <surface n="1v" xml:id="s1v">
+         <graphic url="b8571V2008_vs_b"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body divRole="original-translation">
+         <div type="original" xml:lang="nl">
+            <pb xml:id="pb.orig.nl.1" f="s1r" facs="#z1r1" n="1"/>
+            <p xml:id="p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.orig.nl.2" n="2">13 maart</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.3" n="3">Chère Mme,</p>
+            <p xml:id="p.orig.nl.4" n="4">Zoodra ik in d. Haag kom zal ik u de andere deelen van <rs type="person" ref="bio.xml#pers029">Poe</rs><ptr type="note" target="#note.orig.nl.1"/> sturen want die zijn daar nog. U zegt er niks van, von u het niet erg mooi dat u zoo lakoniek bent of is het juist omdat u het zoo mooi vindt? Dit laatste is een schrale troost voor een auteur: als de menschen er niets van zeggen dan kun je er natuurlijk alles van maken wat je wilt; maar dit is dan alleen zeker: dat zij niet <hi rend="italics">die</hi> vorm hebben van enthousiasme dat ze bepaald wat <hi rend="italics">moeten</hi> zeggen om hun gevoel te uiten.– Affijn.</p>
+            <p xml:id="p.orig.nl.5" n="5" rend="indent">U schijnt maar niet hier te willen komen. Hoe gaat het daar buiten met u of hebben die Kannifaten u heelemaal opgegeten.<ptr type="note" target="#note.orig.nl.2"/> Ik zou u weleens komen opzoeken maar ik heb nu alle wereldsche pracht en praal vaarwel gezegd, o.a. ook bestaande in plezierreisjes <pb xml:id="pb.orig.nl.2" f="s1r" facs="#z1r2" n="2"/> naar buiten enz. Maar ik kom toch eens, laat ik zeggen als ik een schilderij verkocht heb. Dit is wel, zult u zeggen, het mogelijke met het onmogelijke vereenigd. </p>
+            <p xml:id="p.orig.nl.6" n="6" rend="indent">Hoe is het met <rs type="person" ref="bio.xml#pers128">Vincentje</rs>?<ptr type="note" target="#note.orig.nl.3"/> Geloof mij steeds,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.orig.nl.7" n="7">Uw toegenegen</p>
+            <p xml:id="p.orig.nl.8" n="8">Isaac Israels</p>
+            <pb xml:id="pb.orig.nl.3" f="s1v" facs="#s1v" n="3"/>
+         </div>
+         <div type="translation" xml:lang="en">
+            <pb xml:id="pb.tr.en.1"
+                corresp="#pb.orig.nl.1"
+                f="s1r"
+                facs="#z1r1"
+                n="1"/>
+            <p xml:id="p.tr.en.1" corresp="#p.orig.nl.1" n="1">Amst.</p>
+            <p xml:id="p.tr.en.2" corresp="#p.orig.nl.2" n="2">13 March</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.3" corresp="#p.orig.nl.3" n="3">Chère Mme,</p>
+            <p xml:id="p.tr.en.4" corresp="#p.orig.nl.4" n="4">As soon as I get to The Hague I will send you the other <rs type="person" ref="bio.xml#pers029">Poe</rs><ptr type="note" target="#note.tr.en.1"/> volumes, because they are still there. You say nothing about them, is it because you don’t think they are very good that you’re so laconic or is it precisely because you thought it was so good? This latter is a poor comfort for an author: if people don’t say anything about it, then of course you can make anything of it you like; but then only this is certain: that they do not have <hi rend="italics">that</hi> form of enthusiasm that they definitely <hi rend="italics">must</hi> say something to express their feeling.– Well.</p>
+            <p xml:id="p.tr.en.5" corresp="#p.orig.nl.5" n="5" rend="indent">You don’t seem to want to come here. How are you doing out there in the country or have those Cananefates eaten you all up.<ptr type="note" target="#note.tr.en.2"/> I should come to see you now and again, but I have now said farewell to all worldly pomp and circumstance, including among other things <pb xml:id="pb.tr.en.2" corresp="#pb.orig.nl.2" f="s1r" facs="#z1r2" n="2"/> outings to the country etc. But I will come some time, let’s say when I’ve sold a painting. You’ll say this is uniting the possible with the impossible. </p>
+            <p xml:id="p.tr.en.6" corresp="#p.orig.nl.6" n="6" rend="indent">How is little <rs type="person" ref="bio.xml#pers128">Vincent</rs>?<ptr type="note" target="#note.tr.en.3"/> Believe me ever,</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p xml:id="p.tr.en.7" corresp="#p.orig.nl.7" n="7">Your affectionate</p>
+            <p xml:id="p.tr.en.8" corresp="#p.orig.nl.8" n="8">Isaac Israels</p>
+            <pb xml:id="pb.tr.en.3" corresp="#pb.orig.nl.3" f="s1v" facs="#s1v" n="3"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listAnnotation type="typednotes" xml:lang="nl">
+         <note xml:id="note.d433e1830" type="dating">
+            <p>Briefhoofd: ‘13 maart’. Aangezien Israëls hier ‘andere delen’ van <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs> stuurt, is de brief een vervolg op brief <ref target="ii011.xml">011</ref> – beide brieven zullen daarom in 1895 geschreven zijn. </p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="typednotes" xml:lang="en">
+         <note xml:id="note.d433e1910" type="dating">
+            <p>Letter headed 13 March’. Since Israëls is sending ‘other volumes’ by <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>, the letter is a follow-up to letter <ref target="ii011.xml">011</ref> – both letters must therefore have been written in 1895.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="nl">
+         <note n="1" xml:id="note.orig.nl.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.orig.nl.2">
+            <p>De oud-Germaanse volksstam De Cananefaten – Israëls gebruikt ze als beeld voor de plattelanders. In brief <ref target="ii010.xml">010</ref> spreekt hij in dit verband over ‘Barbaren’ en ‘die wilde horde’.</p>
+         </note>
+         <note n="3" xml:id="note.orig.nl.3">
+            <p>De kleine <rs type="person" ref="bio.xml#pers128">Vincent Willem</rs>, Jo’s zoontje, die toen net drie jaar oud was.</p>
+         </note>
+      </listAnnotation>
+      <listAnnotation type="notes" xml:lang="en">
+         <note n="1" xml:id="note.tr.en.1">
+            <p>
+               <rs type="person" ref="bio.xml#pers029">Edgar Allan Poe</rs>.</p>
+         </note>
+         <note n="2" xml:id="note.tr.en.2">
+            <p>The old Germanic tribe the Cananefates – Israëls uses them as an image for peasants. In letter <ref target="ii010.xml">010</ref> he refers in this regard to ‘Barbarians’ and ‘that wild horde’.</p>
+         </note>
+         <note n="3" xml:id="note.tr.en.3">
+            <p>
+               <rs type="person" ref="bio.xml#pers128">Vincent Willem</rs>, Jo’s son, who had just turned three.</p>
+         </note>
+      </listAnnotation>
+   </standOff>
+</TEI>
