@@ -29,8 +29,6 @@ stam_files := $(tei_files:$(tei_dir)/%.xml=stam/%.store.stam.json)
 webannotation_files := $(tei_files:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
 html_files := $(tei_files:$(tei_dir)/%.xml=stam/%.html)
 
-all: webannotations
-
 untangle: $(stam_files)
 webannotations: $(webannotation_files)
 
