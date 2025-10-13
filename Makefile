@@ -194,7 +194,7 @@ help:
 	@echo "  webannotations             - to generate webannotations"
 	@echo "  ingest                     - to populate the various services with data"
 	@echo 
-	@echo "(individual upload steps in ascending/chronological order where applicable):"
+	@echo "(individual ingest steps in ascending/chronological order where applicable):"
 	@echo "  annorepo                   - to upload the webannotations to Annorepo"
 	@echo "  textsurf                   - to add the texts to TextSurf"
 	@echo "  index                      - to build the search index"
