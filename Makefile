@@ -23,18 +23,24 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 #--------------------------------------------------------------------------------
 
-tei_dir := tei/2025-10-07/letters
-tei_files := $(wildcard $(tei_dir)/*.xml)
-stam_files := $(tei_files:$(tei_dir)/%.xml=stam/%.store.stam.json)
-webannotation_files := $(tei_files:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
-html_files := $(tei_files:$(tei_dir)/%.xml=stam/%.html)
+tei_dir := tei/2025-10-07
+tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(wildcard $(tei_dir)/intro/*.xml) $(wildcard $(tei_dir)/about/*.xml)
+#tei_flattened contains the 'virtual' files where one layer of nesting is removed
+tei_flattened := $(subst letters/,,$(tei_files))
+tei_flattened := $(subst intro/,,$(tei_flattened))
+tei_flattened := $(subst about/,,$(tei_flattened))
+stam_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.store.stam.json)
+webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
+html_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.html)
 
 untangle: $(stam_files)
 webannotations: $(webannotation_files)
 
 # untangle from XML source
 #  also produces plain text files in stam/*.txt and stam/*.normal.txt (normalised)
-stam/%.store.stam.json: $(tei_dir)/%.xml
+#  look in multiple subdirectories for the sources (VPATH)
+VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
+stam/%.store.stam.json: %.xml
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config config/stam/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
@@ -47,6 +53,7 @@ stam/%.store.stam.json: $(tei_dir)/%.xml
 			--query "SELECT ANNOTATION WHERE DATA \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" \"type\";" $@; \
 	fi;
 
+vpath #reset VPATH
 stam/%.webannotations.jsonl: stam/%.store.stam.json env 
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
@@ -65,7 +72,7 @@ validate: tei-info
 tei-info:
 	@echo "--- Validating TEI ---">&2
 	mkdir $@
-	. env/bin/activate && validate-tei --tei-dir $(dir $(tei_dir)) --output-dir $@  --schema-dir schema --config config/tei.yml
+	. env/bin/activate && validate-tei --tei-dir $(tei_dir) --output-dir $@  --schema-dir schema --config config/tei.yml
 
 scans:
 	@echo "--- Downloading scans from surfdrive ---">&2
@@ -79,7 +86,7 @@ scans:
 manifests: tei-info scans
 	@echo "--- Creating manifests ---">&2
 	mkdir $@
-	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(dir $(tei_dir)) --scaninfo-dir scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
 stam/%.html: stam/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
