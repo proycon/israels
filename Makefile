@@ -124,7 +124,9 @@ annorepo: .annorepo-uploaded
 
 textsurf: data/textsurf/.populated
 data/textsurf/.populated: .started $(stam-files)
-	cp -f stam/*.txt data/textsurf/
+	mkdir -p data/textsurf/$(PROJECT)
+	chmod a+w data/textsurf/$(PROJECT) #TODO: temporary patch, this is obviously not smart in production settings
+	cp -f stam/*.txt data/textsurf/$(PROJECT)
 	@touch $@
 
 index: .index
