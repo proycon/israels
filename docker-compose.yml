@@ -133,14 +133,21 @@ services:
     container_name: cantaloupe
     image: uclalibrary/cantaloupe:${CANTALOUPE_VERSION}
     environment:
-        CANTALOUPE_HTTP_ENABLED: true
-        CANTALOUPE_HTTPS_ENABLED: false
+        HEAP_PERCENTAGE: 50
+        CANTALOUPE_HTTP_ENABLED: "true"
+        CANTALOUPE_HTTPS_ENABLED: "false"
         CANTALOUPE_BASE_URI: ${CANTALOUPE_URL}
         CANTALOUPE_SLASH_SUBSTITUTE: "|"
+        CANTALOUPE_LOG_APPLICATION_LEVEL: info
+        CANTALOUPE_LOG_APPLICATION_CONSOLEAPPENDER_ENABLED: "true"
+        CANTALOUPE_LOG_ACCESS_CONSOLEAPPENDER_ENABLED: "true"
     expose:
       - ${CANTALOUPE_PORT}
     ports:
-      - "${CANTALOUPE_PORT}:80"
+      - "${CANTALOUPE_PORT}:8182"
+    networks:
+      - bridge_network
     volumes:
       - ./data/cantaloupe:/imageroot
       #TODO: log and cache is not persistent for now
+    restart: unless-stopped
