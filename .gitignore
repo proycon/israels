@@ -74,9 +74,7 @@ curatedscans/
 .obsidian*
 
 # Local patterns                                                                                                                                                                                                                                                                 
-stam/*.json                                                                                                                                                                                                                                                                 
-stam/*jsonl                                                                                                                                                                                                                                                                      
-stam/*.txt                                                                                                                                                                                                                                                                       
+work
 .started                                                                                                                                                                                                                                                                         
 .annorepo-uploaded                                                                                                                                                                                                                                                               
 .index                                                                                                                                                                                                                                                                           

@@ -29,24 +29,24 @@ tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(wildcard $(tei_dir)/intro/*.
 tei_flattened := $(subst letters/,,$(tei_files))
 tei_flattened := $(subst intro/,,$(tei_flattened))
 tei_flattened := $(subst about/,,$(tei_flattened))
-stam_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.store.stam.json)
-webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.webannotations.jsonl)
-html_files := $(tei_flattened:$(tei_dir)/%.xml=stam/%.html)
+stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
+webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)
+html_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.html)
 
 untangle: $(stam_files)
 webannotations: $(webannotation_files)
 
 # untangle from XML source
-#  also produces plain text files in stam/*.txt and stam/*.normal.txt (normalised)
+#  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-stam/%.store.stam.json: %.xml
+work/%.store.stam.json: %.xml
 	@echo "--- Untangling $< ---">&2
-	stam fromxml --config config/stam/fromxml/tei.toml \
+	stam fromxml --config config/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
-	stam translatetext --rules config/stam/translatetext/norm.toml $@ 
-	@if [ -e stam/$*.normal.txt ]; then \
+	stam translatetext --rules config/translatetext/norm.toml $@ 
+	@if [ -e $*.normal.txt ]; then \
 		echo "--- Translating annotations to normalised variant ---">&2; \
 		stam translate --verbose --no-translations --no-resegmentations --ignore-errors \
 			--id-strategy suffix=.normal \
@@ -54,7 +54,7 @@ stam/%.store.stam.json: %.xml
 	fi;
 
 vpath #reset VPATH
-stam/%.webannotations.jsonl: stam/%.store.stam.json env 
+work/%.webannotations.jsonl: work/%.store.stam.json env 
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
 		--add-context "https://ns.huc.knaw.nl/text.jsonld" \
@@ -93,19 +93,19 @@ apparatus: scans
 	mkdir -p $@
 	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
 
-stam/%.html: stam/%.html.batch env
+work/%.html: work/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
-	echo $< | programs/makebatch.sh query.template html html > $@.batch && stam stam/$*.html.batch $< < $@.batch
+	echo $< | programs/makebatch.sh config/stam/query.template html html > $@.batch && stam $*.html.batch $< < $@.batch
 	rm $@.html.batch
 
-stam/%.ansi.txt: stam/%.html.batch env
+work/%.ansi.txt: work/%.html.batch env
 	@echo "--- ANSI Text visualisation via STAM ---">&2
-	echo $< | programs/makebatch.sh query.template ansi ansi.txt > $@.batch && stam stam/$*.ansi.batch $< < $@.batch
+	echo $< | programs/makebatch.sh config/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
 	rm $@.ansi.batch
 
-stam/%.html.batch: stam/%.store.stam.json
+work/%.html.batch: work/%.store.stam.json
 	@echo "--- Preparing for HTML visualisation ---">&2
-	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh stam/query.template html html > $@ 
+	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh config/stam/query.template html html > $@ 
 
 html: $(html_files)
 	@echo "--- HTML visualisation via STAM (all) ---">&2
@@ -131,7 +131,7 @@ textsurf: data/textsurf/.populated
 data/textsurf/.populated: .started $(stam-files)
 	mkdir -p data/textsurf/$(PROJECT)
 	chmod a+w data/textsurf/$(PROJECT) #TODO: temporary patch, this is obviously not smart in production settings
-	cp -f stam/*.txt data/textsurf/$(PROJECT)
+	cp -f *.txt data/textsurf/$(PROJECT)
 	@touch $@
 
 index: .index
@@ -160,7 +160,7 @@ env:
 	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
 	
 clean: clean-services
-	-rm -Rf stam/*.stam.json stam/*jsonl stam/*.txt stam/*html tei-info manifests
+	-rm -Rf *.stam.json work tei-info manifests
 
 clean-services:
 	-make stop
