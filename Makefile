@@ -88,6 +88,11 @@ manifests: tei-info scans
 	mkdir $@
 	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
+apparatus: scans
+	@echo "--- Converting apparatus from TEI XML ---">&2
+	mkdir -p $@
+	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
+
 stam/%.html: stam/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
 	echo $< | programs/makebatch.sh query.template html html > $@.batch && stam stam/$*.html.batch $< < $@.batch
@@ -199,6 +204,8 @@ help:
 	@echo "  validate                   - to validate TEI XML input"
 	@echo "  scans                      - download scans (from surfdrive, must have been shared with you)"
 	@echo "  manifests                  - create IIIF manifests"
+	@echo "  apparatus                  - convert apparatus from TEI XML"
+	@echo ""
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
 	@echo "  webannotations             - to generate webannotations"
 	@echo "  ingest                     - to populate the various services with data"
