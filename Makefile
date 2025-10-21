@@ -74,7 +74,7 @@ tei-info:
 	mkdir $@
 	. env/bin/activate && validate-tei --tei-dir $(tei_dir) --output-dir $@  --schema-dir schema --config config/tei.yml
 
-scans:
+data/scans:
 	@echo "--- Downloading scans from surfdrive ---">&2
 	@echo "   Note: The scans must have been shared explicitly with you for this to work,">&2
 	@echo "         and you must have rclone with remote $(RCLONE_SURFDRIVE) set up to connect to surfdrive">&2
@@ -83,23 +83,27 @@ scans:
 		$(RCLONE_SURFDRIVE):israels-Scans-Curated/scans \
 		$@
 
-manifests: tei-info scans
+manifests: data/manifests
+data/manifests: tei-info scans
 	@echo "--- Creating manifests ---">&2
-	mkdir $@
-	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
+	mkdir -p $@
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
-apparatus: scans
+apparatus: data/apparatus
+data/apparatus: scans
 	@echo "--- Converting apparatus from TEI XML ---">&2
 	mkdir -p $@
-	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
+	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes data/scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
 
-work/%.html: work/%.html.batch env
+data/html/%.html: work/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
+	mkdir -p data/html
 	echo $< | programs/makebatch.sh config/stam/query.template html html > $@.batch && stam $*.html.batch $< < $@.batch
 	rm $@.html.batch
 
-work/%.ansi.txt: work/%.html.batch env
+data/ansi/%.ansi.txt: work/%.html.batch env
 	@echo "--- ANSI Text visualisation via STAM ---">&2
+	mkdir -p data/ansi
 	echo $< | programs/makebatch.sh config/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
 	rm $@.ansi.batch
 
@@ -164,7 +168,27 @@ clean: clean-services
 
 clean-services:
 	-make stop
-	-rm -Rf .started .annorepo-uploaded .index data/elastic data/mongo data/textsurf
+	-rm -Rf .started .annorepo-uploaded .index data/*
+
+clean-annorepo:
+	-rm -rf data/mongo
+	-rm .annorepo-uploaded
+
+clean-textsurf:
+	-rm -rf data/textsurf
+
+clean-index:
+	-rm -rf data/elastic
+	-rm .index
+
+clean-apparatus:
+	-rm -rf data/apparatus
+
+clean-manifests:
+	-rm -rf data/manifests
+
+clean-scans:
+	-rm -rf data/scans
 
 logs:
 	docker compose --env-file common.env logs --follow
@@ -208,14 +232,18 @@ help:
 	@echo ""
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
 	@echo "  webannotations             - to generate webannotations"
-	@echo "  ingest                     - to populate the various services with data"
-	@echo 
-	@echo "(individual ingest steps in ascending/chronological order where applicable):"
-	@echo "  annorepo                   - to upload the webannotations to Annorepo"
-	@echo "  textsurf                   - to add the texts to TextSurf"
-	@echo "  index                      - to build the search index"
+	@echo "  ingest                     - to populate the various services with data. Subtargets "
+	@echo "      annorepo               - to upload the webannotations to Annorepo"
+	@echo "      textsurf               - to add the texts to TextSurf"
+	@echo "      index                  - to build the search index"
 	@echo
 	@echo "(cleaning targets):"
 	@echo "  clean                      - clean all generated targets (including services, but keeps dependencies intact)"
-	@echo "  clean-services             - cleans all data pertaining to the services"
+	@echo "  clean-services             - cleans all data pertaining to the services. Subtargets:"
+	@echo "  	clean-apparatus"
+	@echo "  	clean-scans"
+	@echo "  	clean-manifests"
+	@echo "  	clean-annorepo"
+	@echo "  	clean-textsurf"
+	@echo "  	clean-index"
 	@echo "  clean-dependencies         - clean local dependencies (python env)"

@@ -78,6 +78,4 @@ work
 .started                                                                                                                                                                                                                                                                         
 .annorepo-uploaded                                                                                                                                                                                                                                                               
 .index                                                                                                                                                                                                                                                                           
-data/elastic                                                                                                                                                                                                                                                                     
-data/mongo                                                                                                                                                                                                                                                                       
-data/textsurf 
+data

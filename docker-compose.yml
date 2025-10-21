@@ -148,6 +148,6 @@ services:
     networks:
       - bridge_network
     volumes:
-      - ./data/cantaloupe:/imageroot
+      - ./data/scans:/imageroot/${PROJECT}
       #TODO: log and cache is not persistent for now
     restart: unless-stopped
