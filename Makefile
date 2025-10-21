@@ -36,11 +36,14 @@ html_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.html)
 untangle: $(stam_files)
 webannotations: $(webannotation_files)
 
+work:
+	mkdir -p $@
+
 # untangle from XML source
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-work/%.store.stam.json: %.xml
+work/%.store.stam.json: %.xml work
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config config/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
@@ -239,7 +242,7 @@ help:
 	@echo
 	@echo "(cleaning targets):"
 	@echo "  clean                      - clean all generated targets (including services, but keeps dependencies intact)"
-	@echo "  clean-services             - cleans all data pertaining to the services. Subtargets:"
+	@echo "  clean-services             - cleans all data pertaining to the services. subtargets:"
 	@echo "  	clean-apparatus"
 	@echo "  	clean-scans"
 	@echo "  	clean-manifests"
