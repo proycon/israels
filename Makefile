@@ -43,7 +43,7 @@ work:
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-work/%.store.stam.json: %.xml work
+work/%.store.stam.json: %.xml | work
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config config/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
@@ -57,7 +57,7 @@ work/%.store.stam.json: %.xml work
 	fi;
 
 vpath #reset VPATH
-work/%.webannotations.jsonl: work/%.store.stam.json env 
+work/%.webannotations.jsonl: work/%.store.stam.json | env 
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
 		--add-context "https://ns.huc.knaw.nl/text.jsonld" \
@@ -142,7 +142,7 @@ data/textsurf/.populated: .started $(stam-files)
 	@touch $@
 
 index: .index
-.index: annorepo
+.index: annorepo textsurf | env
 	. env/bin/activate && peen-indexer \
 		--annorepo-host=$(ANNOREPO_URL) \
 		--annorepo-container=$(PROJECT) \
