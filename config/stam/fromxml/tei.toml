@@ -6,6 +6,8 @@ whitespace = "Collapse"
 # use everything available in that contex.
 default_set = "https://ns.huc.knaw.nl/text.jsonld" 
 
+id_strip_suffix = [ ".txt" ]
+
 [namespaces]
 #this defines the XML namespace prefixes you can use in this configuration
 xml = "http://www.w3.org/XML/1998/namespace"
