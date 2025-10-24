@@ -45,10 +45,10 @@ work:
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
 work/%.store.stam.json: %.xml | work
 	@echo "--- Untangling $< ---">&2
-	stam fromxml --config config/fromxml/tei.toml \
+	stam fromxml --config etc/fromxml/tei.toml \
 		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
-	stam translatetext --rules config/translatetext/norm.toml $@ 
+	stam translatetext --rules etc/translatetext/norm.toml $@ 
 	@if [ -e $*.normal.txt ]; then \
 		echo "--- Translating annotations to normalised variant ---">&2; \
 		stam translate --verbose --no-translations --no-resegmentations --ignore-errors \
@@ -75,7 +75,7 @@ validate: tei-info
 tei-info:
 	@echo "--- Validating TEI ---">&2
 	mkdir $@
-	. env/bin/activate && validate-tei --tei-dir $(tei_dir) --output-dir $@  --schema-dir schema --config config/tei.yml
+	. env/bin/activate && validate-tei --tei-dir $(tei_dir) --output-dir $@  --schema-dir schema --config etc/tei.yml
 
 data/scans:
 	@echo "--- Downloading scans from surfdrive ---">&2
@@ -90,7 +90,7 @@ manifests: data/manifests
 data/manifests: tei-info scans
 	@echo "--- Creating manifests ---">&2
 	mkdir -p $@
-	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config config/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
 apparatus: data/apparatus
 data/apparatus: scans
@@ -101,18 +101,18 @@ data/apparatus: scans
 data/html/%.html: work/%.html.batch env
 	@echo "--- HTML visualisation via STAM ---">&2
 	mkdir -p data/html
-	echo $< | programs/makebatch.sh config/stam/query.template html html > $@.batch && stam $*.html.batch $< < $@.batch
+	echo $< | programs/makebatch.sh etc/stam/query.template html html > $@.batch && stam $*.html.batch $< < $@.batch
 	rm $@.html.batch
 
 data/ansi/%.ansi.txt: work/%.html.batch env
 	@echo "--- ANSI Text visualisation via STAM ---">&2
 	mkdir -p data/ansi
-	echo $< | programs/makebatch.sh config/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
+	echo $< | programs/makebatch.sh etc/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
 	rm $@.ansi.batch
 
 work/%.html.batch: work/%.store.stam.json
 	@echo "--- Preparing for HTML visualisation ---">&2
-	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh config/stam/query.template html html > $@ 
+	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh etc/stam/query.template html html > $@ 
 
 html: $(html_files)
 	@echo "--- HTML visualisation via STAM (all) ---">&2
@@ -146,7 +146,7 @@ index: .index
 	. env/bin/activate && peen-indexer \
 		--annorepo-host=$(ANNOREPO_URL) \
 		--annorepo-container=$(PROJECT) \
-		--config config/indexer/config.yml \
+		--config etc/indexer/config.yml \
 		--elastic-host=$(ELASTIC_URL) \
 		--elastic-index=$(PROJECT)
 	@touch $@
