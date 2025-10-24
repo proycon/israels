@@ -23,11 +23,11 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 #--------------------------------------------------------------------------------
 
-tei_dir := tei/2025-10-07
-tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(wildcard $(tei_dir)/intro/*.xml) $(wildcard $(tei_dir)/about/*.xml)
+tei_dir := datasource/tei
+tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(wildcard $(tei_dir)/about/*.xml)
 #tei_flattened contains the 'virtual' files where one layer of nesting is removed
 tei_flattened := $(subst letters/,,$(tei_files))
-tei_flattened := $(subst intro/,,$(tei_flattened))
+#tei_flattened := $(subst intro/,,$(tei_flattened))
 tei_flattened := $(subst about/,,$(tei_flattened))
 stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
 webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)

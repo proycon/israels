@@ -61,13 +61,6 @@ scans/
 watm/
 illustrations/
 
-# Directories synched with SurfDrive
-
-dataSource/
-datasource/
-curatedScans/
-curatedscans/
-
 # Config files which get locally modified
 #########################################
 .jekyll-metadata

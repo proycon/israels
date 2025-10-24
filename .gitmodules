@@ -1,0 +1,3 @@
+[submodule "datasource"]
+	path = datasource
+	url = https://gitlab.huc.knaw.nl/eDITem/israels-letters.git
