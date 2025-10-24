@@ -219,6 +219,13 @@ stop:
 	docker compose --env-file common.env down
 	@rm .started || true
 
+architecture.svg: architecture.mmd
+	mmdc -i $< -o $@
+
+architecture.png: architecture.mmd
+	mmdc -w 3820 -i $< -o $@
+
+
 help:
 	@echo "Please use \`make <target>', where <target> is one of:"
 	@echo "  install-dependencies       - to install the necessary dependencies for the data processing pipeline"
