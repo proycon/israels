@@ -217,8 +217,8 @@ annotation = "TextSelector"
     value = "{{ default_set }}/Document"
 
     [[elements.annotationdata]]
-    key = "identifier"
-    value = "{{ resource }}"
+    key = "id"
+    value = "urn:mace:huc.knaw.nl:israels:{{ resource }}"
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
