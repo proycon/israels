@@ -159,7 +159,7 @@ install-dependencies:
 	@command -v python3 || (echo "Missing dependency: python3" && false)
 	@command -v docker || (echo "Missing dependency: docker" && false)
 	@echo "--- Installing local dependencies ---">&2
-	command -v stam || cargo install stam-tools
+	cargo install stam-tools
 	make env
 
 env:
