@@ -8,6 +8,7 @@ export HOSTNAME
 export PATH := $(HOME)/.cargo/bin:$(PATH) 
 
 #----------------- read environment variables from external file(s) ------------
+ifneq ($(INCLUDE_ENV),0)
 include common.env
 export $(shell sed '/^\#/d; s/=.*//' common.env)
 
@@ -20,6 +21,7 @@ ifneq (,$(wildcard custom.env))
 #custom config exists
 include custom.env
 export $(shell sed '/^\#/d; s/=.*//' custom.env)
+endif
 endif
 #--------------------------------------------------------------------------------
 
