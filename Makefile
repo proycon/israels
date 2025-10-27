@@ -45,7 +45,7 @@ work:
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-work/%.store.stam.json: %.xml | work
+work/%.store.stam.json: %.xml etc/fromxml/tei.toml etc/translatetext/norm.toml | work
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config etc/fromxml/tei.toml \
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
@@ -74,7 +74,7 @@ work/%.webannotations.jsonl: work/%.store.stam.json | env
 	@rm .annorepo-uploaded 2> /dev/null || true
 
 validate: tei-info
-tei-info:
+tei-info: etc/tei.yml
 	@echo "--- Validating TEI ---">&2
 	mkdir $@
 	. env/bin/activate && validate-tei --tei-dir $(tei_dir) --output-dir $@  --schema-dir schema --config etc/tei.yml
@@ -89,13 +89,13 @@ data/scans:
 		$@
 
 manifests: data/manifests
-data/manifests: tei-info scans
+data/manifests: tei-info scans etc/iiif.yml
 	@echo "--- Creating manifests ---">&2
 	mkdir -p $@
 	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
 apparatus: data/apparatus
-data/apparatus: scans
+data/apparatus: scans data/scans/sizes_illustrations.tsv
 	@echo "--- Converting apparatus from TEI XML ---">&2
 	mkdir -p $@
 	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes data/scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
@@ -112,7 +112,7 @@ data/ansi/%.ansi.txt: work/%.html.batch env
 	echo $< | programs/makebatch.sh etc/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
 	rm $@.ansi.batch
 
-work/%.html.batch: work/%.store.stam.json
+work/%.html.batch: work/%.store.stam.json etc/stam/query.template
 	@echo "--- Preparing for HTML visualisation ---">&2
 	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh etc/stam/query.template html html > $@ 
 
@@ -144,7 +144,7 @@ data/textsurf/.populated: .started $(stam-files)
 	@touch $@
 
 index: .index
-.index: annorepo textsurf | env
+.index: annorepo textsurf etc/indexer/config.yml | env
 	. env/bin/activate && peen-indexer \
 		--annorepo-host=$(ANNOREPO_URL) \
 		--annorepo-container=$(PROJECT) \
@@ -164,7 +164,7 @@ install-dependencies:
 	cargo install stam-tools
 	make env
 
-env:
+env: requirements.txt
 	@echo "--- Setting up virtual environment ---">&2
 	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
 	
