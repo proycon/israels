@@ -46,7 +46,7 @@ VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
 work/%.store.stam.json: %.xml | work
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config etc/fromxml/tei.toml \
-		--id-prefix "urn:translatin:{resource}#" --force-new $@ -f $<
+		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
 	stam translatetext --rules etc/translatetext/norm.toml $@ 
 	@if [ -e $*.normal.txt ]; then \
