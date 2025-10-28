@@ -31,6 +31,7 @@ services:
       AR_PAGE_SIZE: 100
       AR_WITH_AUTHENTICATION: yes
       AR_ROOT_API_KEY: ${ANNOREPO_ROOT_API_KEY}
+      AR_RANGE_SELECTOR_TYPE: TextPositionSelector      
     expose:
       - ${ANNOREPO_PORT}
     ports:
