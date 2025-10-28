@@ -33,10 +33,12 @@ tei_flattened := $(subst letters/,,$(tei_files))
 tei_flattened := $(subst about/,,$(tei_flattened))
 stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
 webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)
-html_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.html)
+html_files := $(tei_flattened:$(tei_dir)/%.xml=data/html/%.html)
 
 untangle: $(stam_files)
+stam: $(stam_files)
 webannotations: $(webannotation_files)
+html: $(html_files)
 
 work:
 	mkdir -p $@
@@ -45,12 +47,12 @@ work:
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-work/%.store.stam.json: %.xml etc/fromxml/tei.toml etc/translatetext/norm.toml | work
+work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/norm.toml | work
 	@echo "--- Untangling $< ---">&2
-	stam fromxml --config etc/fromxml/tei.toml \
+	stam fromxml --config etc/stam/fromxml/tei.toml \
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
-	stam translatetext --rules etc/translatetext/norm.toml $@ 
+	stam translatetext --rules etc/stam/translatetext/norm.toml $@ 
 	@if [ -e $*.normal.txt ]; then \
 		echo "--- Translating annotations to normalised variant ---">&2; \
 		stam translate --verbose --no-translations --no-resegmentations --ignore-errors \
@@ -100,25 +102,16 @@ data/apparatus: scans data/scans/sizes_illustrations.tsv
 	mkdir -p $@
 	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes data/scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
 
-data/html/%.html: work/%.html.batch env
-	@echo "--- HTML visualisation via STAM ---">&2
-	mkdir -p data/html
-	echo $< | programs/makebatch.sh etc/stam/query.template html html > $@.batch && stam $*.html.batch $< < $@.batch
-	rm $@.html.batch
-
-data/ansi/%.ansi.txt: work/%.html.batch env
-	@echo "--- ANSI Text visualisation via STAM ---">&2
-	mkdir -p data/ansi
-	echo $< | programs/makebatch.sh etc/stam/query.template ansi ansi.txt > $@.batch && stam $*.ansi.batch $< < $@.batch
-	rm $@.ansi.batch
 
 work/%.html.batch: work/%.store.stam.json etc/stam/query.template
-	@echo "--- Preparing for HTML visualisation ---">&2
-	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | ./programs/makebatch.sh etc/stam/query.template html html > $@ 
+	@echo "--- Building script from template for HTML visualisation ---">&2
+	#get a list of all resources in the annotation store and output a batch script for each resource (this will usually just be 1 resource)
+	stam query --no-header --query 'SELECT RESOURCE ?res' $< | cut -f 2 | sort -n | programs/makebatch.sh etc/stam/query.template html html > $@ 
 
-html: $(html_files)
-	@echo "--- HTML visualisation via STAM (all) ---">&2
-	stam batch $< < html.batch
+data/html/%.html: work/%.store.stam.json work/%.html.batch | env
+	@echo "--- HTML visualisation via STAM ---">&2
+	mkdir -p data/html
+	stam batch $< < work/$*.html.batch
 
 ingest: annorepo textsurf
 
@@ -167,6 +160,7 @@ install-dependencies:
 env: requirements.txt
 	@echo "--- Setting up virtual environment ---">&2
 	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
+	touch $@
 	
 clean: clean-services
 	-rm -Rf *.stam.json work tei-info manifests
@@ -200,6 +194,7 @@ logs:
 
 start: .started
 .started:
+ifeq ($(MANAGE_SERVICES),1)
 	mkdir -p data/elastic
 	chmod a+rwx data/elastic #temporary patch, this is obviously not smart in production settings
 	@ping -c 1 $(HOSTNAME) || (echo "Sanity check failed: detected hostname ($HOSTNAME) does not resolve" && false)
@@ -215,11 +210,20 @@ else
 	docker compose --env-file common.env up -d
 endif
 	@echo "--- Use 'make logs' to see docker logs" >&2
+else
+	@echo "--- Services are not managed, not starting them ---">&2
+	@touch $@
+endif
 
 stop:
+ifeq ($(MANAGE_SERVICES),1)
 	@echo "--- Stopping services ---">&2 
 	docker compose --env-file common.env down
 	@rm .started || true
+else
+	@echo "--- Services are not managed, not stopping them ---">&2
+	@rm .started || true
+endif
 
 architecture.svg: architecture.mmd
 	mmdc -i $< -o $@
@@ -243,6 +247,7 @@ help:
 	@echo "  apparatus                  - convert apparatus from TEI XML"
 	@echo ""
 	@echo "  untangle                   - to untangle TEI XML into STAM JSON and plain text"
+	@echo "  html                       - to create static HTML visualisations per letter"
 	@echo "  webannotations             - to generate webannotations"
 	@echo "  ingest                     - to populate the various services with data. Subtargets "
 	@echo "      annorepo               - to upload the webannotations to Annorepo"

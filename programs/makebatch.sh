@@ -11,7 +11,7 @@ fi
 while read -r resource_id; do
     if [ -n "$resource_id" ]; then
         htmlout=${resource_id%.txt}
-        tr -d '\n' < "$1" | sed -e "s/{resource_id}/$resource_id/" -e "s/{format}/$2/" -e "s/$/ > $htmlout.$3/" 
+        tr -d '\n' < "$1" | sed -e "s/{resource_id}/$resource_id/" -e "s/{format}/$2/" -e "s/$/ > data\/html\/$htmlout.$3/" 
         echo
     fi
 done
