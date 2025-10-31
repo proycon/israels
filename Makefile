@@ -98,10 +98,10 @@ data/manifests: tei-info data/scans etc/iiif.yml
 	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
 
 apparatus: data/apparatus
-data/apparatus: data/scans data/scans/sizes_illustrations.tsv
+data/apparatus:
 	@echo "--- Converting apparatus from TEI XML ---">&2
 	mkdir -p $@
-	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes data/scans/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
+	. env/bin/activate && editem-apparatus-convert --inputdir $(tei_dir)/apparatus --outputdir $@ --sizes scanInfo/sizes_illustrations.tsv --project $(PROJECT) --base-url $(CANTALOUPE_URL)/iiif/3
 
 
 work/%.html.batch: work/%.store.stam.json etc/stam/query.template
