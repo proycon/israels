@@ -24,12 +24,12 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 endif
 #--------------------------------------------------------------------------------
-
 tei_dir := datasource/tei
-tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(wildcard $(tei_dir)/about/*.xml)
+intro_files := $(tei_dir)/about/Inleiding_introduction.xml $(tei_dir)/about/Verantwoording_Notes_for_the_reader.xml $(tei_dir)/about/colofon.xml $(tei_dir)/about/woord-van-dank.xml
+tei_files := $(wildcard $(tei_dir)/letters/*.xml)) $(tei_dir)/intro/intro.xml
 #tei_flattened contains the 'virtual' files where one layer of nesting is removed
 tei_flattened := $(subst letters/,,$(tei_files))
-#tei_flattened := $(subst intro/,,$(tei_flattened))
+tei_flattened := $(subst intro/,,$(tei_flattened))
 tei_flattened := $(subst about/,,$(tei_flattened))
 stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
 webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)
@@ -43,11 +43,15 @@ html: $(html_files)
 work:
 	mkdir -p $@
 
+$(tei_dir)/intro/intro.xml: $(intro_files)
+	mkdir -p $(tei_dir)/intro
+	merge-intro-texts $(intro_files) > $@
+
 # untangle from XML source
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
 #  look in multiple subdirectories for the sources (VPATH)
-VPATH = $(tei_dir)/letters:$(tei_dir)/intro:$(tei_dir)/about
-work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/norm.toml | work
+VPATH = $(tei_dir)/letters:$(tei_dir)/intro
+work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/norm.toml $(tei_dir)/intro/intro.xml | work
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config etc/stam/fromxml/tei.toml \
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
@@ -61,7 +65,7 @@ work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/n
 	fi;
 
 vpath #reset VPATH
-work/%.webannotations.jsonl: work/%.store.stam.json | env 
+work/%.webannotations.jsonl: work/%.store.stam.json data/apparatus | env 
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
 		--add-context "https://ns.huc.knaw.nl/text.jsonld" \
@@ -72,7 +76,7 @@ work/%.webannotations.jsonl: work/%.store.stam.json | env
 		--annotation-prefix "$(ANNOREPO_URL)/$(PROJECT)/" \
 		--resource-prefix "$(TEXTSURF_URL)/$(PROJECT)" \
 		--format w3anno \
-		$< | consolidate-web-annotations  > $@;
+		$< | consolidate-web-annotations --apparatus-dir data/apparatus > $@;
 	@rm .annorepo-uploaded 2> /dev/null || true
 
 validate: tei-info
