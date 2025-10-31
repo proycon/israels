@@ -191,6 +191,12 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     value = "{{ @resp }}"
     skip_if_missing = true
 
+    [[baseelements.common.annotationdata]]
+    set = "http://www.tei-c.org/ns/1.0#"
+    key = "ref"
+    value = "{{ @ref }}"
+    skip_if_missing = true
+
 #Define some base elements
 [baseelements.withtext]
 text = true
@@ -214,7 +220,7 @@ annotation = "TextSelector"
     [[elements.annotationdata]]
     set = "{{ namespaces.rdf }}"
     key = "type"
-    value = "{{ default_set }}/Document"
+    value = "{% if ?.$../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form %}{{ default_set }}/Letter{% else %}{{ default_set }}/Document{% endif %}"
 
     [[elements.annotationdata]]
     key = "id"
@@ -222,7 +228,7 @@ annotation = "TextSelector"
 
     [[elements.annotationdata]]
     key = "identifier"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"""
+    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
