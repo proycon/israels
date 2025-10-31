@@ -26,7 +26,7 @@ endif
 #--------------------------------------------------------------------------------
 tei_dir := datasource/tei
 intro_files := $(tei_dir)/about/Inleiding_introduction.xml $(tei_dir)/about/Verantwoording_Notes_for_the_reader.xml $(tei_dir)/about/colofon.xml $(tei_dir)/about/woord-van-dank.xml
-tei_files := $(wildcard $(tei_dir)/letters/*.xml)) $(tei_dir)/intro/intro.xml
+tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(tei_dir)/intro/intro.xml
 #tei_flattened contains the 'virtual' files where one layer of nesting is removed
 tei_flattened := $(subst letters/,,$(tei_files))
 tei_flattened := $(subst intro/,,$(tei_flattened))
