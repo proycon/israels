@@ -88,12 +88,18 @@ tei-info: etc/tei.yml
 scans: data/scans
 data/scans:
 	@echo "--- Downloading scans from surfdrive ---">&2
-	@echo "   Note: The scans must have been shared explicitly with you for this to work,">&2
-	@echo "         and you must have rclone with remote $(RCLONE_SURFDRIVE) set up to connect to surfdrive">&2
-	rclone \
-		-v sync --no-update-modtime --delete-excluded --exclude '.DS_Store' \
-		$(RCLONE_SURFDRIVE):israels-Scans-Curated/scans \
-		$@
+	@echo "   Note: The scans are on a private server for now">&2
+	mkdir -p $@
+ifneq (,$(TT_USERNAME))
+	scp $(TT_USERNAME)@n-195-169-89-124.diginfra.net:/data/backups/from-dirkr-at-surfdrive/Israels-Scans-Curated.zip $@/Israels-Scans-Curated.zip
+else
+	@echo "   Note: Set \$TT_USERNAME to your username on the private server if the next step fails">&2
+	scp n-195-169-89-124.diginfra.net:/data/backups/from-dirkr-at-surfdrive/Israels-Scans-Curated.zip $@/Israels-Scans-Curated.zip
+endif
+	UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip $@/Israels-Scans-Curated.zip -d data/scans
+	mv data/scans/Israels-Scans-Curated/* data/scans/
+	rm -rf data/scans/Israels-Scans-Curated*
+
 
 manifests: data/manifests
 data/manifests: tei-info data/scans etc/iiif.yml
