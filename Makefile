@@ -1,4 +1,3 @@
-all: help
 .PHONY: clean untangle webannotations annorepo start stop html
 .SECONDARY:
 .DELETE_ON_ERROR:
@@ -35,10 +34,13 @@ stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
 webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)
 html_files := $(tei_flattened:$(tei_dir)/%.xml=data/html/%.html)
 
+
+all: index
 untangle: $(stam_files)
 stam: $(stam_files)
 webannotations: $(webannotation_files)
 html: $(html_files)
+
 
 work:
 	mkdir -p $@
@@ -76,7 +78,7 @@ work/%.webannotations.jsonl: work/%.store.stam.json data/apparatus | env
 		--annotation-prefix "$(ANNOREPO_URL)/$(PROJECT)/" \
 		--resource-prefix "$(TEXTSURF_URL)/$(PROJECT)" \
 		--format w3anno \
-		$< | consolidate-web-annotations --apparatus-dir data/apparatus > $@;
+		$< | consolidate-web-annotations --apparatus-dir data/apparatus --body-id-prefix "urn:mace:huc.knaw.nl:israels:$*#body" > $@;
 	@rm .annorepo-uploaded 2> /dev/null || true
 
 validate: tei-info
@@ -200,6 +202,12 @@ clean-manifests:
 clean-scans:
 	-rm -rf data/scans
 
+clean-dependencies:
+	@echo "--- Cleaning dependencies ---">&2
+	-rm -Rf env
+
+clean-all: clean clean-dependencies
+
 logs:
 	docker compose --env-file common.env logs --follow
 
@@ -267,7 +275,7 @@ help:
 	@echo
 	@echo "(cleaning targets):"
 	@echo "  clean                      - clean all generated targets (including services, but keeps dependencies intact)"
-	@echo "  clean-services             - cleans all data pertaining to the services. subtargets:"
+	@echo "   clean-services             - cleans all data pertaining to the services. subtargets:"
 	@echo "  	clean-apparatus"
 	@echo "  	clean-scans"
 	@echo "  	clean-manifests"
@@ -275,3 +283,4 @@ help:
 	@echo "  	clean-textsurf"
 	@echo "  	clean-index"
 	@echo "  clean-dependencies         - clean local dependencies (python env)"
+	@echo "  clean-all                  - clean targets and dependencies"
