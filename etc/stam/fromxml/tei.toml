@@ -40,11 +40,13 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
         key = "elementName"
         value = "{{ localname }}"
 
-    [[baseelements.common.annotationdata]]
-    set = "{{ namespaces.rdf }}"
-    key = "type"
+    #We don't use 'rdf:type' to encode the original type because
+    #we add our own type later and our other systems are not designed for multiple types
+    #[[baseelements.common.annotationdata]]
+    #$set = "{{ namespaces.rdf }}"
+    #key = "type"
     #value is a full URI for w3anno/RDF export
-    value = "tei:{{ localname | capitalize }}"
+    #value = "tei:{{ localname | capitalize }}"
 
     [[baseelements.common.annotationdata]]
     #extra ID attribute in XML namespace
