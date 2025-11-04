@@ -43,7 +43,8 @@ services:
       retries: 20
       start_period: 1s
       timeout: 1s
-    image: ghcr.io/knaw-huc/annorepo-server:${ANNOREPO_VERSION}
+    #image: ghcr.io/knaw-huc/annorepo-server:${ANNOREPO_VERSION}
+    image: registry.diginfra.net/tt/annorepo:0.8.1-beta-2
     networks:
       - bridge_network
     extra_hosts:
