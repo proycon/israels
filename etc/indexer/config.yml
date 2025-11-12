@@ -8,7 +8,7 @@ docs:
   - type: "letter"
     constraints:
       - path: "body.type"
-        values: ["Letter"]
+        values: "Letter"
 
 modules:
   - artworks
