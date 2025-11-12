@@ -492,7 +492,7 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
     value = "{{ default_set }}/Note"
 
     [[elements.annotationdata]]
-    set = "{{ namespaces.rdf }}"
+    set = "{{ default_set }}"
     key = "notetype"
     value = "{{ $../tei:listAnnotation/@type }}"
     skip_if_missing = true
