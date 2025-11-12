@@ -67,6 +67,7 @@ illustrations/
 .obsidian*
 
 # Local patterns                                                                                                                                                                                                                                                                 
+datasource
 work
 .started                                                                                                                                                                                                                                                                         
 .annorepo-uploaded                                                                                                                                                                                                                                                               
