@@ -54,12 +54,12 @@ views:
   - name: letterNotes
     constraints:
       - path: "body.type"
-        values: [List]
-      - path: "body.tei:type"
+        values: [Note]
+      - path: "body.notetype"
         values: [notes, typednotes, langnotes]
   - name: introNotes
     constraints:
       - path: "body.type"
-        values: [List]
-      - path: "body.tei:type"
+        values: [Note]
+      - path: "body.notetype"
         values: ["intro-notes"]
