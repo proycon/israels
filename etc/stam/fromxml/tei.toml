@@ -491,6 +491,12 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
     key = "type"
     value = "{{ default_set }}/Note"
 
+    [[elements.annotationdata]]
+    set = "{{ namespaces.rdf }}"
+    key = "notetype"
+    value = "{{ $../tei:listAnnotation/@type }}"
+    skip_if_missing = true
+
 [[elements]]
 base = [ "common" ]
 path = "//tei:pb"
