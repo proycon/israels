@@ -146,7 +146,7 @@ textsurf: data/textsurf/.populated
 data/textsurf/.populated: .started $(stam-files)
 	mkdir -p data/textsurf/$(PROJECT)
 	chmod a+w data/textsurf/$(PROJECT) #TODO: temporary patch, this is obviously not smart in production settings
-	cp -f *.txt data/textsurf/$(PROJECT)
+	cp -f work/*.txt data/textsurf/$(PROJECT)
 	@touch $@
 
 index: .index
@@ -156,7 +156,9 @@ index: .index
 		--annorepo-container=$(PROJECT) \
 		--config etc/indexer/config.yml \
 		--elastic-host=$(ELASTIC_URL) \
-		--elastic-index=$(PROJECT)
+		--elastic-index=$(PROJECT) \
+		--trace \
+		--progress
 	@touch $@
 
 install-dependencies: 
