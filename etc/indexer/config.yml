@@ -1,4 +1,4 @@
-mapping: etc/indexer/translatin.json
+mapping: etc/indexer/mapping.json
 
 docs:
   - type: "intro"
