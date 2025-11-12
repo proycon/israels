@@ -4,9 +4,7 @@ docs:
   - type: "intro"
     constraints:
       - path: "body.type"
-        values: "File"
-      - path: "body.metadata.file"
-        values: "introduction"
+        values: "Document"
   - type: "letter"
     constraints:
       - path: "body.type"
