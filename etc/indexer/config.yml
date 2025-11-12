@@ -4,13 +4,13 @@ docs:
   - type: "intro"
     constraints:
       - path: "body.type"
-        values: "tf:File"
+        values: "File"
       - path: "body.metadata.file"
         values: "introduction"
   - type: "letter"
     constraints:
       - path: "body.type"
-        values: ["tf:Letter"]
+        values: ["Letter"]
 
 modules:
   - artworks
