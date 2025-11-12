@@ -3,6 +3,7 @@
 This is the data processing and service pipeline for the Israels corpus.
 The actual source documents for this project are kept in the [israels-letters](https://gitlab.huc.knaw.nl/eDITem/israels-letters) repository,
 which is included as a git submodule in this repo at `datasource/`.
+Hint: `git submodule update --init --recursive`
 
 ## Architecture
 
@@ -12,21 +13,21 @@ The following schema schematically shows the technical architecture of the entir
 
 ### Legend
 
-* bold edges/arrows indicate data flow
-* thin edges/arrows indicate caller direction
-* square green boxes represent processes 
-* squirely yellow boxes represent data 
-* blue parallelograms represent services
+- bold edges/arrows indicate data flow
+- thin edges/arrows indicate caller direction
+- square green boxes represent processes
+- squirely yellow boxes represent data
+- blue parallelograms represent services
 
 ## Usage
 
-We assume you already have `cargo`, `rustc`,  `python3` and `docker-compose` (or `podman-compose`), `pandoc` and GNU `make` installed globally. If not, please install those first:
+We assume you already have `cargo`, `rustc`, `python3` and `docker-compose` (or `podman-compose`), `pandoc` and GNU `make` installed globally. If not, please install those first:
 
-* **Debian/Ubuntu Linux**: `apt install cargo python3 docker-compose pandoc make`
-* **Alpine Linux**: `apk add cargo python3 docker-cli-compose pandoc-cli make`
-* **macOS/Homebrew**: `homebrew install rust python docker-compose pandoc make`
+- **Debian/Ubuntu Linux**: `apt install cargo python3 docker-compose pandoc make`
+- **Alpine Linux**: `apk add cargo python3 docker-cli-compose pandoc-cli make`
+- **macOS/Homebrew**: `homebrew install rust python docker-compose pandoc make`
 
-For full usage instructions, please do: 
+For full usage instructions, please do:
 
 ```
 $ make help
