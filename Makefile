@@ -47,7 +47,7 @@ work:
 
 $(tei_dir)/intro/intro.xml: $(intro_files)
 	mkdir -p $(tei_dir)/intro
-	merge-intro-texts $(intro_files) > $@
+	. env/bin/activate && merge-intro-texts $(intro_files) > $@
 
 # untangle from XML source
 #  also produces plain text files in *.txt and work/*.normal.txt (normalised)
