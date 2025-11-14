@@ -500,7 +500,7 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
 
     [[elements.annotationdata]]
     set = "{{ default_set }}"
-    key = "notetype"
+    key = "subtype"
     value = "{{ $../@type }}"
     skip_if_missing = true
 
