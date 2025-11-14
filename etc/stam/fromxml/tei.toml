@@ -229,8 +229,15 @@ annotation = "TextSelector"
     value = "urn:mace:huc.knaw.nl:israels:{{ resource }}"
 
     [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "identifier"
     value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno }}"""
+    skip_if_missing = true
+
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    key = "n"
+    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:altIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
