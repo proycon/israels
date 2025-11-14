@@ -55,11 +55,11 @@ views:
     constraints:
       - path: "body.type"
         values: [Note]
-      - path: "body.notetype"
+      - path: "body.subtype"
         values: [notes, typednotes, langnotes]
   - name: introNotes
     constraints:
       - path: "body.type"
         values: [Note]
-      - path: "body.notetype"
+      - path: "body.subtype"
         values: ["intro-notes"]
