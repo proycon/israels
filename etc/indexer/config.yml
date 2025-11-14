@@ -21,9 +21,9 @@ modules:
 
 fields:
   correspondent: "body.correspondent"
-  file: "body.file"
+  file: "body.n"
   location: "body.location"
-  msId: "body.msId"
+  msId: "body.identifier"
   sender: "body.sender"
 
 views:
