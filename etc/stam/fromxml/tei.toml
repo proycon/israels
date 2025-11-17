@@ -62,9 +62,9 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     value = "{% if ?.@xml:id %}{{ @xml:id }}{% endif %}"
     skip_if_missing = true
 
-    [[baseelements.common.annotationdata]]
-    set = "{{ namespaces.xml }}"
-    key = "lang"
+    [[elements.annotationdata]]
+    set = "{{ default_set }}"
+    key = "language"
     value = "{{ @xml:lang }}"
     skip_if_missing = true
 
@@ -523,8 +523,8 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "{{ namespaces.xml }}"
-    key = "lang"
+    set = "{{ default_set }}"
+    key = "language"
     value = "{{ $../@xml:lang }}"
     skip_if_missing = true
 
