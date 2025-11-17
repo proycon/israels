@@ -4,7 +4,7 @@ whitespace = "Collapse"
 # we use the JSON-LD context as STAM set here so
 # we can export to web annotations and automatically
 # use everything available in that contex.
-default_set = "https://ns.huc.knaw.nl/text.jsonld" 
+default_set = "https://ns.huc.knaw.nl/text.jsonld"
 
 id_strip_suffix = [ ".txt" ]
 
@@ -34,7 +34,7 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     #    value = "{{ namespaces.tei }}#{{ localname }}"
 
     # instead, we use our own elementName property to retain this
-    # information. It should be used sparingly though (use rdf:type instead). 
+    # information. It should be used sparingly though (use rdf:type instead).
     [[baseelements.common.annotationdata]]
         set = "{{ default_set }}"
         key = "elementName"
@@ -77,7 +77,7 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     # a few common TEI attributes we can map directly to our text vocabulary vocabulary:
 
     [[baseelements.common.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "n"
     value = "{{ @n }}"
     skip_if_missing = true
@@ -98,7 +98,7 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     skip_if_missing = true
 
     [[baseelements.common.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "style"
     value = "{{ @rend }}"
     skip_if_missing = true
@@ -229,19 +229,19 @@ annotation = "TextSelector"
     value = "urn:mace:huc.knaw.nl:israels:{{ resource }}"
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "identifier"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "n"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "titles"
 
         [elements.annotationdata.value]
@@ -249,37 +249,55 @@ annotation = "TextSelector"
         nl = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="nl"] }}"""
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "author"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "editor"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "datePublished"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "dateSent"
+    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type="sent"]/tei:date/@when }}"""
+    skip_if_missing = true
+
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "dateSentNotBefore"
+    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type="sent"]/tei:date/@notBefore }}"""
+    skip_if_missing = true
+
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "dateSentNotAfter"
+    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type="sent"]/tei:date/@notAfter }}"""
+    skip_if_missing = true
+
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "publisher"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "location"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "license"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence }}"""
     skip_if_missing = true
@@ -349,7 +367,7 @@ annotation = "ResourceSelector"
 path = "//tei:fileDesc/tei:publicationStmt/*"
 stop = true
 
-# Determine how various structural elements are converted to text 
+# Determine how various structural elements are converted to text
 [[elements]]
 base = [ "common" ]
 path = "//tei:br"
@@ -534,13 +552,13 @@ text = true
     value = "{{ default_set }}/Page"
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "n"
     value = "{{ @facs }}"
     skip_if_missing = true
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "sourceUrl"
     value = "{{ @source }}"
     skip_if_missing = true
@@ -567,7 +585,7 @@ path = "//tei:ptr"
     value = "{{ default_set }}/Reference"
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "url"
     value = "{{ @target }}"
     skip_if_missing = true
@@ -582,7 +600,7 @@ path = "//tei:ref"
     value = "{{ default_set }}/Reference"
 
     [[elements.annotationdata]]
-    set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "url"
     value = "{{ @target }}"
     skip_if_missing = true
@@ -605,7 +623,7 @@ path = "//tei:hi"
     set = "{{ namespaces.rdf }}"
     key = "type"
     value = "{{ default_set }}/Highlight"
-    
+  
     #rend -> style is handled in 'common' base element already
 
 
