@@ -216,13 +216,13 @@ path = "//tei:TEI"
 
 # This is the tier0 for this corpus, it covers the whole text and we assign metadata here
 [[elements]]
-path = "/tei:TEI/tei:text"
+path = "/tei:TEI"
 annotation = "TextSelector"
 
     [[elements.annotationdata]]
     set = "{{ namespaces.rdf }}"
     key = "type"
-    value = "{% if ?.$../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form %}{{ default_set }}/Letter{% else %}{{ default_set }}/Document{% endif %}"
+    value = "{% if ?.$./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form %}{{ default_set }}/Letter{% else %}{{ default_set }}/Document{% endif %}"
 
     [[elements.annotationdata]]
     key = "id"
@@ -231,13 +231,13 @@ annotation = "TextSelector"
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "identifier"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "n"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
@@ -245,43 +245,43 @@ annotation = "TextSelector"
     key = "titles"
 
         [elements.annotationdata.value]
-        en = """{{ $../tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"] }}"""
-        nl = """{{ $../tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="nl"] }}"""
+        en = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"] }}"""
+        nl = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="nl"] }}"""
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "author"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "editor"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "datePublished"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "publisher"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "location"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld" 
     key = "license"
-    value = """{{ $../tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence }}"""
+    value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence }}"""
     skip_if_missing = true
 
 [[elements]]
