@@ -269,19 +269,19 @@ annotation = "TextSelector"
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "dateSent"
-    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when }}"""
+    value = """{{ $./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@when }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "dateSentNotBefore"
-    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore }}"""
+    value = """{{ $./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notBefore }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "dateSentNotAfter"
-    value = """{{ $../tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notAfter }}"""
+    value = """{{ $./tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction/tei:date/@notAfter }}"""
     skip_if_missing = true
 
     [[elements.annotationdata]]
