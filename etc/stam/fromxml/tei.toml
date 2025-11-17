@@ -522,6 +522,12 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
     value = "{{ $../@type }}"
     skip_if_missing = true
 
+    [[elements.annotationdata]]
+    set = "{{ namespaces.xml }}"
+    key = "lang"
+    value = "{{ $../@xml:lang }}"
+    skip_if_missing = true
+
 [[elements]]
 base = [ "common" ]
 path = "//tei:pb"
