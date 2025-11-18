@@ -62,7 +62,7 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     value = "{% if ?.@xml:id %}{{ @xml:id }}{% endif %}"
     skip_if_missing = true
 
-    [[elements.annotationdata]]
+    [[baseelements.common.annotationdata]]
     set = "{{ default_set }}"
     key = "language"
     value = "{{ @xml:lang }}"
