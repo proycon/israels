@@ -701,3 +701,12 @@ path = "//tei:rs"
     set = "{{ namespaces.rdf }}"
     key = "type"
     value = "{{ default_set }}/Entity"
+
+[[elements]]
+base = [ "common", "withtext" ]
+path = "//tei:label"
+
+    [[elements.annotationdata]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/Label"
