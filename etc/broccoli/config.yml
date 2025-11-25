@@ -58,12 +58,25 @@ projects:
       - name: text
         anno:
           - path: "body.type"
-            values: ["Letter"]
+            values: ["Division"]
+          - path: "body.tei:type"
+            values: [original, translation, "intro-nl", "intro-en"]
+        groupBy: "body.language"
       - name: textNotes
         anno:
           - path: "body.type"
-            values: ["Note"]
+            values: ["Dataset"]
+          - path: "body.tei:type"
+            values: [notes, langnotes, "intro-notes"]
+        groupBy: "body.language"
         findWithin:
           path: "body.type"
           value: "Note"
           groupBy: "body.n"
+      - name: typedNotes
+        anno:
+          - path: "body.type"
+            values: ["Dataset"]
+          - path: "body.tei:type"
+            values: [typednotes]
+        groupBy: "body.language"
