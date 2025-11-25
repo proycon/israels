@@ -42,6 +42,12 @@ projects:
           fields:
             - name: type
               type: keyword
+            - name: date
+              type: date
+            - name: dateSortable
+              type: date
+            - name: persons
+              type: keyword
             - name: identifier
               type: keyword
             - name: title
@@ -54,8 +60,24 @@ projects:
               type: keyword
             - name: file
               type: keyword
-            - name: datePublished
-              type: date
+            - name: msId
+              type: keyword
+            - name: titleNL
+              type: keyword
+            - name: titleEN
+              type: keyword
+            - name: letterOriginalText
+              type: text
+            - name: letterTranslatedText
+              type: text
+            - name: letterNotesText
+              type: text
+            - name: introOriginalText
+              type: text
+            - name: introTranslatedText
+              type: text
+            - name: introNotesText
+              type: text
     views:
       - name: text
         anno:
