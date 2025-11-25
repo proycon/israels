@@ -47,9 +47,9 @@ projects:
             - name: dateSortable
               type: date
             - name: persons
-              type: keyword
-            - name: identifier
-              type: keyword
+            - name: location
+            - name: artworksNL
+            - name: artworksEN
             - name: title
               type: keyword
             - name: subtitle
@@ -61,6 +61,8 @@ projects:
             - name: file
               type: keyword
             - name: msId
+              type: keyword
+            - name: correspondent
               type: keyword
             - name: titleNL
               type: keyword
