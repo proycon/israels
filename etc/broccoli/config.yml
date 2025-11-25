@@ -52,6 +52,8 @@ projects:
               type: keyword
             - name: editor
               type: keyword
+            - name: file
+              type: keyword
             - name: datePublished
               type: date
     views:
