@@ -218,6 +218,7 @@ path = "//tei:TEI"
 [[elements]]
 path = "/tei:TEI"
 annotation = "TextSelector"
+id = "urn:mace:huc.knaw.nl:israels:{{ resource }}:annotation"
 
     [[elements.annotationdata]]
     set = "{{ namespaces.rdf }}"
