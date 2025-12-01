@@ -19,6 +19,8 @@ rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 
 [context]
 #this defines context variables that will be available to the templating engine globally
+iiifbaseurl = "https://iiif-text.huc.knaw.nl/iiif/3/israels|illustrations|"
+iiifextension = ".jpg"
 
 
 #Define some base elements that we reuse later for actual elements (prevents unnecessary repetition)
@@ -410,7 +412,6 @@ textsuffix = "\n\n"
     key = "type"
     value = "{{ default_set }}/Paragraph"
 
-
 [[elements]]
 base = [ "common", "withtext" ]
 path = "//tei:head"
@@ -420,6 +421,16 @@ textsuffix = "\n\n"
     set = "{{ namespaces.rdf }}"
     key = "type"
     value = "{{ default_set }}/Head"
+
+[[elements]]
+base = [ "common", "withtext" ]
+path = "//tei:figure/tei:head"
+textsuffix = "\n\n"
+
+    [[elements.annotationdata]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/Caption"
 
 [[elements]]
 base = [ "common", "withtext" ]
@@ -675,8 +686,9 @@ path = "//tei:figure"
 
     [[elements.annotationdata]]
     #associate the url directly with the figure, this does assume only one graphic per figure which is a simplification
+    #TODO: this not not the actual URL to a picture (as it should be), but a base url for IIIF, vocabulary needs to be adapted!
     key = "url"
-    value = "{{ $tei:graphic/@url }}"
+    value = "{{ context.iiifbaseurl }}{{ $tei:graphic/@url }}{{ context.iiifextension }}"
     skip_if_missing = true
 
 [[elements]]
