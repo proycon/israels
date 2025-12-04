@@ -201,6 +201,16 @@ id = "{% if ?.@xml:id %}{{resource}}/{{ @xml:id }}{% endif %}"
     value = "{{ @ref }}"
     skip_if_missing = true
 
+    [[baseelements.common.annotatetextsuffix]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/Whitespace"
+
+    [[baseelements.common.annotatetextsuffix]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "isTextSuffix"
+    value = true
+
 #Define some base elements
 [baseelements.withtext]
 text = true
@@ -457,6 +467,8 @@ textsuffix = "\n"
 [[elements]]
 base = [ "common" ]
 path = """//tei:space[@dim="vertical"]"""
+include_textsuffix = true
+annotate_textsuffix = []
 textsuffix = "\n\n"
 
     [[elements.annotationdata]]
@@ -496,6 +508,16 @@ textsuffix = "\n"
     key = "type"
     value = "{{ default_set }}/ListItem"
 
+    [[elements.annotatetextprefix]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/ListMarker"
+
+    [[elements.annotatetextprefix]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "isTextPrefix"
+    value = true
+
 [[elements]]
 base = [ "common", "withtext" ]
 path = "//tei:item/tei:item"
@@ -507,6 +529,16 @@ textsuffix = "\n"
     key = "type"
     value = "{{ default_set }}/ListItem"
 
+    [[elements.annotatetextprefix]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/ListMarker"
+
+    [[elements.annotatetextprefix]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "isTextPrefix"
+    value = true
+
 [[elements]]
 base = [ "common", "withtext" ]
 path = "//tei:item/tei:item/tei:item"
@@ -517,6 +549,16 @@ textsuffix = "\n"
     set = "{{ namespaces.rdf }}"
     key = "type"
     value = "{{ default_set }}/ListItem"
+
+    [[elements.annotatetextprefix]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/ListMarker"
+
+    [[elements.annotatetextprefix]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "isTextPrefix"
+    value = true
 
 [[elements]]
 base = [ "common", "withtext" ]
@@ -539,6 +581,16 @@ textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
     key = "language"
     value = "{{ $../@xml:lang }}"
     skip_if_missing = true
+
+    [[elements.annotatetextprefix]]
+    set = "{{ namespaces.rdf }}"
+    key = "type"
+    value = "{{ default_set }}/NoteMarker"
+
+    [[elements.annotatetextprefix]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "isTextPrefix"
+    value = true
 
 [[elements]]
 base = [ "common" ]
@@ -627,11 +679,14 @@ path = "//tei:ref"
 base = [ "common", "withtext" ]
 path = """//tei:space[@dim="vertical" and @unit="lines"]"""
 textsuffix = """\n{% for x in @quantity | int | as_range %}\n{% endfor %}"""
+include_textsuffix = true
+annotate_textsuffix = []
 
     [[elements.annotationdata]]
     set = "{{ namespaces.rdf }}"
     key = "type"
     value = "{{ default_set }}/Whitespace"
+
 
 [[elements]]
 base = [ "common", "withtext" ]
