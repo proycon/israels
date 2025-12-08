@@ -68,8 +68,6 @@ services:
       ANNOREPO_PORT: ${ANNOREPO_PORT}
       BR_EXTERNAL_URL: ${BASE_URL}:${BROCCOLI_PORT}
       BR_EXTERNAL_BASE_URL: ${BASE_URL}:${BROCCOLI_PORT}
-      TIER0: ${TIER0}
-      TIER1: ${TIER1}
     expose:
       - ${BROCCOLI_PORT}
     ports:
