@@ -286,6 +286,7 @@ help:
 	@echo "      annorepo               - to upload the webannotations to Annorepo"
 	@echo "      textsurf               - to add the texts to TextSurf"
 	@echo "      index                  - to build the search index"
+	@echo "      nginx                  - to copy apparatus files to nginx"
 	@echo
 	@echo "(cleaning targets):"
 	@echo "  clean                      - clean all generated targets (including services, but keeps dependencies intact)"
@@ -296,5 +297,6 @@ help:
 	@echo "  	clean-annorepo"
 	@echo "  	clean-textsurf"
 	@echo "  	clean-index"
+	@echo "  	clean-nginx"
 	@echo "  clean-dependencies         - clean local dependencies (python env)"
 	@echo "  clean-all                  - clean targets and dependencies"
