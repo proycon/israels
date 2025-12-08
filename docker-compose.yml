@@ -166,4 +166,4 @@ services:
     restart: unless-stopped
     volumes:
       - ./etc/nginx/conf.d:/etc/nginx/conf.d:ro
-      - ./data/nginx:/etc/nginx/files:ro
+      - ./data/nginx:/etc/nginx/html:ro
