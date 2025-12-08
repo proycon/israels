@@ -126,7 +126,7 @@ data/html/%.html: work/%.store.stam.json work/%.html.batch | env
 	mkdir -p data/html
 	stam batch $< < work/$*.html.batch
 
-ingest: annorepo textsurf
+ingest: annorepo textsurf nginx
 
 annorepo: .annorepo-uploaded
 .annorepo-uploaded: .started env $(webannotation_files)
@@ -147,6 +147,12 @@ data/textsurf/.populated: .started $(stam-files)
 	mkdir -p data/textsurf/$(PROJECT)
 	chmod a+w data/textsurf/$(PROJECT) #TODO: temporary patch, this is obviously not smart in production settings
 	cp -f work/*.txt data/textsurf/$(PROJECT)
+	@touch $@
+
+nginx: data/nginx/.populated
+data/nginx/.populated: .started data/apparatus
+	mkdir -p data/nginx/files/$(PROJECT)/apparatus
+	cp -f data/apparatus/bio-entities.json data/nginx/files/$(PROJECT)/apparatus
 	@touch $@
 
 index: .index
@@ -190,6 +196,9 @@ clean-annorepo:
 
 clean-textsurf:
 	-rm -rf data/textsurf
+
+clean-nginx:
+	-rm -rf data/nginx
 
 clean-index:
 	-rm -rf data/elastic
