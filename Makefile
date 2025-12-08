@@ -152,11 +152,14 @@ data/textsurf/.populated: .started $(stam-files)
 nginx: data/nginx/.populated
 data/nginx/.populated: .started data/apparatus
 	mkdir -p data/nginx/files/$(PROJECT)/apparatus
+	cp -f data/apparatus/artwork-entities.json data/nginx/files/$(PROJECT)/apparatus
 	cp -f data/apparatus/bio-entities.json data/nginx/files/$(PROJECT)/apparatus
+	cp -f data/apparatus/bibliolist-en.html data/nginx/files/$(PROJECT)/apparatus
+	cp -f data/apparatus/bibliolist-nl.html data/nginx/files/$(PROJECT)/apparatus
 	@touch $@
 
 index: .index
-.index: annorepo textsurf etc/indexer/config.yml | env
+.index: ingest etc/indexer/config.yml | env
 	. env/bin/activate && peen-indexer \
 		--annorepo-host=$(ANNOREPO_URL) \
 		--annorepo-container=$(PROJECT) \
