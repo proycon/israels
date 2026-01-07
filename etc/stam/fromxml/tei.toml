@@ -18,9 +18,7 @@ rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 
 
 [context]
-#this defines context variables that will be available to the templating engine globally
-iiifbaseurl = "https://iiif-text.huc.knaw.nl/iiif/3/israels|illustrations|"
-iiifextension = ".jpg"
+#this defines context variables that will be available to the templating engine globally (can also be injected at run-time via --context-file)
 
 
 #Define some base elements that we reuse later for actual elements (prevents unnecessary repetition)
@@ -314,6 +312,13 @@ id = "urn:mace:huc.knaw.nl:israels:{{ resource }}:annotation"
     key = "license"
     value = """{{ $./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence }}"""
     skip_if_missing = true
+
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "manifest"
+    value = "{{ context.nginx_url }}/files/israels/manifests/ii{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}.json"
+    skip_if_missing = true
+    allow_empty_value = false
 
 [[elements]]
 path = "//tei:teiHeader"

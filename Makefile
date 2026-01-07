@@ -54,8 +54,13 @@ $(tei_dir)/intro/intro.xml: $(intro_files)
 #  look in multiple subdirectories for the sources (VPATH)
 VPATH = $(tei_dir)/letters:$(tei_dir)/intro
 work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/norm.toml $(tei_dir)/intro/intro.xml | work
+	@echo "--- Preparing $< ---">&2
+	echo "nginx_url = \"$(NGINX_URL)\"" > work/$*.context.toml
+	echo "iiifbaseurl = \"https://iiif-text.huc.knaw.nl/iiif/3/israels|illustrations|\"" >> work/$*.context.toml
+	echo "iiifextension = \".jpg\"" >> work/$*.context.toml
 	@echo "--- Untangling $< ---">&2
 	stam fromxml --config etc/stam/fromxml/tei.toml \
+		--context-file work/$*.context.toml \
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
 	stam translatetext --rules etc/stam/translatetext/norm.toml $@ 
@@ -67,6 +72,13 @@ work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/n
 	fi;
 
 vpath #reset VPATH
+
+#this defines context variables that will be available to the templating engine globally, for a given resource
+work/%.context.toml:
+	echo "nginx_url: \"$(NGINX_URL)\"" > $@
+	echo "iiifbaseurl: \"https://iiif-text.huc.knaw.nl/iiif/3/israels|illustrations|\"" >> $@
+	echo "iiifextension: \".jpg\"" >> $@
+
 work/%.webannotations.jsonl: work/%.store.stam.json data/apparatus | env 
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
@@ -150,12 +162,13 @@ data/textsurf/.populated: .started $(stam-files)
 	@touch $@
 
 nginx: data/nginx/.populated
-data/nginx/.populated: .started data/apparatus
+data/nginx/.populated: .started data/apparatus data/manifests
 	mkdir -p data/nginx/files/$(PROJECT)/apparatus
 	cp -f data/apparatus/artwork-entities.json data/nginx/files/$(PROJECT)/apparatus
 	cp -f data/apparatus/bio-entities.json data/nginx/files/$(PROJECT)/apparatus
 	cp -f data/apparatus/bibliolist-en.html data/nginx/files/$(PROJECT)/apparatus
 	cp -f data/apparatus/bibliolist-nl.html data/nginx/files/$(PROJECT)/apparatus
+	cp -rf data/manifests data/nginx/files/$(PROJECT)
 	@touch $@
 
 index: .index
