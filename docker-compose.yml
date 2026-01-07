@@ -1,15 +1,15 @@
 networks:
-  bridge_network:
+  israels_network:
     driver: bridge
 
 services:
-  textsurf:
-    container_name: textsurf
+  textsurf_israels:
+    container_name: textsurf_israels
     image: registry.diginfra.net/tt/textsurf:${TEXTSURF_VERSION}
     environment:
       UNLOADTIME: ${TEXTSURF_UNLOADTIME}
     networks:
-      - bridge_network
+      - israels_network
     extra_hosts:
       - ${HOSTNAME}:host-gateway
     expose:
@@ -20,10 +20,10 @@ services:
     volumes:
       - ./data/textsurf:/data
 
-  annorepo:
-    container_name: annorepo
+  annorepo_israels:
+    container_name: annorepo_israels
     depends_on:
-      - mongodb
+      - mongodb_israels
     environment:
       AR_EXTERNAL_BASE_URL: ${ANNOREPO_URL}
       AR_MONGODB_URL: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@${MONGODB_HOST}:${MONGODB_PORT}/
@@ -46,18 +46,18 @@ services:
     #image: ghcr.io/knaw-huc/annorepo-server:${ANNOREPO_VERSION}
     image: registry.diginfra.net/tt/annorepo:0.8.1-beta-2
     networks:
-      - bridge_network
+      - israels_network
     extra_hosts:
       - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     tty: true
 
-  broccoli:
-    container_name: broccoli
+  broccoli_israels:
+    container_name: broccoli_israels
     depends_on:
-      annorepo:
+      annorepo_israels:
         condition: service_healthy
-      elastic:
+      elastic_israels:
         condition: service_started
     environment:
       BASEURL: ${BASE_URL}
@@ -74,17 +74,17 @@ services:
       - "${BROCCOLI_PORT}:8080"
     image: ghcr.io/knaw-huc/broccoli:${BROCCOLI_VERSION}
     networks:
-      - bridge_network
+      - israels_network
     extra_hosts:
       - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     volumes:
       - ./etc/broccoli/config.yml:/app/broccoli/config.yml:ro
 
-  elastic:
+  elastic_israels:
     # see https://docs.rancherdesktop.io/how-to-guides/increasing-open-file-limit/
     # needed to run the stack on macos under rancher desktop
-    container_name: elastic
+    container_name: elastic_israels
     environment:
       elasticport: ${ELASTIC_PORT}
       node.name: br01
@@ -99,7 +99,7 @@ services:
       - "${ELASTIC_PORT}:${ELASTIC_PORT}"
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
     networks:
-      - bridge_network
+      - israels_network
     extra_hosts:
       - ${HOSTNAME}:host-gateway
     restart: unless-stopped
@@ -110,9 +110,9 @@ services:
     volumes:
       - ./data/elastic:/usr/share/elasticsearch/data
 
-  mongodb:
+  mongodb_israels:
     command: --quiet  # suppress checkpoint logging (every minute)
-    container_name: mongodb
+    container_name: mongodb_israels
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USER}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
@@ -122,15 +122,15 @@ services:
       - "${MONGODB_PORT}:27017"
     image: docker.io/mongo:${MONGODB_VERSION}
     networks:
-      - bridge_network
+      - israels_network
     extra_hosts:
       - ${HOSTNAME}:host-gateway
     restart: unless-stopped
     volumes:
       - ./data/mongo:/data/db
 
-  cantaloupe:
-    container_name: cantaloupe
+  cantaloupe_israels:
+    container_name: cantaloupe_israels
     image: uclalibrary/cantaloupe:${CANTALOUPE_VERSION}
     environment:
       HEAP_PERCENTAGE: 50
@@ -146,21 +146,21 @@ services:
     ports:
       - "${CANTALOUPE_PORT}:8182"
     networks:
-      - bridge_network
+      - israels_network
     volumes:
       - ./data/scans:/imageroot/${PROJECT}
       #TODO: log and cache is not persistent for now
     restart: unless-stopped
 
-  nginx:
-    container_name: nginx
+  nginx_israels:
+    container_name: nginx_israels
     environment:
       NGINX_LOCATION: ${NGINX_URL}
     expose:
       - ${NGINX_PORT}
     image: nginx:${NGINX_VERSION}
     networks:
-      - bridge_network
+      - israels_network
     ports:
       - "${NGINX_PORT}:80"
     restart: unless-stopped
