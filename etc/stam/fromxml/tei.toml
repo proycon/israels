@@ -563,7 +563,6 @@ textsuffix = "\n"
 [[elements]]
 base = [ "common", "withtext" ]
 path = "//tei:note"
-#textprefix = "[{% if ?.@n %}{{@n}}{% else %}*{% endif %}]:"
 
     [[elements.annotationdata]]
     set = "{{ namespaces.rdf }}"
