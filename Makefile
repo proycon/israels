@@ -1,4 +1,4 @@
-.PHONY: clean untangle webannotations annorepo start stop html
+.PHONY: clean untangle webannotations annorepo start stop up down html
 .SECONDARY:
 .DELETE_ON_ERROR:
 
@@ -225,6 +225,7 @@ clean-all: clean clean-dependencies
 logs:
 	docker compose --env-file common.env logs --follow
 
+up: .started
 start: .started
 .started:
 ifeq ($(MANAGE_SERVICES),1)
@@ -248,6 +249,7 @@ else
 	@touch $@
 endif
 
+down: stop
 stop:
 ifeq ($(MANAGE_SERVICES),1)
 	@echo "--- Stopping services ---">&2 
