@@ -679,6 +679,13 @@ path = "//tei:ref"
     value = "{{ @target }}"
     skip_if_missing = true
 
+    [[elements.annotationdata]]
+    set = "https://ns.huc.knaw.nl/textannodata.jsonld"
+    key = "subtype"
+    value = """{% if @target | starts_with: "ii" %}LetterReference{% else if @target | starts_with: "biblio" %}BibReference{% endif %}"""
+    allow_empty_value = false
+    skip_if_missing = true
+
 [[elements]]
 base = [ "common", "withtext" ]
 path = """//tei:space[@dim="vertical" and @unit="lines"]"""
