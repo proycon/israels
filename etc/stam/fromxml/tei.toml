@@ -316,7 +316,7 @@ id = "urn:mace:huc.knaw.nl:israels:{{ resource }}:annotation"
     [[elements.annotationdata]]
     set = "https://ns.huc.knaw.nl/textannodata.jsonld"
     key = "manifest"
-    value = "{{ context.nginx_url }}/files/israels/manifests/ii{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}.json"
+    value = "{{ context.nginx_url }}/files/israels/manifests/letters/ii{{ $./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno }}.json"
     skip_if_missing = true
     allow_empty_value = false
 
