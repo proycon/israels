@@ -27,7 +27,7 @@ externalBaseUrl: ${BR_EXTERNAL_BASE_URL}
 
 projects:
   - name: ${PROJECT}
-    topTierBodyType: "Document"
+    topTierBodyType: "Letter"
     textType: NormalText
     annoRepo:
       containerName: ${PROJECT}
