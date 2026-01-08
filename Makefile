@@ -119,7 +119,7 @@ manifests: data/manifests
 data/manifests: tei-info data/scans etc/iiif.yml
 	@echo "--- Creating manifests ---">&2
 	mkdir -p $@
-	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)/iiif/ 
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(BASE_URL) --iiif-base-uri $(BASE_URL)
 
 apparatus: data/apparatus
 data/apparatus:
