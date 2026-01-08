@@ -111,7 +111,7 @@ services:
       - ./data/elastic:/usr/share/elasticsearch/data
 
   mongodb_israels:
-    command: --quiet  # suppress checkpoint logging (every minute)
+    command: --quiet # suppress checkpoint logging (every minute)
     container_name: mongodb_israels
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USER}
