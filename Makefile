@@ -105,21 +105,21 @@ data/scans:
 	@echo "   Note: The scans are on a private server for now">&2
 	mkdir -p $@
 ifneq (,$(TT_USERNAME))
-	scp $(TT_USERNAME)@n-195-169-89-124.diginfra.net:/data/backups/from-dirkr-at-surfdrive/Israels-Scans-Curated.zip $@/Israels-Scans-Curated.zip
+	scp $(TT_USERNAME)@n-195-169-89-124.diginfra.net:/data/scans/israels-scans.zip $@/israels-scans.zip
 else
 	@echo "   Note: Set \$TT_USERNAME to your username on the private server if the next step fails">&2
-	scp n-195-169-89-124.diginfra.net:/data/backups/from-dirkr-at-surfdrive/Israels-Scans-Curated.zip $@/Israels-Scans-Curated.zip
+	scp n-195-169-89-124.diginfra.net:/data/scans/israels-scans.zip $@/israels-scans.zip
 endif
-	UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip $@/Israels-Scans-Curated.zip -d data/scans
-	mv data/scans/Israels-Scans-Curated/* data/scans/
-	rm -rf data/scans/Israels-Scans-Curated*
+	UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip $@/israels-scans.zip -d data/israels-scans
+	mv data/israels-scans/* data/scans/
+	rm -rf data/israels-scans*
 
 
 manifests: data/manifests
 data/manifests: tei-info data/scans etc/iiif.yml
 	@echo "--- Creating manifests ---">&2
 	mkdir -p $@
-	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(CANTALOUPE_URL) --iiif-base-uri $(CANTALOUPE_URL)
+	. env/bin/activate && generate-manifests --tei-info-dir $< --tei-dir $(tei_dir) --scaninfo-dir data/scans --output-dir $@ --config etc/iiif.yml --title $(PROJECT) --base-uri $(CANTALOUPE_URL) --iiif-base-uri $(CANTALOUPE_URL)
 
 apparatus: data/apparatus
 data/apparatus:
