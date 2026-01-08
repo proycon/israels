@@ -107,7 +107,7 @@ data/scans:
 ifneq (,$(TT_USERNAME))
 	scp $(TT_USERNAME)@n-195-169-89-124.diginfra.net:/data/scans/israels-scans.zip $@/israels-scans.zip
 else
-	@echo "   Note: Set \$TT_USERNAME to your username on the private server if the next step fails">&2
+	@echo "   Note: Set TT_USERNAME to your username on the private server if the next step fails">&2
 	scp n-195-169-89-124.diginfra.net:/data/scans/israels-scans.zip $@/israels-scans.zip
 endif
 	UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip $@/israels-scans.zip -d data/israels-scans
