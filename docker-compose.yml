@@ -96,7 +96,7 @@ services:
     expose:
       - ${ELASTIC_PORT}
     ports:
-      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+      - "${ELASTIC_PORT}:9200"
     image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
     networks:
       - israels_network
