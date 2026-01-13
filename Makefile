@@ -244,7 +244,7 @@ start: .started
 ifeq ($(MANAGE_SERVICES),1)
 	mkdir -p data/elastic
 	chmod a+rwx data/elastic #temporary patch, this is obviously not smart in production settings
-	@ping -c 1 $(HOSTNAME) || (echo "Sanity check failed: detected hostname ($HOSTNAME) does not resolve" && false)
+	@ping -c 1 $(HOSTNAME) || (echo "Sanity check failed: detected hostname ($(HOSTNAME)) does not resolve" && false)
 	@touch $@
 ifneq (,$(wildcard custom.env))
 	@echo "--- Starting services (with custom config) ---">&2
