@@ -267,10 +267,23 @@ stop:
 ifeq ($(MANAGE_SERVICES),1)
 	@echo "--- Stopping services ---">&2 
 	docker compose --env-file common.env down
-	@rm .started || true
+	@rm -f .started
 else
 	@echo "--- Services are not managed, not stopping them ---">&2
-	@rm .started || true
+	@rm -f .started
+endif
+
+
+es-up:
+ifneq (,$(wildcard custom.env))
+	@echo "--- Starting Elastic (with custom config) ---">&2
+	docker compose --env-file common.env --env-file "custom.env" up -d elastic_$(PROJECT)
+else ifneq (,$(wildcard $(HOSTNAME).env))
+	@echo "--- Starting Elastic for $(HOSTNAME) ---">&2
+	docker compose --env-file common.env --env-file "$(HOSTNAME).env" up -d elastic_$(PROJECT)
+else
+	@echo "--- Starting Elastic (common configuration only) ---">&2
+	docker compose --env-file common.env up -d
 endif
 
 architecture.svg: architecture.mmd
@@ -278,7 +291,6 @@ architecture.svg: architecture.mmd
 
 architecture.png: architecture.mmd
 	mmdc -w 3820 -i $< -o $@
-
 
 help:
 	@echo "Please use \`make <target>', where <target> is one of:"
