@@ -189,7 +189,9 @@ install-dependencies:
 	@command -v rustc || (echo "Missing dependency: rustc" && false)
 	@command -v curl || (echo "Missing dependency: curl" && false)
 	@command -v python3 || (echo "Missing dependency: python3" && false)
+ifeq ($(MANAGE_SERVICES),1)
 	@command -v docker || (echo "Missing dependency: docker" && false)
+endif
 	@echo "--- Installing local dependencies ---">&2
 	cargo install stam-tools
 	make env
