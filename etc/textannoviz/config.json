@@ -1,0 +1,6 @@
+{
+  "indexName": "${PROJECT}",
+  "projectName": "${PROJECT}",
+  "broccoliUrl": "${BROCCOLI_URL}",
+  "showWebAnnoTab": false
+}
