@@ -113,7 +113,7 @@ endif
 	UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip $@/israels-scans.zip -d data/israels-scans
 	mv data/israels-scans/* data/scans/
 	rm -rf data/israels-scans*
-
+	rm -f data/scans/israels-scans.zip
 
 manifests: data/manifests
 data/manifests: tei-info data/scans etc/iiif.yml
