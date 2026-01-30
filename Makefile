@@ -23,6 +23,14 @@ export $(shell sed '/^\#/d; s/=.*//' custom.env)
 endif
 endif
 #--------------------------------------------------------------------------------
+XDG_OPEN := $(shell command -v xdg-open 2>/dev/null)
+OPEN := $(shell command -v open 2>/dev/null)
+ifdef XDG_OPEN
+    OPEN=xdg-open 
+else ifndef OPEN
+    OPEN=echo
+endif
+#--------------------------------------------------------------------------------
 tei_dir := datasource/tei
 intro_files := $(tei_dir)/about/Inleiding_introduction.xml $(tei_dir)/about/Verantwoording_Notes_for_the_reader.xml $(tei_dir)/about/colofon.xml $(tei_dir)/about/woord-van-dank.xml
 tei_files := $(wildcard $(tei_dir)/letters/*.xml) $(tei_dir)/intro/intro.xml
@@ -311,14 +319,21 @@ architecture.png: architecture.mmd
 check:
 	@./check.sh
 
+.PHONY: browse open
+browse open: up
+	@$(OPEN) "$(TEXTANNOVIZ_URL)"
+
 help:
 	@echo "Please use \`make <target>', where <target> is one of:"
+	@echo "  all                        - runs the entire workflow, including installation of dependencies"
+	@echo "                               and bringing services up if so configured [this is the default target]"
 	@echo "  install-dependencies       - to install the necessary dependencies for the data processing pipeline"
 	@echo
 	@echo "  start                      - to start all services (docker compose up)"
 	@echo "  stop                       - to stop all services (docker compose down)"
 	@echo "  status                     - View status"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
+	@echo "  browse                     - open textannoviz in browser"
 	@echo 
 	@echo "(individual steps in ascending/chronological dependency order where applicable):"
 	@echo "  validate                   - to validate TEI XML input"
