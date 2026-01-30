@@ -1,4 +1,4 @@
-.PHONY: clean untangle webannotations annorepo start stop up down html
+.PHONY: clean untangle webannotations annorepo start stop up down html workflow check
 .SECONDARY:
 .DELETE_ON_ERROR:
 
@@ -35,7 +35,7 @@ webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.js
 html_files := $(tei_flattened:$(tei_dir)/%.xml=data/html/%.html)
 
 
-all: index
+all workflow: check index
 untangle: $(stam_files)
 stam: $(stam_files)
 webannotations: $(webannotation_files)
@@ -275,6 +275,20 @@ else
 	@rm -f .started
 endif
 
+status: check
+ifeq ($(MANAGE_SERVICES),1)
+	docker compose --env-file common.env status
+else
+	@echo "--- Services are not managed, no containers to show ---">&2
+endif
+
+stats:
+ifeq ($(MANAGE_SERVICES),1)
+	docker compose --env-file common.env stats
+else
+	@echo "--- Services are not managed, nothing to show ---">&2
+endif
+
 
 es-up:
 ifneq (,$(wildcard custom.env))
@@ -294,12 +308,16 @@ architecture.svg: architecture.mmd
 architecture.png: architecture.mmd
 	mmdc -w 3820 -i $< -o $@
 
+check:
+	@./check.sh
+
 help:
 	@echo "Please use \`make <target>', where <target> is one of:"
 	@echo "  install-dependencies       - to install the necessary dependencies for the data processing pipeline"
 	@echo
 	@echo "  start                      - to start all services (docker compose up)"
 	@echo "  stop                       - to stop all services (docker compose down)"
+	@echo "  status                     - View status"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
 	@echo 
 	@echo "(individual steps in ascending/chronological dependency order where applicable):"
