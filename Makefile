@@ -329,11 +329,11 @@ help:
 	@echo "                               and bringing services up if so configured [this is the default target]"
 	@echo "  install-dependencies       - to install the necessary dependencies for the data processing pipeline"
 	@echo
-	@echo "  start                      - to start all services (docker compose up)"
-	@echo "  stop                       - to stop all services (docker compose down)"
-	@echo "  status                     - View status"
+	@echo "  start / up                 - to start all services (docker compose up)"
+	@echo "  stop  / down               - to stop all services (docker compose down)"
+	@echo "  status                     - view status of workflow and services"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
-	@echo "  browse                     - open textannoviz in browser"
+	@echo "  browse / open              - open textannoviz in browser"
 	@echo 
 	@echo "(individual steps in ascending/chronological dependency order where applicable):"
 	@echo "  validate                   - to validate TEI XML input"
