@@ -72,7 +72,7 @@ work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/n
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
 	stam translatetext --rules etc/stam/translatetext/norm.toml $@ 
-	@if [ -e $*.normal.txt ]; then \
+	@if [ -e work/$*.normal.txt ]; then \
 		echo "--- Translating annotations to normalised variant ---">&2; \
 		stam translate --verbose --no-translations --no-resegmentations --ignore-errors \
 			--id-strategy suffix=.normal \
