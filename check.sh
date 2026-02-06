@@ -9,8 +9,7 @@ else
 fi
 echo "User: $(whoami)">&2
 echo "System: $(uname -a)">&2
-#shellcheck disable=SC3037
-echo -n "Write access: ">&2
+printf "Write access: ">&2
 (touch .test && rm .test && echo "yes") || (echo "NO!!!" && stat "$(realpath .)" && exit 1)
 echo "Base URL: $BASE_URL">&2
 echo "Textannoviz URL: $TEXTANNOVIZ_URL">&2
