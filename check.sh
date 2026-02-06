@@ -22,14 +22,14 @@ if [ "$MANAGE_SERVICES" = "1" ]; then
 	echo "Services managed? yes">&2
 	if [ -e .started ]; then echo "Services started? yes">&2; else echo "Services started? no   (run: make start)">&2; fi
 	echo "--- Data presence checks ---">&2
-	if [ -e data/elastic/indices ] && [ -e .index ]; then echo "Elastic: yes ($(stat --format '%y' .index))">&2; else echo "Elastic: no    (run: make index)">&2; fi
-	if [ -e data/textsurf/.populated ]; then echo "Textsurf: yes ($(stat --format '%y' data/textsurf/.populated))">&2; else echo "Textsurf: no    (run: make textsurf)">&2; fi
-	if [ -e .annorepo-uploaded ] && [ -e data/mongo ]; then echo "Annorepo: yes ($(stat --format '%y' .annorepo-uploaded))">&2; else echo "Annorepo: no    (run: make annorepo)">&2; fi
+	if [ -e data/elastic/indices ] && [ -e .index ]; then echo "Elastic: yes ($(date -r .index))">&2; else echo "Elastic: no    (run: make index)">&2; fi
+	if [ -e data/textsurf/.populated ]; then echo "Textsurf: yes ($(date -r data/textsurf/.populated))">&2; else echo "Textsurf: no    (run: make textsurf)">&2; fi
+	if [ -e .annorepo-uploaded ] && [ -e data/mongo ]; then echo "Annorepo: yes ($(date -r .annorepo-uploaded))">&2; else echo "Annorepo: no    (run: make annorepo)">&2; fi
 else
 	echo "Services managed? no   (this means services are not owned by the workflow process itself, but e.g. by a kubernetes deployment)">&2
 	echo "--- Data processing checks ---">&2
-	if [ -e .index ]; then echo "Elastic: yes ($(stat --format '%y' .index))">&2; else echo "Elastic: no    (run: make index)">&2; fi
-	if [ -e .textsurf-populated ]; then echo "Textsurf: yes ($(stat --format '%y' .textsurf-populated))">&2; else echo "Textsurf: no    (run: make textsurf)">&2; fi
-	if [ -e .annorepo-uploaded ];  then echo "Annorepo: yes ($(stat --format '%y' .annorepo-uploaded))">&2; else echo "Annorepo: no    (run: make annorepo)">&2; fi
+	if [ -e .index ]; then echo "Elastic: yes ($(date -r .index))">&2; else echo "Elastic: no    (run: make index)">&2; fi
+	if [ -e .textsurf-populated ]; then echo "Textsurf: yes ($(date -r .textsurf-populated))">&2; else echo "Textsurf: no    (run: make textsurf)">&2; fi
+	if [ -e .annorepo-uploaded ];  then echo "Annorepo: yes ($(date -r .annorepo-uploaded))">&2; else echo "Annorepo: no    (run: make annorepo)">&2; fi
 fi
 echo "--------------------------">&2
