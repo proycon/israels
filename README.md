@@ -50,3 +50,20 @@ their logs via `make logs`.
 To override configuration variables for your setup, create a `custom.env` or
 `$HOSTNAME.env` and copy and adapt the variables from `common.env` you want to
 override.
+
+## Managed services
+
+The pipeline will manage services for you via `docker-compose`, but this is
+only used in a local development setting. In production scenarios you will
+likely have the services deployed elsewhere and will want to talk to those from
+the data processing pipeline. In such cases, set `MANAGE_SERVICES=0` in your
+`custom.env` or `$HOSTNAME.env`.
+
+## Container usage
+
+The data processing pipeline can also be run as a container, rather than on
+your system. A container can be built using `make docker`. The container
+contains the data processing pipeline and input data, but it won't manage
+services for you (`MANAGE_SERVICES=0`). It needs to talk to services
+already deployed through other means. This container is useful, for instance, for
+running the workflow on a kubernetes cluster.
