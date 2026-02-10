@@ -214,7 +214,7 @@ clean: clean-services
 
 clean-services:
 	-make stop
-	-rm -Rf .started .annorepo-uploaded .index data/*
+	-rm -Rf .started .annorepo-uploaded .index data/mongo data/textsurf data/nginx data/elastic data/apparatus data/manifests data/nginx #cleans everything in data/ except scans
 
 clean-annorepo:
 	-rm -rf data/mongo
