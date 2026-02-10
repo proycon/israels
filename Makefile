@@ -164,10 +164,20 @@ annorepo: .annorepo-uploaded
 
 textsurf: data/textsurf/.populated
 data/textsurf/.populated: .started $(stam-files)
+ifeq ($(MANAGE_SERVICES),1)
+	@echo "--- Copying texts to Textsurf ---">&2
 	mkdir -p data/textsurf/$(PROJECT)
 	chmod a+w data/textsurf/$(PROJECT) #TODO: temporary patch, this is obviously not smart in production settings
 	cp -f work/*.txt data/textsurf/$(PROJECT)
 	@touch $@
+else
+	@echo "--- Uploading texts to Textsurf ---">&2
+	for f in work/*.txt; do \
+		b=$$(basename $$f); \
+		curl -X PUT --header "Authorization: Bearer $(TEXTSURF_API_KEY)" --data-binary "@$$f" "$(TEXTSURF_URL)/$(PROJECT)/$$b"; \
+	done
+	@touch .textsurf-populated
+endif
 
 nginx: data/nginx/.populated
 data/nginx/.populated: .started data/apparatus data/manifests
