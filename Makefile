@@ -42,6 +42,8 @@ stam_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.store.stam.json)
 webannotation_files := $(tei_flattened:$(tei_dir)/%.xml=work/%.webannotations.jsonl)
 html_files := $(tei_flattened:$(tei_dir)/%.xml=data/html/%.html)
 
+DOCKER_IMAGE ?= registry.diginfra.net/tt/$(PROJECT)_workflow:latest
+
 
 all workflow: check index
 untangle: $(stam_files)
@@ -329,6 +331,12 @@ architecture.png: architecture.mmd
 check:
 	@./check.sh
 
+docker: clean-all
+	docker build -t $(DOCKER_IMAGE) .
+
+push-docker:
+	docker push $(DOCKER_IMAGE)
+
 .PHONY: browse open
 browse open: up
 	@$(OPEN) "$(TEXTANNOVIZ_URL)"
@@ -344,6 +352,8 @@ help:
 	@echo "  status                     - view status of workflow and services"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
 	@echo "  browse / open              - open textannoviz in browser"
+	@echo "  docker                     - builds a docker container containing the workflow"
+	@echo "  push-docker                - publishes a docker container for the workflow"
 	@echo
 	@echo "(individual steps in ascending/chronological dependency order where applicable):"
 	@echo "  validate                   - to validate TEI XML input"
