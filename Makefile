@@ -4,7 +4,7 @@
 
 HOSTNAME ?= $(shell hostname -f)
 export HOSTNAME
-export PATH := $(HOME)/.cargo/bin:$(PATH) 
+export PATH := $(HOME)/.cargo/bin:$(PATH)
 
 #----------------- read environment variables from external file(s) ------------
 ifneq ($(INCLUDE_ENV),0)
@@ -26,7 +26,7 @@ endif
 XDG_OPEN := $(shell command -v xdg-open 2>/dev/null)
 OPEN := $(shell command -v open 2>/dev/null)
 ifdef XDG_OPEN
-    OPEN=xdg-open 
+    OPEN=xdg-open
 else ifndef OPEN
     OPEN=echo
 endif
@@ -71,7 +71,7 @@ work/%.store.stam.json: %.xml etc/stam/fromxml/tei.toml etc/stam/translatetext/n
 		--context-file work/$*.context.toml \
 		--id-prefix "urn:mace:huc.knaw.nl:israels:{resource}#" --force-new $@ -f $<
 	@echo "--- Creating normalised variants ---">&2
-	stam translatetext --rules etc/stam/translatetext/norm.toml $@ 
+	stam translatetext --rules etc/stam/translatetext/norm.toml $@
 	@if [ -e work/$*.normal.txt ]; then \
 		echo "--- Translating annotations to normalised variant ---">&2; \
 		stam translate --verbose --no-translations --no-resegmentations --ignore-errors \
@@ -87,7 +87,7 @@ work/%.context.toml:
 	echo "iiifbaseurl: \"https://iiif-text.huc.knaw.nl/iiif/3/israels|illustrations|\"" >> $@
 	echo "iiifextension: \".jpg\"" >> $@
 
-work/%.webannotations.jsonl: work/%.store.stam.json data/apparatus | env 
+work/%.webannotations.jsonl: work/%.store.stam.json data/apparatus | env
 	@echo "--- Exporting web annotations for $< ---">&2
 	. env/bin/activate && stam query \
 		--add-context "https://ns.huc.knaw.nl/text.jsonld" \
@@ -191,7 +191,7 @@ index: .index
 		--progress
 	@touch $@
 
-install-dependencies: 
+install-dependencies:
 	@echo "--- Checking global prerequisites---">&2
 	@command -v cargo || (echo "Missing dependency: cargo" && false)
 	@command -v rustc || (echo "Missing dependency: rustc" && false)
@@ -208,7 +208,7 @@ env: requirements.txt
 	@echo "--- Setting up virtual environment ---">&2
 	python3 -m venv env && . env/bin/activate && pip install -r requirements.txt
 	touch $@
-	
+
 clean: clean-services
 	-rm -Rf *.stam.json work tei-info manifests
 
@@ -275,7 +275,7 @@ endif
 down: stop
 stop:
 ifeq ($(MANAGE_SERVICES),1)
-	@echo "--- Stopping services ---">&2 
+	@echo "--- Stopping services ---">&2
 	docker compose --env-file common.env down
 	@rm -f .started
 else
@@ -334,7 +334,7 @@ help:
 	@echo "  status                     - view status of workflow and services"
 	@echo "  logs                       - to view/follow the logs of all services (docker compose logs)"
 	@echo "  browse / open              - open textannoviz in browser"
-	@echo 
+	@echo
 	@echo "(individual steps in ascending/chronological dependency order where applicable):"
 	@echo "  validate                   - to validate TEI XML input"
 	@echo "  scans                      - download scans (from surfdrive, must have been shared with you)"
